@@ -316,13 +316,12 @@ const GOALIE_STATS = [
   ["shutouts", "SO"],
   ["timeOnIce", "TOI", (v) => v, (v) => toiSeconds(v)],
 ];
-// Skater tables have two views so neither gets too wide: counting stats, or rates and NHL equivalents.
+// Skater tables open compact (the stats most people want); "Show all columns" adds the rest and
+// scrolls sideways inside its frame when the screen is too narrow. keys: null = every column.
 const SKATER_VIEWS = {
-  standard: { label: "Standard", keys: ["gamesPlayed", "goals", "assists", "points", "plusMinus", "pim", "powerPlayGoals",
-    "powerPlayPoints", "shorthandedGoals", "shorthandedPoints", "gameWinningGoals", "otGoals", "shots", "shootingPctg",
-    "avgToi", "faceoffWinningPctg"] },
-  rates: { label: "Rates & NHLe", keys: ["gamesPlayed", "points", "_ppg", "_gpg", "_apg", "_p60", "_g60", "_spg", "_evp",
-    "_pp_share", "_nhle", "_nhle_g", "_nhle_a"] },
+  compact: { label: "Compact", keys: ["gamesPlayed", "goals", "assists", "points", "_ppg", "plusMinus", "pim",
+    "powerPlayPoints", "shots", "avgToi", "_nhle"] },
+  all: { label: "Show all columns", keys: null },
 };
 const LEAGUE_ORDER = ["NHL", "AHL", "ECHL"];
 const toiSeconds = (t) => { const [m, s] = String(t).split(":").map(Number); return (m || 0) * 60 + (s || 0); };
@@ -359,11 +358,12 @@ async function initRoster() {
     return `<a href="${href}"${prospectIds.has(p.id) ? "" : ' target="_blank" rel="noopener"'}>${esc(p.name)}</a>`;
   };
 
-  let view = "standard";
-  try { view = SKATER_VIEWS[localStorage.getItem("rosterView")] ? localStorage.getItem("rosterView") : "standard"; } catch {}
+  let view = "compact";
+  try { if (SKATER_VIEWS[localStorage.getItem("rosterView")]) view = localStorage.getItem("rosterView"); } catch {}
 
   function table(id, rows, defs, showTeam) {
-    const inView = defs === SKATER_STATS ? new Set(SKATER_VIEWS[view].keys) : null;
+    const keys = defs === SKATER_STATS ? SKATER_VIEWS[view].keys : null;
+    const inView = keys ? new Set(keys) : null;
     const cols = defs.filter(([k]) => (!inView || inView.has(k)) && rows.some((r) => r.line.stats[k] != null));
     const defaultKey = cols.some((c) => c[0] === "points") ? "points" : "gamesPlayed"; // skaters by points, goalies by games
     const [sortKey, asc] = sortState[id] || [defaultKey, false];
@@ -382,7 +382,7 @@ async function initRoster() {
     });
     const head = [["number", "#", "num"], ["name", "Player", ""], ["pos", "Pos", ""], ["age", "Age", "num"],
       ...(showTeam ? [["team", "Team", ""]] : []), ...cols.map(([k, label]) => [k, label, "num"])];
-    return `<div class="table-wrap glow-frame"><table class="roster-table" data-table="${id}">
+    return `<div class="table-wrap glow-frame"><div class="table-scroll"><table class="roster-table" data-table="${id}">
       <thead><tr>${head.map(([k, label, cls]) => `<th class="sortable ${cls} ${k === sortKey ? `sorted${asc ? " asc" : ""}` : ""}" data-k="${k}">${label}</th>`).join("")}</tr></thead>
       <tbody>${sorted.map(({ p, line, also }) => `<tr class="${p.on_nhl_roster ? "nhl-roster" : ""}">
         <td class="num sub" data-label="#">${p.number ?? ""}</td>
@@ -394,7 +394,7 @@ async function initRoster() {
         ${showTeam ? `<td class="sub c-wide" data-label="Team">${esc(line.team)}</td>` : ""}
         ${cols.map(([k, label, fmt]) => { const v = line.stats[k];
           return `<td class="num" data-label="${label}">${v == null ? "–" : fmt ? fmt(v) : v}</td>`; }).join("")}
-      </tr>`).join("")}</tbody></table></div>`;
+      </tr>`).join("")}</tbody></table></div></div>`;
   }
 
   function render() {
