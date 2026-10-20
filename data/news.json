@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "days": 60,
  "articles": [
   {
@@ -256,6 +256,18 @@
     8484794
    ],
    "url": "https://www.nhl.com/news/san-jose-sharks-detroit-red-wings-game-preview-october-17-2026"
+  },
+  {
+   "title": "Red Wings' Victor Plante: Three-point game Friday",
+   "google_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVUZZOUZfWkhZSWMyRVBDZTdxZkdtVUVzeHhfaUdobVVSSkFoN09vNkM4cHNncTM2WG9KaTlwUjBZcmF1Nng4R3ZYVXFOa0k5Q19ySlhlMzZXZmJqOUl0dndZTjBnTXN4VUNhRXRBZFJfZXRiRGV2ajRKTVpXOWEtdklqQ3hFc05RRXp2OWxyVjZocHRGa1A2SHdB?oc=5",
+   "source": "CBS Sports",
+   "source_site": "https://www.cbssports.com",
+   "published": "2026-10-17",
+   "lang": "en",
+   "players": [
+    8486084
+   ],
+   "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-victor-plante-three-point-game-friday/"
   },
   {
    "title": "Red Wings' Michal Svrcek: Four-point game for Windsor",
@@ -1275,7 +1287,6 @@
    "published": "2026-10-12",
    "lang": "en",
    "players": [
-    8484160,
     8484223
    ],
    "url": "https://octopusthrower.com/2-young-red-wings-that-might-need-more-ahl-time-01m4r6mn36n0"
@@ -2072,7 +2083,7 @@
   },
   {
    "title": "Red Wings Lines & Starting Goalie Tonight",
-   "google_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oWmF1dHdJNk1pdEY3dW1EMC0yV0tYdmtUdUI0NURBSklDbWlfck9sbVp0N1FEUTVwMUdvRE0xcm5UV3ZQeWRkaWVQbnlxQTRFcERrNWdDaGNSTklPMlhxZmNhUQ?oc=5",
+   "google_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RSTUzU2pHdUswYTBpWFlVT01qSXh5OFVnMjBXUDZzTnc3cXltMnA0LWJwWmlqYU1mVkhUcW0ySGN2RkxrR1BpY2hfX29leEd2YTE2Y3kwWFU?oc=5",
    "source": "Detroit Hockey Now",
    "source_site": "https://detroithockeynow.com",
    "published": "2026-10-08",
@@ -2080,7 +2091,7 @@
    "players": [
     8484794
    ],
-   "url": "https://detroithockeynow.com/detroit-red-wings-lines/"
+   "url": "https://detroithockeynow.com/red-wings-lines/"
   },
   {
    "title": "Red Wings Blue Chip Prospect Suffers Upper-Body Injury in NCAA Season Opener",
@@ -2404,7 +2415,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/todd-mclellan-raves-red-wings-214200694.html"
   },
   {
    "title": "The Red Wings Won’t Play a Healthy Winger",
@@ -2427,7 +2439,8 @@
    "lang": "en",
    "players": [
     8486305
-   ]
+   ],
+   "url": "https://detroithockeynow.com/the-daily-red-wings-winless-detroit-lines-still-getting-figured-out/"
   },
   {
    "title": "Red Wings Prospects Bolt From the Gate",
@@ -2439,7 +2452,8 @@
    "players": [
     8484183,
     8484870
-   ]
+   ],
+   "url": "https://detroithockeynow.com/detroit-red-wings-jesse-kiiskinen-enjoys-strong-start-max-plante/"
   },
   {
    "title": "Monday Red Wings Three Things: Who’s Playing on Tuesday?",
@@ -2462,7 +2476,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://heavy.com/sports/nhl/detroit-red-wings/michael-brandsegg-nygard-early-red-wings/"
   },
   {
    "title": "Jesse Kiiskinen Stats and Player Profile | TheAHL.com",
@@ -2473,7 +2488,8 @@
    "lang": "en",
    "players": [
     8484183
-   ]
+   ],
+   "url": "https://theahl.com/stats/player/11068/94/jesse-kiiskinen"
   },
   {
    "title": "Finnie's speed sparks line with DeBrincat, Brandsegg-Nygard for Red Wings",
@@ -2484,7 +2500,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.detroitnews.com/story/sports/nhl/red-wings/2026/10/05/finnies-speed-sparks-line-with-debrincat-brandsegg-nygard-for-red-wings/92104671007/"
   },
   {
    "title": "Finnie Should be Play Driver for Red Wings Top Six",
@@ -2496,7 +2513,8 @@
    "players": [
     8483679,
     8484794
-   ]
+   ],
+   "url": "https://detroithockeynow.com/finnie-should-be-play-driver-for-red-wings-top-six/"
   },
   {
    "title": "A ‘bully’ turned 21 and provided Red Wings with some positivity",
@@ -2507,7 +2525,20 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.mlive.com/redwings/2026/10/a-bully-turned-21-and-provided-red-wings-with-some-positivity.html"
+  },
+  {
+   "title": "\"Best Game As A Red Wing\": Michael Brandsegg-Nygård Singled Out For Praise",
+   "google_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxT2dyX252MjlMY2otUG9zWk5jNmU5OEN1VXdLTldzRGhzNzBlamRRVGlsbFozcXBTMktKMnVHNkZacHJ0M2FTRjktWVlrdEtCa2NWRGI4VDhUdkExZUZJaURrZTlZZElBNnBKQWxfaGdPZzhqQWZJbVlfcm0tZw?oc=5",
+   "source": "Yahoo Sports",
+   "source_site": "https://sports.yahoo.com",
+   "published": "2026-10-05",
+   "lang": "en",
+   "players": [
+    8484794
+   ],
+   "url": "https://sports.yahoo.com/videos/best-game-red-wing-michael-194647180.html"
   },
   {
    "title": "\"Best Game As A Red Wing\": Michael Brandsegg-Nygård Singled Out For Praise",
@@ -2518,7 +2549,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/best-game-as-a-red-wing-michael-brandsegg-nygard-singled-out-for-praise"
   },
   {
    "title": "Red Wings' Jesse Kiiskinen: Two goals in AHL overtime loss",
@@ -2529,7 +2561,8 @@
    "lang": "en",
    "players": [
     8484183
-   ]
+   ],
+   "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-jesse-kiiskinen-two-goals-in-ahl-overtime-loss/"
   },
   {
    "title": "QMJHL: Photos of the Game: Cape Breton Eagles versus Moncton Wildcats, Oct. 4, 2026",
@@ -2540,7 +2573,8 @@
    "lang": "en",
    "players": [
     8486324
-   ]
+   ],
+   "url": "https://www.saltwire.com/cape-breton/qmjhl-photos-of-the-game-cape-breton-eagles-versus-moncton-wildcats-oct-4-2026"
   },
   {
    "title": "Meijer Postgame Comments 10/04/26",
@@ -2551,7 +2585,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/video/meijer-postgame-comments-10-04-26-6406224919112"
   },
   {
    "title": "Todd McLellan Makes Strong Statement About Anton Johansson After NHL Debut",
@@ -2562,7 +2597,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://detroitsportsnation.com/todd-mclellan-anton-johansson-nhl-debut-red-wings/richardknight/detroit-red-wings/10/03/2026/497408/"
   },
   {
    "title": "The Daily: Red Wings Prospects Still Getting It Done for Griffins; Strong Reviews for Johansson",
@@ -2577,7 +2613,8 @@
     8484223,
     8484425,
     8484794
-   ]
+   ],
+   "url": "https://detroithockeynow.com/red-wings-prospects-impressive-anton-johansson-sutter-muzzatti-grand-rapids-griffins/"
   },
   {
    "title": "Red Wings May Have Found an Answer Amid Simon Edvinsson Standoff",
@@ -2588,7 +2625,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://heavy.com/sports/nhl/detroit-red-wings/red-wings-answer-amid-simon-edvinsson-standoff/"
   },
   {
    "title": "Anton Johansson Reveals What NHL Debut Was Really Like",
@@ -2599,7 +2637,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/anton-johansson-reveals-nhl-debut-141500932.html"
   },
   {
    "title": "Trey Augustine and Charlie Stramel Lead Top NHL Prospects In AHL Central Division",
@@ -2610,7 +2649,8 @@
    "lang": "en",
    "players": [
     8484141
-   ]
+   ],
+   "url": "https://www.flohockey.tv/articles/16220256-top-nhl-prospects-in-ahls-central-division"
   },
   {
    "title": "Three Things: Red Wings Edition",
@@ -2621,7 +2661,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://detroithockeynow.com/three-things-red-wings-edition/"
   },
   {
    "title": "Red Wings Waste Anton Johansson’s Debut in Shutout Loss",
@@ -2632,7 +2673,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://detroitsportsnation.com/red-wings-opening-night-shutout-loss-rangers/adesjardins/detroit-red-wings/10/02/2026/497352/"
   },
   {
    "title": "Red Wings Hand Rookie Anton Johansson a Second-Pair Debut",
@@ -2643,7 +2685,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/red-wings-hand-rookie-anton-162853032.html"
   },
   {
    "title": "Red Wings Expecting a Different MBN This Season",
@@ -2654,7 +2697,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://detroithockeynow.com/red-wings-expecting-a-different-mbn-this-season/"
   },
   {
    "title": "Rangers at Red Wings: Notes, Lines, Goalies, How to Watch",
@@ -2665,7 +2709,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://detroithockeynow.com/rangers-at-red-wings-notes-lines-goalies-how-to-watch/"
   },
   {
    "title": "PREVIEW: Red Wings embark on 84-game regular season, host Rangers for 2026-27 Opening Night on Friday",
@@ -2676,7 +2721,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/news/preview-red-wings-embark-on-84-game-regular-season-host-rangers-for-2026-27-opening-night-on-friday"
   },
   {
    "title": "Michigan State Replaces Augustine With the WHL’s Top Goalie",
@@ -2687,7 +2733,8 @@
    "lang": "en",
    "players": [
     8484141
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/michigan-state-replaces-augustine-whl-170000794.html"
   },
   {
    "title": "Max Plante, Hanson named to 2026 Spengler Cup team",
@@ -2698,7 +2745,8 @@
    "lang": "en",
    "players": [
     8484870
-   ]
+   ],
+   "url": "https://www.duluthnewstribune.com/sports/bulldogs-hockey/max-plante-hanson-named-to-2026-spengler-cup-team"
   },
   {
    "title": "Exciting Red Wings youth movement overshadowed by organizational incompetency",
@@ -2709,7 +2757,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://octopusthrower.com/exciting-red-wings-youth-movement-overshadowed-by-organizational-incompetency-01m3sk06pbbx"
   },
   {
    "title": "Detroit and New York square off in Eastern Conference play",
@@ -2720,7 +2769,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://www.foxsports.com/articles/nhl/detroit-and-new-york-square-off-in-eastern-conference-play"
   },
   {
    "title": "4 Red Wings prospects to keep an eye on in 2026-27",
@@ -2731,7 +2781,8 @@
    "lang": "en",
    "players": [
     8484141
-   ]
+   ],
+   "url": "https://octopusthrower.com/4-red-wings-prospects-to-keep-an-eye-on-in-2026-27-01m3sz5bavw1"
   },
   {
    "title": "Ty Hanson and Max Plante Named to U.S. Collegiate Select 2026 Roster",
@@ -2742,7 +2793,8 @@
    "lang": "en",
    "players": [
     8484870
-   ]
+   ],
+   "url": "https://umdbulldogs.com/news/2026/10/1/mens-hockey-ty-hansona-and-max-plante-named-to-us-collegiate-select-2026-roster.aspx"
   },
   {
    "title": "Triple threat: Plante brothers' debut headlines UMD men's hockey's opener against Long Island",
@@ -2753,7 +2805,8 @@
    "lang": "en",
    "players": [
     8484870
-   ]
+   ],
+   "url": "https://www.wdio.com/sports/triple-threat-plante-brothers-debut-headlines-umd-mens-hockeys-opener-against-long-island/"
   },
   {
    "title": "Plante, Stavroff, Murr headline first 6 named to U.S. Collegiate Selects Spengler Cup roster",
@@ -2764,7 +2817,8 @@
    "lang": "en",
    "players": [
     8484870
-   ]
+   ],
+   "url": "https://www.ncaa.com/news/icehockey-men/article/2026-10-01/plante-stavroff-murr-headline-first-6-named-us-collegiate-selects-spengler-cup"
   },
   {
    "title": "Hermantown producing strong players, and captains, for UMD",
@@ -2775,7 +2829,8 @@
    "lang": "en",
    "players": [
     8484870
-   ]
+   ],
+   "url": "https://www.duluthnewstribune.com/sports/bulldogs-hockey/hermantown-producing-strong-players-and-captains-for-umd"
   },
   {
    "title": "Bulldog Insider Q&A: Victor Plante excited to be reunited with older brothers at UMD",
@@ -2787,7 +2842,8 @@
    "players": [
     8484870,
     8486084
-   ]
+   ],
+   "url": "https://www.duluthnewstribune.com/sports/bulldogs-hockey/bulldog-insider-q-a-victor-plante-excited-to-be-reunited-with-older-brothers-at-umd"
   },
   {
    "title": "Big Hype Prospects: Wyttenbach, Keenan, Ravensbergen, Kvasnicka",
@@ -2798,7 +2854,8 @@
    "lang": "en",
    "players": [
     8484182
-   ]
+   ],
+   "url": "https://www.prohockeyrumors.com/2026/10/big-hype-prospects-wyttenbach-keenan-ravensbergen-kvasnicka.html"
   },
   {
    "title": "2026 Erie Otters vs Peterborough Petes",
@@ -2809,7 +2866,8 @@
    "lang": "en",
    "players": [
     8486251
-   ]
+   ],
+   "url": "https://www.flohockey.tv/events/16028420-2026-erie-otters-vs-peterborough-petes"
   },
   {
    "title": "Plante-ing Seeds",
@@ -2820,7 +2878,8 @@
    "lang": "en",
    "players": [
     8484870
-   ]
+   ],
+   "url": "https://www.collegehockeynews.com/news/2026/09/30_Plante-ing-Seeds.php"
   },
   {
    "title": "Max, Zam and Victor Plante form first UMD hockey trio",
@@ -2832,18 +2891,8 @@
    "players": [
     8484870,
     8486084
-   ]
-  },
-  {
-   "title": "Fisher Scott - Stats, Contract, Salary & More",
-   "google_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yZUFVd2NUNFA2aGdnRmYxQmVvU3ZBeV9pcXJVaWJ2amg0SGFpeWJEWDNMWjhIeVplandZUGo0VGpKcjdlbTZpajVuNC1ORmhmQkNjdFFJQThhUzZ1Z1E1NUVMNDBWQzhI?oc=5",
-   "source": "Elite Prospects",
-   "source_site": "https://www.eliteprospects.com",
-   "published": "2026-09-30",
-   "lang": "en",
-   "players": [
-    8485103
-   ]
+   ],
+   "url": "https://www.northernnewsnow.com/2026/10/01/max-zam-victor-plante-form-first-umd-hockey-trio/"
   },
   {
    "title": "Anton Johansson might be top-four material",
@@ -2854,7 +2903,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://octopusthrower.com/anton-johansson-might-be-top-four-material-01m3pn8zpddz"
   },
   {
    "title": "Red Wings Make Major Youth Statement With 23-Man Roster",
@@ -2865,7 +2915,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://heavy.com/sports/nhl/detroit-red-wings/red-wings-make-major-youth-statement-with-23-man-roster/"
   },
   {
    "title": "Här är alla svenskar i NHL 2026/27",
@@ -2876,7 +2927,8 @@
    "lang": "sv",
    "players": [
     8482171
-   ]
+   ],
+   "url": "https://hockeysverige.se/nhl/har-ar-alla-svenskar-i-nhl-2026-27-ak7By4U17P7O/"
   },
   {
    "title": "AHL Stars Ready To Impact The NHL",
@@ -2887,7 +2939,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.flohockey.tv/articles/16216133-ahl-stars-ready-to-impact-the-nhl"
   },
   {
    "title": "The Daily: Red Wings Make No Moves; Prospects Keep their Room",
@@ -2898,7 +2951,8 @@
    "lang": "en",
    "players": [
     8484141
-   ]
+   ],
+   "url": "https://detroithockeynow.com/the-daily-red-wings-make-no-moves-prospects-keep-their-room/"
   },
   {
    "title": "Sandin-Pellikka Presents Conundrum to Red Wings (DHN+)",
@@ -2909,7 +2963,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/sandin-pellikka-presents-conundrum-red-080000609.html"
   },
   {
    "title": "Sandin-Pellikka Presents Conundrum to Red Wings (DHN+)",
@@ -2920,7 +2975,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://detroithockeynow.com/sandin-pellikka-presents-conundrum-to-red-wings-dhn/"
   },
   {
    "title": "Red Wings' Chase Stillman: Surfaces on injured non-roster",
@@ -2931,7 +2987,8 @@
    "lang": "en",
    "players": [
     8482714
-   ]
+   ],
+   "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-chase-stillman-surfaces-on-injured-non-roster/"
   },
   {
    "title": "Red Wings' Carter Bear: Lands on non-roster list",
@@ -2942,7 +2999,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-carter-bear-lands-on-non-roster-list/"
   },
   {
    "title": "Red Wings submit 23-man roster, but changes likely before opener",
@@ -2953,7 +3011,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://www.mlive.com/redwings/2026/09/red-wings-submit-23-man-roster-but-changes-likely-before-opener.html"
   },
   {
    "title": "Red Wings reduce roster to 23",
@@ -2964,7 +3023,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/news/26-27-season-red-wings-reduce-roster-to-23"
   },
   {
    "title": "Detroit Red Wings Finalize 23-Man Roster Ahead of 2026-27 Season",
@@ -2975,7 +3035,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/detroit-red-wings-finalize-23-210656839.html"
   },
   {
    "title": "Bulldogs are back to finish what they started",
@@ -2986,7 +3047,8 @@
    "lang": "en",
    "players": [
     8484870
-   ]
+   ],
+   "url": "https://www.duluthnewstribune.com/sports/bulldogs-hockey/bulldogs-are-back-to-finish-what-they-started"
   },
   {
    "title": "2026 Hobey Baker Winner Max Plante Chats 'Last Dance' with UMD Before Going Pro",
@@ -2997,7 +3059,8 @@
    "lang": "en",
    "players": [
     8484870
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/2026-hobey-baker-winner-plante-180503535.html"
   },
   {
    "title": "Ondrej Becher, Trey Augustine lead Griffins to preseason sweep",
@@ -3009,7 +3072,8 @@
    "players": [
     8484141,
     8484836
-   ]
+   ],
+   "url": "https://www.mlive.com/griffins/2026/09/ondrej-becher-trey-augustine-lead-griffins-to-preseason-sweep.html"
   },
   {
    "title": "Here's how Red Wings position groups are shaping up as roster deadline looms",
@@ -3020,7 +3084,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://www.detroitnews.com/story/sports/nhl/red-wings/2026/09/27/how-red-wings-position-groups-are-shaping-up-as-roster-deadline-looms/91972907007/"
   },
   {
    "title": "Separation for some Red Wings prospects, ‘do or die’ for others",
@@ -3032,7 +3097,20 @@
    "players": [
     8482802,
     8483679
-   ]
+   ],
+   "url": "https://www.mlive.com/redwings/2026/09/separation-for-some-red-wings-prospects-do-or-die-for-others.html"
+  },
+  {
+   "title": "Meijer Postgame Comments 9/26/26",
+   "google_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUHJ2TlkyUHp3TlA1MkdGLTBIYjRIYm9oUTl1SDBwZDJqcl9vTWdJaUhNbVN6bjRiQy1xVzVOWmJfZmRtemxZd09MbnVNTF9YZHBOUkphZkpxcUJ0UmJ4QmJZVENMU1JOUUV6UFBaSXljaWpGTzl4ZV9SRVFwM0l5V1c1dG5MYkFT?oc=5",
+   "source": "NHL.com",
+   "source_site": "https://www.nhl.com",
+   "published": "2026-09-26",
+   "lang": "en",
+   "players": [
+    8484223
+   ],
+   "url": "https://www.nhl.com/redwings/video/meijer-postgame-comments-9-26-26-6405740321112"
   },
   {
    "title": "Do or Die Time For Red Wings Mazur",
@@ -3043,7 +3121,8 @@
    "lang": "en",
    "players": [
     8482802
-   ]
+   ],
+   "url": "https://detroithockeynow.com/do-or-die-time-for-red-wings-mazur/"
   },
   {
    "title": "Detroit Red Wings hardly look ready in preseason loss to Jackets",
@@ -3054,7 +3133,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://www.freep.com/story/sports/nhl/red-wings/2026/09/26/detroit-red-wings-preseason-game-score-recap-columbus-blue-jackets/91958855007/"
   },
   {
    "title": "Carter Mazur, Todd McLellan Morning Skate Media",
@@ -3065,7 +3145,8 @@
    "lang": "en",
    "players": [
     8482802
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/video/carter-mazur-todd-mclellan-morning-skate-media-6405740682112"
   },
   {
    "title": "Axel Sandin Pellikka: lönen, draften, Detroit och priserna",
@@ -3076,7 +3157,8 @@
    "lang": "sv",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://www.sportbibeln.se/hockey/allt-du-behover-veta-om-axel-sandin-pellikka/"
   },
   {
    "title": "Anton Johansson May Cause Uncomfortable Conversations for the Red Wings",
@@ -3087,7 +3169,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.yardbarker.com/nhl/articles/anton_johansson_may_cause_uncomfortable_conversations_for_the_red_wings/s1_17352_44350261"
   },
   {
    "title": "82 Sutter Muzzatti",
@@ -3098,7 +3181,8 @@
    "lang": "en",
    "players": [
     8484425
-   ]
+   ],
+   "url": "https://griffinshockey.com/roster/sutter-muzzatti"
   },
   {
    "title": "42 Cameron Butler",
@@ -3109,7 +3193,8 @@
    "lang": "en",
    "players": [
     8483045
-   ]
+   ],
+   "url": "https://griffinshockey.com/roster/cameron-butler"
   },
   {
    "title": "10 preseason Hobey Baker Award candidates",
@@ -3120,7 +3205,8 @@
    "lang": "en",
    "players": [
     8484870
-   ]
+   ],
+   "url": "https://www.grandforksherald.com/sports/und-hockey/10-preseason-hobey-baker-award-candidates"
   },
   {
    "title": "\"Continue To Grow\": Nate Danielson Looks To Finish Strong In Red Wings Preseason Finale",
@@ -3131,7 +3217,8 @@
    "lang": "en",
    "players": [
     8484160
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/continue-grow-nate-danielson-looks-190220490.html"
   },
   {
    "title": "\"Continue To Grow\": Nate Danielson Looks To Finish Strong In Red Wings Preseason Finale",
@@ -3142,7 +3229,8 @@
    "lang": "en",
    "players": [
     8484160
-   ]
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/video/continue-to-grow-nate-danielson-looks-to-finish-strong-in-red-wings-preseason-finale"
   },
   {
    "title": "Which NHL rookies have stood out the most during 2026-27 preseason?",
@@ -3153,7 +3241,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.dailyfaceoff.com/news/which-nhl-rookies-top-performers-make-team-2026-27-nhl-preseason-mckenna-hagens"
   },
   {
    "title": "Todd McLellan Opens the Door for Anton Johansson",
@@ -3164,7 +3253,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/todd-mclellan-opens-door-anton-150000973.html"
   },
   {
    "title": "Svenskarna imponerar – tre rookies sticker ut inför NHL-premiären",
@@ -3175,7 +3265,8 @@
    "lang": "sv",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://hockeysverige.se/nhl/svenska-nhl-rookies-victor-eklund-ivar-stenberg-anton-johansson-a8cHU8a8mILk/"
   },
   {
    "title": "Red Wings’ roster decisions in full view with one preseason game left - The Athletic",
@@ -3186,7 +3277,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.nytimes.com/athletic/7628153/2026/09/25/detroit-red-wings-preseason-roster-decisions-anton-johansson/"
   },
   {
    "title": "Red Wings reduce preseason roster to 28 | Detroit Red Wings",
@@ -3200,7 +3292,8 @@
     8483459,
     8484141,
     8484425
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/news/red-wings-reduce-preseason-26-27-roster-to-28"
   },
   {
    "title": "Red Wings defenseman isn't afraid to scuffle with Sidney Crosby",
@@ -3211,7 +3304,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://octopusthrower.com/red-wings-defenseman-isn-t-afraid-to-scuffle-with-sidney-crosby-01m39w1b0fzc"
   },
   {
    "title": "Red Wings Top Prospects are Pushing to Make Final Roster",
@@ -3221,9 +3315,9 @@
    "published": "2026-09-25",
    "lang": "en",
    "players": [
-    8484223,
-    8484794
-   ]
+    8484223
+   ],
+   "url": "https://heavy.com/sports/nhl/detroit-red-wings/red-wings-top-prospects-final-roster/"
   },
   {
    "title": "Red Wings Fans Want Anton Johansson on Opening Night",
@@ -3234,7 +3328,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/red-wings-fans-want-anton-153500693.html"
   },
   {
    "title": "Michael Brandsegg-Nygard shows confidence in bid to make Wings roster",
@@ -3245,7 +3340,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.detroitnews.com/story/sports/nhl/red-wings/2026/09/25/michael-brandsegg-nygard-shows-confidence-in-bid-to-make-red-wings/91934071007/"
   },
   {
    "title": "Is William Wallinder Finally Ready to Claim His Place With the Red Wings?",
@@ -3256,7 +3352,8 @@
    "lang": "en",
    "players": [
     8482171
-   ]
+   ],
+   "url": "https://www.si.com/nhl/red-wings/onsi/news/is-william-wallinder-finally-ready-claim-place-red-wings"
   },
   {
    "title": "Is This the Last Hurrah for Detroit Red Wings’ Michael Rasmussen?",
@@ -3267,7 +3364,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.si.com/nhl/red-wings/onsi/news/is-this-last-hurrah-detroit-red-wings-michael-rasmussen"
   },
   {
    "title": "Dylan Larkin out for Red Wings preseason finale, so here's who is battling for jobs",
@@ -3278,7 +3376,8 @@
    "lang": "en",
    "players": [
     8483459
-   ]
+   ],
+   "url": "https://www.freep.com/story/sports/nhl/red-wings/2026/09/25/nhl-preseason-detroit-red-wings-will-dylan-larkin-play/91935246007/"
   },
   {
    "title": "Detroit Red Wings Cut 21 from Preseason Roster",
@@ -3289,7 +3388,8 @@
    "lang": "en",
    "players": [
     8483045
-   ]
+   ],
+   "url": "https://insidetherink.com/detroit-red-wings-cut-21-from-preseason-roster/"
   },
   {
    "title": "Detroit Announces Multiple Transactions",
@@ -3301,7 +3401,8 @@
    "players": [
     8483045,
     8484836
-   ]
+   ],
+   "url": "https://griffinshockey.com/news/detroit-announces-multiple-transactions-2"
   },
   {
    "title": "Defenseman Anton Johansson's scorching exhibition season at age 22 is keeping him in the Detroit Red Wings' minds as preseason nears its end. See link below ⬇️ 📸 Kimberly P. Mitchell, Detroit Free Press",
@@ -3312,7 +3413,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.facebook.com/detroitfreepress/posts/defenseman-anton-johanssons-scorching-exhibition-season-at-age-22-is-keeping-him/1561846599320820/"
   },
   {
    "title": "DeBrincat Nets OT Winner as Red Wings Edge Sabres",
@@ -3323,7 +3425,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://detroithockeynow.com/debrincat-nets-ot-winner-as-red-wings-edge-sabres/"
   },
   {
    "title": "Danielson Quietly Putting Case Together for Regular Red Wings Spot",
@@ -3334,7 +3437,8 @@
    "lang": "en",
    "players": [
     8484160
-   ]
+   ],
+   "url": "https://detroithockeynow.com/danielson-quietly-putting-case-together-for-regular-red-wings-spot/"
   },
   {
    "title": "Canucks first-round pick Adam Novotny enjoys huge first game back in OHL",
@@ -3345,7 +3449,8 @@
    "lang": "en",
    "players": [
     8486251
-   ]
+   ],
+   "url": "https://www.sportsnet.ca/ohl/article/canucks-first-round-pick-adam-novotny-enjoys-huge-first-game-back-in-ohl/"
   },
   {
    "title": "Anton Johansson keeps making his name heard among Detroit Red Wings",
@@ -3356,7 +3461,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.freep.com/story/sports/nhl/red-wings/2026/09/25/detroit-red-wings-preseason-push-anton-johansson/91929905007/"
   },
   {
    "title": "Anton Johansson keeps making his name heard among Detroit Red Wings",
@@ -3367,7 +3473,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.usatoday.com/story/sports/nhl/red-wings/2026/09/25/detroit-red-wings-preseason-push-anton-johansson/91929905007/?gnt-cfr=1&gca-cat=p&gca-uir=true&gca-epti=z11xx44p119850l116450c119850e1181xxv11xx44d--42--b--42--&gca-ft=42&gca-ds=sophi"
   },
   {
    "title": "Anton Johansson brimming with confidence as Red Wings ponder choices",
@@ -3378,7 +3485,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.mlive.com/redwings/2026/09/anton-johansson-brimming-with-confidence-as-red-wings-ponder-choices.html"
   },
   {
    "title": "Anton Johansson Had One Rule in His Sidney Crosby Encounter",
@@ -3389,7 +3497,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/anton-johansson-had-one-rule-142000136.html"
   },
   {
    "title": "Wallinder, Johansson making strong cases to stick with Red Wings",
@@ -3402,7 +3511,8 @@
     8482171,
     8483679,
     8484223
-   ]
+   ],
+   "url": "https://www.detroitnews.com/story/sports/nhl/red-wings/2026/09/24/william-wallinder-anton-johansson-making-strong-cases-with-red-wings/91917139007/"
   },
   {
    "title": "Svenske talangen om bråket med Crosby: ”Blev lite förbannad”",
@@ -3413,7 +3523,8 @@
    "lang": "sv",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://hockeysverige.se/nyheter/anton-johansson-sidney-crosby-blev-lite-forbannad-acUpb3J7Sd1e/"
   },
   {
    "title": "Should Red Wings Keep Both Johansson and ASP?",
@@ -3424,7 +3535,20 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://detroithockeynow.com/should-red-wings-keep-both-johansson-and-asp/"
+  },
+  {
+   "title": "Rvu se o flek: Becher klepe na dveře NHL. Stal se ze mě obousměrný hráč, hlásí",
+   "google_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUUZaeTAxc3BWdEdUTlJMS09ya0lUMmpGTDE3cW8yckx1cVhHeUxEcW5JVkUwakVCUGZjemRleWhYLUVMbGlQeTdfWUtFSWgzNWp1N2dlOEFZUmRQa242d3J5elE2dzdnQm4xM1gza2ZyTUdTZXZxaVBZTThJVFp5OTc3WUNqQ1FBNFFFdU5ibm1Kc1hvSjlaMEtqVGJ0NGNKWWY5RTlCTQ?oc=5",
+   "source": "Hokej.cz",
+   "source_site": "https://www.hokej.cz",
+   "published": "2026-09-24",
+   "lang": "cs",
+   "players": [
+    8484836
+   ],
+   "url": "https://www.hokej.cz/rvu-se-o-flek-becher-klepe-na-dvere-nhl-stal-se-ze-me-obousmerny-hrac-hlasi/5098157"
   },
   {
    "title": "Red Wings’ Carter Bear to miss time with upper-body injury",
@@ -3435,7 +3559,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://www.dailyfaceoff.com/news/detroit-red-wings-carter-bear-miss-week-10-days-upper-body-injury-nhl-training-camp"
   },
   {
    "title": "Red Wings’ Carter Bear Out A Week To 10 Days",
@@ -3446,7 +3571,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/red-wings-carter-bear-week-174028676.html"
   },
   {
    "title": "Red Wings' Carter Bear: Set to miss 7-10 days",
@@ -3457,7 +3583,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-carter-bear-set-to-miss-7-10-days/"
   },
   {
    "title": "Red Wings face tough choice for final spot on blueline",
@@ -3468,7 +3595,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://octopusthrower.com/red-wings-face-tough-choice-for-final-spot-on-blueline-01m379ybxktn"
   },
   {
    "title": "Red Wings Blue Chip Prospect Suffers Upper-Body Injury, Sidelined For 7-10 Days",
@@ -3479,7 +3607,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/red-wings-blue-chip-prospect-210302202.html"
   },
   {
    "title": "Pair of Red Wings prospects have more to show in preseason",
@@ -3491,7 +3620,8 @@
    "players": [
     8482171,
     8482802
-   ]
+   ],
+   "url": "https://www.mlive.com/redwings/2026/09/pair-of-red-wings-prospects-have-more-to-show-in-preseason.html"
   },
   {
    "title": "Michael Brandsegg-Nygard is closing in on a Red Wings roster spot",
@@ -3502,7 +3632,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://octopusthrower.com/michael-brandsegg-nygard-is-closing-in-on-a-red-wings-roster-spot-01m37zkjre0d"
   },
   {
    "title": "Meijer Postgame Comments 9/24/26 | Detroit Red Wings",
@@ -3513,7 +3644,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/video/meijer-postgame-comments-9-24-26-6405600377112"
   },
   {
    "title": "Line Combinations: Red Wings Preseason Game 3 vs Sabres",
@@ -3524,7 +3656,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/line-combinations-red-wings-preseason-game-3-vs-sabres"
   },
   {
    "title": "Detroit Red Wings bop Buffalo Sabres in OT for preseason victory",
@@ -3535,7 +3668,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://www.freep.com/picture-gallery/sports/nhl/red-wings/2026/09/24/detroit-red-wings-photos-buffalo-sabres-sept-24/91931183007/"
   },
   {
    "title": "Detroit Red Wings Prospect Guide: NHL Prospects To Watch In 2026-27",
@@ -3548,7 +3682,8 @@
     8484141,
     8484183,
     8484870
-   ]
+   ],
+   "url": "https://www.flohockey.tv/articles/16200023-detroit-red-wings-prospect-guide-prospects-to-watch-2026-27"
   },
   {
    "title": "Detroit Red Wings Prospect Guide: NHL Prospects To Watch In 2026-27",
@@ -3559,7 +3694,8 @@
    "lang": "en",
    "players": [
     8484141
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/detroit-red-wings-prospect-guide-163153245.html"
   },
   {
    "title": "Big Couple of Days For Red Wings Prospect",
@@ -3570,7 +3706,8 @@
    "lang": "en",
    "players": [
     8485079
-   ]
+   ],
+   "url": "https://detroithockeynow.com/big-couple-of-days-for-red-wings-prospect/"
   },
   {
    "title": "BUF@DET: Sandin Pellikka scores PPG against Alex Lyon | Detroit Red Wings",
@@ -3581,7 +3718,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/video/buf-det-sandin-pellikka-scores-ppg-against-alex-lyon-6405592096112"
   },
   {
    "title": "Anton Johansson: How he's making an impression on Detroit Red Wings",
@@ -3592,7 +3730,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.usatoday.com/videos/sports/nhl/red-wings/2026/09/24/anton-johansson-how-hes-making-an-impression-on-detroit-red-wings/91930914007/"
   },
   {
    "title": "Anton Johansson making case to join Red Wings sooner than later",
@@ -3603,7 +3742,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.mlive.com/redwings/2026/09/anton-johansson-making-case-to-join-red-wings-sooner-than-later.html"
   },
   {
    "title": "Anton Johansson Creates Separation in Roster Battle",
@@ -3614,7 +3754,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://detroithockeynow.com/anton-johansson-gains-separation-battle-detroit-red-wings-roster-spot/"
   },
   {
    "title": "Šikovná teč a vítězný gól. Becher zazářil v přípravě NHL",
@@ -3625,7 +3766,8 @@
    "lang": "cs",
    "players": [
     8484836
-   ]
+   ],
+   "url": "https://isport.blesk.cz/clanek/hokej-nhl/480178/becher-se-v-priprave-nhl-trefil-za-detroit-bodovali-i-pastrnak-se-zachou-vladar-se-zranil.html"
   },
   {
    "title": "Which Red Wings players have helped themselves the most this preseason? - The Athletic",
@@ -3636,7 +3778,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.nytimes.com/athletic/7621992/2026/09/23/detroit-red-wings-preseason-prospects-michael-brandsegg-nygard/"
   },
   {
    "title": "Todd McLellan Makes His Expectations Clear for Michael Brandsegg-Nygård",
@@ -3647,7 +3790,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/todd-mclellan-makes-expectations-clear-131131363.html"
   },
   {
    "title": "Sutter Muzzatti, Detroit Red Wings, C - News, Stats, Bio",
@@ -3658,7 +3802,8 @@
    "lang": "en",
    "players": [
     8484425
-   ]
+   ],
+   "url": "https://www.cbssports.com/nhl/players/29167288/sutter-muzzatti/"
   },
   {
    "title": "Sutter Muzzatti, Detroit Red Wings, C - Fantasy Hockey News, Stats",
@@ -3669,7 +3814,8 @@
    "lang": "en",
    "players": [
     8484425
-   ]
+   ],
+   "url": "https://www.cbssports.com/nhl/players/29167288/sutter-muzzatti/fantasy/"
   },
   {
    "title": "September 23 NHL waiver targets for the #1 priority Canucks",
@@ -3680,7 +3826,8 @@
    "lang": "en",
    "players": [
     8483045
-   ]
+   ],
+   "url": "https://canucksarmy.com/news/september-23-nhl-waiver-targets-1-priority-vancouver-canucks"
   },
   {
    "title": "Red Wings' Michael Brandsegg-Nygard: Lights lamp twice in preseason win",
@@ -3691,7 +3838,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-michael-brandsegg-nygard-lights-lamp-twice-in-preseason-win/"
   },
   {
    "title": "Red Wings' Carter Bear: Dealing with upper-body injury",
@@ -3702,7 +3850,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-carter-bear-dealing-with-upper-body-injury/"
   },
   {
    "title": "Red Wings Prospect Anton Johansson Delivers Four-Assist Night",
@@ -3713,7 +3862,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://detroitsportsnation.com/anton-johansson-four-assists-red-wings-preseason/gkaplan/detroit-red-wings/09/23/2026/495414/"
   },
   {
    "title": "Red Wings Preseason Over-Reactions: Detroit’s In A New Era",
@@ -3724,7 +3874,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://insidetherink.com/red-wings-preseason-over-reactions-detroits-in-a-new-era/"
   },
   {
    "title": "RECAP: Four third-period goals help Red Wings propel Penguins, 7-4, for first 2026-27 preseason victory",
@@ -3735,7 +3886,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/news/recap-four-third-period-goals-help-red-wings-propel-past-penguins-7-4-for-first-2026-27-preseason-victory"
   },
   {
    "title": "QMJHL: Cape Breton Eagles provide timelines for possible return of star players",
@@ -3746,7 +3898,8 @@
    "lang": "en",
    "players": [
     8485641
-   ]
+   ],
+   "url": "https://www.saltwire.com/cape-breton/qmjhl-cape-breton-eagles-provide-timelines-for-possible-return-of-star-players"
   },
   {
    "title": "Pastrňák a Zacha asistovali u výhry Bostonu, Becher vstřelil vítězný gól",
@@ -3757,7 +3910,8 @@
    "lang": "cs",
    "players": [
     8484836
-   ]
+   ],
+   "url": "https://sport.ceskatelevize.cz/clanek/hokej/pastrnak-a-zacha-asistovali-u-vyhry-bostonu-becher-vstrelil-vitezny-gol-159085"
   },
   {
    "title": "I går: SHL-debut – I dag: Allsvensk målskytt",
@@ -3768,7 +3922,20 @@
    "lang": "sv",
    "players": [
     8485079
-   ]
+   ],
+   "url": "https://hockeysverige.se/hockeyallsvenskan/charlie-forslund-malskytt-almtuna-shl-debut-brynas-adW5o6d6DG4q/"
+  },
+  {
+   "title": "GALERIE: Becher se v přípravě NHL trefil za Detroit. Bodovali i Pastrňák se Zachou, Vladař se zranil| FOTO 2",
+   "google_link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQS3RONk9UMjBwNGk5bHdFdHZWSU5zWjR1OW9ubmhIVGx6dHN1bVl6YmZFZy1FTVUxTVZnWXk5S25vM0taeng4U1dXU3hkUnF6Rkpmb3I0eXJoLURLM0NDQk9TTFowNC1zMW1WSnlaZzFSZk9ZcWVxX1FEaUxaclBNWTVna0ZfWV9jNWZVNjNmdU9tdTZPSTJYQ09yNGczZV9zX0VaZGFBSWtJdUtHMm5RVDdXV2JmZjAxVkw0RjdoOHliLVpVRGxuS1JpN2x5cHJSSkZDLXBVT0REdU8yZnc?oc=5",
+   "source": "iSport.cz",
+   "source_site": "https://isport.blesk.cz",
+   "published": "2026-09-23",
+   "lang": "cs",
+   "players": [
+    8484836
+   ],
+   "url": "https://isport.blesk.cz/galerie/hokej-nhl/734335/becher-se-v-priprave-nhl-trefil-za-detroit-bodovali-i-pastrnak-se-zachou-vladar-se-zranil?foto=1"
   },
   {
    "title": "Defensive play will determine Axel Sandin-Pellikka’s future",
@@ -3779,7 +3946,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://octopusthrower.com/defensive-play-will-determine-axel-sandin-pellikka-s-future-01m34ttswc7b"
   },
   {
    "title": "Carter Bear Sidelined Again With Upper-Body Injury",
@@ -3790,7 +3958,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/carter-bear-sidelined-again-upper-194149256.html"
   },
   {
    "title": "Brandsegg-Nygard Takes Over As Red Wings Bury Penguins",
@@ -3801,7 +3970,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/brandsegg-nygard-takes-over-red-144500682.html"
   },
   {
    "title": "Brandsegg-Nygard Sets Particular Objectives For This Red Wings Camp",
@@ -3812,7 +3982,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://detroithockeynow.com/brandsegg-nygard-sets-particular-objectives-for-this-red-wings-camp/"
   },
   {
    "title": "(+) Fem punkter: Brynäs har ett stort problem kvar",
@@ -3823,7 +3994,8 @@
    "lang": "sv",
    "players": [
     8485079
-   ]
+   ],
+   "url": "https://www.aftonbladet.se/sportbladet/hockey/a/OkKjV1/fem-punkter-brynas-har-ett-stort-problem-kvar"
   },
   {
    "title": "\"I'm Excited\": Axel Sandin-Pellikka Looks Forward To Second Year With Red Wings",
@@ -3834,7 +4006,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/players/im-excited-axel-sandin-pellikka-looks-forward-to-second-year-with-red-wings"
   },
   {
    "title": "„Zhaškoval ho.“ Ameriku baví Čechův remake ikonického momentu, navíc to zvládl čistě",
@@ -3845,7 +4018,8 @@
    "lang": "cs",
    "players": [
     8485545
-   ]
+   ],
+   "url": "https://sport.aktualne.cz/hokej/zhaskoval-ho-ameriku-bavi-cechuv-remake-ikonickeho-momentu-navic-to-zvladl-ciste/r~aaa291f62054585aad4e3cacb6a75d9c/"
   },
   {
    "title": "William Wallinder on trying to make Detroit Red Wings lineup",
@@ -3856,7 +4030,8 @@
    "lang": "en",
    "players": [
     8482171
-   ]
+   ],
+   "url": "https://www.freep.com/videos/sports/nhl/red-wings/2026/09/22/william-wallinder-on-trying-to-make-detroit-red-wings-lineup/91889982007/"
   },
   {
    "title": "What Scoring Problem? Red Wings Net Seven vs. Penguins",
@@ -3867,7 +4042,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://detroithockeynow.com/red-wings-score-seven-versus-pittsburgh-penguinswhat-scoring-problem-red-wings-net-seven-vs-penguins/"
   },
   {
    "title": "VIDEO: Michal Postava připomněl Dominika Haška. V přípravném utkání drsně složil soupeře",
@@ -3878,7 +4054,8 @@
    "lang": "cs",
    "players": [
     8485545
-   ]
+   ],
+   "url": "https://www.ruik.cz/video-michal-postava-pripomnel-dominika-haska-v-pripravnem-utkani-drsne-slozil-soupere/"
   },
   {
    "title": "Time is now for 2020 pick to show Red Wings he’s NHL-ready",
@@ -3890,7 +4067,8 @@
    "players": [
     8482171,
     8483045
-   ]
+   ],
+   "url": "https://www.mlive.com/redwings/2026/09/time-is-now-for-2020-pick-to-show-red-wings-hes-nhl-ready.html"
   },
   {
    "title": "Sandin-Pellikka puts the Red Wings up 3-1",
@@ -3901,7 +4079,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://www.nhl.com/video/det-pit-sandin-pellikka-scores-goal-against-arturs-silovs-6405452072112"
   },
   {
    "title": "Red Wings’ Carter Mazur: From Draft to Potential NHL Breakout",
@@ -3912,7 +4091,8 @@
    "lang": "en",
    "players": [
     8482802
-   ]
+   ],
+   "url": "https://www.si.com/nhl/red-wings/onsi/news/red-wings-carter-mazur-from-draft-potential-nhl-breakout"
   },
   {
    "title": "Red Wings begin first round of roster cuts",
@@ -3923,7 +4103,20 @@
    "lang": "en",
    "players": [
     8483045
-   ]
+   ],
+   "url": "https://octopusthrower.com/red-wings-begin-first-round-of-roster-cuts-01m355s7yhc3"
+  },
+  {
+   "title": "Red Wings Win Preseason Battle Against Crosby and the Penguins",
+   "google_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPamI3YVEwSlgwOFlLRlRiZ3lITUdKMGp6c0g5em5zc3laZXB2aURvMHlpV0pSbXIwZjFabTkwc2NBMmlGV050QTlHclIyaFJEMENOVW11d1M5T0VMcDFGWmE1VUhvNE5Zajd6TVhPbXZWbzVhbm9ES0tfNjQzWUpTWGZsREVjdS15Q0IySDZSdHRBNnVXeGMw?oc=5",
+   "source": "Detroit Hockey Now",
+   "source_site": "https://detroithockeynow.com",
+   "published": "2026-09-22",
+   "lang": "en",
+   "players": [
+    8484794
+   ],
+   "url": "https://detroithockeynow.com/red-wings-win-preseason-battle-against-crosby-and-the-penguins/"
   },
   {
    "title": "Red Wings Need Extra Time",
@@ -3934,7 +4127,8 @@
    "lang": "en",
    "players": [
     8485545
-   ]
+   ],
+   "url": "https://detroithockeynow.com/red-wings-need-extra-time/"
   },
   {
    "title": "Prospects lead Red Wings to 7-4 preseason victory in Pittsburgh",
@@ -3945,7 +4139,8 @@
    "lang": "en",
    "players": [
     8484836
-   ]
+   ],
+   "url": "https://www.detroitnews.com/story/sports/nhl/red-wings/2026/09/22/red-wings-prospects-7-4-preseason-victory-in-pittsburgh/91897671007/"
   },
   {
    "title": "Michal Pradel - Detroit Red Wings Goaltender",
@@ -3956,7 +4151,8 @@
    "lang": "en",
    "players": [
     8485568
-   ]
+   ],
+   "url": "https://www.espn.com/nhl/player/_/id/5453125"
   },
   {
    "title": "Michal Orsulak 2026-27 Stats per Game - NHL",
@@ -3967,7 +4163,8 @@
    "lang": "en",
    "players": [
     8486080
-   ]
+   ],
+   "url": "https://www.espn.com/nhl/player/gamelog/_/id/5361739/michal-orsulak"
   },
   {
    "title": "Michal Orsulak",
@@ -3978,7 +4175,8 @@
    "lang": "en",
    "players": [
     8486080
-   ]
+   ],
+   "url": "https://www.espn.com/nhl/player/_/id/5361739"
   },
   {
    "title": "Järnkrok saknas – duo återkallade från utlåning",
@@ -3989,7 +4187,8 @@
    "lang": "sv",
    "players": [
     8485079
-   ]
+   ],
+   "url": "https://hockeynews.se/nyheter/jarnkrok-saknas-duo-aterkallade-fran-utlaning"
   },
   {
    "title": "Järnkrok saknas – Brynäs kallar tillbaka lånen",
@@ -4000,7 +4199,8 @@
    "lang": "sv",
    "players": [
     8485079
-   ]
+   ],
+   "url": "https://hockeysverige.se/shl/calle-jarnkrok-saknas-brynas-linkoping-charlie-forslund-leo-sundqvist-aMYFP6m8IS76/"
   },
   {
    "title": "Jako Hašek! Postava ho v NHL připomněl ostrým hitem, soupeři skočil pod nohy",
@@ -4011,7 +4211,8 @@
    "lang": "cs",
    "players": [
     8485545
-   ]
+   ],
+   "url": "https://www.idnes.cz/hokej/nhl/hokej-nhl-detroit-red-wings-michal-postava.A260922_092806_nhl_luji"
   },
   {
    "title": "Horcoff Clears Spot for Youngster? Which one?",
@@ -4022,7 +4223,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://detroithockeynow.com/shawn-horcoff-detroit-red-wings-jacob-bryson-waivers/"
   },
   {
    "title": "Forslunds otroliga resa efter Brynäs seger",
@@ -4033,7 +4235,8 @@
    "lang": "sv",
    "players": [
     8485079
-   ]
+   ],
+   "url": "https://www.unt.se/sport/ishockey/artikel/forslunds-otroliga-resa-efter-brynas-seger/r353yokj"
   },
   {
    "title": "Family shares in captain announcement for Cape Breton Eagles’ Will Murphy",
@@ -4044,7 +4247,8 @@
    "lang": "en",
    "players": [
     8485641
-   ]
+   ],
+   "url": "https://www.saltwire.com/prince-edward-island/family-shares-in-captain-announcement-for-cape-breton-eagles-will-murphy"
   },
   {
    "title": "Dobeš k výhře v přípravě přidal asistenci proti Ottawě, Postava inkasoval až v nájezdech",
@@ -4055,7 +4259,8 @@
    "lang": "cs",
    "players": [
     8485545
-   ]
+   ],
+   "url": "https://sport.ceskatelevize.cz/clanek/hokej/dobes-k-vyhre-v-priprave-pridal-asistenci-proti-ottawe-postava-inkasoval-az-v-najezdech-159075"
   },
   {
    "title": "Detroit Red Wings score: Neither Daniil Tarasov nor Michal Postava allowed a goal in regulation or OT in the preseason opener in Columbus, Ohio. See link below ⬇️ 📸 Aaron Doster, IMAGN IMAGES via Reuters",
@@ -4066,7 +4271,8 @@
    "lang": "en",
    "players": [
     8485545
-   ]
+   ],
+   "url": "https://www.facebook.com/detroitfreepress/posts/detroit-red-wings-score-neither-daniil-tarasov-nor-michal-postava-allowed-a-goal/1558838342954979/"
   },
   {
    "title": "Detroit Red Wings Place Six on Waivers",
@@ -4077,7 +4283,8 @@
    "lang": "en",
    "players": [
     8483045
-   ]
+   ],
+   "url": "https://insidetherink.com/detroit-red-wings-place-six-on-waivers-2/"
   },
   {
    "title": "DET@PIT: Kiiskinen scores goal against Arturs Silovs | Detroit Red Wings",
@@ -4088,7 +4295,8 @@
    "lang": "en",
    "players": [
     8484183
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/video/det-pit-kiiskinen-scores-goal-against-arturs-silovs-6405457510112"
   },
   {
    "title": "DET@PIT: Brandsegg-Nygård scores goal against Arturs Silovs | Detroit Red Wings",
@@ -4099,7 +4307,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/video/det-pit-brandsegg-nygard-scores-goal-against-arturs-silovs-6405449893112"
   },
   {
    "title": "DET@PIT: Brandsegg-Nygård scores PPG against Arturs Silovs",
@@ -4110,7 +4319,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/video/det-pit-brandsegg-nygard-scores-ppg-against-arturs-silovs-6405456062112"
   },
   {
    "title": "DET@PIT: Becher scores goal against Arturs Silovs | Detroit Red Wings",
@@ -4121,7 +4331,8 @@
    "lang": "en",
    "players": [
     8484836
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/video/det-pit-becher-scores-goal-against-arturs-silovs-6405456426112"
   },
   {
    "title": "Carter Mazur Has a Chance to Force the Red Wings' Hand",
@@ -4133,7 +4344,8 @@
    "players": [
     8482802,
     8485362
-   ]
+   ],
+   "url": "https://www.si.com/nhl/red-wings/onsi/news/carter-mazur-has-chance-force-red-wings-hand"
   },
   {
    "title": "Bulldogs fans won't have to wait long for Plante-Plante-Plante",
@@ -4143,8 +4355,10 @@
    "published": "2026-09-22",
    "lang": "en",
    "players": [
-    8484870
-   ]
+    8484870,
+    8486084
+   ],
+   "url": "https://www.duluthnewstribune.com/sports/bulldogs-hockey/bulldogs-fans-wont-have-to-wait-long-for-plante-plante-plante"
   },
   {
    "title": "Brandsegg-Nygård scores PPG to extend Red Wings' lead",
@@ -4155,7 +4369,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.nhl.com/video/det-pit-brandsegg-nygard-scores-ppg-against-arturs-silovs-6405456063112"
   },
   {
    "title": "Brandsegg-Nygård imponerer før NHL-starten – scoret to for Red Wings",
@@ -4166,7 +4381,8 @@
    "lang": "no",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.folkebladet.no/norgeogverden/n/k0oKQ9/brandsegg-nygaard-imponerer-foer-nhl-starten-scoret-to-for-red-wings"
   },
   {
    "title": "Brandsegg-Nygard, Johansson lead Red Wings preseason outburst",
@@ -4177,7 +4393,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.mlive.com/redwings/2026/09/brandsegg-nygard-johansson-lead-red-wings-preseason-outburst.html"
   },
   {
    "title": "Bear Closer to Playing for the Red Wings Than We Originally Thought",
@@ -4188,7 +4405,8 @@
    "lang": "en",
    "players": [
     8485362
-   ]
+   ],
+   "url": "https://detroithockeynow.com/bear-closer-to-playing-for-the-red-wings-than-we-originally-thought/"
   },
   {
    "title": "15 NHL players placed on waivers for Sept. 22",
@@ -4199,7 +4417,8 @@
    "lang": "en",
    "players": [
     8483045
-   ]
+   ],
+   "url": "https://www.dailyfaceoff.com/news/15-nhl-players-placed-waivers-september-22-2026-dominik-shine-jusso-parssinen-urho-vaakanainen-william-lagesson"
   },
   {
    "title": "Why a confident Michael Brandsegg-Nygard is vital for Red Wings",
@@ -4210,7 +4429,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.freep.com/story/sports/nhl/red-wings/2026/09/21/detroit-red-wings-michael-brandsegg-nygard/91870925007/"
   },
   {
    "title": "Why a confident Michael Brandsegg-Nygard is vital for Red Wings",
@@ -4221,7 +4441,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.usatoday.com/story/sports/nhl/red-wings/2026/09/21/detroit-red-wings-michael-brandsegg-nygard/91870925007/?gnt-cfr=1&gca-cat=p&gca-uir=true&gca-epti=z11xx55p119850l116550c119850e1133xxv11xx55d--40--b--40--&gca-ft=215&gca-ds=sophi"
   },
   {
    "title": "Spitfires trying to stay patient after earning a single point in two games",
@@ -4232,7 +4453,8 @@
    "lang": "en",
    "players": [
     8485592
-   ]
+   ],
+   "url": "https://windsorstar.com/sports/spitfires-trying-to-stay-patient-after-earning-a-single-point-in-two-games/"
   },
   {
    "title": "Rochette Turning Heads in Red Wings Camp",
@@ -4243,7 +4465,8 @@
    "lang": "en",
    "players": [
     8482184
-   ]
+   ],
+   "url": "https://detroithockeynow.com/rochette-turning-heads-in-red-wings-camp/"
   },
   {
    "title": "Red Wings' Young Guns Are Turning Training Camp Into a Fight for Jobs",
@@ -4254,7 +4477,8 @@
    "lang": "en",
    "players": [
     8484160
-   ]
+   ],
+   "url": "https://www.si.com/nhl/red-wings/onsi/news/red-wings-young-guns-are-turning-training-camp-into-fight-for-jobs"
   },
   {
    "title": "Red Wings' Michael Brandsegg-Nygard on how he's grown in past year",
@@ -4265,7 +4489,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.freep.com/videos/sports/nhl/red-wings/2026/09/21/red-wings-michael-brandsegg-nygard-on-hos-hes-grown-in-past-year/91875574007/"
   },
   {
    "title": "Red Wings' Michael Brandsegg-Nygard on how he's grown in past year",
@@ -4276,7 +4501,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.dispatch.com/videos/sports/nhl/red-wings/2026/09/21/red-wings-michael-brandsegg-nygard-on-hos-hes-grown-in-past-year/91875574007/"
   },
   {
    "title": "Red Wings' Michael Brandsegg-Nygard on how he's grown in past year",
@@ -4287,7 +4513,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.desmoinesregister.com/videos/sports/nhl/red-wings/2026/09/21/red-wings-michael-brandsegg-nygard-on-hos-hes-grown-in-past-year/91875574007/"
   },
   {
    "title": "Red Wings' Michael Brandsegg-Nygard on how he's grown in past year",
@@ -4298,7 +4525,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.usatoday.com/videos/sports/nhl/red-wings/2026/09/21/red-wings-michael-brandsegg-nygard-on-hos-hes-grown-in-past-year/91875574007/"
   },
   {
    "title": "Red Wings' Michael Brandsegg-Nygard on how he's grown in past year",
@@ -4309,7 +4537,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.azcentral.com/videos/sports/nhl/red-wings/2026/09/21/red-wings-michael-brandsegg-nygard-on-hos-hes-grown-in-past-year/91875574007/"
   },
   {
    "title": "Red Wings need more of what this confident former top pick brings",
@@ -4320,7 +4549,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://www.mlive.com/redwings/2026/09/red-wings-need-more-of-what-this-confident-former-top-pick-brings.html"
   },
   {
    "title": "Red Wings backup goalies star in exhibition opener vs Blue Jackets",
@@ -4331,7 +4561,8 @@
    "lang": "en",
    "players": [
     8485545
-   ]
+   ],
+   "url": "https://www.freep.com/story/sports/nhl/red-wings/2026/09/21/detroit-red-wings-preseason-game-score-recap-columbus-blue-jackets-goalies/91870930007/"
   },
   {
    "title": "Red Wings Give Albert Johansson a Bigger Role, Ben Chiarot’s Spot Changes",
@@ -4342,7 +4573,20 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/red-wings-albert-johansson-bigger-115900448.html"
+  },
+  {
+   "title": "Five Things to Watch for in the Red Wings Preseason Games",
+   "google_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSzBFVVBqbXZqSWNGX1R1M2ZFeG52bVVRSU9pclNueDY1dE1PYXNpUGNZaGxiYmItT2o1VFZXVFZJaXhGelFqWTlHN2swUHhDTnFLTXJKTmxHQkpGUzJ2WkhTMXBxVlYweGJ2d01ocDl3U0RqWVpKT0YzVXpwdWQtS1E1MzJKQkkySzZpdQ?oc=5",
+   "source": "Inside The Rink",
+   "source_site": "https://insidetherink.com",
+   "published": "2026-09-21",
+   "lang": "en",
+   "players": [
+    8485362
+   ],
+   "url": "https://insidetherink.com/five-things-to-watch-for-in-the-red-wings-preseason-games/"
   },
   {
    "title": "\"My Goal Is To Make The Team\": Michael Brandsegg-Nygård Eyes Full-Time Jump To Red Wings",
@@ -4353,7 +4597,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/goal-team-michael-brandsegg-nyg-185851077.html"
   },
   {
    "title": "\"My Goal Is To Make The Team\": Michael Brandsegg-Nygård Eyes Full-Time Jump To Red Wings",
@@ -4364,7 +4609,8 @@
    "lang": "en",
    "players": [
     8484794
-   ]
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/video/my-goal-is-to-make-the-team-michael-brandsegg-nygard-wants-to-make-full-time-jump-to-red-wings"
   },
   {
    "title": "What ASP Must Show to Make Red Wings Roster",
@@ -4375,7 +4621,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://detroithockeynow.com/rdetroit-red-wings-axel-sandin-pellikka-roster-battle-grand-rapids-griffins/"
   },
   {
    "title": "Training Camp Notes: Griffins Embarrass Red Wings",
@@ -4386,7 +4633,8 @@
    "lang": "en",
    "players": [
     8484160
-   ]
+   ],
+   "url": "https://detroithockeynow.com/red-wings-11/"
   },
   {
    "title": "The Daily: Final Practice Day; McKenna Debuts",
@@ -4397,7 +4645,8 @@
    "lang": "en",
    "players": [
     8485592
-   ]
+   ],
+   "url": "https://detroithockeynow.com/the-daily-final-practice-day-mckenna-debuts/"
   },
   {
    "title": "Red Wings Shuffling Defensive Pairings",
@@ -4408,7 +4657,8 @@
    "lang": "en",
    "players": [
     8484223
-   ]
+   ],
+   "url": "https://detroithockeynow.com/red-wings-10/"
   },
   {
    "title": "HV71-stjärnan fälls – straffas med böter",
@@ -4419,7 +4669,8 @@
    "lang": "sv",
    "players": [
     8482163
-   ]
+   ],
+   "url": "https://www.expressen.se/sport/hockey/shl/lukas-rousek-anmald-for-diving-i-premiaren/"
   },
   {
    "title": "Todd McLellan Drops Major Nate Danielson Roster Revelation",
@@ -4430,7 +4681,8 @@
    "lang": "en",
    "players": [
     8484160
-   ]
+   ],
+   "url": "https://sports.yahoo.com/articles/todd-mclellan-drops-major-nate-163000366.html"
   },
   {
    "title": "Straffad för filmning efter premiären: ”Förbannad”",
@@ -4441,7 +4693,8 @@
    "lang": "sv",
    "players": [
     8482163
-   ]
+   ],
+   "url": "https://www.aftonbladet.se/sportbladet/hockey/a/5paBl6/anmald-for-filmning-efter-premiaren-forbannad"
   },
   {
    "title": "Red Wings Draft Pick Scores in QMJHL Debut",
@@ -4452,7 +4705,8 @@
    "lang": "en",
    "players": [
     8486324
-   ]
+   ],
+   "url": "https://detroithockeynow.com/red-wings-myles-brosnan-seventh-round-pick-intriguing-start/"
   },
   {
    "title": "Enorm besvikelse i Almtuna: \"Vi var bättre än Modo\"",
@@ -4463,7 +4717,8 @@
    "lang": "sv",
    "players": [
     8485079
-   ]
+   ],
+   "url": "https://www.unt.se/sport/ishockey/artikel/almtuna-tappar-segern-mot-modo-efter-straffar/r230gz3l"
   },
   {
    "title": "Blev utvisad för filmning – rasar mot domarna: \"Jag är förbannad\"",
@@ -4474,7 +4729,8 @@
    "lang": "sv",
    "players": [
     8482163
-   ]
+   ],
+   "url": "https://hockeysverige.se/shl/lukas-rousek-rasar-domare-filmning-hv71-malmo-a6gG69g7FjAX/"
   },
   {
    "title": "William Wallinder Statistik",
@@ -4485,7 +4741,8 @@
    "lang": "sv",
    "players": [
     8482171
-   ]
+   ],
+   "url": "https://www.nhl.com/sv/player/william-wallinder-8482171/stats"
   },
   {
    "title": "Why this defenseman will inevitably play for the Red Wings",
@@ -4496,7 +4753,8 @@
    "lang": "en",
    "players": [
     8483679
-   ]
+   ],
+   "url": "https://octopusthrower.com/why-this-defenseman-will-inevitably-play-for-the-red-wings-01m2g7pwtayt"
   },
   {
    "title": "Red Wings Want Danielson To Be Less Responsible",
@@ -4507,7 +4765,8 @@
    "lang": "en",
    "players": [
     8484160
-   ]
+   ],
+   "url": "https://detroithockeynow.com/red-wings-want-danielson-to-be-less-responsible/"
   },
   {
    "title": "Cape Breton Eagles name Will Murphy 35th captain in franchise history",
@@ -4518,7 +4777,8 @@
    "lang": "en",
    "players": [
     8485641
-   ]
+   ],
+   "url": "https://www.saltwire.com/cape-breton/cape-breton-eagles-name-will-murphy-35th-captain-in-franchise-history"
   },
   {
    "title": "Trey Augustine mic'd up at the Prospect Tournament",
@@ -4529,7 +4789,8 @@
    "lang": "en",
    "players": [
     8484141
-   ]
+   ],
+   "url": "https://www.nhl.com/redwings/video/trey-augustine-mic-d-up-at-the-prospect-tournament-6405202460112"
   },
   {
    "title": "Three Red Wings Prospects Who Could Push for a Roster Spot Out of Camp",
@@ -4552,7 +4813,8 @@
    "lang": "en",
    "players": [
     8483459
-   ]
+   ],
+   "url": "https://www.detroitnews.com/picture-gallery/sports/nhl/red-wings/2026/09/17/red-wings-open-2026-training-camp/91810565007/"
   },
   {
    "title": "Noah Dower Nilsson",
@@ -4563,7 +4825,8 @@
    "lang": "en",
    "players": [
     8484161
-   ]
+   ],
+   "url": "https://dobberprospects.com/player/noah-dower-nilsson/"
   },
   {
    "title": "Michal Postava",
@@ -4607,7 +4870,8 @@
    "lang": "en",
    "players": [
     8484183
-   ]
+   ],
+   "url": "https://dobberprospects.com/player/jesse-kiiskinen/"
   },
   {
    "title": "Charlie Forslund",
@@ -4861,7 +5125,6 @@
    "published": "2026-09-14",
    "lang": "en",
    "players": [
-    8484160,
     8485362
    ]
   },
@@ -5161,7 +5424,6 @@
    "published": "2026-09-13",
    "lang": "en",
    "players": [
-    8484160,
     8485362
    ]
   },
@@ -5543,6 +5805,17 @@
   },
   {
    "title": "Red Wings Need Nate Danielson to Become More Than a Prospect",
+   "google_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZlJ6TmlYVllEcHVOdDV3RHF1SmJ6ampHbFY3aEp1RHpVb0xZSk9najQ4ZzZ1QVJvWVdTa3ZobERtWnZWSHhjYlVvY01OZHZ2Nk5sNDExLWNHTy1RTE5DYmd1ZllLTDJtYUx1M1psU2dfYTJNMGZla2dkQmFrU2dNcnlrMmFZZW9ad3dBQl94VzZPTmhDZ3hjRlNSVGwzZ1E?oc=5",
+   "source": "Sports Illustrated",
+   "source_site": "https://www.si.com",
+   "published": "2026-09-07",
+   "lang": "en",
+   "players": [
+    8484160
+   ]
+  },
+  {
+   "title": "Red Wings Need Nate Danielson to Become More Than a Prospect",
    "google_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVk9vbE1XTkJJZjI4OVU4TDBiVTJWYkF2Y21uNlItV2VxU3JrcTNTalUtRXBIc1NwNTNJckJrRFJ6S1lfVjFNQS1tRW5Zb1RYdmJ1Mmp2Q0pOS1VkVnh1c296LUw2VGxsYVIyZURXQ3lMMjRWQzJROEI1d3hoOXhrcWowVk9iM0E?oc=5",
    "source": "Yahoo Sports",
    "source_site": "https://sports.yahoo.com",
@@ -5692,8 +5965,7 @@
    "published": "2026-09-05",
    "lang": "en",
    "players": [
-    8483045,
-    8484223
+    8483045
    ]
   },
   {
@@ -5928,6 +6200,17 @@
    ]
   },
   {
+   "title": "The Daily: Red Wings Rookie Listed as Calder Candidate; Photo Shows the Future",
+   "google_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNOFE0MExiV3hCREJJMVFnNzA5QzJWajZ4RUFXSWFha25ncUxmWWJRb01tRGdsTlFsbGszR3NaMVNmb1NKMlNWc3llZE5SLU1RaHVDSTNJNkVrOWF3NmVZN2ZhbExMcGd3bGJKN296dDFqWXdoN3oyaGhETVY?oc=5",
+   "source": "Detroit Hockey Now",
+   "source_site": "https://detroithockeynow.com",
+   "published": "2026-09-02",
+   "lang": "en",
+   "players": [
+    8484794
+   ]
+  },
+  {
    "title": "Sandin-Pellikka’s replacement sees much promise in young D-man",
    "google_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQWZBX21RQjFTeWxuel9QSllCTHBvTEVsODlQQlRicmRFMGduVDBlYmwySzZPUUpjem1mZlByVDkwWGhLYXo1VFFkQ1BhYTMyVGt1QWpEOGxCeUVnSktCaFJRNnhhaVNacGxrYnJILXBuMEh4R2hacWpXYkpyOU5JUE4zNkVNQ2ZieTQyNGc1VklUUzBodXJCXzFmeXVzcks1S1dNaXA3TGM?oc=5",
    "source": "MLive.com",
@@ -5990,7 +6273,6 @@
    "published": "2026-09-02",
    "lang": "en",
    "players": [
-    8484160,
     8485362
    ]
   },
@@ -6002,7 +6284,6 @@
    "published": "2026-09-02",
    "lang": "en",
    "players": [
-    8484160,
     8485362
    ]
   },
@@ -6247,7 +6528,7 @@
    "published": "2026-08-25",
    "lang": "en",
    "players": [
-    8484160,
+    8484794,
     8486049
    ]
   },
@@ -6281,7 +6562,6 @@
    "published": "2026-08-24",
    "lang": "en",
    "players": [
-    8484160,
     8484223
    ]
   },
@@ -6417,9 +6697,7 @@
    "lang": "en",
    "players": [
     8482171,
-    8482802,
-    8483679,
-    8484160
+    8483679
    ]
   },
   {
@@ -6442,292 +6720,6 @@
    "lang": "en",
    "players": [
     8482802
-   ]
-  },
-  {
-   "title": "Trade confirmed with the Nashville Predators involving towering 6-foot-6 forward",
-   "google_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYm5uWHZFUXNLOGlpMW0wZUdaRGNnYjVWMmZEZTh2Z2VOaTU4Z0tPY0VPY012Xzdkc3U1d0p4bDJNNWRjdzh0RkJmZGhuQm9JZldCTU1UMmVXRVlabVZjZzdvbTR4dGlfS2dBTmo5dXVKbm1wdmNZdTFJbjNFc2ZnbzR3ZC1vZlBESkczNnVkVC0wNXJCbFk4NmpvNUhIcF9oQTY1STFvUVpicXNkdVVFN0RhM2JGdDdsQlpGUWF0YndtYVhiTHlOelln?oc=5",
-   "source": "Montreal Hockey Fanatics",
-   "source_site": "https://www.montrealhockeyfanatics.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "TRADE: Red Wings Acquire Towering Prospect Center With Local Ties",
-   "google_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTk11TXhoT1hzQ0xUemRBWmROdDJncXcwaWZ4VUF0QWlUWkt3Y1BDSXV1b1ZjamJpcDQ3c0FxTVF3eGlmd0wwMlU2N3hDVkdMcWtuWk5NQVpHZkZBejlBUDh4R0F5TVNUTEtwbk5BU3M1ZGNKbmE0U0thcnNMZVRTdVZ0VVhrdlNtQTgxNmt0Vlh5eDBrNWMzd1pENWtMRTNnMGphMDBOQUE3a0NiMXh1cjBleWRtTFRWMXkya2l0VHJ5UQ?oc=5",
-   "source": "The Hockey News",
-   "source_site": "https://thehockeynews.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings' Sutter Muzzatti: Traded, signed Thursday",
-   "google_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMU1BOWpGemY1SHZRTWNvNEV4VmJSRXpmQjdpWVU0bVBTVm5neldvSVNwVDNEXzJPVUVwbTd6MEE3WVo4UVBmbFJuWjZ3bFAtc1dHSmttY3JBWmlSVmQwUlp3UmZ1QnEtbG1DeGJ6N251bnZLMUJTWFhKYWoyWm1EVnJMVjBHQ1pGM3VlbWU1aENJbWF5b19KLUw0SQ?oc=5",
-   "source": "CBS Sports",
-   "source_site": "https://www.cbssports.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings make trade with Predators for 6-foot-8 Notre Dame standout",
-   "google_link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM1B6VDlHeEpCR0dhZmx5LTlxdGtsRUpYTk5BTWU0WUJnRk5yQUpYZGh6ZEdoX3FtOGhla1JUeXgteDRpcnBRNmthQVJwWXNDeTdpTFA4Y1dyUWgtUktKdFJoN0FLSHRIQ2JLNXJOOG5FajFPWE5WaTZqZ0Y1dGdheHZqMEh0T205aGtOcDJfcC15Zl9uWnlwcEl5Zk5SQmxoVFQ1dnR4aTJmYWs2a1Qxcm1tX2dKd19mNFZGakFicnozbVcyREhBc2Nuc2dkdw?oc=5",
-   "source": "Detroit Free Press",
-   "source_site": "https://www.freep.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings make trade with Predators for 6-foot-8 Notre Dame standout",
-   "google_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSmxwbUo4QVRBUHpLMXV4WTcyWDYwWWdQUV9vdE5IODUzNlBDWjdQdU9ESU5uSWlhUWtMQzFKLTN3ZU1wVW9qa0hUVnZISWR4d2dJWFpZTnBubzRnb0xpeG9zVWJFSEhkN0h5bndRWXlpTXJyNUQyRnJhUHVsbHc3ZDlR?oc=5",
-   "source": "Yahoo Sports",
-   "source_site": "https://sports.yahoo.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings flip future considerations for Predators prospect",
-   "google_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV21CT1NnQTBTTy01c3pGbWFsVlprRjJmVjJuRGFiblhaMGppRnBWb2pvWnVjbDZFODlQaEpBOUFyWXBOVVN4ZldmLTByblR2RzJDZXVtN1Y1WU5mNDJOZWxtMExmeG5EbWlNQWt4d0tUNGhwNTJBZ0JITzl4bUVrMmJsTVJEREFiT3BCN1Z5RDVxekJ4MVZ4SDh0Yi1udWR5?oc=5",
-   "source": "Octopus Thrower",
-   "source_site": "https://octopusthrower.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings add former RPI forward Sutter Muzzatti",
-   "google_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcFN1Vy11UmI3eXhSMHZUMnBUQzFnUV9KbWlsNkVwM0FsMVFSdXdqZk9oUVE0Q2FPbXBheUpRRzVwREdjMU1pYkJmTTV3U0xYa0pCNkZBLTEwYmtLR1RBYVBYSFlNYmo0YjVtdFdudWlIZnBaU0xsR0lPMUxJdXRQSUhkN2NnMmdNdFdaR05YM08?oc=5",
-   "source": "Troy Record",
-   "source_site": "https://www.troyrecord.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings acquire Sutter Muzzatti from Nashville Predators in exchange for future considerations",
-   "google_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMEFKY3Fwc2RVSkRyTjFYWFhxX2VuSFlDa0x3bmpYRzRyRzI3d0JwSHdBNG9VdHhZenZ6T1duNHBVYWg2YkxDN1pPMFYwVWtoRjhtUzBibkxsSzh1cUNzQzFtSDFDMkpBckZtTVRsZVFEdW1sZ2RzellxOEthLWFaZjhsM1RwNnplTGdfaE5hejRaek9tVmJhM1JhM0dSaFppUnhuUUNLOVdZNmN6dzFuM0VEcmI3U2QtdmlSOGI4OVZiRmVHSmhUOFJn?oc=5",
-   "source": "NHL.com",
-   "source_site": "https://www.nhl.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings acquire Okemos native Sutter Muzzatti",
-   "google_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMmRkZjFKbDIwdlEwc3N0Z0I1dy1VUDEtZk94N29jZGM1SFlLb3JTa3RRR01DS1g3RUJ5TkEyblpiR1JLMTZUNEVkQ2lqcWtJXzlsM0FwbTNITVpjYjN6dXBRckxJb2lRazFVczhlTUtmUThSM3U4TGR1SUNScDY1X2MzWEhLRUhiRV9hUmRrVDAyeENaMnkxUHY1enFiVTdhNGJDZjR6QTlyVUVDNlBILTZFQWtkaEtSSmd0UHNpZFhnRkpC?oc=5",
-   "source": "The Detroit News",
-   "source_site": "https://www.detroitnews.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings acquire 6-foot-6 forward in surprise trade",
-   "google_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WVVp4S0x4dDM4Q2NHR3hwNnBVMnAweVY5MGpraU9HVklQT3ZKUE9CX0J0VWt4UVplSjljWmRaR0RFaDFER2V5T1FCZms4cUhhWWJJN1E1LUNtbVBMRUtpUQ?oc=5",
-   "source": "Markerzone.com",
-   "source_site": "https://www.markerzone.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings acquire 23 year old forward from Predators",
-   "google_link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeEZaTjhoQUNCUFBVclNLY0ZBOC1uZXZpTF9JZXhoczl2N3pxSGttemNSMld5Y2dMXzBZdHJiWlAzVXZWYkNPT25qNE5Na2tuSnZNbzU3TlF4d3dWaWRjYWVueFU4aGVrWktwdjAxMHlsNUJlSnoxRGhLMWFZam9Xa3YyTTVDenh3OHctZC1Ydktqdw?oc=5",
-   "source": "HockeyFeed",
-   "source_site": "https://www.hockeyfeed.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings Trade for 6-foot-8 Center",
-   "google_link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPYlJ4Z3ZCeTA0R0lHaTUzbG91dmJQd1lKOUhfNVlJcjRSMG9BTkI4VFFvQl9VRGoxTWpfZENDMk16YmNvcTVMeUc2U1pnVHZwT0VrYnRQOXNwLUp0M2VzVERCUGxNMmxMQ01rd0JJOWM2YWc?oc=5",
-   "source": "Detroit Hockey Now",
-   "source_site": "https://detroithockeynow.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings Trade For 6'8 Breakout Forward",
-   "google_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZTBXODhfTWNKbU9ZZkRVbHluNGVLbE1KS3VMSFJXcWZVUm0yaDRDUzRrV0JYY2FGN1d5THdGNkdaYzdlM2dHLUtlQ2lWR2I3U05XOXBvYXRjRkJuLTZBdHJZMktEZThiblB1cE5Ob3pWNkVkYUR4S2pha0JKd2pQV045dVJ0Ym0tbGc?oc=5",
-   "source": "nhltraderumors.me",
-   "source_site": "https://www.nhltraderumors.me",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings Make Trade for Intriguing 23-Year-Old Forward",
-   "google_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3RGVmJIdVljX0Nqanc2TU5TVTNubXpYdi1lNHh6SGdXRGJzVTdQeW1tbGxyQlhKLXNZTGhIemRPdWNDejdTVHQ1UzB0UUdGT19uQURjcnBNT1BZTldzNHVESHptV1VfZ19KZExBdHRtTF9vTHVHMWp4cWpuZ2tDUm1fcUEwc19KSzhjOGtmdW5TNWk5NXlaQWdxNEMtODlpTDI2cXBXbndmN21OanZEM1pYcw?oc=5",
-   "source": "Yardbarker",
-   "source_site": "https://www.yardbarker.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings Add Intriguing Forward in Deal With Predators",
-   "google_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObjM2RDBBRVRfbEFsRlBuSE1mVUlfRlpKTDNVa1kzUlpTeFFDVjF6bEFXNnFHRXJQaWJwMGdpWFNyeEhWaTFPU0FoTUNiLXpRZ2NQT0dkaElKRnhISkNYSGRSYUpRWWZwUzFoVGVmYk9FczZ4WU5PRGdkbkRGVmg1dnFvZjNSalNQ?oc=5",
-   "source": "Yahoo Sports",
-   "source_site": "https://sports.yahoo.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings Acquire Sutter Muzzatti From Predators",
-   "google_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRWhYWE03Q0NkeFdKWUlpdURrampDYXZSSDZieXJCRWRvN280c3h3YVRoQnY1T2NuOUV1NGFIYUhOV3RzaWktSEhnUzNsTHVKSlNPQWd3N3B2QTFNbnZXWEVtSEdBVmx3OWZoN1NmTlpORUltV3daUWdfeGs1ZTlxaDhqWkxrcGdJVWRLM24zSzM3ZXRlUENjaA?oc=5",
-   "source": "NHL Rumors - ProHockeyRumors.com",
-   "source_site": "https://www.prohockeyrumors.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings Acquire Intriguing Forward From Predators in Low-Risk Move",
-   "google_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUzd5TGtUajVSbkx3cE1OejctalRySDRRYzdVaU5pN3dScnl5alN5U1o0NzZVVzVWTUtQNndRXzdHSS1fYXRYdHZsR1dMOF9XV0ZiM2tPWmdhdVgtUmdNazJKSVQtcDRfQWVmcGtkblBnZVNKdnRJNm5VamtZMGpiTE9ycHlnWVBuUVotdWZ5a0JDSGZ5MHNmNDh3eE9fd0laX2xDUzA4dnZUVDRv?oc=5",
-   "source": "Sports Illustrated",
-   "source_site": "https://www.si.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Red Wings Acquire 23-Year-Old Prospect From the Predators",
-   "google_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV1V1UFhlZHU3UHF2THhCUk84SGdWdFpzOHRaOHFhU1pZU1FxTndxRnhNYkJUdjRlaGN1UXpiUkFfdjRXSUkzSlZVaVlfc28wQ2lQWXgwLXVNLUVtTmdMbjE3dFd1ZktKUGxkekdaVXdySUtKNTFNSXFkRy1RaF95TnQwVXBLRUZKcU0xSmxiazJnREMyVmwwRlR4bTFnbDJ1Z2k4Yw?oc=5",
-   "source": "Heavy.com",
-   "source_site": "https://heavy.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Predators Trade Sutter Muzzatti to Detroit for Future Considerations",
-   "google_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeEtNc20yR1o4WjVHWURkMGpydmlTcGZnSUJXaTJFYlpveFQ1OGFuWVJ5cnlzRk1LTlNrSlQzTllsTk96UERiazNJMUNlWFllUHA0bEpiWklvQlplY3lqZXdWdUdUeGZlbDJTSWdxRWpQdjg0X3BzdEU3djFJX25GVUpEVEVIcjhhbFFvbUxkQzROYmpSN2h6bkZOVkpLek5LcnFHSWJhdXM1TllQUHVqekg4dDI?oc=5",
-   "source": "NHL.com",
-   "source_site": "https://www.nhl.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Ovissheten – efter skadan: \"Lite oklart\"",
-   "google_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY25LUzZxems3TFRWeEgycFVCWGtxQWhON20wcEhmSFg5cnM2NTlzREJ1T3doRFh5QURnYmFCLUJHcVV0OVFyMHpGQ2Y1YjdRd3lNbDd0dUM2UUJ3TktrVWw3X1IwN25kUkVjNUtxdFBRTEI0WVcxcFVFWjY2STVXQTNheTJmUG81b3pGS20tNlV2bHRKbWRsSjE5cHFpTF83VF9j?oc=5",
-   "source": "Hockeysverige",
-   "source_site": "https://hockeysverige.se",
-   "published": "2026-08-20",
-   "lang": "sv",
-   "players": [
-    8485394
-   ]
-  },
-  {
-   "title": "Nashville Trades Young Forward To Detroit Red Wings",
-   "google_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYzZXRVRFYk8yN3RQYWNBME1vX2xMVk1IX2Q3RXZObUNjdWY1TWRLU1dxNkw0QzNyNFdNUnBqbXNCNnBsblpnbUdBMHJxV1h4YUsyMzFHMG5YWTdzc3prT2ZzZkNILUJ1ekdoNnVQUnByWFFGb3RpSC1sRkFYNElsR3FvN2R0a0VqbzdJYTQxLVBTa2pNZXc?oc=5",
-   "source": "Sports Illustrated",
-   "source_site": "https://www.si.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Muzzatti Signs Entry Level Contract With Red Wings",
-   "google_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYjAyVHlHdmlIWnhBM0I2OW1keE96VWlBNkxiQXZxNnNMLTd6bEVmOWlRQm5KaHFSMWFaZ0V3OHluUVJGdUVxdC1MTmxNZ2VpUVVoVU83T1YzYk9YQU05T2F4RkRTOF8yZ3ljMHFaOENwU3A0cFkwQzZaenE1VVU0X1V5R2lGak92ZENTdW10eUQ4cXp1RjVJ?oc=5",
-   "source": "Notre Dame Fighting Irish",
-   "source_site": "https://fightingirish.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Här väntas Eddie Genborg spela framöver",
-   "google_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBEbTZPTGNWRU9kVjhsQkRmUVh3OFc2MFlWOWhSa2lXS2Y1NTFtVzdONHJqMy13VUdxaHRzYTl0TmVkRVNFbDJtU05wVDduTzlZY3ZxMzVFTjJVV0dPZlFXR1JR?oc=5",
-   "source": "Sportbloggare.com",
-   "source_site": "https://sportbloggare.com",
-   "published": "2026-08-20",
-   "lang": "sv",
-   "players": [
-    8485394
-   ]
-  },
-  {
-   "title": "Detroit Red Wings trade adds a Michigander in Sutter Muzzatti from Nashville Predators in exchange for future considerations. He's 6-8 from Okemos. See link below ⬇️ 📸 Denny Simmons / The Tennessean",
-   "google_link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSXhiamtwTVhuT2hTaTBMLS1RZGxSYUJsOTE3QWNxWGVhNlBOblZCcEdHVWxUMng0WVFNYXNWWHVnLUlLSko4QU8tRzU5bHlDclE5anAwVFZYUlpySFZGOFEzWGRPdG5SZUppcVlsa2NNdHNKUVJBT0dQOEZYbW0xUFZnd0l1d2VRV0F5LW5PRWFDVERta2tuTV9qbUZzYy05clNBbG9TUktLMG5BTEY1VVIzV0RSU256VThMaGdmUFhxNkltTkJiTHR0Z1paeE1zTU9BZHZFR3E0TEUxYzNB?oc=5",
-   "source": "Facebook",
-   "source_site": "https://www.facebook.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Detroit Red Wings acquire F Muzzatti from Predators for future considerations",
-   "google_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb0ZXbDVyMzBraVl4ZXNZblQzbXIzNmhvYlB2TU1XWDJXcFJ1YmR1OU9IVVdld1FaX1prM1k5OWt0OE0xQmhZaS1LZmp0QWxTNWRJZEkzQXF6Ml9LU3pWY2RvOVNDWWdzVERSWXFWazF3QTV4WFB2eGJmMV9pMWlNTG9abGxMZUl5ZkhXejRQMFRyS0toSE5tTXE4dHdqWnVzem13?oc=5",
-   "source": "TSN",
-   "source_site": "https://www.tsn.ca",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8484425
-   ]
-  },
-  {
-   "title": "Bergeron a ‘big get’ for Spits",
-   "google_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mT19wOVFOU0wzUE1Ob2Zwd1ZZQ1J5SFM1MS1SNURRMDNhX0hTVERjdERQTGM0WVNSSXA3ZEdlNllUMFd5NUVjWFVMV0lVZHlqWjN1d0pzdjNfbU84NnI1bU44ampWNTJwbmQ4?oc=5",
-   "source": "Hockey News Windsor",
-   "source_site": "https://hockeynewswindsor.com",
-   "published": "2026-08-20",
-   "lang": "en",
-   "players": [
-    8485592
    ]
   }
  ]
