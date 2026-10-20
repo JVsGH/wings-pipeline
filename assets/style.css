@@ -249,9 +249,9 @@ td.num, th.num { text-align: right; }
 .league-block { margin-top: 28px; scroll-margin-top: 16px; }
 .league-block h2 .sub { font-weight: 500; margin-left: 6px; }
 .subhead { font-size: 0.95rem; margin: 18px 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
-.roster-table { font-size: 0.85rem; }
-.roster-table th, .roster-table td { padding: 7px 6px; }
-.roster-table td.player-cell { white-space: normal; min-width: 180px; }
+.roster-table { font-size: 0.82rem; }
+.roster-table th, .roster-table td { padding: 6px 4px; }
+.roster-table td.player-cell { white-space: normal; min-width: 160px; }
 .roster-table td.c-wide { white-space: normal; }
 .roster-table tr.nhl-roster td:first-child { box-shadow: inset 3px 0 0 var(--red); }
 .flag.also { background: color-mix(in srgb, var(--red) 18%, transparent); color: var(--ink); }
@@ -264,7 +264,7 @@ td.num, th.num { text-align: right; }
 .idle-card { padding: 12px 14px; }
 .idle-card > a:first-child { font-weight: 700; color: var(--ink); }
 .idle-card .sub { display: block; margin-top: 4px; }
-@media (max-width: 999px) {
+@media (max-width: 1139px) {
   .roster-table thead { display: none; }
   .roster-table, .roster-table tbody { display: block; width: 100%; }
   .roster-table tr {

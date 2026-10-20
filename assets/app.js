@@ -261,12 +261,31 @@ async function initHome() {
 // the columns that league actually reports (the NHL has far more detail than the AHL or junior leagues).
 const SKATER_STATS = [
   ["gamesPlayed", "GP"], ["goals", "G"], ["assists", "A"], ["points", "PTS", (v) => `<b>${v}</b>`],
+  // Rates and NHL equivalents (added to each line by addRates below, prefixed with "_").
+  ["_ppg", "P/G", (v) => v.toFixed(2)], ["_gpg", "G/G", (v) => v.toFixed(2)], ["_apg", "A/G", (v) => v.toFixed(2)],
   ["plusMinus", "+/-", (v) => (v > 0 ? `+${v}` : v)], ["pim", "PIM"], ["powerPlayGoals", "PPG"],
   ["powerPlayPoints", "PPP"], ["shorthandedGoals", "SHG"], ["shorthandedPoints", "SHP"],
   ["gameWinningGoals", "GWG"], ["otGoals", "OTG"], ["shots", "S"],
   ["shootingPctg", "S%", (v) => (v * 100).toFixed(1)], ["avgToi", "TOI", (v) => v, (v) => toiSeconds(v)],
   ["faceoffWinningPctg", "FO%", (v) => (v ? (v * 100).toFixed(1) : "–")],
+  ["_nhle", "NHLe", (v) => `<b>${v.toFixed(0)}</b>`], ["_nhle_g", "NHLe G", (v) => v.toFixed(0)],
+  ["_nhle_a", "NHLe A", (v) => v.toFixed(0)],
 ];
+
+// Per-game rates for any skater line, plus NHL-equivalent points/goals/assists over 82 games
+// when the league has a factor in nhle_factors.json (the NHL itself is 1.0).
+function addRates(stats, factor) {
+  const gp = stats.gamesPlayed;
+  if (!gp || stats.points == null) return;
+  stats._ppg = stats.points / gp;
+  stats._gpg = (stats.goals ?? 0) / gp;
+  stats._apg = (stats.assists ?? 0) / gp;
+  if (factor != null) {
+    stats._nhle = stats._ppg * factor * 82;
+    stats._nhle_g = stats._gpg * factor * 82;
+    stats._nhle_a = stats._apg * factor * 82;
+  }
+}
 const GOALIE_STATS = [
   ["gamesPlayed", "GP"], ["gamesStarted", "GS"], ["wins", "W"], ["losses", "L"], ["otLosses", "OTL"],
   ["shotsAgainst", "SA"], ["goalsAgainst", "GA"], ["savePctg", "SV%", (v) => svp(v)],
@@ -278,7 +297,8 @@ const toiSeconds = (t) => { const [m, s] = String(t).split(":").map(Number); ret
 const epLink = (name) => `https://www.eliteprospects.com/search/player?q=${encodeURIComponent(name)}`;
 
 async function initRoster() {
-  const [roster, prospects] = await Promise.all([load("data/roster.json"), load("data/prospects.json")]);
+  const [roster, prospects, fx] = await Promise.all([load("data/roster.json"), load("data/prospects.json"), load("data/nhle_factors.json")]);
+  roster.players.forEach((p) => { if (p.pos !== "G") p.lines.forEach((l) => addRates(l.stats, fx.factors[l.league])); });
   const prospectIds = new Set(prospects.players.map((p) => p.id));
   $("#updated").textContent = `Stats through ${fmtDate(roster.updated)} · ${seasonLabel(roster.season)} regular season · ${roster.players.length} players`;
 
