@@ -463,7 +463,6 @@ def update_news(players):
 
 
 # ---------- public draft rankings (Mock Lottery big board) ----------
-FLAG_RE = re.compile("[\U0001F1E6-\U0001F1FF]{2}")
 POS_RE = r"(?:[LR]H?[DCW]|[LR]D|C|D|F|G|W|LW|RW)(?:\s*/\s*(?:[LR]H?[DCW]|C|D|F|W|LW|RW))*"
 LISTING_RE = re.compile(rf"^(?:#?\d{{1,3}}\s*[.):]?\s*)?(?P<name>[A-ZÀ-Ž][\w'’.\- ]{{2,40}}?),\s*(?P<pos>{POS_RE})\s*[,(]?\s*(?P<rest>.*)$")
 
@@ -515,23 +514,6 @@ def parse_listing_article(body, limit=100):
     return players
 
 
-def parse_flag_list(body, limit=60):
-    """Prospect Hockey style: '🇨🇦Landon Dupont - A quick, agile ...' in rank order."""
-    players, seen = [], set()
-    for tag, t in html_blocks(body):
-        if tag.startswith("h") and re.search(r"honou?rable|mention|watch list", t, re.I) and players:
-            break
-        # A flag can sit mid-paragraph (the #1 entry shares a paragraph with the intro), so scan every flag.
-        for m in re.finditer(rf"{FLAG_RE.pattern}\s*(?P<name>[A-ZÀ-Ž][^-–(\n]{{2,40}}?)\s*[-–]\s", t):
-            name = m.group("name").strip()
-            if name.lower() not in seen and len(name.split()) >= 2:
-                seen.add(name.lower())
-                players.append({"name": name})
-        if len(players) >= limit:
-            break
-    return players[:limit]
-
-
 def newest_google_news(query, title_re):
     """Newest Google News hit whose headline matches title_re; returns (title, real url, date)."""
     hits = [a for a in google_news_search(query, "en") if re.search(title_re, a["title"], re.I)]
@@ -539,18 +521,6 @@ def newest_google_news(query, title_re):
         url = resolve_google_news_link(a["google_link"])
         if url:
             return a["title"], url, a["published"]
-    return None
-
-
-def newest_substack_post(feed_url, title_re):
-    import xml.etree.ElementTree as ET
-    from email.utils import parsedate_to_datetime
-    root = ET.fromstring(fetch_text(feed_url).encode("utf-8"))
-    for it in root.iter("item"):
-        if re.search(title_re, it.findtext("title") or "", re.I):
-            content = it.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or ""
-            return (it.findtext("title").strip(), it.findtext("link"),
-                    parsedate_to_datetime(it.findtext("pubDate")).date().isoformat(), content)
     return None
 
 
@@ -573,43 +543,55 @@ def source_thn(year):
 
 
 def source_upside(year):
+    """Upside Hockey's full board lives in a public Google Sheet embedded on upsidehockey.com
+    (their Substack copy is blocked for GitHub's servers). Download it as CSV."""
     import csv, io
-    post = newest_substack_post("https://upsidehockey.substack.com/feed", rf"{year} NHL Draft Rankings")
-    if not post:
+    page_url = f"https://www.upsidehockey.com/nhl-draft-rankings/{year}-nhl-draft-rankings"
+    m = re.search(r"docs\.google\.com/spreadsheets/d/([A-Za-z0-9_-]{20,})", fetch_text(page_url))
+    if not m:
         return None
-    title, url, published, content = post
-    dw = re.search(r"datawrapper\.dwcdn\.net/([A-Za-z0-9]+)/(\d+)", html_unescape(content))
-    if not dw:
+    rows = list(csv.reader(io.StringIO(fetch_text(f"https://docs.google.com/spreadsheets/d/{m.group(1)}/export?format=csv"))))
+    head = next((r for r in rows if "Rank" in r and "Name" in r), None)
+    if not head:
         return None
-    rows = list(csv.reader(io.StringIO(fetch_text(f"https://datawrapper.dwcdn.net/{dw.group(1)}/{dw.group(2)}/dataset.csv"))))
-    head, players = rows[0], []
-    col = lambda name: head.index(name) if name in head else None
-    for r in rows[1:]:
+    col = lambda name: head.index(name) if name in head else None  # first match = current season for "League"
+    get_ = lambda r, name: (r[col(name)].strip() or None) if col(name) is not None and col(name) < len(r) else None
+    players = []
+    for r in rows:
         if not r or not r[0].strip().isdigit():
             continue
-        last, _, first = r[col("Name")].partition(",")
-        team_league = r[col("League '26-27")] if col("League '26-27") is not None else ""
-        players.append({
-            "name": f"{first.strip()} {last.strip()}".strip(),
-            "pos": r[col("Pos")] if col("Pos") is not None else None,
-            "shoots": r[col("S")] if col("S") is not None else None,
-            "team": r[col("Team '26-27")] if col("Team '26-27") is not None else None,
-            "league": team_league.split(" - ")[-1] if team_league else None,
-            "country": r[col("Ctry")] if col("Ctry") is not None else None,
-            "height": r[col("Ht")] if col("Ht") is not None else None,
-            "weight": r[col("Wt")] if col("Wt") is not None else None,
-            "birth": r[col("Birth")] if col("Birth") is not None else None,
-        })
-    return {"name": "Upside Hockey", "title": title, "url": url, "published": published, "players": players}
+        last, _, first = (get_(r, "Name") or "").partition(",")
+        league = get_(r, "League")
+        players.append({"name": f"{first.strip()} {last.strip()}".strip(), "pos": get_(r, "Pos"), "shoots": get_(r, "S"),
+                        "team": get_(r, "Team"), "league": league.split(" - ")[-1] if league else None,
+                        "country": get_(r, "Ctry"), "height": get_(r, "Ht"), "weight": get_(r, "Wt"), "birth": get_(r, "Birth")})
+    return {"name": "Upside Hockey", "title": f"{year} NHL Draft Rankings (Top {len(players)})", "url": page_url,
+            "published": None, "players": players}
 
 
-def source_prospect_hockey(year):
-    post = newest_substack_post("https://prospecthockey.substack.com/feed", rf"Draft Rank\w*\s*\({year}")
-    if not post:
-        return None
-    title, url, published, content = post
-    return {"name": "Prospect Hockey (Brian Murray)", "title": title, "url": url, "published": published,
-            "players": parse_flag_list(fetch_text(url))}
+def source_draft_prospects_hockey(year):
+    """Draft Prospects Hockey publishes its board as schema.org structured data (an ItemList) on /rankings."""
+    url = "https://draftprospectshockey.com/rankings"
+    body = fetch_text(url)
+    listing = {p["name"].lower(): p for p in parse_listing_article(body)}  # positions and leagues from the visible list
+    for blob in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', body, flags=re.S):
+        try:
+            d = json.loads(blob)
+        except ValueError:
+            continue
+        if d.get("@type") != "ItemList" or str(year) not in d.get("name", ""):
+            continue
+        players = []
+        for it in sorted(d.get("itemListElement", []), key=lambda x: x.get("position", 0)):
+            person = it.get("item") or {}
+            name = person.get("name", "").strip()
+            extra = listing.get(name.lower(), {})
+            players.append({"name": name, "pos": extra.get("pos"),
+                            "team": (person.get("affiliation") or {}).get("name") or extra.get("team"),
+                            "league": extra.get("league")})
+        return {"name": "Draft Prospects Hockey", "title": d.get("name"), "url": url,
+                "published": d.get("dateModified"), "players": players}
+    return None
 
 
 def source_lines(year):
@@ -663,22 +645,27 @@ def update_draft_rankings(season):
     prev_sources = {s["name"]: s for s in previous.get("sources", []) if previous.get("draft_year") == year}
 
     sources = []
-    for fn in (source_dailyfaceoff, source_thn, source_upside, source_prospect_hockey, source_lines, source_central_scouting):
+    today = date.today()
+    for fn in (source_dailyfaceoff, source_thn, source_upside, source_draft_prospects_hockey, source_lines, source_central_scouting):
         try:
             s = fn(year)
         except Exception as e:
             s = None
             print(f"  ! draft rankings: {fn.__name__} failed: {e}", file=sys.stderr)
+        label = fn.__name__.replace("source_", "")
         if s and len(s["players"]) >= 10:
+            s["fetched"] = today.isoformat()
             sources.append(s)
-        elif fn.__name__ != "source_central_scouting":
-            label = fn.__name__.replace("source_", "")
-            kept = next((p for n, p in prev_sources.items() if n.lower().replace(" ", "").startswith(label[:6])), None)
-            if kept:
-                sources.append(kept)  # keep yesterday's copy of a list we couldn't read today
-                print(f"  ! draft rankings: kept previous {kept['name']} list", file=sys.stderr)
+        elif label != "central_scouting":
+            # Keep the last good copy of a list we couldn't read today, but only for 3 weeks.
+            kept = next((p for n, p in prev_sources.items() if p.get("source_id") == label), None)
+            if kept and (today - date.fromisoformat(kept.get("fetched", "2000-01-01"))).days <= 21:
+                sources.append(kept)
+                print(f"  ! draft rankings: kept previous {kept['name']} list (read {kept['fetched']})", file=sys.stderr)
             else:
                 print(f"  ! draft rankings: no usable list from {label}", file=sys.stderr)
+        if s:
+            s["source_id"] = label
     if not sources:
         print("Draft rankings: no sources this run; kept previous file", file=sys.stderr)
         return None
@@ -719,8 +706,8 @@ def update_draft_rankings(season):
         "draft_year": year,
         "updated": date.today().isoformat(),
         "method": "Median rank across every list (a list that leaves a player out counts as its length + 10); average breaks ties.",
-        "sources": [{k: s[k] for k in ("name", "title", "url", "published")} | {"count": len(s["players"]), "players": s["players"]}
-                    for s in sources],
+        "sources": [{k: s.get(k) for k in ("name", "source_id", "title", "url", "published", "fetched")}
+                    | {"count": len(s["players"]), "players": s["players"]} for s in sources],
         "players": players,
     }, indent=1, ensure_ascii=False), encoding="utf-8")
     return len(players), [s["name"] for s in sources]

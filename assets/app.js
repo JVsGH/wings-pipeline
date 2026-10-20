@@ -624,7 +624,7 @@ async function initDraft() {
 
 // ---------- consensus draft board (data/draft_rankings.json, built daily from public rankings) ----------
 const SOURCE_SHORT = { "Daily Faceoff": "DFO", "The Hockey News": "THN", "Upside Hockey": "Upside",
-  "Prospect Hockey (Brian Murray)": "PH", "Lines.com mock draft": "Lines", "NHL Central Scouting": "CSS" };
+  "Draft Prospects Hockey": "DPH", "Lines.com mock draft": "Lines", "NHL Central Scouting": "CSS" };
 const shortSource = (name) => SOURCE_SHORT[name] || name.split(/\s+/)[0];
 
 // The consensus board with your overrides applied: pin_top first (in order), remove dropped.

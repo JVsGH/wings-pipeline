@@ -59,14 +59,14 @@ Every update builds a consensus board for the upcoming draft (`data/draft_rankin
 |---|---|---|
 | Daily Faceoff | Google News search for its newest "<year> NHL Draft Rankings" article | Numbered list |
 | The Hockey News | Same, for "<year> NHL Draft Ranking" | Tiered list (ordered within tiers) |
-| Upside Hockey | Substack RSS feed, then the ranking table's Datawrapper CSV | Top 32 with stats |
-| Prospect Hockey (Brian Murray) | Substack RSS feed | Ordered list |
+| Upside Hockey | The public Google Sheet embedded on upsidehockey.com, downloaded as CSV | Top 128 with height, weight, birth date |
+| Draft Prospects Hockey | The structured (schema.org) list on draftprospectshockey.com/rankings | Top 32 |
 | Lines.com | Fixed mock draft page | Round-one mock |
 | NHL Central Scouting | NHL API, once it publishes for that year | Four lists blended into one |
 
 - Only names, positions, clubs and rank numbers are taken from each list, and every source is linked on the page.
 - A player's consensus spot is the **median** of their ranks across the lists. A list that leaves a player out counts them as its length + 10, and the average rank breaks ties. Spellings are matched across lists (DuPont/Dupont, Sundström/Sundstrom).
-- If a source can't be read on a given day, yesterday's copy of that list is kept.
+- If a source can't be read on a given day, its last good copy is kept for up to 3 weeks, then dropped. (Substack blocks GitHub's servers entirely, which is why Upside is read from its Google Sheet and Substack-only rankings aren't used.)
 - The board shows on **Draft Watch** (full board, with each outlet's rank) and in the Mock Lottery's **Big board** tab and **Mock pick** column.
 - To put your own stamp on the board, use `data/draft_board_overrides.json`: `pin_top` puts named players first in your order, and `remove` drops players.
 - Your own watchlist (`data/draft_targets.json`, maintained by hand) appears on Draft Watch once it has players.
