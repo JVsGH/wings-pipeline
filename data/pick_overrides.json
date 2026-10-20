@@ -1,0 +1,4 @@
+{
+  "_note": "Hand corrections for traded first-round picks. The daily update reads Wikipedia into pick_owners.json, then applies these on top. Key = original team. Give only the fields to change, e.g. \"TOR\": { \"owner\": \"BOS\" }, or set a team to null to drop a pick the parser got wrong. Leave 'picks' empty when nothing needs fixing.",
+  "picks": {}
+}

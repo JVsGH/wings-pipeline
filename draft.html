@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Draft Watch · Wings Pipeline</title>
+<meta name="description" content="Game-by-game news, analysis and NHL-equivalent stats for Detroit Red Wings prospects and draft targets.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  // Apply the saved light/dark choice (or the system setting) before the page paints.
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    document.documentElement.dataset.theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  })();
+</script>
+
+</head>
+<body data-page="draft">
+<main>
+<h1><span id="draft-year"></span> Draft Watch</h1>
+<p class="lede">Draft-eligible players worth tracking for Detroit, plus NHL Central Scouting's official rankings.</p>
+<section><h2 class="section">Our watchlist</h2><div id="watch"></div></section>
+<section><h2 class="section">NHL Central Scouting rankings</h2><div id="css"></div></section>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "_note": "Your watchlist of draft-eligible players Detroit could target. Undrafted players aren't in the NHL API, so you maintain this list by hand. Copy the example entry, fill it in, and delete the example. 'league' should match a key in nhle_factors.json so NHLe can be computed.",
+  "draft_year": 2027,
+  "targets": [
+    {
+      "example": true,
+      "name": "Example Player",
+      "pos": "C",
+      "shoots": "L",
+      "born": "2009-03-01",
+      "league": "OHL",
+      "team": "Example Team",
+      "gp": 10,
+      "g": 6,
+      "a": 8,
+      "notes": "Why he fits Detroit, projected range, links to film."
+    }
+  ]
+}

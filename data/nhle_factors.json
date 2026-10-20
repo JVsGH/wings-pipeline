@@ -1,0 +1,29 @@
+{
+  "_note": "Multiply a player's points-per-game in a league by its factor, then by 82, to estimate NHL points over a full season. These are starting values based on published NHLe models; adjust them as you like. Keys must match the league abbreviations the NHL API uses (see the League column on the Prospects page). Leagues missing from this list show no NHLe.",
+  "factors": {
+    "NHL": 1.0,
+    "KHL": 0.77,
+    "SHL": 0.57,
+    "Czechia": 0.47,
+    "NL": 0.46,
+    "Liiga": 0.44,
+    "DEL": 0.39,
+    "AHL": 0.39,
+    "HockeyAllsvenskan": 0.29,
+    "VHL": 0.29,
+    "Slovakia": 0.27,
+    "Mestis": 0.18,
+    "NCAA": 0.19,
+    "OHL": 0.14,
+    "WHL": 0.14,
+    "QMJHL": 0.11,
+    "USHL": 0.14,
+    "ECHL": 0.15,
+    "MHL": 0.12,
+    "U20 Nationell": 0.09,
+    "U20 SM-sarja": 0.08,
+    "NTDP": 0.10,
+    "BCHL": 0.07,
+    "USHS-Prep": 0.04
+  }
+}

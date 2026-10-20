@@ -1,0 +1,2435 @@
+{
+ "updated": "2026-10-19",
+ "season": 20262027,
+ "players": [
+  {
+   "id": 8482163,
+   "name": "Eemil Viro",
+   "pos": "D",
+   "shoots": "L",
+   "born": "2002-04-03",
+   "age": 24,
+   "height": 72,
+   "weight": 165,
+   "country": "FIN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482163.png",
+   "draft": {
+    "year": 2020,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 70
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "SHL",
+     "team": "Malmö Redhawks",
+     "gp": 9,
+     "g": 1,
+     "a": 2,
+     "pts": 3,
+     "pim": 8,
+     "pm": 1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "SHL",
+     "team": "Malmö Redhawks",
+     "gp": 52,
+     "g": 5,
+     "a": 11,
+     "pts": 16,
+     "pim": 20,
+     "pm": 4
+    }
+   ]
+  },
+  {
+   "id": 8482171,
+   "name": "William Wallinder",
+   "pos": "D",
+   "shoots": "L",
+   "born": "2002-07-28",
+   "age": 24,
+   "height": 77,
+   "weight": 210,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482171.png",
+   "draft": {
+    "year": 2020,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 32
+   },
+   "nhl_gp": 4,
+   "on_nhl_roster": true,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 4,
+     "g": 1,
+     "a": 1,
+     "pts": 2,
+     "pim": 0,
+     "pm": -1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 66,
+     "g": 2,
+     "a": 18,
+     "pts": 20,
+     "pim": 23,
+     "pm": 21
+    }
+   ]
+  },
+  {
+   "id": 8482184,
+   "name": "Theo Rochette",
+   "pos": "C",
+   "shoots": "L",
+   "born": "2002-02-20",
+   "age": 24,
+   "height": 71,
+   "weight": 168,
+   "country": "CHE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482184.png",
+   "draft": null,
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 6,
+     "g": 1,
+     "a": 2,
+     "pts": 3,
+     "pim": 2,
+     "pm": -3
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NL",
+     "team": "Lausanne HC",
+     "gp": 46,
+     "g": 22,
+     "a": 21,
+     "pts": 43,
+     "pim": 14,
+     "pm": 12
+    },
+    {
+     "season": 20252026,
+     "league": "Champions HL",
+     "team": "Lausanne HC",
+     "gp": 6,
+     "g": 1,
+     "a": 1,
+     "pts": 2,
+     "pim": 4,
+     "pm": -4
+    },
+    {
+     "season": 20252026,
+     "league": "EHT",
+     "team": "Switzerland",
+     "gp": 3,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 0,
+     "pm": null
+    }
+   ]
+  },
+  {
+   "id": 8482714,
+   "name": "Chase Stillman",
+   "pos": "R",
+   "shoots": "R",
+   "born": "2003-03-19",
+   "age": 23,
+   "height": 73,
+   "weight": 185,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482714.png",
+   "draft": {
+    "year": 2021,
+    "teamAbbrev": "NJD",
+    "round": 1,
+    "overallPick": 29
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 4,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 4,
+     "pm": 2
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Abbotsford Canucks",
+     "gp": 24,
+     "g": 3,
+     "a": 6,
+     "pts": 9,
+     "pim": 48,
+     "pm": -4
+    }
+   ]
+  },
+  {
+   "id": 8482777,
+   "name": "Shai Buium",
+   "pos": "D",
+   "shoots": "L",
+   "born": "2003-03-26",
+   "age": 23,
+   "height": 75,
+   "weight": 210,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482777.png",
+   "draft": {
+    "year": 2021,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 36
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 7,
+     "g": 0,
+     "a": 4,
+     "pts": 4,
+     "pim": 2,
+     "pm": 1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 36,
+     "g": 3,
+     "a": 11,
+     "pts": 14,
+     "pim": 8,
+     "pm": -2
+    }
+   ]
+  },
+  {
+   "id": 8482802,
+   "name": "Carter Mazur",
+   "pos": "L",
+   "shoots": "R",
+   "born": "2002-03-28",
+   "age": 24,
+   "height": 73,
+   "weight": 200,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482802.png",
+   "draft": {
+    "year": 2021,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 70
+   },
+   "nhl_gp": 12,
+   "on_nhl_roster": true,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 3,
+     "g": 0,
+     "a": 1,
+     "pts": 1,
+     "pim": 0,
+     "pm": -2
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 8,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 0,
+     "pm": -3
+    },
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 16,
+     "g": 11,
+     "a": 5,
+     "pts": 16,
+     "pim": 14,
+     "pm": 4
+    }
+   ]
+  },
+  {
+   "id": 8483045,
+   "name": "Cameron Butler",
+   "pos": "R",
+   "shoots": "R",
+   "born": "2002-06-09",
+   "age": 24,
+   "height": 76,
+   "weight": 215,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483045.png",
+   "draft": null,
+   "nhl_gp": 1,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 7,
+     "g": 1,
+     "a": 1,
+     "pts": 2,
+     "pim": 18,
+     "pm": 0
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Iowa Wild",
+     "gp": 16,
+     "g": 1,
+     "a": 0,
+     "pts": 1,
+     "pim": 20,
+     "pm": -3
+    },
+    {
+     "season": 20252026,
+     "league": "ECHL",
+     "team": "Iowa Heartlanders",
+     "gp": 30,
+     "g": 9,
+     "a": 11,
+     "pts": 20,
+     "pim": 77,
+     "pm": -12
+    }
+   ]
+  },
+  {
+   "id": 8483421,
+   "name": "Brennan Ali",
+   "pos": "C",
+   "shoots": "L",
+   "born": "2004-02-09",
+   "age": 22,
+   "height": 72,
+   "weight": 193,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483421.png",
+   "draft": {
+    "year": 2022,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 212
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Univ. of Notre Dame",
+     "gp": 35,
+     "g": 8,
+     "a": 7,
+     "pts": 15,
+     "pim": 23,
+     "pm": -14
+    }
+   ]
+  },
+  {
+   "id": 8483459,
+   "name": "Dylan James",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2003-10-12",
+   "age": 23,
+   "height": 72,
+   "weight": 191,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483459.png",
+   "draft": {
+    "year": 2022,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 40
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 7,
+     "g": 2,
+     "a": 2,
+     "pts": 4,
+     "pim": 0,
+     "pm": 2
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Univ. of North Dakota",
+     "gp": 40,
+     "g": 21,
+     "a": 11,
+     "pts": 32,
+     "pim": 10,
+     "pm": 17
+    },
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 2,
+     "g": 2,
+     "a": 0,
+     "pts": 2,
+     "pim": 0,
+     "pm": 1
+    }
+   ]
+  },
+  {
+   "id": 8483679,
+   "name": "Anton Johansson",
+   "pos": "D",
+   "shoots": "R",
+   "born": "2004-06-10",
+   "age": 22,
+   "height": 76,
+   "weight": 203,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483679.png",
+   "draft": {
+    "year": 2022,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 105
+   },
+   "nhl_gp": 8,
+   "on_nhl_roster": true,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 8,
+     "g": 1,
+     "a": 1,
+     "pts": 2,
+     "pim": 10,
+     "pm": 1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "SHL",
+     "team": "Leksands IF",
+     "gp": 42,
+     "g": 5,
+     "a": 12,
+     "pts": 17,
+     "pim": 49,
+     "pm": 0
+    },
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 8,
+     "g": 2,
+     "a": 4,
+     "pts": 6,
+     "pim": 2,
+     "pm": 6
+    }
+   ]
+  },
+  {
+   "id": 8483717,
+   "name": "Owen Mehlenbacher",
+   "pos": "C",
+   "shoots": "L",
+   "born": "2004-01-26",
+   "age": 22,
+   "height": 74,
+   "weight": 189,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483717.png",
+   "draft": {
+    "year": 2022,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 201
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Ferris State Univ.",
+     "gp": 4,
+     "g": 1,
+     "a": 0,
+     "pts": 1,
+     "pim": 4,
+     "pm": -3
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "UMass",
+     "gp": 32,
+     "g": 3,
+     "a": 6,
+     "pts": 9,
+     "pim": 8,
+     "pm": 5
+    }
+   ]
+  },
+  {
+   "id": 8484141,
+   "name": "Trey Augustine",
+   "pos": "G",
+   "shoots": "L",
+   "born": "2005-02-23",
+   "age": 21,
+   "height": 74,
+   "weight": 181,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484141.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 41
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 3,
+     "w": 1,
+     "l": 1,
+     "ga": 10,
+     "sa": 85,
+     "svp": 0.882,
+     "gaa": 3.27,
+     "so": 0
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 2,
+     "w": 0,
+     "l": 2,
+     "ga": 5,
+     "sa": 41,
+     "svp": 0.878,
+     "gaa": 3.39,
+     "so": 0
+    },
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Michigan State Univ.",
+     "gp": 34,
+     "w": 24,
+     "l": 9,
+     "ga": 72,
+     "sa": 1019,
+     "svp": 0.929,
+     "gaa": 2.11,
+     "so": 3
+    }
+   ]
+  },
+  {
+   "id": 8484157,
+   "name": "Brady Cleveland",
+   "pos": "D",
+   "shoots": "L",
+   "born": "2005-04-01",
+   "age": 21,
+   "height": 77,
+   "weight": 211,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484157.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 47
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Univ. of Minnesota-Duluth",
+     "gp": 6,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 10,
+     "pm": 3
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Univ. of Minnesota-Duluth",
+     "gp": 39,
+     "g": 0,
+     "a": 2,
+     "pts": 2,
+     "pim": 47,
+     "pm": -1
+    }
+   ]
+  },
+  {
+   "id": 8484160,
+   "name": "Nate Danielson",
+   "pos": "C",
+   "shoots": "R",
+   "born": "2004-09-27",
+   "age": 22,
+   "height": 74,
+   "weight": 196,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484160.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 9
+   },
+   "nhl_gp": 35,
+   "on_nhl_roster": true,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 7,
+     "g": 0,
+     "a": 2,
+     "pts": 2,
+     "pim": 2,
+     "pm": -1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 28,
+     "g": 2,
+     "a": 5,
+     "pts": 7,
+     "pim": 4,
+     "pm": -7
+    },
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 18,
+     "g": 3,
+     "a": 12,
+     "pts": 15,
+     "pim": 4,
+     "pm": 7
+    }
+   ]
+  },
+  {
+   "id": 8484161,
+   "name": "Noah Dower Nilsson",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2005-04-25",
+   "age": 21,
+   "height": 73,
+   "weight": 197,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484161.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 73
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 7,
+     "g": 0,
+     "a": 3,
+     "pts": 3,
+     "pim": 0,
+     "pm": -5
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "SHL",
+     "team": "Frölunda HC",
+     "gp": 48,
+     "g": 6,
+     "a": 10,
+     "pts": 16,
+     "pim": 10,
+     "pm": 7
+    },
+    {
+     "season": 20252026,
+     "league": "Champions HL",
+     "team": "Frölunda HC",
+     "gp": 12,
+     "g": 0,
+     "a": 2,
+     "pts": 2,
+     "pim": 2,
+     "pm": 2
+    }
+   ]
+  },
+  {
+   "id": 8484182,
+   "name": "Larry Keenan",
+   "pos": "D",
+   "shoots": "L",
+   "born": "2005-03-15",
+   "age": 21,
+   "height": 75,
+   "weight": 185,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484182.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 117
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Univ. of Massachusetts",
+     "gp": 6,
+     "g": 1,
+     "a": 0,
+     "pts": 1,
+     "pim": 2,
+     "pm": 2
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "UMass",
+     "gp": 36,
+     "g": 8,
+     "a": 11,
+     "pts": 19,
+     "pim": 10,
+     "pm": 8
+    }
+   ]
+  },
+  {
+   "id": 8484183,
+   "name": "Jesse Kiiskinen",
+   "pos": "R",
+   "shoots": "R",
+   "born": "2005-08-23",
+   "age": 21,
+   "height": 72,
+   "weight": 185,
+   "country": "FIN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484183.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "NSH",
+    "round": 3,
+    "overallPick": 68
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 7,
+     "g": 5,
+     "a": 2,
+     "pts": 7,
+     "pim": 7,
+     "pm": 5
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "Liiga",
+     "team": "HPK",
+     "gp": 54,
+     "g": 17,
+     "a": 11,
+     "pts": 28,
+     "pim": 13,
+     "pm": -4
+    },
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 3,
+     "g": 1,
+     "a": 1,
+     "pts": 2,
+     "pim": 2,
+     "pm": 1
+    }
+   ]
+  },
+  {
+   "id": 8484223,
+   "name": "Axel Sandin-Pellikka",
+   "pos": "D",
+   "shoots": "R",
+   "born": "2005-03-11",
+   "age": 21,
+   "height": 72,
+   "weight": 189,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484223.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 17
+   },
+   "nhl_gp": 74,
+   "on_nhl_roster": true,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 6,
+     "g": 0,
+     "a": 1,
+     "pts": 1,
+     "pim": 2,
+     "pm": -1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 68,
+     "g": 7,
+     "a": 14,
+     "pts": 21,
+     "pim": 18,
+     "pm": -20
+    },
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 6,
+     "g": 2,
+     "a": 1,
+     "pts": 3,
+     "pim": 0,
+     "pm": 0
+    }
+   ]
+  },
+  {
+   "id": 8484425,
+   "name": "Sutter Muzzatti",
+   "pos": "C",
+   "shoots": "L",
+   "born": "2003-06-28",
+   "age": 23,
+   "height": 78,
+   "weight": 241,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484425.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "NSH",
+    "round": 5,
+    "overallPick": 143
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 3,
+     "g": 1,
+     "a": 0,
+     "pts": 1,
+     "pim": 0,
+     "pm": 1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Univ. of Notre Dame",
+     "gp": 37,
+     "g": 13,
+     "a": 19,
+     "pts": 32,
+     "pim": 42,
+     "pm": -18
+    }
+   ]
+  },
+  {
+   "id": 8484426,
+   "name": "Jack Phelan",
+   "pos": "D",
+   "shoots": "R",
+   "born": "2004-05-28",
+   "age": 22,
+   "height": 74,
+   "weight": 171,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484426.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 137
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Univ. of Wisconsin",
+     "gp": 4,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 2,
+     "pm": 4
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Univ. of Wisconsin",
+     "gp": 37,
+     "g": 0,
+     "a": 9,
+     "pts": 9,
+     "pim": 14,
+     "pm": 8
+    }
+   ]
+  },
+  {
+   "id": 8484432,
+   "name": "Kevin Bicker",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2005-01-29",
+   "age": 21,
+   "height": 72,
+   "weight": 187,
+   "country": "DEU",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484432.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 147
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "DEL",
+     "team": "Löwen Frankfurt",
+     "gp": 21,
+     "g": 2,
+     "a": 2,
+     "pts": 4,
+     "pim": 4,
+     "pm": 2
+    }
+   ]
+  },
+  {
+   "id": 8484453,
+   "name": "Rudy Guimond",
+   "pos": "G",
+   "shoots": "L",
+   "born": "2005-05-19",
+   "age": 21,
+   "height": 75,
+   "weight": 188,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484453.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 6,
+    "overallPick": 169
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "QMJHL",
+     "team": "Moncton Wildcats",
+     "gp": 50,
+     "w": 40,
+     "l": 7,
+     "ga": 113,
+     "sa": 1454,
+     "svp": 0.922,
+     "gaa": 2.27,
+     "so": 3
+    }
+   ]
+  },
+  {
+   "id": 8484794,
+   "name": "Michael Brandsegg-Nygård",
+   "pos": "R",
+   "shoots": "R",
+   "born": "2005-10-05",
+   "age": 21,
+   "height": 73,
+   "weight": 205,
+   "country": "NOR",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484794.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 15
+   },
+   "nhl_gp": 22,
+   "on_nhl_roster": true,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 8,
+     "g": 2,
+     "a": 4,
+     "pts": 6,
+     "pim": 2,
+     "pm": 8
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 14,
+     "g": 0,
+     "a": 1,
+     "pts": 1,
+     "pim": 2,
+     "pm": -5
+    },
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 60,
+     "g": 20,
+     "a": 24,
+     "pts": 44,
+     "pim": 42,
+     "pm": 17
+    }
+   ]
+  },
+  {
+   "id": 8484836,
+   "name": "Ondrej Becher",
+   "pos": "C",
+   "shoots": "L",
+   "born": "2004-02-22",
+   "age": 22,
+   "height": 74,
+   "weight": 187,
+   "country": "CZE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484836.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 80
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 7,
+     "g": 0,
+     "a": 4,
+     "pts": 4,
+     "pim": 2,
+     "pm": 3
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 60,
+     "g": 9,
+     "a": 19,
+     "pts": 28,
+     "pim": 42,
+     "pm": 5
+    }
+   ]
+  },
+  {
+   "id": 8484870,
+   "name": "Max Plante",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2006-02-20",
+   "age": 20,
+   "height": 71,
+   "weight": 170,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484870.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 47
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Univ. of Minnesota-Duluth",
+     "gp": 2,
+     "g": 0,
+     "a": 2,
+     "pts": 2,
+     "pim": 0,
+     "pm": 0
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Univ. of Minnesota-Duluth",
+     "gp": 40,
+     "g": 25,
+     "a": 27,
+     "pts": 52,
+     "pim": 23,
+     "pm": 19
+    }
+   ]
+  },
+  {
+   "id": 8485040,
+   "name": "John Whipple",
+   "pos": "D",
+   "shoots": "L",
+   "born": "2006-01-20",
+   "age": 20,
+   "height": 73,
+   "weight": 192,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485040.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 144
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Univ. of Minnesota",
+     "gp": 4,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 2,
+     "pm": 2
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Univ. of Minnesota",
+     "gp": 36,
+     "g": 1,
+     "a": 1,
+     "pts": 2,
+     "pim": 14,
+     "pm": -1
+    }
+   ]
+  },
+  {
+   "id": 8485079,
+   "name": "Charlie Forslund",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2006-05-04",
+   "age": 20,
+   "height": 75,
+   "weight": 212,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485079.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 6,
+    "overallPick": 176
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "SHL",
+     "team": "Brynäs IF",
+     "gp": 4,
+     "g": 0,
+     "a": 1,
+     "pts": 1,
+     "pim": 0,
+     "pm": 1
+    },
+    {
+     "season": 20262027,
+     "league": "HockeyAllsvenskan",
+     "team": "Almtuna IS",
+     "gp": 12,
+     "g": 1,
+     "a": 6,
+     "pts": 7,
+     "pim": 4,
+     "pm": -6
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "U20 Nationell",
+     "team": "Mora IK U20",
+     "gp": 12,
+     "g": 3,
+     "a": 4,
+     "pts": 7,
+     "pim": 6,
+     "pm": -4
+    },
+    {
+     "season": 20252026,
+     "league": "HockeyAllsvenskan",
+     "team": "Almtuna IS",
+     "gp": 28,
+     "g": 5,
+     "a": 4,
+     "pts": 9,
+     "pim": 12,
+     "pm": 1
+    }
+   ]
+  },
+  {
+   "id": 8485098,
+   "name": "Austin Baker",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2006-02-12",
+   "age": 20,
+   "height": 72,
+   "weight": 190,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485098.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 203
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Miami Univ. (Ohio)",
+     "gp": 4,
+     "g": 1,
+     "a": 1,
+     "pts": 2,
+     "pim": 0,
+     "pm": 0
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Michigan State Univ.",
+     "gp": 14,
+     "g": 0,
+     "a": 1,
+     "pts": 1,
+     "pim": 15,
+     "pm": 0
+    }
+   ]
+  },
+  {
+   "id": 8485103,
+   "name": "Fisher Scott",
+   "pos": "D",
+   "shoots": "L",
+   "born": "2004-10-27",
+   "age": 21,
+   "height": 73,
+   "weight": 179,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485103.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 208
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Colorado College",
+     "gp": 4,
+     "g": 0,
+     "a": 3,
+     "pts": 3,
+     "pim": 0,
+     "pm": 7
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NCAA",
+     "team": "Colorado College",
+     "gp": 36,
+     "g": 2,
+     "a": 12,
+     "pts": 14,
+     "pim": 34,
+     "pm": 7
+    }
+   ]
+  },
+  {
+   "id": 8485362,
+   "name": "Carter Bear",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2006-11-04",
+   "age": 19,
+   "height": 73,
+   "weight": 190,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485362.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 13
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 5,
+     "g": 2,
+     "a": 2,
+     "pts": 4,
+     "pim": 6,
+     "pm": 1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "WHL",
+     "team": "Everett Silvertips",
+     "gp": 53,
+     "g": 36,
+     "a": 41,
+     "pts": 77,
+     "pim": 56,
+     "pm": 45
+    },
+    {
+     "season": 20252026,
+     "league": "WJC-20",
+     "team": "Canada U20",
+     "gp": 2,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 0,
+     "pm": 0
+    }
+   ]
+  },
+  {
+   "id": 8485394,
+   "name": "Eddie Genborg",
+   "pos": "R",
+   "shoots": "L",
+   "born": "2007-04-20",
+   "age": 19,
+   "height": 73,
+   "weight": 179,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485394.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 44
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "SHL",
+     "team": "Timrå IK",
+     "gp": 10,
+     "g": 3,
+     "a": 4,
+     "pts": 7,
+     "pim": 6,
+     "pm": 0
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "SHL",
+     "team": "Timrå IK",
+     "gp": 43,
+     "g": 9,
+     "a": 16,
+     "pts": 25,
+     "pim": 24,
+     "pm": 8
+    },
+    {
+     "season": 20252026,
+     "league": "WJC-20",
+     "team": "Sweden U20",
+     "gp": 7,
+     "g": 3,
+     "a": 5,
+     "pts": 8,
+     "pim": 0,
+     "pm": 7
+    },
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 11,
+     "g": 1,
+     "a": 2,
+     "pts": 3,
+     "pim": 8,
+     "pm": 2
+    }
+   ]
+  },
+  {
+   "id": 8485545,
+   "name": "Michal Postava",
+   "pos": "G",
+   "shoots": "L",
+   "born": "2002-02-28",
+   "age": 24,
+   "height": 73,
+   "weight": 222,
+   "country": "CZE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485545.png",
+   "draft": null,
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 4,
+     "w": 4,
+     "l": 0,
+     "ga": 5,
+     "sa": 108,
+     "svp": 0.954,
+     "gaa": 1.25,
+     "so": 0
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "gp": 25,
+     "w": 17,
+     "l": 6,
+     "ga": 40,
+     "sa": 633,
+     "svp": 0.937,
+     "gaa": 1.71,
+     "so": 4
+    }
+   ]
+  },
+  {
+   "id": 8485568,
+   "name": "Michal Pradel",
+   "pos": "G",
+   "shoots": "L",
+   "born": "2007-03-10",
+   "age": 19,
+   "height": 76,
+   "weight": 203,
+   "country": "SVK",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485568.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 75
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "USHL",
+     "team": "Tri-City Storm",
+     "gp": 38,
+     "w": 16,
+     "l": 16,
+     "ga": 98,
+     "sa": 1102,
+     "svp": 0.911,
+     "gaa": 2.75,
+     "so": 4
+    }
+   ]
+  },
+  {
+   "id": 8485592,
+   "name": "Michal Svrcek",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2007-01-26",
+   "age": 19,
+   "height": 70,
+   "weight": 189,
+   "country": "SVK",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485592.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 119
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "OHL",
+     "team": "Windsor Spitfires",
+     "gp": 11,
+     "g": 3,
+     "a": 4,
+     "pts": 7,
+     "pim": 2,
+     "pm": -2
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "SHL",
+     "team": "Brynäs IF",
+     "gp": 12,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 0,
+     "pm": -2
+    },
+    {
+     "season": 20252026,
+     "league": "U20 Nationell",
+     "team": "Brynäs IF U20",
+     "gp": 11,
+     "g": 6,
+     "a": 12,
+     "pts": 18,
+     "pim": 31,
+     "pm": 8
+    },
+    {
+     "season": 20252026,
+     "league": "Champions HL",
+     "team": "Brynäs IF",
+     "gp": 4,
+     "g": 0,
+     "a": 1,
+     "pts": 1,
+     "pim": 2,
+     "pm": 0
+    },
+    {
+     "season": 20252026,
+     "league": "HockeyAllsvenskan",
+     "team": "Västerås IK",
+     "gp": 10,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 4,
+     "pm": -4
+    }
+   ]
+  },
+  {
+   "id": 8485604,
+   "name": "Brent Solomon",
+   "pos": "R",
+   "shoots": "R",
+   "born": "2007-01-02",
+   "age": 19,
+   "height": 72,
+   "weight": 173,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485604.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 109
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Univ. of Wisconsin",
+     "gp": 3,
+     "g": 1,
+     "a": 0,
+     "pts": 1,
+     "pim": 15,
+     "pm": 1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "USHL",
+     "team": "Sioux Falls Stampede",
+     "gp": 54,
+     "g": 24,
+     "a": 29,
+     "pts": 53,
+     "pim": 14,
+     "pm": 8
+    }
+   ]
+  },
+  {
+   "id": 8485613,
+   "name": "Nikita Tyurin",
+   "pos": "D",
+   "shoots": "L",
+   "born": "2007-07-02",
+   "age": 19,
+   "height": 72,
+   "weight": 174,
+   "country": "RUS",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485613.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 140
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "MHL",
+     "team": "MHK Spartak Moskva",
+     "gp": 2,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 2,
+     "pm": 0
+    },
+    {
+     "season": 20262027,
+     "league": "VHL",
+     "team": "Khimik Voskresensk",
+     "gp": 12,
+     "g": 0,
+     "a": 1,
+     "pts": 1,
+     "pim": 4,
+     "pm": -2
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "MHL",
+     "team": "MHK Spartak Moskva",
+     "gp": 48,
+     "g": 4,
+     "a": 25,
+     "pts": 29,
+     "pim": 40,
+     "pm": 15
+    },
+    {
+     "season": 20252026,
+     "league": "KHL",
+     "team": "Spartak Moskva",
+     "gp": 7,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 0,
+     "pm": -1
+    },
+    {
+     "season": 20252026,
+     "league": "VHL",
+     "team": "Khimik Voskresensk",
+     "gp": 1,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 2,
+     "pm": 0
+    }
+   ]
+  },
+  {
+   "id": 8485641,
+   "name": "Will Murphy",
+   "pos": "D",
+   "shoots": "L",
+   "born": "2007-08-24",
+   "age": 19,
+   "height": 76,
+   "weight": 211,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485641.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 6,
+    "overallPick": 172
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "QMJHL",
+     "team": "Cape Breton Eagles",
+     "gp": 38,
+     "g": 4,
+     "a": 4,
+     "pts": 8,
+     "pim": 51,
+     "pm": 6
+    }
+   ]
+  },
+  {
+   "id": 8485666,
+   "name": "Grayden Robertson-Palmer",
+   "pos": "C",
+   "shoots": "L",
+   "born": "2007-08-29",
+   "age": 19,
+   "height": 71,
+   "weight": 190,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485666.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 204
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "QMJHL",
+     "team": "Moncton Wildcats",
+     "gp": 55,
+     "g": 6,
+     "a": 5,
+     "pts": 11,
+     "pim": 14,
+     "pm": 2
+    }
+   ]
+  },
+  {
+   "id": 8486036,
+   "name": "Beckham Edwards",
+   "pos": "C",
+   "shoots": "L",
+   "born": "2008-01-06",
+   "age": 18,
+   "height": 73,
+   "weight": 187,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486036.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 143
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Univ. of Notre Dame",
+     "gp": 4,
+     "g": 0,
+     "a": 1,
+     "pts": 1,
+     "pim": 0,
+     "pm": 0
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "Hlinka Gretzky Cup",
+     "team": "Canada U18",
+     "gp": 5,
+     "g": 2,
+     "a": 2,
+     "pts": 4,
+     "pim": 0,
+     "pm": 7
+    },
+    {
+     "season": 20252026,
+     "league": "OHL",
+     "team": "Sarnia Sting",
+     "gp": 64,
+     "g": 19,
+     "a": 26,
+     "pts": 45,
+     "pim": 14,
+     "pm": -26
+    },
+    {
+     "season": 20252026,
+     "league": "Prospects Challenge",
+     "team": "Team CHL",
+     "gp": 3,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 2,
+     "pm": 1
+    }
+   ]
+  },
+  {
+   "id": 8486049,
+   "name": "JP Hurlbert",
+   "pos": "L",
+   "shoots": "R",
+   "born": "2008-04-11",
+   "age": 18,
+   "height": 72,
+   "weight": 183,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486049.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 23
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Univ. of Michigan",
+     "gp": 6,
+     "g": 1,
+     "a": 2,
+     "pts": 3,
+     "pim": 6,
+     "pm": 1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "WHL",
+     "team": "Kamloops Blazers",
+     "gp": 68,
+     "g": 42,
+     "a": 55,
+     "pts": 97,
+     "pim": 45,
+     "pm": 13
+    },
+    {
+     "season": 20252026,
+     "league": "Prospects Challenge",
+     "team": "Team CHL",
+     "gp": 3,
+     "g": 1,
+     "a": 0,
+     "pts": 1,
+     "pim": 0,
+     "pm": -1
+    }
+   ]
+  },
+  {
+   "id": 8486080,
+   "name": "Michal Orsulak",
+   "pos": "G",
+   "shoots": "R",
+   "born": "2007-08-26",
+   "age": 19,
+   "height": 76,
+   "weight": 225,
+   "country": "CZE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486080.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 79
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "WHL",
+     "team": "Prince Albert Raiders",
+     "gp": 8,
+     "w": 2,
+     "l": 4,
+     "ga": 27,
+     "sa": 220,
+     "svp": 0.877,
+     "gaa": 3.41,
+     "so": 0
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "WHL",
+     "team": "Prince Albert Raiders",
+     "gp": 36,
+     "w": 28,
+     "l": 4,
+     "ga": 79,
+     "sa": 848,
+     "svp": 0.907,
+     "gaa": 2.22,
+     "so": 4
+    },
+    {
+     "season": 20252026,
+     "league": "WJC-20",
+     "team": "Czechia U20",
+     "gp": 5,
+     "w": 3,
+     "l": 2,
+     "ga": 16,
+     "sa": 127,
+     "svp": 0.874,
+     "gaa": 3.19,
+     "so": 0
+    }
+   ]
+  },
+  {
+   "id": 8486084,
+   "name": "Victor Plante",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2008-03-10",
+   "age": 18,
+   "height": 70,
+   "weight": 163,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486084.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 47
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "NCAA",
+     "team": "Univ. of Minnesota-Duluth",
+     "gp": 6,
+     "g": 1,
+     "a": 3,
+     "pts": 4,
+     "pim": 0,
+     "pm": 1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "NTDP",
+     "team": "U.S. National U18 Team",
+     "gp": 57,
+     "g": 21,
+     "a": 27,
+     "pts": 48,
+     "pim": 71,
+     "pm": -4
+    },
+    {
+     "season": 20252026,
+     "league": "USHL",
+     "team": "USNTDP Juniors",
+     "gp": 20,
+     "g": 8,
+     "a": 10,
+     "pts": 18,
+     "pim": 4,
+     "pm": -1
+    },
+    {
+     "season": 20252026,
+     "league": "Prospects Challenge",
+     "team": "Team USNTDP",
+     "gp": 3,
+     "g": 2,
+     "a": 0,
+     "pts": 2,
+     "pim": 0,
+     "pm": 3
+    },
+    {
+     "season": 20252026,
+     "league": "WJC-18",
+     "team": "USA U18",
+     "gp": 5,
+     "g": 1,
+     "a": 4,
+     "pts": 5,
+     "pim": 6,
+     "pm": 2
+    }
+   ]
+  },
+  {
+   "id": 8486251,
+   "name": "Adam Levac",
+   "pos": "C",
+   "shoots": "R",
+   "born": "2008-06-27",
+   "age": 18,
+   "height": 72,
+   "weight": 176,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486251.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 108
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "OHL",
+     "team": "Peterborough Petes",
+     "gp": 8,
+     "g": 3,
+     "a": 5,
+     "pts": 8,
+     "pim": 7,
+     "pm": -5
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "OHL",
+     "team": "Peterborough Petes",
+     "gp": 60,
+     "g": 16,
+     "a": 28,
+     "pts": 44,
+     "pim": 47,
+     "pm": -5
+    }
+   ]
+  },
+  {
+   "id": 8486305,
+   "name": "Luka Arkko",
+   "pos": "L",
+   "shoots": "L",
+   "born": "2008-01-14",
+   "age": 18,
+   "height": 75,
+   "weight": 212,
+   "country": "FIN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486305.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 6,
+    "overallPick": 175
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "OHL",
+     "team": "Erie Otters",
+     "gp": 8,
+     "g": 3,
+     "a": 1,
+     "pts": 4,
+     "pim": 0,
+     "pm": -3
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "Hlinka Gretzky Cup",
+     "team": "Finland U18",
+     "gp": 5,
+     "g": 3,
+     "a": 0,
+     "pts": 3,
+     "pim": 2,
+     "pm": 1
+    },
+    {
+     "season": 20252026,
+     "league": "U20 SM-sarja",
+     "team": "Pelicans U20",
+     "gp": 42,
+     "g": 11,
+     "a": 14,
+     "pts": 25,
+     "pim": 10,
+     "pm": 3
+    },
+    {
+     "season": 20252026,
+     "league": "U18 SM-sarja",
+     "team": "Pelicans U18",
+     "gp": 4,
+     "g": 6,
+     "a": 2,
+     "pts": 8,
+     "pim": 4,
+     "pm": null
+    }
+   ]
+  },
+  {
+   "id": 8486324,
+   "name": "Myles Brosnan",
+   "pos": "D",
+   "shoots": "R",
+   "born": "2007-10-19",
+   "age": 19,
+   "height": 72,
+   "weight": 194,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486324.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 196
+   },
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "QMJHL",
+     "team": "Moncton Wildcats",
+     "gp": 10,
+     "g": 3,
+     "a": 5,
+     "pts": 8,
+     "pim": 6,
+     "pm": -1
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "BEAST 18U",
+     "team": "Brookline Whalers 18U AAA",
+     "gp": 3,
+     "g": 1,
+     "a": 1,
+     "pts": 2,
+     "pim": 0,
+     "pm": null
+    },
+    {
+     "season": 20252026,
+     "league": "USHL",
+     "team": "Sioux City Musketeers",
+     "gp": 2,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 0,
+     "pm": 0
+    },
+    {
+     "season": 20252026,
+     "league": "USHS-Prep",
+     "team": "Dexter Southfield School",
+     "gp": 30,
+     "g": 7,
+     "a": 44,
+     "pts": 51,
+     "pim": null,
+     "pm": null
+    },
+    {
+     "season": 20252026,
+     "league": "NTDP",
+     "team": "U.S. National U18 Team",
+     "gp": 2,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 2,
+     "pm": -1
+    }
+   ]
+  },
+  {
+   "id": 8486365,
+   "name": "Salvatore Viviano",
+   "pos": "C",
+   "shoots": null,
+   "born": "2007-09-06",
+   "age": 19,
+   "height": 72,
+   "weight": 189,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486365.png",
+   "draft": null,
+   "nhl_gp": 0,
+   "on_nhl_roster": false,
+   "current": [
+    {
+     "season": 20262027,
+     "league": "USHL",
+     "team": "Waterloo Black Hawks",
+     "gp": 8,
+     "g": 3,
+     "a": 1,
+     "pts": 4,
+     "pim": 2,
+     "pm": 0
+    }
+   ],
+   "previous": [
+    {
+     "season": 20252026,
+     "league": "USHL",
+     "team": "Waterloo Black Hawks",
+     "gp": 61,
+     "g": 16,
+     "a": 24,
+     "pts": 40,
+     "pim": 10,
+     "pm": -23
+    }
+   ]
+  }
+ ]
+}

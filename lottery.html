@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mock Lottery · Wings Pipeline</title>
+<meta name="description" content="Simulate the NHL draft lottery with current standings and the official odds, and see where Detroit could pick.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  // Apply the saved light/dark choice (or the system setting) before the page paints.
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    document.documentElement.dataset.theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  })();
+</script>
+</head>
+<body data-page="lottery">
+<main>
+<h1><span id="draft-year"></span> Mock Draft Lottery</h1>
+<p class="lede">If the season ended today: the 16 teams outside the playoff picture, the NHL's official lottery odds, and two draws for picks #1 and #2. <span class="updated" id="updated"></span></p>
+
+<div class="focus-strip" id="focus"></div>
+
+<div class="tabs">
+  <button class="tab on" data-ltab="order-panel">Draft order</button>
+  <button class="tab" data-ltab="odds-panel">Lottery odds</button>
+</div>
+
+<section class="ltab-panel" id="order-panel">
+  <div class="controls lottery-controls">
+    <button type="button" class="btn primary" id="sim">Simulate lottery</button>
+    <button type="button" class="btn" id="reset">Reset</button>
+    <span class="chase">
+      <select id="chase-team" aria-label="Team to chase the first pick"></select>
+      <button type="button" class="btn" id="chase">Sim until #1</button>
+    </span>
+  </div>
+  <p class="result-note" id="result-note"></p>
+  <p class="result-note" id="chase-note"></p>
+  <div class="table-wrap glow-frame"><table class="lottery-table">
+    <thead id="order-head"></thead><tbody id="order-body"></tbody>
+  </table></div>
+</section>
+
+<section class="ltab-panel" id="odds-panel" hidden>
+  <div class="table-wrap glow-frame"><table class="lottery-table">
+    <thead><tr><th class="num hide-xs">Seed</th><th>Team</th><th class="num">#1</th><th class="num">#2</th><th class="num hide-xs">Top 2</th><th class="num">Avg pick</th><th class="num hide-sm">Range</th></tr></thead>
+    <tbody id="odds-body"></tbody>
+  </table></div>
+  <br class="matrix-break">
+  <h2 class="section matrix-title">Chance of landing each pick (%)</h2>
+  <div class="table-wrap matrix-wrap"><table class="matrix">
+    <thead id="matrix-head"></thead><tbody id="matrix-body"></tbody>
+  </table></div>
+</section>
+
+<p class="footnote"><b>How it works:</b> the 16 non-playoff teams are seeded worst to best by points percentage. The first draw decides #1 and the second decides #2. A winner can move up at most 10 spots: if a team seeded 12th or lower wins the first draw, it moves up 10 and the worst team keeps #1. In the second draw, any team already holding a top pick is redrawn, and the 10-spot limit counts from where a team sits after the first draw (so a team pushed down by a first-draw jump has a shorter reach). Everyone else drops into the remaining spots in standings order, so the worst team picks no lower than 3rd. The odds and the 10-spot cap match the NHL's current rules; the "Lottery odds" tab shows exact probabilities from every possible pair of draws. Traded picks and their protections update automatically every day <span id="picks-source"></span>. A protected pick shows the team that actually holds it at that slot; hover a team for trade details. Record and Pts% always describe the team whose finish sets the pick; when another club holds it, they carry that original team's tag (e.g. <b>FLA</b> .667).  Not modeled: the rule that limits how often one team can win the lottery.</p>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>

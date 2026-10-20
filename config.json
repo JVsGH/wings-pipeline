@@ -1,0 +1,8 @@
+{
+  "team": "DET",
+  "max_prospect_age": 24,
+  "include_nhl_rookies": true,
+  "rookie_nhl_gp_limit": 82,
+  "extra_player_ids": [],
+  "exclude_player_ids": []
+}

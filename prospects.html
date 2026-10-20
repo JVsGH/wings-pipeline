@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prospects · Wings Pipeline</title>
+<meta name="description" content="Game-by-game news, analysis and NHL-equivalent stats for Detroit Red Wings prospects and draft targets.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  // Apply the saved light/dark choice (or the system setting) before the page paints.
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    document.documentElement.dataset.theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  })();
+</script>
+
+</head>
+<body data-page="prospects">
+<main>
+<h1>Prospect production</h1>
+<p class="lede">Every player whose rights Detroit holds, with this season's scoring in each league "translated" to an NHL-equivalent pace (NHLe). <span class="updated" id="updated"></span></p>
+<div class="tabs"><button class="tab on" data-tab="skaters">Skaters</button><button class="tab" data-tab="goalies">Goalies</button></div>
+<div class="controls">
+  <input type="search" id="q" placeholder="Search player or team">
+  <select id="pos"><option value="">All skaters</option><option value="F">Forwards</option><option value="D">Defense</option></select>
+  <select id="league"></select>
+  <span class="card-sort"><select id="sort" aria-label="Sort by"></select><button type="button" class="chip" id="sort-dir"></button></span>
+  <label><input type="checkbox" id="show-nhl" checked> Show NHL lines</label>
+  <label><input type="checkbox" id="show-stale" checked> Show last season for players without games yet</label>
+</div>
+<div class="table-wrap glow-frame"><table class="prospect-table"><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
+<p class="footnote"><b>NHLe / 82</b> = points per game × league factor × 82. It estimates how many points a player would score over a full NHL season at the same rate. Factors live in <code>data/nhle_factors.json</code>. * = fewer than 10 GP, so treat the number with caution. Leagues without a factor (international tournaments) show no NHLe. Click a column header to sort (on smaller screens, use the sort menu above the list).</p>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>
