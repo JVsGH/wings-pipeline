@@ -245,6 +245,9 @@ td.num, th.num { text-align: right; }
 
 /* Organization roster */
 #league-chips .chip { text-decoration: none; }
+.view-switch { padding: 3px; border-radius: 999px; background: var(--chip); }
+.view-switch .chip { border-color: transparent; background: transparent; }
+.view-switch .chip.on { background: var(--red); color: #fff; }
 #league-chips .chip .sub { margin-left: 4px; }
 .league-block { margin-top: 28px; scroll-margin-top: 16px; }
 .league-block h2 .sub { font-weight: 500; margin-left: 6px; }
@@ -254,6 +257,8 @@ td.num, th.num { text-align: right; }
 .roster-table td.player-cell { white-space: normal; min-width: 160px; }
 .roster-table td.c-wide { white-space: normal; }
 .roster-table tr.nhl-roster td:first-child { box-shadow: inset 3px 0 0 var(--red); }
+.roster-table b.pos { color: #1f9d55; }
+.roster-table b.neg { color: var(--red); }
 .flag.also { background: color-mix(in srgb, var(--red) 18%, transparent); color: var(--ink); }
 .ep {
   display: inline-block; margin-left: 6px; font-size: 0.62rem; font-weight: 800; letter-spacing: 0.04em;
@@ -264,7 +269,7 @@ td.num, th.num { text-align: right; }
 .idle-card { padding: 12px 14px; }
 .idle-card > a:first-child { font-weight: 700; color: var(--ink); }
 .idle-card .sub { display: block; margin-top: 4px; }
-@media (max-width: 1139px) {
+@media (max-width: 999px) {
   .roster-table thead { display: none; }
   .roster-table, .roster-table tbody { display: block; width: 100%; }
   .roster-table tr {

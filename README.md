@@ -30,6 +30,8 @@ You can also write posts from scratch. Copy the front matter from `content/posts
 
 - A player who has moved between leagues (a call-up, or a loan from an SHL club to HockeyAllsvenskan) appears under each league with that league's stats, tagged with the other league.
 - Each table shows every stat the NHL publishes for that league. NHL skaters get the full set, including power play, shorthanded, shots, ice time and faceoffs; other leagues get GP/G/A/PTS/+/-/PIM; goalies get their full line everywhere.
+- Skater tables switch between **Standard** (counting stats) and **Rates & NHLe**: P/G, G/G, A/G, NHL-only P/60, G/60, S/GP, even-strength points and power-play share of points, plus NHLe points, goals and assists over 82 games. The page remembers the choice.
+- Goalies get **GSAA** (goals saved above average) where the league's average save percentage is known: shots against × (1 − league SV%) − goals against. The NHL average is pulled from the NHL stats API each day.
 - Players who haven't played yet this season (injured, unsigned) are listed with their last team.
 - The data comes from the NHL API and refreshes daily into `data/roster.json`. AHL- or ECHL-only contracts belong to those clubs, not Detroit, so they aren't included.
 - **Elite Prospects:** every player has an "EP" link to their Elite Prospects profile search. Pulling EP's data automatically isn't allowed (their terms forbid scraping); it would need their licensed API.

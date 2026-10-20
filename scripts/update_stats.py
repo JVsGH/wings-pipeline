@@ -164,6 +164,18 @@ def roster_entry(pid, land, season, roster_ids, roster_numbers):
     }
 
 
+def nhl_league_averages(season):
+    """League-wide NHL goaltending this season, for GSAA (goals saved above average) on the Roster page."""
+    q = urllib.parse.urlencode({"limit": -1, "cayenneExp": f"seasonId={season} and gameTypeId=2"})
+    d = get(f"https://api.nhle.com/stats/rest/en/goalie/summary?{q}") or {}
+    rows = d.get("data") or []
+    shots = sum(r.get("shotsAgainst") or 0 for r in rows)
+    goals = sum(r.get("goalsAgainst") or 0 for r in rows)
+    if not shots:
+        return {}
+    return {"NHL": {"save_pct": round(1 - goals / shots, 5), "shots_against": shots, "goals_against": goals}}
+
+
 def is_prospect(p, cfg):
     if p["id"] in cfg["exclude_player_ids"]:
         return False
@@ -650,6 +662,7 @@ def main():
     print(f"{len(players)} prospects")
     (DATA / "roster.json").write_text(json.dumps({
         "updated": date.today().isoformat(), "season": season, "team": team,
+        "league_averages": nhl_league_averages(season),
         "players": sorted(organization, key=lambda r: r["name"]),
     }, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"Roster: {len(organization)} players in the organization")

@@ -268,6 +268,9 @@ const SKATER_STATS = [
   ["gameWinningGoals", "GWG"], ["otGoals", "OTG"], ["shots", "S"],
   ["shootingPctg", "S%", (v) => (v * 100).toFixed(1)], ["avgToi", "TOI", (v) => v, (v) => toiSeconds(v)],
   ["faceoffWinningPctg", "FO%", (v) => (v ? (v * 100).toFixed(1) : "–")],
+  // NHL-only rates: they need ice time, shots and special-teams splits, which only NHL lines carry.
+  ["_p60", "P/60", (v) => v.toFixed(2)], ["_g60", "G/60", (v) => v.toFixed(2)], ["_spg", "S/GP", (v) => v.toFixed(2)],
+  ["_evp", "EVP"], ["_pp_share", "PP%", (v) => (v * 100).toFixed(0)],
   ["_nhle", "NHLe", (v) => `<b>${v.toFixed(0)}</b>`], ["_nhle_g", "NHLe G", (v) => v.toFixed(0)],
   ["_nhle_a", "NHLe A", (v) => v.toFixed(0)],
 ];
@@ -285,20 +288,53 @@ function addRates(stats, factor) {
     stats._nhle_g = stats._gpg * factor * 82;
     stats._nhle_a = stats._apg * factor * 82;
   }
+  if (stats.avgToi) {
+    const hours = (toiSeconds(stats.avgToi) * gp) / 3600; // total ice time in hours
+    if (hours > 0) {
+      stats._p60 = stats.points / hours;
+      stats._g60 = (stats.goals ?? 0) / hours;
+    }
+  }
+  if (stats.shots != null) stats._spg = stats.shots / gp;
+  if (stats.powerPlayPoints != null && stats.shorthandedPoints != null) {
+    stats._evp = stats.points - stats.powerPlayPoints - stats.shorthandedPoints;
+    if (stats.points > 0) stats._pp_share = stats.powerPlayPoints / stats.points;
+  }
+}
+
+// Goals saved above average: goals a league-average goalie would have allowed on the same shots,
+// minus goals actually allowed. Positive = better than average. Needs the league's save % (NHL only).
+function addGoalieRates(stats, leagueSavePct) {
+  if (leagueSavePct == null || stats.shotsAgainst == null || stats.goalsAgainst == null) return;
+  stats._gsaa = stats.shotsAgainst * (1 - leagueSavePct) - stats.goalsAgainst;
 }
 const GOALIE_STATS = [
   ["gamesPlayed", "GP"], ["gamesStarted", "GS"], ["wins", "W"], ["losses", "L"], ["otLosses", "OTL"],
   ["shotsAgainst", "SA"], ["goalsAgainst", "GA"], ["savePctg", "SV%", (v) => svp(v)],
-  ["goalsAgainstAvg", "GAA", (v) => v.toFixed(2)], ["shutouts", "SO"],
+  ["goalsAgainstAvg", "GAA", (v) => v.toFixed(2)],
+  ["_gsaa", "GSAA", (v) => `<b class="${v >= 0 ? "pos" : "neg"}">${v > 0 ? "+" : ""}${v.toFixed(1)}</b>`],
+  ["shutouts", "SO"],
   ["timeOnIce", "TOI", (v) => v, (v) => toiSeconds(v)],
 ];
+// Skater tables have two views so neither gets too wide: counting stats, or rates and NHL equivalents.
+const SKATER_VIEWS = {
+  standard: { label: "Standard", keys: ["gamesPlayed", "goals", "assists", "points", "plusMinus", "pim", "powerPlayGoals",
+    "powerPlayPoints", "shorthandedGoals", "shorthandedPoints", "gameWinningGoals", "otGoals", "shots", "shootingPctg",
+    "avgToi", "faceoffWinningPctg"] },
+  rates: { label: "Rates & NHLe", keys: ["gamesPlayed", "points", "_ppg", "_gpg", "_apg", "_p60", "_g60", "_spg", "_evp",
+    "_pp_share", "_nhle", "_nhle_g", "_nhle_a"] },
+};
 const LEAGUE_ORDER = ["NHL", "AHL", "ECHL"];
 const toiSeconds = (t) => { const [m, s] = String(t).split(":").map(Number); return (m || 0) * 60 + (s || 0); };
 const epLink = (name) => `https://www.eliteprospects.com/search/player?q=${encodeURIComponent(name)}`;
 
 async function initRoster() {
   const [roster, prospects, fx] = await Promise.all([load("data/roster.json"), load("data/prospects.json"), load("data/nhle_factors.json")]);
-  roster.players.forEach((p) => { if (p.pos !== "G") p.lines.forEach((l) => addRates(l.stats, fx.factors[l.league])); });
+  const averages = roster.league_averages || {};
+  roster.players.forEach((p) => p.lines.forEach((l) => {
+    if (p.pos === "G") addGoalieRates(l.stats, averages[l.league]?.save_pct);
+    else addRates(l.stats, fx.factors[l.league]);
+  }));
   const prospectIds = new Set(prospects.players.map((p) => p.id));
   $("#updated").textContent = `Stats through ${fmtDate(roster.updated)} · ${seasonLabel(roster.season)} regular season · ${roster.players.length} players`;
 
@@ -323,8 +359,12 @@ async function initRoster() {
     return `<a href="${href}"${prospectIds.has(p.id) ? "" : ' target="_blank" rel="noopener"'}>${esc(p.name)}</a>`;
   };
 
+  let view = "standard";
+  try { view = SKATER_VIEWS[localStorage.getItem("rosterView")] ? localStorage.getItem("rosterView") : "standard"; } catch {}
+
   function table(id, rows, defs, showTeam) {
-    const cols = defs.filter(([k]) => rows.some((r) => r.line.stats[k] != null));
+    const inView = defs === SKATER_STATS ? new Set(SKATER_VIEWS[view].keys) : null;
+    const cols = defs.filter(([k]) => (!inView || inView.has(k)) && rows.some((r) => r.line.stats[k] != null));
     const defaultKey = cols.some((c) => c[0] === "points") ? "points" : "gamesPlayed"; // skaters by points, goalies by games
     const [sortKey, asc] = sortState[id] || [defaultKey, false];
     const val = (r, key) => {
@@ -358,6 +398,8 @@ async function initRoster() {
   }
 
   function render() {
+    $("#stat-view").innerHTML = Object.entries(SKATER_VIEWS).map(([k, v]) =>
+      `<button type="button" class="chip ${k === view ? "on" : ""}" data-view="${k}">${v.label}</button>`).join("");
     const q = $("#q").value.trim().toLowerCase();
     const match = (p) => !q || p.name.toLowerCase().includes(q);
     $("#roster").innerHTML = leagues.map((league) => {
@@ -387,6 +429,14 @@ async function initRoster() {
     render();
   });
   $("#q").addEventListener("input", render);
+  $("#stat-view").addEventListener("click", (e) => {
+    const v = e.target.closest("[data-view]")?.dataset.view;
+    if (!v || v === view) return;
+    view = v;
+    try { localStorage.setItem("rosterView", v); } catch {}
+    Object.keys(sortState).forEach((k) => { if (k.endsWith("-s")) delete sortState[k]; }); // sort keys differ per view
+    render();
+  });
   render();
 }
 
