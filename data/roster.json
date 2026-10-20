@@ -2,6 +2,13 @@
  "updated": "2026-10-20",
  "season": 20262027,
  "team": "DET",
+ "league_averages": {
+  "NHL": {
+   "save_pct": 0.89195,
+   "shots_against": 7552,
+   "goals_against": 816
+  }
+ },
  "players": [
   {
    "id": 8486251,
