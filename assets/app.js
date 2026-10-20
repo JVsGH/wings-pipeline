@@ -5,6 +5,7 @@ const NAV = [
   ["index.html", "Home", "home"],
   ["editorials.html", "Editorials", "editorials"],
   ["news.html", "News", "news"],
+  ["roster.html", "Roster", "roster"],
   ["prospects.html", "Prospects", "prospects"],
   ["draft.html", "Draft Watch", "draft"],
   ["lottery.html", "Mock Lottery", "lottery"],
@@ -253,6 +254,120 @@ async function initHome() {
 
   $("#home-cards").innerHTML = cards.join("");
   $("#home-updated").textContent = `Stats through ${fmtDate(data.updated)} · ${data.players.length} prospects tracked`;
+}
+
+// ---------- organization roster ----------
+// Every stat the NHL API can return for a season line, in display order. Each league's table shows only
+// the columns that league actually reports (the NHL has far more detail than the AHL or junior leagues).
+const SKATER_STATS = [
+  ["gamesPlayed", "GP"], ["goals", "G"], ["assists", "A"], ["points", "PTS", (v) => `<b>${v}</b>`],
+  ["plusMinus", "+/-", (v) => (v > 0 ? `+${v}` : v)], ["pim", "PIM"], ["powerPlayGoals", "PPG"],
+  ["powerPlayPoints", "PPP"], ["shorthandedGoals", "SHG"], ["shorthandedPoints", "SHP"],
+  ["gameWinningGoals", "GWG"], ["otGoals", "OTG"], ["shots", "S"],
+  ["shootingPctg", "S%", (v) => (v * 100).toFixed(1)], ["avgToi", "TOI", (v) => v, (v) => toiSeconds(v)],
+  ["faceoffWinningPctg", "FO%", (v) => (v ? (v * 100).toFixed(1) : "–")],
+];
+const GOALIE_STATS = [
+  ["gamesPlayed", "GP"], ["gamesStarted", "GS"], ["wins", "W"], ["losses", "L"], ["otLosses", "OTL"],
+  ["shotsAgainst", "SA"], ["goalsAgainst", "GA"], ["savePctg", "SV%", (v) => svp(v)],
+  ["goalsAgainstAvg", "GAA", (v) => v.toFixed(2)], ["shutouts", "SO"],
+  ["timeOnIce", "TOI", (v) => v, (v) => toiSeconds(v)],
+];
+const LEAGUE_ORDER = ["NHL", "AHL", "ECHL"];
+const toiSeconds = (t) => { const [m, s] = String(t).split(":").map(Number); return (m || 0) * 60 + (s || 0); };
+const epLink = (name) => `https://www.eliteprospects.com/search/player?q=${encodeURIComponent(name)}`;
+
+async function initRoster() {
+  const [roster, prospects] = await Promise.all([load("data/roster.json"), load("data/prospects.json")]);
+  const prospectIds = new Set(prospects.players.map((p) => p.id));
+  $("#updated").textContent = `Stats through ${fmtDate(roster.updated)} · ${seasonLabel(roster.season)} regular season · ${roster.players.length} players`;
+
+  // One row per player per league this season, so a call-up appears under both leagues.
+  const byLeague = {};
+  roster.players.forEach((p) => p.lines.forEach((line) => {
+    (byLeague[line.league] ||= []).push({ p, line, also: p.lines.filter((l) => l !== line).map((l) => l.league) });
+  }));
+  const leagues = Object.keys(byLeague).sort((a, b) => {
+    const ia = LEAGUE_ORDER.indexOf(a), ib = LEAGUE_ORDER.indexOf(b);
+    if (ia >= 0 || ib >= 0) return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    return byLeague[b].length - byLeague[a].length || a.localeCompare(b);
+  });
+  const idle = roster.players.filter((p) => !p.lines.length);
+
+  $("#league-chips").innerHTML = leagues.map((l) => `<a class="chip" href="#league-${esc(l)}">${esc(l)} <span class="sub">${byLeague[l].length}</span></a>`).join("")
+    + (idle.length ? `<a class="chip" href="#league-none">No games yet <span class="sub">${idle.length}</span></a>` : "");
+
+  const sortState = {}; // table id -> [key, asc]
+  const nameCell = (p) => {
+    const href = prospectIds.has(p.id) ? `player.html?id=${p.id}` : `https://www.nhl.com/player/${p.id}`;
+    return `<a href="${href}"${prospectIds.has(p.id) ? "" : ' target="_blank" rel="noopener"'}>${esc(p.name)}</a>`;
+  };
+
+  function table(id, rows, defs, showTeam) {
+    const cols = defs.filter(([k]) => rows.some((r) => r.line.stats[k] != null));
+    const defaultKey = cols.some((c) => c[0] === "points") ? "points" : "gamesPlayed"; // skaters by points, goalies by games
+    const [sortKey, asc] = sortState[id] || [defaultKey, false];
+    const val = (r, key) => {
+      if (key === "name") return r.p.name;
+      if (key === "number") return r.p.number ?? 999;
+      if (key === "age") return r.p.age ?? 99;
+      if (key === "team") return r.line.team;
+      const def = cols.find((c) => c[0] === key), v = r.line.stats[key];
+      return v == null ? -Infinity : def?.[3] ? def[3](v) : v;
+    };
+    const sorted = [...rows].sort((a, b) => {
+      const x = val(a, sortKey), y = val(b, sortKey);
+      const c = typeof x === "string" ? x.localeCompare(y) : x - y;
+      return (asc ? c : -c) || a.p.name.localeCompare(b.p.name);
+    });
+    const head = [["number", "#", "num"], ["name", "Player", ""], ["pos", "Pos", ""], ["age", "Age", "num"],
+      ...(showTeam ? [["team", "Team", ""]] : []), ...cols.map(([k, label]) => [k, label, "num"])];
+    return `<div class="table-wrap glow-frame"><table class="roster-table" data-table="${id}">
+      <thead><tr>${head.map(([k, label, cls]) => `<th class="sortable ${cls} ${k === sortKey ? `sorted${asc ? " asc" : ""}` : ""}" data-k="${k}">${label}</th>`).join("")}</tr></thead>
+      <tbody>${sorted.map(({ p, line, also }) => `<tr class="${p.on_nhl_roster ? "nhl-roster" : ""}">
+        <td class="num sub" data-label="#">${p.number ?? ""}</td>
+        <td class="player-cell c-player">${nameCell(p)}
+          ${prospectIds.has(p.id) ? `<span class="flag">Prospect</span>` : ""}
+          ${also.length ? `<span class="flag also" title="Also played in ${esc(also.join(", "))} this season">+ ${esc(also.join(", "))}</span>` : ""}
+          <a class="ep" href="${epLink(p.name)}" target="_blank" rel="noopener" title="Elite Prospects profile">EP</a></td>
+        <td data-label="Pos">${posLabel(p.pos)}</td><td class="num" data-label="Age">${p.age ?? "–"}</td>
+        ${showTeam ? `<td class="sub c-wide" data-label="Team">${esc(line.team)}</td>` : ""}
+        ${cols.map(([k, label, fmt]) => { const v = line.stats[k];
+          return `<td class="num" data-label="${label}">${v == null ? "–" : fmt ? fmt(v) : v}</td>`; }).join("")}
+      </tr>`).join("")}</tbody></table></div>`;
+  }
+
+  function render() {
+    const q = $("#q").value.trim().toLowerCase();
+    const match = (p) => !q || p.name.toLowerCase().includes(q);
+    $("#roster").innerHTML = leagues.map((league) => {
+      const rows = byLeague[league].filter((r) => match(r.p));
+      if (!rows.length) return "";
+      const teams = [...new Set(rows.map((r) => r.line.team))];
+      const skaters = rows.filter((r) => r.p.pos !== "G"), goalies = rows.filter((r) => r.p.pos === "G");
+      return `<section class="league-block" id="league-${esc(league)}">
+        <h2 class="section">${esc(league)} <span class="sub">${teams.length === 1 ? esc(teams[0]) : `${teams.length} teams`} · ${rows.length} player${rows.length === 1 ? "" : "s"}</span></h2>
+        ${skaters.length ? table(`${league}-s`, skaters, SKATER_STATS, teams.length > 1) : ""}
+        ${goalies.length ? `<h3 class="subhead">Goalies</h3>${table(`${league}-g`, goalies, GOALIE_STATS, teams.length > 1)}` : ""}
+      </section>`;
+    }).join("") + (idle.filter(match).length ? `<section class="league-block" id="league-none">
+        <h2 class="section">No games yet this season <span class="sub">injured, unsigned or not yet playing</span></h2>
+        <div class="feed idle-list">${idle.filter(match).map((p) => `<div class="card idle-card">${nameCell(p)} <span class="flag">${posLabel(p.pos)}</span>
+          ${p.last_team ? `<span class="sub">Last: ${esc(p.last_team.team)} (${esc(p.last_team.league)}, ${seasonLabel(p.last_team.season)})</span>` : ""}
+          <a class="ep" href="${epLink(p.name)}" target="_blank" rel="noopener" title="Elite Prospects profile">EP</a></div>`).join("")}</div></section>` : "")
+      || `<div class="card empty">No players match.</div>`;
+  }
+
+  $("#roster").addEventListener("click", (e) => {
+    const th = e.target.closest("th[data-k]");
+    if (!th) return;
+    const id = th.closest("table").dataset.table, k = th.dataset.k;
+    const [cur, asc] = sortState[id] || [];
+    sortState[id] = [k, cur === k ? !asc : ["name", "number", "age", "team", "goalsAgainstAvg", "goalsAgainst", "losses"].includes(k)];
+    render();
+  });
+  $("#q").addEventListener("input", render);
+  render();
 }
 
 // ---------- prospects table ----------
@@ -652,7 +767,7 @@ async function initLottery() {
 // ---------- boot ----------
 const page = document.body.dataset.page;
 header({ post: "editorials", player: "prospects" }[page] || page); // sub-pages highlight their section's tab
-({ home: initHome, editorials: initEditorials, news: initExternalNews, post: initPost, prospects: initProspects, player: initPlayer, draft: initDraft, lottery: initLottery }[page])?.()
+({ home: initHome, editorials: initEditorials, news: initExternalNews, roster: initRoster, post: initPost, prospects: initProspects, player: initPlayer, draft: initDraft, lottery: initLottery }[page])?.()
   .catch((e) => {
     console.error(e);
     $("main").insertAdjacentHTML("beforeend", `<div class="card empty">Couldn't load site data (${esc(e.message)}). If you opened this file directly, run a local server: <code>python -m http.server</code>.</div>`);

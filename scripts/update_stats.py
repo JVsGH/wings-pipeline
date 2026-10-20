@@ -3,6 +3,7 @@
 
 Writes:
   data/prospects.json      - everything the Prospects/Player pages show
+  data/roster.json         - every player whose rights Detroit holds, with full stats per league (Roster page)
   data/snapshot.json       - last-seen stat lines, used to spot new games
   data/standings.json      - league standings + projected playoff teams (Mock Lottery)
   data/pick_owners.json    - traded first-round picks and protections (Mock Lottery);
@@ -129,6 +130,37 @@ def build_player(pid, land, season, roster_ids, cfg):
         "on_nhl_roster": pid in roster_ids,
         "current": by_season(season),
         "previous": by_season(season - 10001),
+    }
+
+
+# Fields in a season line that describe the team/season rather than stats.
+STAT_META = {"season", "sequence", "gameTypeId", "leagueAbbrev", "teamName", "teamCommonName", "teamPlaceNameWithPreposition"}
+
+
+def roster_entry(pid, land, season, roster_ids, roster_numbers):
+    """One organization player for the Roster page: bio plus every stat the API has
+    for each league they've played in this regular season."""
+    draft = land.get("draftDetails") or {}
+    born = land.get("birthDate")
+    lines = [{"league": s.get("leagueAbbrev", ""), "team": text(s.get("teamName")),
+              "stats": {k: v for k, v in s.items() if k not in STAT_META}}
+             for s in land.get("seasonTotals", []) if s.get("season") == season and s.get("gameTypeId") == 2]
+    last = [s for s in land.get("seasonTotals", []) if s.get("gameTypeId") == 2]
+    return {
+        "id": pid,
+        "name": f"{text(land.get('firstName'))} {text(land.get('lastName'))}",
+        "number": roster_numbers.get(pid) or land.get("sweaterNumber"),
+        "pos": land.get("position"),
+        "shoots": land.get("shootsCatches"),
+        "age": age_on(born, date.today()) if born else None,
+        "country": land.get("birthCountry"),
+        "headshot": land.get("headshot"),
+        "draft": {k: draft.get(k) for k in ("year", "teamAbbrev", "round", "overallPick")} if draft else None,
+        "on_nhl_roster": pid in roster_ids,
+        "lines": lines,
+        "last_team": None if lines or not last else {"league": last[-1].get("leagueAbbrev", ""),
+                                                     "team": text(last[-1].get("teamName")),
+                                                     "season": last[-1].get("season")},
     }
 
 
@@ -600,20 +632,27 @@ def main():
 
     roster = get(f"{API}/roster/{team}/current") or {}
     roster_ids = {p["id"] for group in roster.values() for p in group}
-    ids = team_player_ids(team) | {i: "" for i in cfg["extra_player_ids"]}
+    roster_numbers = {p["id"]: p.get("sweaterNumber") for group in roster.values() for p in group}
+    ids = team_player_ids(team) | {i: "" for i in cfg["extra_player_ids"]} | {i: "" for i in roster_ids}
     print(f"{len(ids)} players with {team} rights; season {season}")
 
-    players = []
+    players, organization = [], []
     for pid in sorted(ids):
         land = get(f"{API}/player/{pid}/landing")
         if not land:
             print(f"  ! no data for {pid}", file=sys.stderr)
             continue
+        organization.append(roster_entry(pid, land, season, roster_ids, roster_numbers))
         p = build_player(pid, land, season, roster_ids, cfg)
         if is_prospect(p, cfg):
             players.append(p)
         time.sleep(0.15)
     print(f"{len(players)} prospects")
+    (DATA / "roster.json").write_text(json.dumps({
+        "updated": date.today().isoformat(), "season": season, "team": team,
+        "players": sorted(organization, key=lambda r: r["name"]),
+    }, indent=1, ensure_ascii=False), encoding="utf-8")
+    print(f"Roster: {len(organization)} players in the organization")
 
     snap_path = DATA / "snapshot.json"
     snapshot = json.loads(snap_path.read_text(encoding="utf-8")) if snap_path.exists() else None

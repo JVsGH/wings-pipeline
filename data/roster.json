@@ -1,0 +1,2598 @@
+{
+ "updated": "2026-10-19",
+ "season": 20262027,
+ "team": "DET",
+ "players": [
+  {
+   "id": 8486251,
+   "name": "Adam Levac",
+   "number": null,
+   "pos": "C",
+   "shoots": "R",
+   "age": 18,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486251.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 108
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "OHL",
+     "team": "Peterborough Petes",
+     "stats": {
+      "assists": 5,
+      "gamesPlayed": 8,
+      "goals": 3,
+      "pim": 7,
+      "plusMinus": -5,
+      "points": 8
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8481607,
+   "name": "Albert Johansson",
+   "number": 20,
+   "pos": "D",
+   "shoots": "L",
+   "age": 25,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8481607.png",
+   "draft": {
+    "year": 2019,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 60
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 0,
+      "avgToi": "15:53",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": -1,
+      "points": 0,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 12
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8479337,
+   "name": "Alex DeBrincat",
+   "number": 93,
+   "pos": "R",
+   "shoots": "R",
+   "age": 28,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8479337.png",
+   "draft": {
+    "year": 2016,
+    "teamAbbrev": "CHI",
+    "round": 2,
+    "overallPick": 39
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 4,
+      "avgToi": "20:09",
+      "faceoffWinningPctg": 0.333333,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 5,
+      "otGoals": 0,
+      "pim": 4,
+      "plusMinus": 8,
+      "points": 9,
+      "powerPlayGoals": 1,
+      "powerPlayPoints": 1,
+      "shootingPctg": 0.166667,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 30
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8478127,
+   "name": "Alexander Kadeykin",
+   "number": null,
+   "pos": "C",
+   "shoots": "L",
+   "age": 33,
+   "country": "RUS",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8478127.png",
+   "draft": {
+    "year": 2014,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 201
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "KHL",
+     "team": "Avtomobilist Yekaterinburg",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 16,
+      "goals": 4,
+      "pim": 8,
+      "plusMinus": -8,
+      "points": 6
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8477971,
+   "name": "Andreas Englund",
+   "number": 24,
+   "pos": "D",
+   "shoots": "L",
+   "age": 30,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8477971.png",
+   "draft": {
+    "year": 2014,
+    "teamAbbrev": "OTT",
+    "round": 2,
+    "overallPick": 40
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 0,
+      "avgToi": "11:26",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 4,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": 0,
+      "points": 0,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8477429,
+   "name": "Andrew Copp",
+   "number": 18,
+   "pos": "C",
+   "shoots": "L",
+   "age": 32,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8477429.png",
+   "draft": {
+    "year": 2013,
+    "teamAbbrev": "WPG",
+    "round": 4,
+    "overallPick": 104
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 1,
+      "avgToi": "19:30",
+      "faceoffWinningPctg": 0.52381,
+      "gameWinningGoals": 1,
+      "gamesPlayed": 8,
+      "goals": 1,
+      "otGoals": 0,
+      "pim": 4,
+      "plusMinus": -4,
+      "points": 2,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 1,
+      "shootingPctg": 0.066667,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 15
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8483679,
+   "name": "Anton Johansson",
+   "number": 42,
+   "pos": "D",
+   "shoots": "R",
+   "age": 22,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483679.png",
+   "draft": {
+    "year": 2022,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 105
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 1,
+      "avgToi": "14:36",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 1,
+      "otGoals": 0,
+      "pim": 10,
+      "plusMinus": 1,
+      "points": 2,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.2,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 5
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485098,
+   "name": "Austin Baker",
+   "number": null,
+   "pos": "L",
+   "shoots": "L",
+   "age": 20,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485098.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 203
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Miami Univ. (Ohio)",
+     "stats": {
+      "assists": 1,
+      "gamesPlayed": 4,
+      "goals": 1,
+      "pim": 0,
+      "plusMinus": 0,
+      "points": 2
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484223,
+   "name": "Axel Sandin-Pellikka",
+   "number": 44,
+   "pos": "D",
+   "shoots": "R",
+   "age": 21,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484223.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 17
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 1,
+      "avgToi": "12:23",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 6,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": -1,
+      "points": 1,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 6
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8486036,
+   "name": "Beckham Edwards",
+   "number": null,
+   "pos": "C",
+   "shoots": "L",
+   "age": 18,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486036.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 143
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Notre Dame",
+     "stats": {
+      "assists": 1,
+      "gamesPlayed": 4,
+      "goals": 0,
+      "pim": 0,
+      "plusMinus": 0,
+      "points": 1
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8475279,
+   "name": "Ben Chiarot",
+   "number": 8,
+   "pos": "D",
+   "shoots": "L",
+   "age": 35,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8475279.png",
+   "draft": {
+    "year": 2009,
+    "teamAbbrev": "ATL",
+    "round": 4,
+    "overallPick": 120
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 1,
+      "avgToi": "19:18",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 8,
+      "plusMinus": 2,
+      "points": 1,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 7
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484157,
+   "name": "Brady Cleveland",
+   "number": null,
+   "pos": "D",
+   "shoots": "L",
+   "age": 21,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484157.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 47
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Minnesota-Duluth",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 6,
+      "goals": 0,
+      "pim": 10,
+      "plusMinus": 3,
+      "points": 0
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8483421,
+   "name": "Brennan Ali",
+   "number": null,
+   "pos": "C",
+   "shoots": "L",
+   "age": 22,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483421.png",
+   "draft": {
+    "year": 2022,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 212
+   },
+   "on_nhl_roster": false,
+   "lines": [],
+   "last_team": {
+    "league": "NCAA",
+    "team": "Univ. of Notre Dame",
+    "season": 20252026
+   }
+  },
+  {
+   "id": 8485604,
+   "name": "Brent Solomon",
+   "number": null,
+   "pos": "R",
+   "shoots": "R",
+   "age": 19,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485604.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 109
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Wisconsin",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 3,
+      "goals": 1,
+      "pim": 15,
+      "plusMinus": 1,
+      "points": 1
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8483045,
+   "name": "Cameron Butler",
+   "number": 47,
+   "pos": "R",
+   "shoots": "R",
+   "age": 24,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483045.png",
+   "draft": null,
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 1,
+      "gamesPlayed": 7,
+      "goals": 1,
+      "pim": 18,
+      "plusMinus": 0,
+      "points": 2
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485362,
+   "name": "Carter Bear",
+   "number": 41,
+   "pos": "L",
+   "shoots": "L",
+   "age": 19,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485362.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 13
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 5,
+      "goals": 2,
+      "pim": 6,
+      "plusMinus": 1,
+      "points": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8481757,
+   "name": "Carter Gylander",
+   "number": 32,
+   "pos": "G",
+   "shoots": "L",
+   "age": 25,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8481757.png",
+   "draft": {
+    "year": 2019,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 191
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "ECHL",
+     "team": "Toledo Walleye",
+     "stats": {
+      "gamesPlayed": 1,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 5.02,
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.844,
+      "shotsAgainst": 32,
+      "shutouts": 0,
+      "timeOnIce": "59:43",
+      "wins": 0
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8482802,
+   "name": "Carter Mazur",
+   "number": 34,
+   "pos": "L",
+   "shoots": "R",
+   "age": 24,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482802.png",
+   "draft": {
+    "year": 2021,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 70
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 1,
+      "avgToi": "8:24",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 3,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 0,
+      "plusMinus": -2,
+      "points": 1,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 3
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485079,
+   "name": "Charlie Forslund",
+   "number": null,
+   "pos": "L",
+   "shoots": "L",
+   "age": 20,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485079.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 6,
+    "overallPick": 176
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "SHL",
+     "team": "Brynäs IF",
+     "stats": {
+      "assists": 1,
+      "gamesPlayed": 4,
+      "goals": 0,
+      "pim": 0,
+      "plusMinus": 1,
+      "points": 1
+     }
+    },
+    {
+     "league": "HockeyAllsvenskan",
+     "team": "Almtuna IS",
+     "stats": {
+      "assists": 6,
+      "gamesPlayed": 12,
+      "goals": 1,
+      "pim": 4,
+      "plusMinus": -6,
+      "points": 7
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8482714,
+   "name": "Chase Stillman",
+   "number": 49,
+   "pos": "R",
+   "shoots": "R",
+   "age": 23,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482714.png",
+   "draft": {
+    "year": 2021,
+    "teamAbbrev": "NJD",
+    "round": 1,
+    "overallPick": 29
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 4,
+      "goals": 0,
+      "pim": 4,
+      "plusMinus": 2,
+      "points": 0
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8480193,
+   "name": "Daniil Tarasov",
+   "number": 80,
+   "pos": "G",
+   "shoots": "L",
+   "age": 27,
+   "country": "RUS",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8480193.png",
+   "draft": {
+    "year": 2017,
+    "teamAbbrev": "CBJ",
+    "round": 3,
+    "overallPick": 86
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 3,
+      "gamesStarted": 2,
+      "goals": 0,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 0.795141,
+      "losses": 0,
+      "otLosses": 1,
+      "pim": 0,
+      "savePctg": 0.964912,
+      "shotsAgainst": 57,
+      "shutouts": 1,
+      "timeOnIce": "150:55",
+      "wins": 1
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8479942,
+   "name": "Dominik Shine",
+   "number": 65,
+   "pos": "R",
+   "shoots": "R",
+   "age": 33,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8479942.png",
+   "draft": null,
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 4,
+      "gamesPlayed": 7,
+      "goals": 1,
+      "pim": 2,
+      "plusMinus": -3,
+      "points": 5
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8483459,
+   "name": "Dylan James",
+   "number": 70,
+   "pos": "L",
+   "shoots": "L",
+   "age": 23,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483459.png",
+   "draft": {
+    "year": 2022,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 40
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 7,
+      "goals": 2,
+      "pim": 0,
+      "plusMinus": 2,
+      "points": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8477946,
+   "name": "Dylan Larkin",
+   "number": 71,
+   "pos": "C",
+   "shoots": "L",
+   "age": 30,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8477946.png",
+   "draft": {
+    "year": 2014,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 15
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 2,
+      "avgToi": "21:49",
+      "faceoffWinningPctg": 0.506944,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 6,
+      "goals": 1,
+      "otGoals": 0,
+      "pim": 4,
+      "plusMinus": 0,
+      "points": 3,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 1,
+      "shootingPctg": 0.071429,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 14
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485394,
+   "name": "Eddie Genborg",
+   "number": null,
+   "pos": "R",
+   "shoots": "L",
+   "age": 19,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485394.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 44
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "SHL",
+     "team": "Timrå IK",
+     "stats": {
+      "assists": 4,
+      "gamesPlayed": 10,
+      "goals": 3,
+      "pim": 6,
+      "plusMinus": 0,
+      "points": 7
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8482163,
+   "name": "Eemil Viro",
+   "number": 51,
+   "pos": "D",
+   "shoots": "L",
+   "age": 24,
+   "country": "FIN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482163.png",
+   "draft": {
+    "year": 2020,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 70
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "SHL",
+     "team": "Malmö Redhawks",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 9,
+      "goals": 1,
+      "pim": 8,
+      "plusMinus": 1,
+      "points": 3
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484471,
+   "name": "Emmitt Finnie",
+   "number": 58,
+   "pos": "C",
+   "shoots": "L",
+   "age": 21,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484471.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 201
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 2,
+      "avgToi": "17:00",
+      "faceoffWinningPctg": 0.423529,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 3,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": 6,
+      "points": 5,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 1,
+      "shootingPctg": 0.15,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 20
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485103,
+   "name": "Fisher Scott",
+   "number": null,
+   "pos": "D",
+   "shoots": "L",
+   "age": 21,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485103.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 208
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Colorado College",
+     "stats": {
+      "assists": 3,
+      "gamesPlayed": 4,
+      "goals": 0,
+      "pim": 0,
+      "plusMinus": 7,
+      "points": 3
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485666,
+   "name": "Grayden Robertson-Palmer",
+   "number": null,
+   "pos": "C",
+   "shoots": "L",
+   "age": 19,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485666.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 204
+   },
+   "on_nhl_roster": false,
+   "lines": [],
+   "last_team": {
+    "league": "QMJHL",
+    "team": "Moncton Wildcats",
+    "season": 20252026
+   }
+  },
+  {
+   "id": 8477456,
+   "name": "J.T. Compher",
+   "number": 37,
+   "pos": "L",
+   "shoots": "R",
+   "age": 31,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8477456.png",
+   "draft": {
+    "year": 2013,
+    "teamAbbrev": "BUF",
+    "round": 2,
+    "overallPick": 35
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 0,
+      "avgToi": "14:40",
+      "faceoffWinningPctg": 0.423077,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 2,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": 0,
+      "points": 0,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 3
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8486049,
+   "name": "JP Hurlbert",
+   "number": null,
+   "pos": "L",
+   "shoots": "R",
+   "age": 18,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486049.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 23
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Michigan",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 6,
+      "goals": 1,
+      "pim": 6,
+      "plusMinus": 1,
+      "points": 3
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484426,
+   "name": "Jack Phelan",
+   "number": null,
+   "pos": "D",
+   "shoots": "R",
+   "age": 22,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484426.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 137
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Wisconsin",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 4,
+      "goals": 0,
+      "pim": 2,
+      "plusMinus": 4,
+      "points": 0
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8480879,
+   "name": "Jacob Bernard-Docker",
+   "number": 25,
+   "pos": "D",
+   "shoots": "R",
+   "age": 26,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8480879.png",
+   "draft": {
+    "year": 2018,
+    "teamAbbrev": "OTT",
+    "round": 1,
+    "overallPick": 26
+   },
+   "on_nhl_roster": false,
+   "lines": [],
+   "last_team": {
+    "league": "NHL",
+    "team": "Detroit Red Wings",
+    "season": 20252026
+   }
+  },
+  {
+   "id": 8480196,
+   "name": "Jacob Bryson",
+   "number": 78,
+   "pos": "D",
+   "shoots": "L",
+   "age": 28,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8480196.png",
+   "draft": {
+    "year": 2017,
+    "teamAbbrev": "BUF",
+    "round": 4,
+    "overallPick": 99
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 6,
+      "gamesPlayed": 7,
+      "goals": 1,
+      "pim": 4,
+      "plusMinus": 0,
+      "points": 7
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484183,
+   "name": "Jesse Kiiskinen",
+   "number": 79,
+   "pos": "R",
+   "shoots": "R",
+   "age": 21,
+   "country": "FIN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484183.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "NSH",
+    "round": 3,
+    "overallPick": 68
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 7,
+      "goals": 5,
+      "pim": 7,
+      "plusMinus": 5,
+      "points": 7
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8476434,
+   "name": "John Gibson",
+   "number": 36,
+   "pos": "G",
+   "shoots": "L",
+   "age": 33,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8476434.png",
+   "draft": {
+    "year": 2011,
+    "teamAbbrev": "ANA",
+    "round": 2,
+    "overallPick": 39
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 6,
+      "gamesStarted": 6,
+      "goals": 0,
+      "goalsAgainst": 20,
+      "goalsAgainstAvg": 3.575508,
+      "losses": 3,
+      "otLosses": 1,
+      "pim": 0,
+      "savePctg": 0.873418,
+      "shotsAgainst": 158,
+      "shutouts": 0,
+      "timeOnIce": "335:37",
+      "wins": 2
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8481077,
+   "name": "John Leonard",
+   "number": 43,
+   "pos": "L",
+   "shoots": "L",
+   "age": 28,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8481077.png",
+   "draft": {
+    "year": 2018,
+    "teamAbbrev": "SJS",
+    "round": 6,
+    "overallPick": 182
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 1,
+      "gamesPlayed": 3,
+      "goals": 5,
+      "pim": 0,
+      "plusMinus": 1,
+      "points": 6
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485040,
+   "name": "John Whipple",
+   "number": null,
+   "pos": "D",
+   "shoots": "L",
+   "age": 20,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485040.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 144
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Minnesota",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 4,
+      "goals": 0,
+      "pim": 2,
+      "plusMinus": 2,
+      "points": 0
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8475753,
+   "name": "Justin Faulk",
+   "number": 72,
+   "pos": "D",
+   "shoots": "R",
+   "age": 34,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8475753.png",
+   "draft": {
+    "year": 2010,
+    "teamAbbrev": "CAR",
+    "round": 2,
+    "overallPick": 37
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 3,
+      "avgToi": "19:16",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 1,
+      "gamesPlayed": 8,
+      "goals": 2,
+      "otGoals": 0,
+      "pim": 6,
+      "plusMinus": 0,
+      "points": 5,
+      "powerPlayGoals": 1,
+      "powerPlayPoints": 2,
+      "shootingPctg": 0.133333,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 15
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8478434,
+   "name": "Keegan Kolesar",
+   "number": 55,
+   "pos": "R",
+   "shoots": "R",
+   "age": 29,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8478434.png",
+   "draft": {
+    "year": 2015,
+    "teamAbbrev": "CBJ",
+    "round": 3,
+    "overallPick": 69
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 0,
+      "avgToi": "10:59",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 20,
+      "plusMinus": -3,
+      "points": 0,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 2
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484432,
+   "name": "Kevin Bicker",
+   "number": null,
+   "pos": "L",
+   "shoots": "L",
+   "age": 21,
+   "country": "DEU",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484432.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 147
+   },
+   "on_nhl_roster": false,
+   "lines": [],
+   "last_team": {
+    "league": "DEL",
+    "team": "Löwen Frankfurt",
+    "season": 20252026
+   }
+  },
+  {
+   "id": 8484182,
+   "name": "Larry Keenan",
+   "number": null,
+   "pos": "D",
+   "shoots": "L",
+   "age": 21,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484182.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 117
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Massachusetts",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 6,
+      "goals": 1,
+      "pim": 2,
+      "plusMinus": 2,
+      "points": 1
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8482078,
+   "name": "Lucas Raymond",
+   "number": 23,
+   "pos": "L",
+   "shoots": "R",
+   "age": 24,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482078.png",
+   "draft": {
+    "year": 2020,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 4
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 4,
+      "avgToi": "20:27",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 4,
+      "plusMinus": -2,
+      "points": 4,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 3,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 23
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8486305,
+   "name": "Luka Arkko",
+   "number": null,
+   "pos": "L",
+   "shoots": "L",
+   "age": 18,
+   "country": "FIN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486305.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 6,
+    "overallPick": 175
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "OHL",
+     "team": "Erie Otters",
+     "stats": {
+      "assists": 1,
+      "gamesPlayed": 8,
+      "goals": 3,
+      "pim": 0,
+      "plusMinus": -3,
+      "points": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8483464,
+   "name": "Marco Kasper",
+   "number": 92,
+   "pos": "C",
+   "shoots": "L",
+   "age": 22,
+   "country": "AUT",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483464.png",
+   "draft": {
+    "year": 2022,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 8
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 0,
+      "avgToi": "10:50",
+      "faceoffWinningPctg": 0.642857,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 1,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 5,
+      "plusMinus": 0,
+      "points": 0,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8478891,
+   "name": "Mason Appleton",
+   "number": 22,
+   "pos": "C",
+   "shoots": "R",
+   "age": 30,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8478891.png",
+   "draft": {
+    "year": 2015,
+    "teamAbbrev": "WPG",
+    "round": 6,
+    "overallPick": 168
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 0,
+      "avgToi": "9:51",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 2,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 0,
+      "plusMinus": 0,
+      "points": 0,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 1
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484870,
+   "name": "Max Plante",
+   "number": null,
+   "pos": "L",
+   "shoots": "L",
+   "age": 20,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484870.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 47
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Minnesota-Duluth",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 2,
+      "goals": 0,
+      "pim": 0,
+      "plusMinus": 0,
+      "points": 2
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484794,
+   "name": "Michael Brandsegg-Nygård",
+   "number": 28,
+   "pos": "R",
+   "shoots": "R",
+   "age": 21,
+   "country": "NOR",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484794.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 15
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 4,
+      "avgToi": "15:18",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 2,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": 8,
+      "points": 6,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.090909,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 22
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8479992,
+   "name": "Michael Rasmussen",
+   "number": 27,
+   "pos": "C",
+   "shoots": "L",
+   "age": 27,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8479992.png",
+   "draft": {
+    "year": 2017,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 9
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 2,
+      "avgToi": "17:03",
+      "faceoffWinningPctg": 0.5,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": -3,
+      "points": 2,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 1,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 9
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8486080,
+   "name": "Michal Orsulak",
+   "number": null,
+   "pos": "G",
+   "shoots": "R",
+   "age": 19,
+   "country": "CZE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486080.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 79
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "WHL",
+     "team": "Prince Albert Raiders",
+     "stats": {
+      "gamesPlayed": 8,
+      "goalsAgainst": 27,
+      "goalsAgainstAvg": 3.41,
+      "losses": 4,
+      "otLosses": 2,
+      "savePctg": 0.877,
+      "shotsAgainst": 220,
+      "shutouts": 0,
+      "timeOnIce": "474:55",
+      "wins": 2
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485545,
+   "name": "Michal Postava",
+   "number": 35,
+   "pos": "G",
+   "shoots": "L",
+   "age": 24,
+   "country": "CZE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485545.png",
+   "draft": null,
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "gamesPlayed": 4,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 1.25,
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.954,
+      "shotsAgainst": 108,
+      "shutouts": 0,
+      "timeOnIce": "239:40",
+      "wins": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485568,
+   "name": "Michal Pradel",
+   "number": null,
+   "pos": "G",
+   "shoots": "L",
+   "age": 19,
+   "country": "SVK",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485568.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 75
+   },
+   "on_nhl_roster": false,
+   "lines": [],
+   "last_team": {
+    "league": "USHL",
+    "team": "Tri-City Storm",
+    "season": 20252026
+   }
+  },
+  {
+   "id": 8485592,
+   "name": "Michal Svrcek",
+   "number": null,
+   "pos": "L",
+   "shoots": "L",
+   "age": 19,
+   "country": "SVK",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485592.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 4,
+    "overallPick": 119
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "OHL",
+     "team": "Windsor Spitfires",
+     "stats": {
+      "assists": 4,
+      "gamesPlayed": 11,
+      "goals": 3,
+      "pim": 2,
+      "plusMinus": -2,
+      "points": 7
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8481542,
+   "name": "Moritz Seider",
+   "number": 53,
+   "pos": "D",
+   "shoots": "R",
+   "age": 25,
+   "country": "DEU",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8481542.png",
+   "draft": {
+    "year": 2019,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 6
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 5,
+      "avgToi": "25:44",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": 2,
+      "points": 5,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 2,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 15
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8486324,
+   "name": "Myles Brosnan",
+   "number": null,
+   "pos": "D",
+   "shoots": "R",
+   "age": 19,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486324.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 196
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "QMJHL",
+     "team": "Moncton Wildcats",
+     "stats": {
+      "assists": 5,
+      "gamesPlayed": 10,
+      "goals": 3,
+      "pim": 6,
+      "plusMinus": -1,
+      "points": 8
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484160,
+   "name": "Nate Danielson",
+   "number": 29,
+   "pos": "C",
+   "shoots": "R",
+   "age": 22,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484160.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 9
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 2,
+      "avgToi": "10:25",
+      "faceoffWinningPctg": 0.485714,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 7,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": -1,
+      "points": 2,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485613,
+   "name": "Nikita Tyurin",
+   "number": null,
+   "pos": "D",
+   "shoots": "L",
+   "age": 19,
+   "country": "RUS",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485613.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 5,
+    "overallPick": 140
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "MHL",
+     "team": "MHK Spartak Moskva",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 2,
+      "goals": 0,
+      "pim": 2,
+      "plusMinus": 0,
+      "points": 0
+     }
+    },
+    {
+     "league": "VHL",
+     "team": "Khimik Voskresensk",
+     "stats": {
+      "assists": 1,
+      "gamesPlayed": 12,
+      "goals": 0,
+      "pim": 4,
+      "plusMinus": -2,
+      "points": 1
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484161,
+   "name": "Noah Dower Nilsson",
+   "number": 74,
+   "pos": "L",
+   "shoots": "L",
+   "age": 21,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484161.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 73
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 3,
+      "gamesPlayed": 7,
+      "goals": 0,
+      "pim": 0,
+      "plusMinus": -5,
+      "points": 3
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484836,
+   "name": "Ondrej Becher",
+   "number": 57,
+   "pos": "C",
+   "shoots": "L",
+   "age": 22,
+   "country": "CZE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484836.png",
+   "draft": {
+    "year": 2024,
+    "teamAbbrev": "DET",
+    "round": 3,
+    "overallPick": 80
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 4,
+      "gamesPlayed": 7,
+      "goals": 0,
+      "pim": 2,
+      "plusMinus": 3,
+      "points": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8483717,
+   "name": "Owen Mehlenbacher",
+   "number": null,
+   "pos": "C",
+   "shoots": "L",
+   "age": 22,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8483717.png",
+   "draft": {
+    "year": 2022,
+    "teamAbbrev": "DET",
+    "round": 7,
+    "overallPick": 201
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Ferris State Univ.",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 4,
+      "goals": 1,
+      "pim": 4,
+      "plusMinus": -3,
+      "points": 1
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8481521,
+   "name": "Ronnie Attard",
+   "number": 56,
+   "pos": "D",
+   "shoots": "R",
+   "age": 27,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8481521.png",
+   "draft": {
+    "year": 2019,
+    "teamAbbrev": "PHI",
+    "round": 3,
+    "overallPick": 72
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 5,
+      "goals": 0,
+      "pim": 2,
+      "plusMinus": -1,
+      "points": 0
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484453,
+   "name": "Rudy Guimond",
+   "number": null,
+   "pos": "G",
+   "shoots": "L",
+   "age": 21,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484453.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 6,
+    "overallPick": 169
+   },
+   "on_nhl_roster": false,
+   "lines": [],
+   "last_team": {
+    "league": "QMJHL",
+    "team": "Moncton Wildcats",
+    "season": 20252026
+   }
+  },
+  {
+   "id": 8486365,
+   "name": "Salvatore Viviano",
+   "number": null,
+   "pos": "C",
+   "shoots": null,
+   "age": 19,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486365.png",
+   "draft": null,
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "USHL",
+     "team": "Waterloo Black Hawks",
+     "stats": {
+      "assists": 1,
+      "gamesPlayed": 8,
+      "goals": 3,
+      "pim": 2,
+      "plusMinus": 0,
+      "points": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8482777,
+   "name": "Shai Buium",
+   "number": 17,
+   "pos": "D",
+   "shoots": "L",
+   "age": 23,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482777.png",
+   "draft": {
+    "year": 2021,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 36
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 4,
+      "gamesPlayed": 7,
+      "goals": 0,
+      "pim": 2,
+      "plusMinus": 1,
+      "points": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8480326,
+   "name": "Sheldon Dries",
+   "number": 15,
+   "pos": "C",
+   "shoots": "L",
+   "age": 32,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8480326.png",
+   "draft": null,
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 0,
+      "avgToi": "10:01",
+      "faceoffWinningPctg": 0.3,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 5,
+      "goals": 0,
+      "otGoals": 0,
+      "pim": 0,
+      "plusMinus": -3,
+      "points": 0,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.0,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 5
+     }
+    },
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 1,
+      "gamesPlayed": 2,
+      "goals": 3,
+      "pim": 4,
+      "plusMinus": 0,
+      "points": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8482762,
+   "name": "Simon Edvinsson",
+   "number": 77,
+   "pos": "D",
+   "shoots": "L",
+   "age": 23,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482762.png",
+   "draft": {
+    "year": 2021,
+    "teamAbbrev": "DET",
+    "round": 1,
+    "overallPick": 6
+   },
+   "on_nhl_roster": false,
+   "lines": [],
+   "last_team": {
+    "league": "NHL",
+    "team": "Detroit Red Wings",
+    "season": 20252026
+   }
+  },
+  {
+   "id": 8484425,
+   "name": "Sutter Muzzatti",
+   "number": 38,
+   "pos": "C",
+   "shoots": "L",
+   "age": 23,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484425.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "NSH",
+    "round": 5,
+    "overallPick": 143
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 3,
+      "goals": 1,
+      "pim": 0,
+      "plusMinus": 1,
+      "points": 1
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8482184,
+   "name": "Theo Rochette",
+   "number": 48,
+   "pos": "C",
+   "shoots": "L",
+   "age": 24,
+   "country": "CHE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482184.png",
+   "draft": null,
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 6,
+      "goals": 1,
+      "pim": 2,
+      "plusMinus": -3,
+      "points": 3
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484141,
+   "name": "Trey Augustine",
+   "number": 31,
+   "pos": "G",
+   "shoots": "L",
+   "age": 21,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484141.png",
+   "draft": {
+    "year": 2023,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 41
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "gamesPlayed": 3,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 3.27,
+      "losses": 1,
+      "otLosses": 1,
+      "savePctg": 0.882,
+      "shotsAgainst": 85,
+      "shutouts": 0,
+      "timeOnIce": "183:14",
+      "wins": 1
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8486084,
+   "name": "Victor Plante",
+   "number": null,
+   "pos": "L",
+   "shoots": "L",
+   "age": 18,
+   "country": "USA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486084.png",
+   "draft": {
+    "year": 2026,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 47
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Minnesota-Duluth",
+     "stats": {
+      "assists": 3,
+      "gamesPlayed": 6,
+      "goals": 1,
+      "pim": 0,
+      "plusMinus": 1,
+      "points": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8478042,
+   "name": "Viktor Arvidsson",
+   "number": 33,
+   "pos": "L",
+   "shoots": "R",
+   "age": 33,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8478042.png",
+   "draft": {
+    "year": 2014,
+    "teamAbbrev": "NSH",
+    "round": 4,
+    "overallPick": 112
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 2,
+      "avgToi": "19:09",
+      "faceoffWinningPctg": 0.375,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 8,
+      "goals": 3,
+      "otGoals": 0,
+      "pim": 2,
+      "plusMinus": -4,
+      "points": 5,
+      "powerPlayGoals": 3,
+      "powerPlayPoints": 3,
+      "shootingPctg": 0.142857,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 21
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8485641,
+   "name": "Will Murphy",
+   "number": null,
+   "pos": "D",
+   "shoots": "L",
+   "age": 19,
+   "country": "CAN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485641.png",
+   "draft": {
+    "year": 2025,
+    "teamAbbrev": "DET",
+    "round": 6,
+    "overallPick": 172
+   },
+   "on_nhl_roster": false,
+   "lines": [],
+   "last_team": {
+    "league": "QMJHL",
+    "team": "Cape Breton Eagles",
+    "season": 20252026
+   }
+  },
+  {
+   "id": 8478021,
+   "name": "William Lagesson",
+   "number": 84,
+   "pos": "D",
+   "shoots": "L",
+   "age": 30,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8478021.png",
+   "draft": {
+    "year": 2014,
+    "teamAbbrev": "EDM",
+    "round": 4,
+    "overallPick": 91
+   },
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 7,
+      "goals": 3,
+      "pim": 6,
+      "plusMinus": 2,
+      "points": 5
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8482171,
+   "name": "William Wallinder",
+   "number": 54,
+   "pos": "D",
+   "shoots": "L",
+   "age": 24,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482171.png",
+   "draft": {
+    "year": 2020,
+    "teamAbbrev": "DET",
+    "round": 2,
+    "overallPick": 32
+   },
+   "on_nhl_roster": true,
+   "lines": [
+    {
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "stats": {
+      "assists": 1,
+      "avgToi": "14:14",
+      "faceoffWinningPctg": 0.0,
+      "gameWinningGoals": 0,
+      "gamesPlayed": 4,
+      "goals": 1,
+      "otGoals": 0,
+      "pim": 0,
+      "plusMinus": -1,
+      "points": 2,
+      "powerPlayGoals": 0,
+      "powerPlayPoints": 0,
+      "shootingPctg": 0.25,
+      "shorthandedGoals": 0,
+      "shorthandedPoints": 0,
+      "shots": 4
+     }
+    }
+   ],
+   "last_team": null
+  },
+  {
+   "id": 8484380,
+   "name": "Wilmer Skoog",
+   "number": 73,
+   "pos": "C",
+   "shoots": "L",
+   "age": 27,
+   "country": "SWE",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8484380.png",
+   "draft": null,
+   "on_nhl_roster": false,
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 2,
+      "gamesPlayed": 7,
+      "goals": 1,
+      "pim": 8,
+      "plusMinus": -1,
+      "points": 3
+     }
+    }
+   ],
+   "last_team": null
+  }
+ ]
+}

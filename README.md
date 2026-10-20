@@ -24,6 +24,16 @@ Then open http://localhost:8000. (Opening the HTML files directly won't work, be
 
 You can also write posts from scratch. Copy the front matter from `content/posts/2026-10-19-welcome.md`. Post types: `recap`, `analysis`, `opinion`, `scouting`, `draft`. The `players:` list takes NHL player ids, which you'll find in the URL of each player page (`player.html?id=8485362`).
 
+## Roster
+
+`roster.html` lists every player whose NHL rights Detroit holds: the Red Wings, contracted players in the AHL and ECHL, and unsigned draft picks in college, junior and Europe. It's grouped by the league each player has played in this season.
+
+- A player who has moved between leagues (a call-up, or a loan from an SHL club to HockeyAllsvenskan) appears under each league with that league's stats, tagged with the other league.
+- Each table shows every stat the NHL publishes for that league. NHL skaters get the full set, including power play, shorthanded, shots, ice time and faceoffs; other leagues get GP/G/A/PTS/+/-/PIM; goalies get their full line everywhere.
+- Players who haven't played yet this season (injured, unsigned) are listed with their last team.
+- The data comes from the NHL API and refreshes daily into `data/roster.json`. AHL- or ECHL-only contracts belong to those clubs, not Detroit, so they aren't included.
+- **Elite Prospects:** every player has an "EP" link to their Elite Prospects profile search. Pulling EP's data automatically isn't allowed (their terms forbid scraping); it would need their licensed API.
+
 ## Outside news
 
 The **News** page lists what other outlets write about the prospects. **Editorials** is only your own posts.
@@ -84,6 +94,7 @@ Undrafted players aren't in the NHL API, so the watchlist in `data/draft_targets
 | `index.html` | Home: snapshot cards of every section |
 | `editorials.html`, `post.html` | Your posts and the article page |
 | `news.html` | Outside articles about the prospects |
+| `roster.html` | Every Detroit player, with full stats per league |
 | `prospects.html`, `player.html` | Stats table and player profiles |
 | `draft.html` | Draft watchlist and Central Scouting rankings |
 | `lottery.html` | Mock draft lottery (standings, odds, simulator) |

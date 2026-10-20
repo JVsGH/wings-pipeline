@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roster · Wings Pipeline</title>
+<meta name="description" content="Every Detroit Red Wings player and prospect, with full stats for each league they play in this season.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  // Apply the saved light/dark choice (or the system setting) before the page paints.
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    document.documentElement.dataset.theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  })();
+</script>
+</head>
+<body data-page="roster">
+<main>
+<h1>Organization roster</h1>
+<p class="lede">Every player whose NHL rights Detroit holds, wherever they're playing this season, from the Red Wings and Griffins to college, junior and Europe. A player who has moved between leagues appears under each one. Each table shows every stat the NHL publishes for that league. <span class="updated" id="updated"></span></p>
+<div class="controls">
+  <input type="search" id="q" placeholder="Search players">
+  <div class="chips" id="league-chips"></div>
+</div>
+<div id="roster"></div>
+<p class="footnote">Regular season only. Click a column to sort. <b>Prospect</b> marks players on the Prospects page (linked to their profile here); everyone else links to NHL.com. <b>EP</b> opens a search on Elite Prospects. Players on AHL- or ECHL-only contracts aren't Detroit property and aren't listed.</p>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>
