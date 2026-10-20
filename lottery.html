@@ -25,6 +25,7 @@
 <div class="tabs">
   <button class="tab on" data-ltab="order-panel">Draft order</button>
   <button class="tab" data-ltab="odds-panel">Lottery odds</button>
+  <button class="tab" data-ltab="board-panel">Big board</button>
 </div>
 
 <section class="ltab-panel" id="order-panel">
@@ -52,6 +53,14 @@
   <h2 class="section matrix-title">Chance of landing each pick (%)</h2>
   <div class="table-wrap matrix-wrap"><table class="matrix">
     <thead id="matrix-head"></thead><tbody id="matrix-body"></tbody>
+  </table></div>
+</section>
+
+<section class="ltab-panel" id="board-panel" hidden>
+  <p class="result-note" id="board-note"></p>
+  <div class="table-wrap glow-frame" id="board-table"><table class="lottery-table board-table">
+    <thead><tr><th class="num">#</th><th>Player</th><th>Club</th><th class="num hide-sm">Ht / Wt</th><th class="num hide-sm">Born</th><th class="hide-xs">CSS list</th></tr></thead>
+    <tbody id="board-body"></tbody>
   </table></div>
 </section>
 

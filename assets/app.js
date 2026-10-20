@@ -609,10 +609,52 @@ async function initDraft() {
   const cats = Object.entries(css.categories || {});
   $("#css").innerHTML = cats.length ? cats.map(([cat, list]) => `<h3>${esc(cat)}</h3><div class="table-wrap"><table><thead><tr>
       <th class="num">Rank</th><th>Player</th><th>Pos</th><th>Club</th><th>League</th><th>Ht / Wt</th><th>Born</th></tr></thead><tbody>
-      ${list.slice(0, 64).map((r) => `<tr><td class="num">${r.finalRank ?? r.midtermRank ?? "–"}</td><td><b>${esc(r.firstName)} ${esc(r.lastName)}</b></td><td>${esc(r.positionCode)}</td>
+      ${list.slice(0, 64).map((r) => `<tr><td class="num">${cssRank(r) ?? "–"}</td><td><b>${esc(r.firstName)} ${esc(r.lastName)}</b></td><td>${esc(r.positionCode)}</td>
         <td class="sub">${esc(r.lastAmateurClub)}</td><td>${esc(r.lastAmateurLeague)}</td><td class="sub">${heightFt(r.heightInInches)} / ${r.weightInPounds ?? "–"}</td><td class="sub">${esc(r.birthDate)}</td></tr>`).join("")}
       </tbody></table></div>`).join("")
     : `<div class="card empty">NHL Central Scouting hasn't published ${css.draftYear || watch.draft_year} rankings yet. The updater adds them automatically once it does.</div>`;
+}
+
+// ---------- draft big board (from NHL Central Scouting) ----------
+// Central Scouting ranks four separate lists: North American and International skaters and goalies.
+// To build one board, skaters from both lists are interleaved by how high they sit in their own list
+// (rank / list length), and goalies are slotted in every `goalie_spacing` picks (top goalie ~15th).
+// data/draft_board_overrides.json can pin players to the top, drop players, or change the spacing.
+const CSS_RANK_KEYS = ["finalRank", "midtermRank", "rank", "preliminaryRank"];
+
+function cssRank(r) {
+  for (const k of CSS_RANK_KEYS) if (typeof r[k] === "number") return r[k];
+  const k = Object.keys(r).find((x) => /rank/i.test(x) && typeof r[x] === "number");
+  return k ? r[k] : null;
+}
+
+function cssStage(categories) {
+  const rows = Object.values(categories).flat();
+  if (rows.some((r) => typeof r.finalRank === "number")) return "final rankings";
+  if (rows.some((r) => typeof r.midtermRank === "number")) return "midterm rankings";
+  return "preliminary list";
+}
+
+function buildBigBoard(css, overrides = {}) {
+  const cats = Object.entries(css?.categories || {});
+  if (!cats.length) return [];
+  const fullName = (r) => `${r.firstName} ${r.lastName}`;
+  const removed = new Set((overrides.remove || []).map((s) => s.toLowerCase()));
+  const pool = (match) => cats.filter(([name]) => match.test(name)).flatMap(([name, list]) => {
+    const ranked = list.filter((r) => cssRank(r) != null);
+    return ranked.map((r) => ({ ...r, name: fullName(r), list: name, cssRank: cssRank(r), score: cssRank(r) / ranked.length }));
+  }).filter((r) => !removed.has(r.name.toLowerCase()))
+    .sort((a, b) => a.score - b.score || a.cssRank - b.cssRank);
+
+  const skaters = pool(/skater/i), goalies = pool(/goalie/i);
+  const spacing = overrides.goalie_spacing || 15;
+  const board = [...skaters];
+  goalies.forEach((g, i) => board.splice(Math.min(board.length, (i + 1) * spacing - 1), 0, g));
+
+  // Hand-pinned players go first, in the order given.
+  const pins = (overrides.pin_top || []).map((s) => s.toLowerCase());
+  const pinned = pins.map((p) => board.find((r) => r.name.toLowerCase() === p)).filter(Boolean);
+  return [...pinned, ...board.filter((r) => !pinned.includes(r))];
 }
 
 // ---------- mock draft lottery ----------
@@ -696,7 +738,15 @@ const pctNum = (v, digits = 1) => {
 const pct = (v, digits = 1) => (v > 0 ? `${pctNum(v, digits)}%` : "–");
 
 async function initLottery() {
-  const [standings, owners] = await Promise.all([load("data/standings.json"), load("data/pick_owners.json")]);
+  const [standings, owners, css, boardOverrides] = await Promise.all([load("data/standings.json"), load("data/pick_owners.json"),
+    load("data/css_rankings.json").catch(() => null), load("data/draft_board_overrides.json").catch(() => ({}))]);
+  const board = css?.draftYear === owners.draft_year ? buildBigBoard(css, boardOverrides) : [];
+  const prospectCell = (pick) => {
+    const r = board[pick - 1];
+    if (!board.length) return "";
+    if (!r) return `<td class="mock-pick sub">–</td>`;
+    return `<td class="mock-pick"><b>${esc(r.name)}</b><span class="sub">${esc(r.positionCode)} · ${esc(r.lastAmateurClub)} (${esc(r.lastAmateurLeague)})</span></td>`;
+  };
   const n = LOTTERY_ODDS.length;
   const lottery = standings.teams.filter((t) => !t.playoff).slice(0, n); // already sorted worst first
   const playoff = standings.teams.filter((t) => t.playoff);
@@ -722,15 +772,15 @@ async function initLottery() {
     const isProtected = pick != null && deal.protected_top && pick <= deal.protected_top;
     if (isProtected) {
       return { shown: (deal.protected_owner && team(deal.protected_owner)) || t, deal,
-        sub: `Protected at #${pick} · ${deal.protected_label || `stays with ${t.abbrev}`}` };
+        sub: `Protected at #${pick}`, note: deal.protected_label || `stays with ${t.abbrev}` };
     }
-    return { shown: team(deal.owner) || t, deal, sub: `via ${t.abbrev} · ${deal.note}` };
+    return { shown: team(deal.owner) || t, deal, sub: `via ${t.abbrev}`, note: deal.note };
   };
   const teamCell = (t, pick = null) => {
-    const { shown, deal, sub } = holder(t, pick);
+    const { shown, deal, sub, note } = holder(t, pick);
     const tip = [deal?.condition, deal?.detail].filter(Boolean).join("\n\n");
     return `<td class="team-cell"${tip ? ` title="${esc(tip)}"` : ""}>${logo(shown)}<span><b class="full">${esc(shown.name)}</b><b class="abbr">${esc(shown.abbrev)}</b>
-      ${sub ? `<span class="sub">${esc(sub)}</span>` : ""}</span></td>`;
+      ${sub ? `<span class="sub">${esc(sub)}${note ? `<span class="deal-note"> · ${esc(note)}</span>` : ""}</span>` : ""}</span></td>`;
   };
   const isFocus = (t, pick = null) => holder(t, pick).shown.abbrev === FOCUS;
   const record = (t) => `${t.w}-${t.l}-${t.otl}`;
@@ -756,14 +806,14 @@ async function initLottery() {
         <td class="num pick">${pick + 1}</td>${teamCell(t, pick + 1)}
         ${standingCells(t, pick + 1)}
         <td class="num">${pct(LOTTERY_ODDS[seed])}</td>
-        <td class="num">${result ? moveCell : `<span class="sub">${pct(matrix[seed][0] + matrix[seed][1])}</span>`}</td></tr>`;
+        <td class="num">${result ? moveCell : `<span class="sub">${pct(matrix[seed][0] + matrix[seed][1])}</span>`}</td>${prospectCell(pick + 1)}</tr>`;
     });
     const rest = playoff.map((t, i) => `<tr class="playoff ${isFocus(t, n + i + 1) ? "focus" : ""}"><td class="num pick">${n + i + 1}</td>${teamCell(t, n + i + 1)}
-        ${standingCells(t, n + i + 1)}<td class="num sub">–</td><td class="num sub">–</td></tr>`);
+        ${standingCells(t, n + i + 1)}<td class="num sub">–</td><td class="num sub">–</td>${prospectCell(n + i + 1)}</tr>`);
     $("#order-head").innerHTML = `<tr><th class="num">Pick</th><th>Team</th><th class="num hide-sm">Record</th><th class="num hide-xs">Pts%</th>
-      <th class="num">#1 odds</th><th class="num">${result ? "Move" : "Top 2"}</th></tr>`;
+      <th class="num">#1 odds</th><th class="num">${result ? "Move" : "Top 2"}</th>${board.length ? "<th>Mock pick</th>" : ""}</tr>`;
     $("#order-body").innerHTML = rows.join("") +
-      `<tr class="divider"><td colspan="6">Projected playoff teams · picks 17–32 are set by playoff results</td></tr>` + rest.join("");
+      `<tr class="divider"><td colspan="${board.length ? 7 : 6}">Projected playoff teams · picks 17–32 are set by playoff results</td></tr>` + rest.join("");
     $("#result-note").innerHTML = result
       ? `<b>${esc(lottery[result.w1].name)}</b> won the first draw${result.w1 > MAX_JUMP ? ` but can only jump 10 spots, so they move to #${result.w1 - MAX_JUMP + 1} and the worst team keeps #1` : ""}.
          <b>${esc(lottery[result.w2].name)}</b> won the second draw.`
@@ -802,6 +852,20 @@ async function initLottery() {
   // Team picker for "sim until #1"
   $("#chase-team").innerHTML = lottery.map((t, seed) =>
     `<option value="${seed}" ${seed === focusSeed ? "selected" : ""}>${esc(t.name)}</option>`).join("");
+
+  // Big board tab: Central Scouting's lists merged into one ranking, or a note until they're published.
+  const stage = board.length ? cssStage(css.categories) : null;
+  $("#board-note").innerHTML = board.length
+    ? `Built from NHL Central Scouting's ${owners.draft_year} ${stage} (${board.length} players). Central Scouting ranks North American and International skaters and goalies separately; this board blends them by how high each player sits in their own list, with goalies slotted in about every ${boardOverrides.goalie_spacing || 15} picks. It refreshes daily. The <b>Mock pick</b> column in Draft order gives each pick the best player left on this board.`
+    : `NHL Central Scouting hasn't published its ${owners.draft_year} rankings yet. Its first list usually arrives in the fall, with midterm rankings in January and final rankings in the spring. This board, and a <b>Mock pick</b> column in Draft order, fill in automatically the day it's out.`;
+  $("#board-body").innerHTML = board.slice(0, 96).map((r, i) => `<tr class="${i < 32 ? "" : "dim"}">
+      <td class="num pick">${i + 1}</td>
+      <td class="player-cell"><b>${esc(r.name)}</b><span class="flag">${esc(r.positionCode)}</span></td>
+      <td class="team-col">${esc(r.lastAmateurClub)} <span class="sub">${esc(r.lastAmateurLeague)}</span></td>
+      <td class="num hide-sm">${heightFt(r.heightInInches)} / ${r.weightInPounds ?? "–"}</td>
+      <td class="num hide-sm">${esc(r.birthDate || "")}</td>
+      <td class="hide-xs sub">${esc(r.list.replace(/ (Skater|Goalie)s?$/i, ""))} #${r.cssRank}</td></tr>`).join("");
+  $("#board-table").hidden = !board.length;
 
   const tabs = document.querySelectorAll("[data-ltab]");
   tabs.forEach((b) => b.addEventListener("click", () => {

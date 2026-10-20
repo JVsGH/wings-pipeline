@@ -66,6 +66,8 @@ Undrafted players aren't in the NHL API, so the watchlist in `data/draft_targets
 - To correct something the parser got wrong, add it to `data/pick_overrides.json`, which is applied on top. For example, `"TOR": { "owner": "BOS" }` changes an owner, and `"VGK": null` drops a pick.
 - If Wikipedia can't be reached or the page format changes, the previous pick data is kept and the updater prints a warning, so the page never goes blank.
 - The draft year rolls over on its own each August, along with the season.
+- **Big board and mock picks:** the draft-eligible players come from NHL Central Scouting's rankings for the upcoming draft, which the updater pulls into `data/css_rankings.json` as soon as the NHL publishes them (a first list in the fall, midterm rankings in January, final rankings in the spring). Central Scouting ranks four separate lists (North American and International skaters and goalies). The page blends them into one board by how high each player sits in their own list, slots in a goalie about every 15 picks, and gives each pick in the draft order the best player left. Until the first list is out, the Big board tab says so and the Mock pick column stays hidden.
+- To put your own stamp on the board, use `data/draft_board_overrides.json`: `pin_top` puts named players first in your order, `remove` drops players, and `goalie_spacing` changes how often goalies are slotted in.
 
 ## Hosting
 

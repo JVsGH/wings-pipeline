@@ -349,6 +349,24 @@ body[data-page="roster"] main { max-width: 1440px; } /* room for every column on
   border-radius: 4px; background: var(--chip); color: var(--muted); vertical-align: 1px;
 }
 .move { font-weight: 700; font-size: 0.85rem; }
+.mock-pick { white-space: normal; line-height: 1.25; min-width: 150px; }
+.mock-pick b, .mock-pick .sub { display: block; }
+.board-table td.player-cell, .board-table td.team-col { white-space: normal; }
+@media (max-width: 640px) {
+  .mock-pick { min-width: 0; font-size: 0.8rem; }
+  .mock-pick .sub { display: none; }
+}
+@media (max-width: 400px) {
+  /* five columns on the smallest phones: tighten so nothing scrolls sideways */
+  .lottery-table th, .lottery-table td { padding: 7px 3px; }
+  .lottery-table .team-cell { gap: 5px; }
+  .lottery-table .logo { width: 20px; height: 20px; }
+  .lottery-table .pick { width: 2em; }
+  .mock-pick { font-size: 0.74rem; overflow-wrap: anywhere; }
+  .lottery-table th { white-space: normal; }
+  .lottery-table .team-cell .sub { font-size: 0.68rem; overflow-wrap: anywhere; }
+  .lottery-table .team-cell .deal-note { display: none; } /* keep "via XXX"; full terms are in the tooltip */
+}
 .move.up { color: #1f9d55; }
 .move.down { color: var(--red); }
 .matrix-title { margin-top: 28px; }
