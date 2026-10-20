@@ -1,0 +1,1828 @@
+{
+ "draft_year": 2027,
+ "updated": "2026-10-20",
+ "method": "Median rank across every list (a list that leaves a player out counts as its length + 10); average breaks ties.",
+ "sources": [
+  {
+   "name": "Daily Faceoff",
+   "title": "2027 NHL Draft Rankings: Early-season top 40",
+   "url": "https://www.dailyfaceoff.com/news/2027-nhl-draft-rankings-early-season-top-40-dupont-skvortsov-privalov-zhilkin-meyer",
+   "published": "2026-10-09",
+   "count": 40,
+   "players": [
+    {
+     "name": "Landon DuPont",
+     "pos": "RHD",
+     "team": "University of Michigan",
+     "league": "NCAA"
+    },
+    {
+     "name": "Sergei Skvortsov",
+     "pos": "LW",
+     "team": "Torpedo Nizhny Novgorod",
+     "league": "KHL"
+    },
+    {
+     "name": "Nazar Privalov",
+     "pos": "LW",
+     "team": "CSKA Moskva",
+     "league": "KHL"
+    },
+    {
+     "name": "Dima Zhilkin",
+     "pos": "C",
+     "team": "Saginaw Spirit",
+     "league": "OHL"
+    },
+    {
+     "name": "Carter Meyer",
+     "pos": "C",
+     "team": "Québec Remparts",
+     "league": null
+    },
+    {
+     "name": "Brock England",
+     "pos": "C",
+     "team": "Seattle Thunderbirds",
+     "league": "WHL"
+    },
+    {
+     "name": "Jonah Neuenschwander",
+     "pos": "C",
+     "team": "EHC Biel-Bienne",
+     "league": "NL"
+    },
+    {
+     "name": "Brock Cripps",
+     "pos": "RHD",
+     "team": "Prince Albert Raiders",
+     "league": "WHL"
+    },
+    {
+     "name": "Alexis Joseph",
+     "pos": "C",
+     "team": "Saint John Sea Dogs",
+     "league": "QMJHL"
+    },
+    {
+     "name": "Milan Sundström",
+     "pos": "C",
+     "team": "MoDo",
+     "league": "Allsvenskan"
+    },
+    {
+     "name": "Andrei Pustovoy",
+     "pos": "C",
+     "team": "Lokomotiv Yaroslavl",
+     "league": "KHL"
+    },
+    {
+     "name": "Sammy Nelson",
+     "pos": "C",
+     "team": "University of Notre Dame",
+     "league": "NCAA"
+    },
+    {
+     "name": "Jaxon Jacobson",
+     "pos": "C",
+     "team": "Brandon Wheat Kings",
+     "league": "WHL"
+    },
+    {
+     "name": "Jaakko Wycisk",
+     "pos": "C",
+     "team": "Guelph Storm",
+     "league": "OHL"
+    },
+    {
+     "name": "Noah Davidson",
+     "pos": "C",
+     "team": "Medicine Hat Tigers",
+     "league": "WHL"
+    },
+    {
+     "name": "Kayden Stroeder",
+     "pos": "C",
+     "team": "Edmonton Oil Kings",
+     "league": "WHL"
+    },
+    {
+     "name": "Diego Gutiérrez",
+     "pos": "RHD",
+     "team": "USNTDP",
+     "league": null
+    },
+    {
+     "name": "Luca Santala",
+     "pos": "RW",
+     "team": "Kitchener Rangers",
+     "league": "OHL"
+    },
+    {
+     "name": "Bosse Meijer",
+     "pos": "C",
+     "team": "Frölunda HC",
+     "league": "SHL"
+    },
+    {
+     "name": "Levi Harper",
+     "pos": "RHD",
+     "team": "Saginaw Spirit",
+     "league": "OHL"
+    },
+    {
+     "name": "Shaeffer Gordon-Carroll",
+     "pos": "C",
+     "team": "Medicine Hat Tigers",
+     "league": "WHL"
+    },
+    {
+     "name": "Yevgeni Yakunin",
+     "pos": "C",
+     "team": "MHK Spartak Moskva",
+     "league": "MHL"
+    },
+    {
+     "name": "Petr Tomek",
+     "pos": "C",
+     "team": "HC Energie Karlovy Vary",
+     "league": "Czechia"
+    },
+    {
+     "name": "Timothy Kazda",
+     "pos": "RW",
+     "team": "Guelph Storm",
+     "league": "OHL"
+    },
+    {
+     "name": "Nolan Fitzhenry",
+     "pos": "C",
+     "team": "USNTDP",
+     "league": null
+    },
+    {
+     "name": "Malik L’Italien",
+     "pos": "LHD",
+     "team": "Halifax Mooseheads",
+     "league": "QMJHL"
+    },
+    {
+     "name": "Aleks Kulemin",
+     "pos": "C",
+     "team": "Kingston Frontenacs",
+     "league": "OHL"
+    },
+    {
+     "name": "Jamie Glance",
+     "pos": "RW",
+     "team": "Saint John Sea Dogs",
+     "league": "QMJHL"
+    },
+    {
+     "name": "Roberts Naudiņš",
+     "pos": "LW",
+     "team": "Penticton Vees",
+     "league": "WHL"
+    },
+    {
+     "name": "Max Calce",
+     "pos": "C",
+     "team": "Adler Mannheim",
+     "league": "DEL"
+    },
+    {
+     "name": "Gunnar Conboy",
+     "pos": "C",
+     "team": "Green Bay Gamblers",
+     "league": "USHL"
+    },
+    {
+     "name": "Vladimir Shtyrkhunov",
+     "pos": "RHD",
+     "team": "Shawinigan Cataractes",
+     "league": null
+    },
+    {
+     "name": "Ryerson Edgar",
+     "pos": "C",
+     "team": "Niagara IceDogs",
+     "league": "OHL"
+    },
+    {
+     "name": "Cooper McAslan",
+     "pos": "RHD",
+     "team": "London Knights",
+     "league": "OHL"
+    },
+    {
+     "name": "James Scantlebury",
+     "pos": "C",
+     "team": "Québec Remparts",
+     "league": "QMJHL"
+    },
+    {
+     "name": "Douglas Johnsson",
+     "pos": "RHD",
+     "team": "Skellefteå AIK",
+     "league": "Sweden U-20"
+    },
+    {
+     "name": "Michal Hartl",
+     "pos": "RW",
+     "team": "HC Kometa Brno",
+     "league": "Czechia"
+    },
+    {
+     "name": "Gavin Burcar",
+     "pos": "C",
+     "team": "Spokane Chiefs",
+     "league": "WHL"
+    },
+    {
+     "name": "Boston Tait",
+     "pos": "LHD",
+     "team": "Wenatchee Wild",
+     "league": "WHL"
+    },
+    {
+     "name": "Kohyn Eshkawkogan",
+     "pos": "RHD",
+     "team": "Ottawa 67’s",
+     "league": "OHL"
+    }
+   ]
+  },
+  {
+   "name": "The Hockey News",
+   "title": "2027 NHL Draft Ranking: Pre-Season Tier List Sees Landon Dupont Alone Atop",
+   "url": "https://thehockeynews.com/news/latest-news/2027-nhl-draft-ranking-pre-season-tier-list-sees-landon-dupont-alone-atop",
+   "published": "2026-09-18",
+   "count": 17,
+   "players": [
+    {
+     "name": "Landon Dupont",
+     "pos": "D",
+     "team": "Univ. of Michigan",
+     "league": "NCAA"
+    },
+    {
+     "name": "Sergei Skvortsov",
+     "pos": "LW",
+     "team": "Nizhny Novgorod",
+     "league": "Rus."
+    },
+    {
+     "name": "Nazar Privalov",
+     "pos": "LW/C",
+     "team": "CSKA",
+     "league": "Rus."
+    },
+    {
+     "name": "Carter Meyer",
+     "pos": "C",
+     "team": "Quebec",
+     "league": "QMJHL"
+    },
+    {
+     "name": "Dima Zhilkin",
+     "pos": "RW",
+     "team": "Saginaw",
+     "league": "OHL"
+    },
+    {
+     "name": "Jonah Neuenschwander",
+     "pos": "C/W",
+     "team": "Biel-Bienne",
+     "league": "Sui."
+    },
+    {
+     "name": "Brock England",
+     "pos": "C",
+     "team": "Seattle",
+     "league": "WHL"
+    },
+    {
+     "name": "Milan Sundstrom",
+     "pos": "C",
+     "team": "Modo",
+     "league": "Swe."
+    },
+    {
+     "name": "Bosse Meijer",
+     "pos": "C/W",
+     "team": "Frolunda",
+     "league": "Swe."
+    },
+    {
+     "name": "Sammy Nelson",
+     "pos": "C/W",
+     "team": "Notre Dame",
+     "league": "NCAA"
+    },
+    {
+     "name": "Brock Cripps",
+     "pos": "D",
+     "team": "Prince Albert",
+     "league": "WHL"
+    },
+    {
+     "name": "Malik L'Italien",
+     "pos": "D",
+     "team": "Halifax",
+     "league": "QMJHL"
+    },
+    {
+     "name": "Kohyn Eshkawkogan",
+     "pos": "D",
+     "team": "Ottawa",
+     "league": "OHL"
+    },
+    {
+     "name": "Alexis Joseph",
+     "pos": "C",
+     "team": "Saint John",
+     "league": "QMJHL"
+    },
+    {
+     "name": "Jaakko Wycisk",
+     "pos": "RW",
+     "team": "Guelph",
+     "league": "OHL"
+    },
+    {
+     "name": "Petr Tomek",
+     "pos": "C",
+     "team": "Karlovy Vary",
+     "league": "Cze."
+    },
+    {
+     "name": "Douglas Johnsson",
+     "pos": "D",
+     "team": "Skelleftea",
+     "league": "Swe."
+    }
+   ]
+  },
+  {
+   "name": "Upside Hockey",
+   "title": "2027 NHL Draft Rankings September Edition",
+   "url": "https://upsidehockey.substack.com/p/2027-nhl-draft-rankings-september",
+   "published": "2026-09-09",
+   "count": 32,
+   "players": [
+    {
+     "name": "Landon Dupont",
+     "pos": "D",
+     "shoots": "R",
+     "team": "Univ. of Michigan",
+     "league": "NCAA",
+     "country": "CDN",
+     "height": "6'0",
+     "weight": "190",
+     "birth": "28-May-09"
+    },
+    {
+     "name": "Nazar Privalov",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Krasnaya Armiya Moskva",
+     "league": "MHL",
+     "country": "RUS",
+     "height": "6'4",
+     "weight": "227",
+     "birth": "25-May-09"
+    },
+    {
+     "name": "Milan Sundstrom",
+     "pos": "C",
+     "shoots": "L",
+     "team": "MoDo Hockey U20",
+     "league": "SWE U20",
+     "country": "SWE",
+     "height": "6'3",
+     "weight": "196",
+     "birth": "6-May-09"
+    },
+    {
+     "name": "Sergei Skvortsov",
+     "pos": "LW",
+     "shoots": "R",
+     "team": "Chaika Nizhny Novgorod",
+     "league": "MHL",
+     "country": "RUS",
+     "height": "6'1",
+     "weight": "165",
+     "birth": "11-May-09"
+    },
+    {
+     "name": "Jonah Neuenschwander",
+     "pos": "C",
+     "shoots": "L",
+     "team": "EHC Biel-Bienne",
+     "league": "SUI 1",
+     "country": "SUI",
+     "height": "6'3",
+     "weight": "187",
+     "birth": "10-Mar-09"
+    },
+    {
+     "name": "Andrei Pustovoy",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Loko Yaroslavl",
+     "league": "MHL",
+     "country": "RUS",
+     "height": "6'3",
+     "weight": "201",
+     "birth": "5-Dec-08"
+    },
+    {
+     "name": "Sammy Nelson",
+     "pos": "C",
+     "shoots": "R",
+     "team": "Notre Dame",
+     "league": "NCAA",
+     "country": "USA",
+     "height": "6'2",
+     "weight": "192",
+     "birth": "19-Sep-08"
+    },
+    {
+     "name": "Dima Zhilkin",
+     "pos": "RW",
+     "shoots": "R",
+     "team": "Saginaw",
+     "league": "OHL",
+     "country": "CDN",
+     "height": "5'10",
+     "weight": "185",
+     "birth": "21-Oct-08"
+    },
+    {
+     "name": "Alexis Joseph",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Saint John",
+     "league": "QMJHL",
+     "country": "CDN",
+     "height": "6'5",
+     "weight": "201",
+     "birth": "16-Jun-09"
+    },
+    {
+     "name": "Brock England",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Seattle",
+     "league": "WHL",
+     "country": "CDN",
+     "height": "5'11",
+     "weight": "174",
+     "birth": "22-Aug-08"
+    },
+    {
+     "name": "Carter Meyer",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Québec",
+     "league": "QMJHL",
+     "country": "USA",
+     "height": "6'0",
+     "weight": "176",
+     "birth": "10-Apr-09"
+    },
+    {
+     "name": "Yevgeni Yakunin",
+     "pos": "C",
+     "shoots": "L",
+     "team": "MHK Spartak Moskva",
+     "league": "MHL",
+     "country": "RUS",
+     "height": "6'3",
+     "weight": "194",
+     "birth": "9-Feb-09"
+    },
+    {
+     "name": "Timothy Kazda",
+     "pos": "RW",
+     "shoots": "R",
+     "team": "Guelph",
+     "league": "OHL",
+     "country": "SVK",
+     "height": "6'1",
+     "weight": "194",
+     "birth": "4-Oct-08"
+    },
+    {
+     "name": "Jaxon Jacobson",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Brandon",
+     "league": "WHL",
+     "country": "CDN",
+     "height": "5'10",
+     "weight": "183",
+     "birth": "11-Dec-08"
+    },
+    {
+     "name": "Malik L'Italien",
+     "pos": "D",
+     "shoots": "L",
+     "team": "Halifax",
+     "league": "QMJHL",
+     "country": "CDN",
+     "height": "6'3",
+     "weight": "187",
+     "birth": "10-Jun-09"
+    },
+    {
+     "name": "Jaako Wycisk",
+     "pos": "C",
+     "shoots": "R",
+     "team": "Guelph",
+     "league": "OHL",
+     "country": "CDN",
+     "height": "6'1",
+     "weight": "190",
+     "birth": "16-Mar-09"
+    },
+    {
+     "name": "Noah Davidson",
+     "pos": "LW",
+     "shoots": "L",
+     "team": "Medicine Hat",
+     "league": "WHL",
+     "country": "CDN",
+     "height": "6'3",
+     "weight": "216",
+     "birth": "1-Nov-08"
+    },
+    {
+     "name": "Luca Santala",
+     "pos": "C",
+     "shoots": "R",
+     "team": "London",
+     "league": "OHL",
+     "country": "FIN",
+     "height": "6'2",
+     "weight": "176",
+     "birth": "28-Jul-09"
+    },
+    {
+     "name": "Bosse Meijer",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Frölunda HC U20",
+     "league": "SWE U20",
+     "country": "SWE",
+     "height": "5'10",
+     "weight": "168",
+     "birth": "17-Dec-08"
+    },
+    {
+     "name": "Nolan Fitzhenry",
+     "pos": "C",
+     "shoots": "L",
+     "team": "USA - NTDP U18",
+     "league": "NTDP",
+     "country": "USA",
+     "height": "5'11",
+     "weight": "183",
+     "birth": "10-Feb-09"
+    },
+    {
+     "name": "Max Calce",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Jungadler Mannheim U20",
+     "league": "GER U20",
+     "country": "GER",
+     "height": "5'11",
+     "weight": "181",
+     "birth": "11-Jun-09"
+    },
+    {
+     "name": "Maximilian Mares",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Rimouski",
+     "league": "QMJHL",
+     "country": "CZE",
+     "height": "6'6",
+     "weight": "225",
+     "birth": "3-Apr-09"
+    },
+    {
+     "name": "Jamie Glance",
+     "pos": "RW",
+     "shoots": "R",
+     "team": "Saint John",
+     "league": "QMJHL",
+     "country": "USA",
+     "height": "5'11",
+     "weight": "185",
+     "birth": "23-Sep-08"
+    },
+    {
+     "name": "Shaeffer Gordon-Carroll",
+     "pos": "RW",
+     "shoots": "R",
+     "team": "Medicine Hat",
+     "league": "WHL",
+     "country": "USA",
+     "height": "6'0",
+     "weight": "190",
+     "birth": "26-Nov-08"
+    },
+    {
+     "name": "Vladimir Shtyrkhunov",
+     "pos": "D",
+     "shoots": "R",
+     "team": "Shawinigan",
+     "league": "QMJHL",
+     "country": "RUS",
+     "height": "6'0",
+     "weight": "157",
+     "birth": "15-Jan-09"
+    },
+    {
+     "name": "Brock Cripps",
+     "pos": "D",
+     "shoots": "R",
+     "team": "Prince Albert",
+     "league": "WHL",
+     "country": "CDN",
+     "height": "5'10",
+     "weight": "161",
+     "birth": "23-Jul-09"
+    },
+    {
+     "name": "Lenni Kokkonen",
+     "pos": "D",
+     "shoots": "R",
+     "team": "Kärpät U20",
+     "league": "FIN U20",
+     "country": "FIN",
+     "height": "6'2",
+     "weight": "190",
+     "birth": "25-May-09"
+    },
+    {
+     "name": "Aspe, Dorian Eklund",
+     "pos": "C",
+     "shoots": "R",
+     "team": "Djurgårdens IF U20",
+     "league": "SWE U20",
+     "country": "SWE",
+     "height": "6'4",
+     "weight": "209",
+     "birth": "4-Feb-09"
+    },
+    {
+     "name": "Petr Tomek",
+     "pos": "C",
+     "shoots": "L",
+     "team": "HC Energie Karlovy Vary",
+     "league": "CZE 1",
+     "country": "CZE",
+     "height": "5'10",
+     "weight": "165",
+     "birth": "23-Oct-08"
+    },
+    {
+     "name": "Roberts Naudins",
+     "pos": "C",
+     "shoots": "L",
+     "team": "Penticton",
+     "league": "WHL",
+     "country": "LAT",
+     "height": "6'6",
+     "weight": "205",
+     "birth": "18-Nov-08"
+    },
+    {
+     "name": "Ryerson Edgar",
+     "pos": "C",
+     "shoots": "R",
+     "team": "Niagara",
+     "league": "OHL",
+     "country": "CDN",
+     "height": "5'10",
+     "weight": "161",
+     "birth": "30-Jul-09"
+    },
+    {
+     "name": "Bostin Tait",
+     "pos": "D",
+     "shoots": "L",
+     "team": "Wenatchee",
+     "league": "WHL",
+     "country": "CDN",
+     "height": "6'2",
+     "weight": "183",
+     "birth": "13-Apr-09"
+    }
+   ]
+  },
+  {
+   "name": "Prospect Hockey (Brian Murray)",
+   "title": "September Draft Ranking (2027 NHL Draft)",
+   "url": "https://prospecthockey.substack.com/p/september-draft-ranking-2027-nhl",
+   "published": "2026-09-15",
+   "count": 32,
+   "players": [
+    {
+     "name": "Landon Dupont"
+    },
+    {
+     "name": "Jonah Neuenschwander"
+    },
+    {
+     "name": "Sergei Skvortsov"
+    },
+    {
+     "name": "Andrei Pustovoy"
+    },
+    {
+     "name": "Nazar Privalov"
+    },
+    {
+     "name": "Sammy Nelson"
+    },
+    {
+     "name": "Brock England"
+    },
+    {
+     "name": "Carter Meyer"
+    },
+    {
+     "name": "Alexis Joseph"
+    },
+    {
+     "name": "Dima Zhilkin"
+    },
+    {
+     "name": "Malik L’Italien"
+    },
+    {
+     "name": "Jamie Glance"
+    },
+    {
+     "name": "Yevgeni Yakunin"
+    },
+    {
+     "name": "Brock Cripps"
+    },
+    {
+     "name": "Jaakko Wycisk"
+    },
+    {
+     "name": "Milan Sundstrom"
+    },
+    {
+     "name": "Robert Naudins"
+    },
+    {
+     "name": "Luca Santala"
+    },
+    {
+     "name": "Jaxon Jacobsen"
+    },
+    {
+     "name": "Levi Harper"
+    },
+    {
+     "name": "Timothy Kazda"
+    },
+    {
+     "name": "Max Calce"
+    },
+    {
+     "name": "Petr Tomek"
+    },
+    {
+     "name": "Nolan Fitzhenry"
+    },
+    {
+     "name": "Maxmillan Mares"
+    },
+    {
+     "name": "Ryerson Edgar"
+    },
+    {
+     "name": "Noah Davidson"
+    },
+    {
+     "name": "Schaeffer Gordon Caroll"
+    },
+    {
+     "name": "Vladimir Shtyrkhunov"
+    },
+    {
+     "name": "Camryn Warren"
+    },
+    {
+     "name": "Dorian Eklund Aspe"
+    },
+    {
+     "name": "Bosse Meijer"
+    }
+   ]
+  },
+  {
+   "name": "Lines.com mock draft",
+   "title": "2027 NHL Mock Draft",
+   "url": "https://www.lines.com/nhl/drafts/2027",
+   "published": null,
+   "count": 30,
+   "players": [
+    {
+     "name": "Landon Dupont",
+     "pos": "RD"
+    },
+    {
+     "name": "Nazar Privalov",
+     "pos": "LHC"
+    },
+    {
+     "name": "Sammy Nelson",
+     "pos": "RHC"
+    },
+    {
+     "name": "Alexis Joseph",
+     "pos": "LHC"
+    },
+    {
+     "name": "Jonah Neuenschwander",
+     "pos": "LHC"
+    },
+    {
+     "name": "Brock England",
+     "pos": "LHC"
+    },
+    {
+     "name": "Sergei Skvortsov",
+     "pos": "LW"
+    },
+    {
+     "name": "Dima Zhilkin",
+     "pos": "RW"
+    },
+    {
+     "name": "Milan Sundström",
+     "pos": "LHC"
+    },
+    {
+     "name": "Brock Cripps",
+     "pos": "RD"
+    },
+    {
+     "name": "Bosse Meijer",
+     "pos": "LHC"
+    },
+    {
+     "name": "Jaxon Jacobson",
+     "pos": "LW"
+    },
+    {
+     "name": "Nolan Fitzhenry",
+     "pos": "LHC"
+    },
+    {
+     "name": "Malik L'Italien",
+     "pos": "LD"
+    },
+    {
+     "name": "Timothy Kazda",
+     "pos": "RW"
+    },
+    {
+     "name": "Jaakko Wycisk",
+     "pos": "RHC"
+    },
+    {
+     "name": "Noah Davidson",
+     "pos": "LW"
+    },
+    {
+     "name": "Shaeffer Gordon – Carroll",
+     "pos": "RHLW"
+    },
+    {
+     "name": "Petr Tomek Tomek",
+     "pos": "LHC"
+    },
+    {
+     "name": "Jamie Glance",
+     "pos": "LW"
+    },
+    {
+     "name": "Tomas Selic",
+     "pos": "LHRW"
+    },
+    {
+     "name": "Ryerson Edgar",
+     "pos": "RHC"
+    },
+    {
+     "name": "Yevgeni Yakunin",
+     "pos": "LHC"
+    },
+    {
+     "name": "Luca Santala",
+     "pos": "RHC"
+    },
+    {
+     "name": "Roberts Naudins",
+     "pos": "LW"
+    },
+    {
+     "name": "Vladimir Shtyrkhunov",
+     "pos": "RD"
+    },
+    {
+     "name": "Douglas Johnsson",
+     "pos": "RD"
+    },
+    {
+     "name": "Diego Gutierrez",
+     "pos": "RD"
+    },
+    {
+     "name": "Boston Tait",
+     "pos": "LD"
+    },
+    {
+     "name": "Kohyn Eshkawkogan",
+     "pos": "RD"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "rank": 1,
+   "name": "Landon DuPont",
+   "pos": "RHD",
+   "team": "University of Michigan",
+   "league": "NCAA",
+   "shoots": "R",
+   "country": "CDN",
+   "height": "6'0",
+   "weight": "190",
+   "birth": "28-May-09",
+   "median_rank": 1,
+   "avg_rank": 1.0,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 1,
+    "The Hockey News": 1,
+    "Upside Hockey": 1,
+    "Prospect Hockey (Brian Murray)": 1,
+    "Lines.com mock draft": 1
+   }
+  },
+  {
+   "rank": 2,
+   "name": "Nazar Privalov",
+   "pos": "LW",
+   "team": "CSKA Moskva",
+   "league": "KHL",
+   "shoots": "L",
+   "country": "RUS",
+   "height": "6'4",
+   "weight": "227",
+   "birth": "25-May-09",
+   "median_rank": 3,
+   "avg_rank": 3.0,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 3,
+    "The Hockey News": 3,
+    "Upside Hockey": 2,
+    "Prospect Hockey (Brian Murray)": 5,
+    "Lines.com mock draft": 2
+   }
+  },
+  {
+   "rank": 3,
+   "name": "Sergei Skvortsov",
+   "pos": "LW",
+   "team": "Torpedo Nizhny Novgorod",
+   "league": "KHL",
+   "shoots": "R",
+   "country": "RUS",
+   "height": "6'1",
+   "weight": "165",
+   "birth": "11-May-09",
+   "median_rank": 3,
+   "avg_rank": 3.6,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 2,
+    "The Hockey News": 2,
+    "Upside Hockey": 4,
+    "Prospect Hockey (Brian Murray)": 3,
+    "Lines.com mock draft": 7
+   }
+  },
+  {
+   "rank": 4,
+   "name": "Jonah Neuenschwander",
+   "pos": "C",
+   "team": "EHC Biel-Bienne",
+   "league": "NL",
+   "shoots": "L",
+   "country": "SUI",
+   "height": "6'3",
+   "weight": "187",
+   "birth": "10-Mar-09",
+   "median_rank": 5,
+   "avg_rank": 5.0,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 7,
+    "The Hockey News": 6,
+    "Upside Hockey": 5,
+    "Prospect Hockey (Brian Murray)": 2,
+    "Lines.com mock draft": 5
+   }
+  },
+  {
+   "rank": 5,
+   "name": "Brock England",
+   "pos": "C",
+   "team": "Seattle Thunderbirds",
+   "league": "WHL",
+   "shoots": "L",
+   "country": "CDN",
+   "height": "5'11",
+   "weight": "174",
+   "birth": "22-Aug-08",
+   "median_rank": 7,
+   "avg_rank": 7.2,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 6,
+    "The Hockey News": 7,
+    "Upside Hockey": 10,
+    "Prospect Hockey (Brian Murray)": 7,
+    "Lines.com mock draft": 6
+   }
+  },
+  {
+   "rank": 6,
+   "name": "Sammy Nelson",
+   "pos": "C",
+   "team": "University of Notre Dame",
+   "league": "NCAA",
+   "shoots": "R",
+   "country": "USA",
+   "height": "6'2",
+   "weight": "192",
+   "birth": "19-Sep-08",
+   "median_rank": 7,
+   "avg_rank": 7.6,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 12,
+    "The Hockey News": 10,
+    "Upside Hockey": 7,
+    "Prospect Hockey (Brian Murray)": 6,
+    "Lines.com mock draft": 3
+   }
+  },
+  {
+   "rank": 7,
+   "name": "Dima Zhilkin",
+   "pos": "C",
+   "team": "Saginaw Spirit",
+   "league": "OHL",
+   "shoots": "R",
+   "country": "CDN",
+   "height": "5'10",
+   "weight": "185",
+   "birth": "21-Oct-08",
+   "median_rank": 8,
+   "avg_rank": 7.0,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 4,
+    "The Hockey News": 5,
+    "Upside Hockey": 8,
+    "Prospect Hockey (Brian Murray)": 10,
+    "Lines.com mock draft": 8
+   }
+  },
+  {
+   "rank": 8,
+   "name": "Carter Meyer",
+   "pos": "C",
+   "team": "Québec Remparts",
+   "league": "QMJHL",
+   "shoots": "L",
+   "country": "USA",
+   "height": "6'0",
+   "weight": "176",
+   "birth": "10-Apr-09",
+   "median_rank": 8,
+   "avg_rank": 13.6,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 5,
+    "The Hockey News": 4,
+    "Upside Hockey": 11,
+    "Prospect Hockey (Brian Murray)": 8
+   }
+  },
+  {
+   "rank": 9,
+   "name": "Alexis Joseph",
+   "pos": "C",
+   "team": "Saint John Sea Dogs",
+   "league": "QMJHL",
+   "shoots": "L",
+   "country": "CDN",
+   "height": "6'5",
+   "weight": "201",
+   "birth": "16-Jun-09",
+   "median_rank": 9,
+   "avg_rank": 9.0,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 9,
+    "The Hockey News": 14,
+    "Upside Hockey": 9,
+    "Prospect Hockey (Brian Murray)": 9,
+    "Lines.com mock draft": 4
+   }
+  },
+  {
+   "rank": 10,
+   "name": "Milan Sundström",
+   "pos": "C",
+   "team": "MoDo",
+   "league": "Allsvenskan",
+   "shoots": "L",
+   "country": "SWE",
+   "height": "6'3",
+   "weight": "196",
+   "birth": "6-May-09",
+   "median_rank": 9,
+   "avg_rank": 9.2,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 10,
+    "The Hockey News": 8,
+    "Upside Hockey": 3,
+    "Prospect Hockey (Brian Murray)": 16,
+    "Lines.com mock draft": 9
+   }
+  },
+  {
+   "rank": 11,
+   "name": "Brock Cripps",
+   "pos": "RHD",
+   "team": "Prince Albert Raiders",
+   "league": "WHL",
+   "shoots": "R",
+   "country": "CDN",
+   "height": "5'10",
+   "weight": "161",
+   "birth": "23-Jul-09",
+   "median_rank": 11,
+   "avg_rank": 13.8,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 8,
+    "The Hockey News": 11,
+    "Upside Hockey": 26,
+    "Prospect Hockey (Brian Murray)": 14,
+    "Lines.com mock draft": 10
+   }
+  },
+  {
+   "rank": 12,
+   "name": "Andrei Pustovoy",
+   "pos": "C",
+   "team": "Lokomotiv Yaroslavl",
+   "league": "KHL",
+   "shoots": "L",
+   "country": "RUS",
+   "height": "6'3",
+   "weight": "201",
+   "birth": "5-Dec-08",
+   "median_rank": 11,
+   "avg_rank": 17.6,
+   "lists": 3,
+   "ranks": {
+    "Daily Faceoff": 11,
+    "Upside Hockey": 6,
+    "Prospect Hockey (Brian Murray)": 4
+   }
+  },
+  {
+   "rank": 13,
+   "name": "Malik L’Italien",
+   "pos": "LHD",
+   "team": "Halifax Mooseheads",
+   "league": "QMJHL",
+   "shoots": "L",
+   "country": "CDN",
+   "height": "6'3",
+   "weight": "187",
+   "birth": "10-Jun-09",
+   "median_rank": 14,
+   "avg_rank": 15.6,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 26,
+    "The Hockey News": 12,
+    "Upside Hockey": 15,
+    "Prospect Hockey (Brian Murray)": 11,
+    "Lines.com mock draft": 14
+   }
+  },
+  {
+   "rank": 14,
+   "name": "Jaxon Jacobson",
+   "pos": "C",
+   "team": "Brandon Wheat Kings",
+   "league": "WHL",
+   "shoots": "L",
+   "country": "CDN",
+   "height": "5'10",
+   "weight": "183",
+   "birth": "11-Dec-08",
+   "median_rank": 14,
+   "avg_rank": 17.0,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 13,
+    "Upside Hockey": 14,
+    "Prospect Hockey (Brian Murray)": 19,
+    "Lines.com mock draft": 12
+   }
+  },
+  {
+   "rank": 15,
+   "name": "Jaakko Wycisk",
+   "pos": "C",
+   "team": "Guelph Storm",
+   "league": "OHL",
+   "shoots": "R",
+   "country": "CDN",
+   "height": "6'1",
+   "weight": "190",
+   "birth": "16-Mar-09",
+   "median_rank": 15,
+   "avg_rank": 15.2,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 14,
+    "The Hockey News": 15,
+    "Upside Hockey": 16,
+    "Prospect Hockey (Brian Murray)": 15,
+    "Lines.com mock draft": 16
+   }
+  },
+  {
+   "rank": 16,
+   "name": "Noah Davidson",
+   "pos": "C",
+   "team": "Medicine Hat Tigers",
+   "league": "WHL",
+   "shoots": "L",
+   "country": "CDN",
+   "height": "6'3",
+   "weight": "216",
+   "birth": "1-Nov-08",
+   "median_rank": 17,
+   "avg_rank": 20.6,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 15,
+    "Upside Hockey": 17,
+    "Prospect Hockey (Brian Murray)": 27,
+    "Lines.com mock draft": 17
+   }
+  },
+  {
+   "rank": 17,
+   "name": "Luca Santala",
+   "pos": "RW",
+   "team": "Kitchener Rangers",
+   "league": "OHL",
+   "shoots": "R",
+   "country": "FIN",
+   "height": "6'2",
+   "weight": "176",
+   "birth": "28-Jul-09",
+   "median_rank": 18,
+   "avg_rank": 21.0,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 18,
+    "Upside Hockey": 18,
+    "Prospect Hockey (Brian Murray)": 18,
+    "Lines.com mock draft": 24
+   }
+  },
+  {
+   "rank": 18,
+   "name": "Bosse Meijer",
+   "pos": "C",
+   "team": "Frölunda HC",
+   "league": "SHL",
+   "shoots": "L",
+   "country": "SWE",
+   "height": "5'10",
+   "weight": "168",
+   "birth": "17-Dec-08",
+   "median_rank": 19,
+   "avg_rank": 18.0,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 19,
+    "The Hockey News": 9,
+    "Upside Hockey": 19,
+    "Prospect Hockey (Brian Murray)": 32,
+    "Lines.com mock draft": 11
+   }
+  },
+  {
+   "rank": 19,
+   "name": "Timothy Kazda",
+   "pos": "RW",
+   "team": "Guelph Storm",
+   "league": "OHL",
+   "shoots": "R",
+   "country": "SVK",
+   "height": "6'1",
+   "weight": "194",
+   "birth": "4-Oct-08",
+   "median_rank": 21,
+   "avg_rank": 20.0,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 24,
+    "Upside Hockey": 13,
+    "Prospect Hockey (Brian Murray)": 21,
+    "Lines.com mock draft": 15
+   }
+  },
+  {
+   "rank": 20,
+   "name": "Yevgeni Yakunin",
+   "pos": "C",
+   "team": "MHK Spartak Moskva",
+   "league": "MHL",
+   "shoots": "L",
+   "country": "RUS",
+   "height": "6'3",
+   "weight": "194",
+   "birth": "9-Feb-09",
+   "median_rank": 22,
+   "avg_rank": 19.4,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 22,
+    "Upside Hockey": 12,
+    "Prospect Hockey (Brian Murray)": 13,
+    "Lines.com mock draft": 23
+   }
+  },
+  {
+   "rank": 21,
+   "name": "Petr Tomek",
+   "pos": "C",
+   "team": "HC Energie Karlovy Vary",
+   "league": "Czechia",
+   "shoots": "L",
+   "country": "CZE",
+   "height": "5'10",
+   "weight": "165",
+   "birth": "23-Oct-08",
+   "median_rank": 23,
+   "avg_rank": 22.0,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 23,
+    "The Hockey News": 16,
+    "Upside Hockey": 29,
+    "Prospect Hockey (Brian Murray)": 23,
+    "Lines.com mock draft": 19
+   }
+  },
+  {
+   "rank": 22,
+   "name": "Jamie Glance",
+   "pos": "RW",
+   "team": "Saint John Sea Dogs",
+   "league": "QMJHL",
+   "shoots": "R",
+   "country": "USA",
+   "height": "5'11",
+   "weight": "185",
+   "birth": "23-Sep-08",
+   "median_rank": 23,
+   "avg_rank": 22.0,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 28,
+    "Upside Hockey": 23,
+    "Prospect Hockey (Brian Murray)": 12,
+    "Lines.com mock draft": 20
+   }
+  },
+  {
+   "rank": 23,
+   "name": "Nolan Fitzhenry",
+   "pos": "C",
+   "team": "USNTDP",
+   "shoots": "L",
+   "league": "NTDP",
+   "country": "USA",
+   "height": "5'11",
+   "weight": "183",
+   "birth": "10-Feb-09",
+   "median_rank": 24,
+   "avg_rank": 21.8,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 25,
+    "Upside Hockey": 20,
+    "Prospect Hockey (Brian Murray)": 24,
+    "Lines.com mock draft": 13
+   }
+  },
+  {
+   "rank": 24,
+   "name": "Roberts Naudiņš",
+   "pos": "LW",
+   "team": "Penticton Vees",
+   "league": "WHL",
+   "shoots": "L",
+   "country": "LAT",
+   "height": "6'6",
+   "weight": "205",
+   "birth": "18-Nov-08",
+   "median_rank": 27,
+   "avg_rank": 25.6,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 29,
+    "Upside Hockey": 30,
+    "Prospect Hockey (Brian Murray)": 17,
+    "Lines.com mock draft": 25
+   }
+  },
+  {
+   "rank": 25,
+   "name": "Vladimir Shtyrkhunov",
+   "pos": "RHD",
+   "team": "Shawinigan Cataractes",
+   "shoots": "R",
+   "league": "QMJHL",
+   "country": "RUS",
+   "height": "6'0",
+   "weight": "157",
+   "birth": "15-Jan-09",
+   "median_rank": 27,
+   "avg_rank": 27.8,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 32,
+    "Upside Hockey": 25,
+    "Prospect Hockey (Brian Murray)": 29,
+    "Lines.com mock draft": 26
+   }
+  },
+  {
+   "rank": 26,
+   "name": "Ryerson Edgar",
+   "pos": "C",
+   "team": "Niagara IceDogs",
+   "league": "OHL",
+   "shoots": "R",
+   "country": "CDN",
+   "height": "5'10",
+   "weight": "161",
+   "birth": "30-Jul-09",
+   "median_rank": 27,
+   "avg_rank": 27.8,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 33,
+    "Upside Hockey": 31,
+    "Prospect Hockey (Brian Murray)": 26,
+    "Lines.com mock draft": 22
+   }
+  },
+  {
+   "rank": 27,
+   "name": "Max Calce",
+   "pos": "C",
+   "team": "Adler Mannheim",
+   "league": "DEL",
+   "shoots": "L",
+   "country": "GER",
+   "height": "5'11",
+   "weight": "181",
+   "birth": "11-Jun-09",
+   "median_rank": 27,
+   "avg_rank": 28.0,
+   "lists": 3,
+   "ranks": {
+    "Daily Faceoff": 30,
+    "Upside Hockey": 21,
+    "Prospect Hockey (Brian Murray)": 22
+   }
+  },
+  {
+   "rank": 28,
+   "name": "Levi Harper",
+   "pos": "RHD",
+   "team": "Saginaw Spirit",
+   "league": "OHL",
+   "median_rank": 27,
+   "avg_rank": 29.8,
+   "lists": 2,
+   "ranks": {
+    "Daily Faceoff": 20,
+    "Prospect Hockey (Brian Murray)": 20
+   }
+  },
+  {
+   "rank": 29,
+   "name": "Shaeffer Gordon-Carroll",
+   "pos": "C",
+   "team": "Medicine Hat Tigers",
+   "league": "WHL",
+   "shoots": "R",
+   "country": "USA",
+   "height": "6'0",
+   "weight": "190",
+   "birth": "26-Nov-08",
+   "median_rank": 27,
+   "avg_rank": 30.8,
+   "lists": 2,
+   "ranks": {
+    "Daily Faceoff": 21,
+    "Upside Hockey": 24
+   }
+  },
+  {
+   "rank": 30,
+   "name": "Maximilian Mares",
+   "pos": "C",
+   "shoots": "L",
+   "team": "Rimouski",
+   "league": "QMJHL",
+   "country": "CZE",
+   "height": "6'6",
+   "weight": "225",
+   "birth": "3-Apr-09",
+   "median_rank": 27,
+   "avg_rank": 32.8,
+   "lists": 2,
+   "ranks": {
+    "Upside Hockey": 22,
+    "Prospect Hockey (Brian Murray)": 25
+   }
+  },
+  {
+   "rank": 31,
+   "name": "Diego Gutiérrez",
+   "pos": "RHD",
+   "team": "USNTDP",
+   "median_rank": 28,
+   "avg_rank": 31.2,
+   "lists": 2,
+   "ranks": {
+    "Daily Faceoff": 17,
+    "Lines.com mock draft": 28
+   }
+  },
+  {
+   "rank": 32,
+   "name": "Schaeffer Gordon Caroll",
+   "pos": "RHLW",
+   "median_rank": 28,
+   "avg_rank": 33.0,
+   "lists": 2,
+   "ranks": {
+    "Prospect Hockey (Brian Murray)": 28,
+    "Lines.com mock draft": 18
+   }
+  },
+  {
+   "rank": 33,
+   "name": "Boston Tait",
+   "pos": "LHD",
+   "team": "Wenatchee Wild",
+   "league": "WHL",
+   "shoots": "L",
+   "country": "CDN",
+   "height": "6'2",
+   "weight": "183",
+   "birth": "13-Apr-09",
+   "median_rank": 32,
+   "avg_rank": 33.8,
+   "lists": 3,
+   "ranks": {
+    "Daily Faceoff": 39,
+    "Upside Hockey": 32,
+    "Lines.com mock draft": 29
+   }
+  },
+  {
+   "rank": 34,
+   "name": "Douglas Johnsson",
+   "pos": "RHD",
+   "team": "Skellefteå AIK",
+   "league": "Sweden U-20",
+   "median_rank": 36,
+   "avg_rank": 32.8,
+   "lists": 3,
+   "ranks": {
+    "Daily Faceoff": 36,
+    "The Hockey News": 17,
+    "Lines.com mock draft": 27
+   }
+  },
+  {
+   "rank": 35,
+   "name": "Kohyn Eshkawkogan",
+   "pos": "RHD",
+   "team": "Ottawa 67’s",
+   "league": "OHL",
+   "median_rank": 40,
+   "avg_rank": 33.4,
+   "lists": 3,
+   "ranks": {
+    "Daily Faceoff": 40,
+    "The Hockey News": 13,
+    "Lines.com mock draft": 30
+   }
+  },
+  {
+   "rank": 36,
+   "name": "Kayden Stroeder",
+   "pos": "C",
+   "team": "Edmonton Oil Kings",
+   "league": "WHL",
+   "median_rank": 40,
+   "avg_rank": 33.4,
+   "lists": 1,
+   "ranks": {
+    "Daily Faceoff": 16
+   }
+  },
+  {
+   "rank": 37,
+   "name": "Aleks Kulemin",
+   "pos": "C",
+   "team": "Kingston Frontenacs",
+   "league": "OHL",
+   "median_rank": 40,
+   "avg_rank": 35.6,
+   "lists": 1,
+   "ranks": {
+    "Daily Faceoff": 27
+   }
+  },
+  {
+   "rank": 38,
+   "name": "Gunnar Conboy",
+   "pos": "C",
+   "team": "Green Bay Gamblers",
+   "league": "USHL",
+   "median_rank": 40,
+   "avg_rank": 36.4,
+   "lists": 1,
+   "ranks": {
+    "Daily Faceoff": 31
+   }
+  },
+  {
+   "rank": 39,
+   "name": "Cooper McAslan",
+   "pos": "RHD",
+   "team": "London Knights",
+   "league": "OHL",
+   "median_rank": 40,
+   "avg_rank": 37.0,
+   "lists": 1,
+   "ranks": {
+    "Daily Faceoff": 34
+   }
+  },
+  {
+   "rank": 40,
+   "name": "James Scantlebury",
+   "pos": "C",
+   "team": "Québec Remparts",
+   "league": "QMJHL",
+   "median_rank": 40,
+   "avg_rank": 37.2,
+   "lists": 1,
+   "ranks": {
+    "Daily Faceoff": 35
+   }
+  },
+  {
+   "rank": 41,
+   "name": "Lenni Kokkonen",
+   "pos": "D",
+   "shoots": "R",
+   "team": "Kärpät U20",
+   "league": "FIN U20",
+   "country": "FIN",
+   "height": "6'2",
+   "weight": "190",
+   "birth": "25-May-09",
+   "median_rank": 40,
+   "avg_rank": 37.2,
+   "lists": 1,
+   "ranks": {
+    "Upside Hockey": 27
+   }
+  },
+  {
+   "rank": 42,
+   "name": "Aspe, Dorian Eklund",
+   "pos": "C",
+   "shoots": "R",
+   "team": "Djurgårdens IF U20",
+   "league": "SWE U20",
+   "country": "SWE",
+   "height": "6'4",
+   "weight": "209",
+   "birth": "4-Feb-09",
+   "median_rank": 40,
+   "avg_rank": 37.4,
+   "lists": 1,
+   "ranks": {
+    "Upside Hockey": 28
+   }
+  },
+  {
+   "rank": 43,
+   "name": "Michal Hartl",
+   "pos": "RW",
+   "team": "HC Kometa Brno",
+   "league": "Czechia",
+   "median_rank": 40,
+   "avg_rank": 37.6,
+   "lists": 1,
+   "ranks": {
+    "Daily Faceoff": 37
+   }
+  },
+  {
+   "rank": 44,
+   "name": "Gavin Burcar",
+   "pos": "C",
+   "team": "Spokane Chiefs",
+   "league": "WHL",
+   "median_rank": 40,
+   "avg_rank": 37.8,
+   "lists": 1,
+   "ranks": {
+    "Daily Faceoff": 38
+   }
+  },
+  {
+   "rank": 45,
+   "name": "Camryn Warren",
+   "median_rank": 40,
+   "avg_rank": 37.8,
+   "lists": 1,
+   "ranks": {
+    "Prospect Hockey (Brian Murray)": 30
+   }
+  },
+  {
+   "rank": 46,
+   "name": "Dorian Eklund Aspe",
+   "median_rank": 40,
+   "avg_rank": 38.0,
+   "lists": 1,
+   "ranks": {
+    "Prospect Hockey (Brian Murray)": 31
+   }
+  },
+  {
+   "rank": 47,
+   "name": "Tomas Selic",
+   "pos": "LHRW",
+   "median_rank": 42,
+   "avg_rank": 36.4,
+   "lists": 1,
+   "ranks": {
+    "Lines.com mock draft": 21
+   }
+  }
+ ]
+}

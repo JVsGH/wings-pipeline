@@ -194,9 +194,9 @@ async function initExternalNews() {
 // ---------- home ----------
 async function initHome() {
   const safe = (p) => load(p).catch(() => null);
-  const [posts, news, data, fx, standings, css, watch] = await Promise.all([
+  const [posts, news, data, fx, standings, rankings] = await Promise.all([
     safe("data/posts.json"), safe("data/news.json"), load("data/prospects.json"), load("data/nhle_factors.json"),
-    safe("data/standings.json"), safe("data/css_rankings.json"), safe("data/draft_targets.json")]);
+    safe("data/standings.json"), safe("data/draft_rankings.json")]);
   const byId = Object.fromEntries(data.players.map((p) => [p.id, p]));
   const card = (href, title, body, cta) => `<section class="card home-card"><h2><a href="${href}">${title}</a></h2>${body}
     <a class="more-link" href="${href}">${cta} →</a></section>`;
@@ -242,15 +242,14 @@ async function initHome() {
     cards.push(card("lottery.html", "Mock Lottery", body, "Run the lottery"));
   }
 
-  // Draft watch
-  const year = css?.draftYear || watch?.draft_year;
-  const ranked = Object.entries(css?.categories || {});
-  const targets = (watch?.targets || []).filter((t) => !t.example);
-  const draftBody = ranked.length
-    ? `<ul class="home-list">${(ranked[0][1] || []).slice(0, 3).map((r) => `<li><b>${r.finalRank ?? r.midtermRank ?? ""}</b> ${esc(r.firstName)} ${esc(r.lastName)}
-        <span class="sub">${esc(r.positionCode)} · ${esc(r.lastAmateurClub)}</span></li>`).join("")}</ul><p class="sub">${esc(ranked[0][0])}, NHL Central Scouting</p>`
-    : `<p>${targets.length ? `${targets.length} players on the watchlist.` : "Watchlist coming soon."} NHL Central Scouting's ${year} rankings appear here once they're published.</p>`;
-  cards.push(card("draft.html", `${year} Draft Watch`, draftBody, "Draft Watch"));
+  // Draft watch: consensus big board
+  if (rankings?.players?.length) {
+    const top = rankings.players.slice(0, 5);
+    cards.push(card("draft.html", `${rankings.draft_year} Draft: consensus top 5`, `<table class="home-table"><tbody>${top.map((r) => `<tr>
+        <td><b>${r.rank}</b></td><td><b>${esc(r.name)}</b> <span class="sub">${esc(r.pos || "")} · ${esc(r.team || "")}</span></td>
+        <td class="num sub">median ${r.median_rank}</td></tr>`).join("")}</tbody></table>
+        <p class="sub">Blended from ${rankings.sources.length} public rankings (${rankings.sources.map((s) => esc(shortSource(s.name))).join(", ")}).</p>`, "Full big board"));
+  }
 
   $("#home-cards").innerHTML = cards.join("");
   $("#home-updated").textContent = `Stats through ${fmtDate(data.updated)} · ${data.players.length} prospects tracked`;
@@ -592,9 +591,18 @@ async function initPlayer() {
 
 // ---------- draft watch ----------
 async function initDraft() {
-  const [watch, css, fx] = await Promise.all([load("data/draft_targets.json"), load("data/css_rankings.json"), load("data/nhle_factors.json")]);
-  $("#draft-year").textContent = css.draftYear || watch.draft_year;
+  const [watch, css, fx, rankings, overrides] = await Promise.all([load("data/draft_targets.json"), load("data/css_rankings.json"),
+    load("data/nhle_factors.json"), load("data/draft_rankings.json"), load("data/draft_board_overrides.json").catch(() => ({}))]);
+  $("#draft-year").textContent = rankings.draft_year;
+
+  // Consensus big board: every player any source ranks.
+  const board = consensusBoard(rankings, overrides);
+  $("#board-note").innerHTML = boardSourcesNote(rankings);
+  $("#board").innerHTML = boardTable(board, rankings, { limit: board.length });
+
+  // Your own watchlist and Central Scouting appear only when they have players.
   const targets = watch.targets.filter((t) => !t.example);
+  $("#watch-section").hidden = !targets.length;
   const maxN = Math.max(20, ...targets.map((t) => nhle({ ...t, pts: t.g + t.a }, fx.factors) || 0));
   $("#watch").innerHTML = targets.length ? `<div class="table-wrap"><table><thead><tr>
       <th>Player</th><th>Born</th><th>League</th><th>Team</th><th class="num">GP</th><th class="num">G</th><th class="num">A</th><th class="num">PTS</th><th class="num">P/GP</th><th class="num">NHLe / 82</th><th>Notes</th></tr></thead><tbody>
@@ -603,58 +611,57 @@ async function initDraft() {
         return `<tr><td class="player-cell"><b>${esc(t.name)}</b><span class="flag">${esc(posLabel(t.pos))}</span></td><td class="sub">${esc(t.born)}</td><td>${esc(t.league)}</td><td class="sub">${esc(t.team)}</td>
           <td class="num">${t.gp}</td><td class="num">${t.g}</td><td class="num">${t.a}</td><td class="num"><b>${r.pts}</b></td><td class="num">${fixed(ppg(r))}</td>${nhleCell(nhle(r, fx.factors), maxN)}
           <td class="sub" style="white-space:normal;min-width:220px">${esc(t.notes)}</td></tr>`;
-      }).join("")}</tbody></table></div>`
-    : `<div class="card empty">No targets yet. Add players to <code>data/draft_targets.json</code>.</div>`;
+      }).join("")}</tbody></table></div>` : "";
 
-  const cats = Object.entries(css.categories || {});
-  $("#css").innerHTML = cats.length ? cats.map(([cat, list]) => `<h3>${esc(cat)}</h3><div class="table-wrap"><table><thead><tr>
+  const cats = css.draftYear === rankings.draft_year ? Object.entries(css.categories || {}) : [];
+  $("#css-section").hidden = !cats.length;
+  $("#css").innerHTML = cats.map(([cat, list]) => `<h3>${esc(cat)}</h3><div class="table-wrap"><table><thead><tr>
       <th class="num">Rank</th><th>Player</th><th>Pos</th><th>Club</th><th>League</th><th>Ht / Wt</th><th>Born</th></tr></thead><tbody>
       ${list.slice(0, 64).map((r) => `<tr><td class="num">${cssRank(r) ?? "–"}</td><td><b>${esc(r.firstName)} ${esc(r.lastName)}</b></td><td>${esc(r.positionCode)}</td>
         <td class="sub">${esc(r.lastAmateurClub)}</td><td>${esc(r.lastAmateurLeague)}</td><td class="sub">${heightFt(r.heightInInches)} / ${r.weightInPounds ?? "–"}</td><td class="sub">${esc(r.birthDate)}</td></tr>`).join("")}
-      </tbody></table></div>`).join("")
-    : `<div class="card empty">NHL Central Scouting hasn't published ${css.draftYear || watch.draft_year} rankings yet. The updater adds them automatically once it does.</div>`;
+      </tbody></table></div>`).join("");
 }
 
-// ---------- draft big board (from NHL Central Scouting) ----------
-// Central Scouting ranks four separate lists: North American and International skaters and goalies.
-// To build one board, skaters from both lists are interleaved by how high they sit in their own list
-// (rank / list length), and goalies are slotted in every `goalie_spacing` picks (top goalie ~15th).
-// data/draft_board_overrides.json can pin players to the top, drop players, or change the spacing.
+// ---------- consensus draft board (data/draft_rankings.json, built daily from public rankings) ----------
+const SOURCE_SHORT = { "Daily Faceoff": "DFO", "The Hockey News": "THN", "Upside Hockey": "Upside",
+  "Prospect Hockey (Brian Murray)": "PH", "Lines.com mock draft": "Lines", "NHL Central Scouting": "CSS" };
+const shortSource = (name) => SOURCE_SHORT[name] || name.split(/\s+/)[0];
+
+// The consensus board with your overrides applied: pin_top first (in order), remove dropped.
+function consensusBoard(rankings, overrides = {}) {
+  const removed = new Set((overrides.remove || []).map((s) => s.toLowerCase()));
+  const board = (rankings?.players || []).filter((p) => !removed.has(p.name.toLowerCase()));
+  const pinned = (overrides.pin_top || []).map((n) => board.find((p) => p.name.toLowerCase() === n.toLowerCase())).filter(Boolean);
+  return [...pinned, ...board.filter((p) => !pinned.includes(p))];
+}
+
+function boardSourcesNote(rankings) {
+  const links = rankings.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.published ? ` <span class="sub">(${fmtDate(s.published)})</span>` : ""}`);
+  return `Consensus of ${rankings.sources.length} public rankings: ${links.join(", ")}. Each player's spot is the median of their ranks across the lists (a list that leaves a player out counts them just past its end); checked ${fmtDate(rankings.updated)}.`;
+}
+
+function boardTable(board, rankings, { limit = 64, firstRoundDim = true } = {}) {
+  const srcs = rankings.sources.map((s) => s.name);
+  return `<div class="table-wrap glow-frame"><div class="table-scroll"><table class="lottery-table board-table">
+    <thead><tr><th class="num">#</th><th>Player</th><th class="hide-xs">Club</th><th class="num">Median</th>
+      ${srcs.map((s) => `<th class="num hide-sm" title="${esc(s)}">${esc(shortSource(s))}</th>`).join("")}</tr></thead>
+    <tbody>${board.slice(0, limit).map((r, i) => `<tr class="${firstRoundDim && i >= 32 ? "dim" : ""}">
+      <td class="num pick">${i + 1}</td>
+      <td class="player-cell"><b>${esc(r.name)}</b>${r.pos ? `<span class="flag">${esc(r.pos)}</span>` : ""}
+        <span class="sub board-club">${esc(r.team || "")}${r.league ? ` · ${esc(r.league)}` : ""}</span></td>
+      <td class="team-col hide-xs">${esc(r.team || "–")} <span class="sub">${esc(r.league || "")}</span></td>
+      <td class="num"><b>${r.median_rank}</b></td>
+      ${srcs.map((s) => `<td class="num sub hide-sm">${r.ranks[s] ?? "–"}</td>`).join("")}</tr>`).join("")}</tbody>
+  </table></div></div>`;
+}
+
+// NHL Central Scouting rank for a row of its rankings (final, midterm, or whatever rank the list carries).
 const CSS_RANK_KEYS = ["finalRank", "midtermRank", "rank", "preliminaryRank"];
 
 function cssRank(r) {
   for (const k of CSS_RANK_KEYS) if (typeof r[k] === "number") return r[k];
   const k = Object.keys(r).find((x) => /rank/i.test(x) && typeof r[x] === "number");
   return k ? r[k] : null;
-}
-
-function cssStage(categories) {
-  const rows = Object.values(categories).flat();
-  if (rows.some((r) => typeof r.finalRank === "number")) return "final rankings";
-  if (rows.some((r) => typeof r.midtermRank === "number")) return "midterm rankings";
-  return "preliminary list";
-}
-
-function buildBigBoard(css, overrides = {}) {
-  const cats = Object.entries(css?.categories || {});
-  if (!cats.length) return [];
-  const fullName = (r) => `${r.firstName} ${r.lastName}`;
-  const removed = new Set((overrides.remove || []).map((s) => s.toLowerCase()));
-  const pool = (match) => cats.filter(([name]) => match.test(name)).flatMap(([name, list]) => {
-    const ranked = list.filter((r) => cssRank(r) != null);
-    return ranked.map((r) => ({ ...r, name: fullName(r), list: name, cssRank: cssRank(r), score: cssRank(r) / ranked.length }));
-  }).filter((r) => !removed.has(r.name.toLowerCase()))
-    .sort((a, b) => a.score - b.score || a.cssRank - b.cssRank);
-
-  const skaters = pool(/skater/i), goalies = pool(/goalie/i);
-  const spacing = overrides.goalie_spacing || 15;
-  const board = [...skaters];
-  goalies.forEach((g, i) => board.splice(Math.min(board.length, (i + 1) * spacing - 1), 0, g));
-
-  // Hand-pinned players go first, in the order given.
-  const pins = (overrides.pin_top || []).map((s) => s.toLowerCase());
-  const pinned = pins.map((p) => board.find((r) => r.name.toLowerCase() === p)).filter(Boolean);
-  return [...pinned, ...board.filter((r) => !pinned.includes(r))];
 }
 
 // ---------- mock draft lottery ----------
@@ -738,14 +745,14 @@ const pctNum = (v, digits = 1) => {
 const pct = (v, digits = 1) => (v > 0 ? `${pctNum(v, digits)}%` : "–");
 
 async function initLottery() {
-  const [standings, owners, css, boardOverrides] = await Promise.all([load("data/standings.json"), load("data/pick_owners.json"),
-    load("data/css_rankings.json").catch(() => null), load("data/draft_board_overrides.json").catch(() => ({}))]);
-  const board = css?.draftYear === owners.draft_year ? buildBigBoard(css, boardOverrides) : [];
+  const [standings, owners, rankings, boardOverrides] = await Promise.all([load("data/standings.json"), load("data/pick_owners.json"),
+    load("data/draft_rankings.json").catch(() => null), load("data/draft_board_overrides.json").catch(() => ({}))]);
+  const board = rankings?.draft_year === owners.draft_year ? consensusBoard(rankings, boardOverrides) : [];
   const prospectCell = (pick) => {
     const r = board[pick - 1];
     if (!board.length) return "";
     if (!r) return `<td class="mock-pick sub">–</td>`;
-    return `<td class="mock-pick"><b>${esc(r.name)}</b><span class="sub">${esc(r.positionCode)} · ${esc(r.lastAmateurClub)} (${esc(r.lastAmateurLeague)})</span></td>`;
+    return `<td class="mock-pick"><b>${esc(r.name)}</b><span class="sub">${esc(r.pos || "")}${r.team ? ` · ${esc(r.team)}` : ""}${r.league ? ` (${esc(r.league)})` : ""}</span></td>`;
   };
   const n = LOTTERY_ODDS.length;
   const lottery = standings.teams.filter((t) => !t.playoff).slice(0, n); // already sorted worst first
@@ -853,19 +860,13 @@ async function initLottery() {
   $("#chase-team").innerHTML = lottery.map((t, seed) =>
     `<option value="${seed}" ${seed === focusSeed ? "selected" : ""}>${esc(t.name)}</option>`).join("");
 
-  // Big board tab: Central Scouting's lists merged into one ranking, or a note until they're published.
-  const stage = board.length ? cssStage(css.categories) : null;
-  $("#board-note").innerHTML = board.length
-    ? `Built from NHL Central Scouting's ${owners.draft_year} ${stage} (${board.length} players). Central Scouting ranks North American and International skaters and goalies separately; this board blends them by how high each player sits in their own list, with goalies slotted in about every ${boardOverrides.goalie_spacing || 15} picks. It refreshes daily. The <b>Mock pick</b> column in Draft order gives each pick the best player left on this board.`
-    : `NHL Central Scouting hasn't published its ${owners.draft_year} rankings yet. Its first list usually arrives in the fall, with midterm rankings in January and final rankings in the spring. This board, and a <b>Mock pick</b> column in Draft order, fill in automatically the day it's out.`;
-  $("#board-body").innerHTML = board.slice(0, 96).map((r, i) => `<tr class="${i < 32 ? "" : "dim"}">
-      <td class="num pick">${i + 1}</td>
-      <td class="player-cell"><b>${esc(r.name)}</b><span class="flag">${esc(r.positionCode)}</span></td>
-      <td class="team-col">${esc(r.lastAmateurClub)} <span class="sub">${esc(r.lastAmateurLeague)}</span></td>
-      <td class="num hide-sm">${heightFt(r.heightInInches)} / ${r.weightInPounds ?? "–"}</td>
-      <td class="num hide-sm">${esc(r.birthDate || "")}</td>
-      <td class="hide-xs sub">${esc(r.list.replace(/ (Skater|Goalie)s?$/i, ""))} #${r.cssRank}</td></tr>`).join("");
-  $("#board-table").hidden = !board.length;
+  // Big board tab: the consensus of public rankings; the Mock pick column gives each pick the best player left.
+  if (board.length) {
+    $("#board-note").innerHTML = `${boardSourcesNote(rankings)} The <b>Mock pick</b> column in Draft order gives each pick the best player left on this board. <a href="draft.html">Full board on Draft Watch →</a>`;
+    $("#board-table").innerHTML = boardTable(board, rankings, { limit: 64 });
+  } else {
+    $("#board-note").innerHTML = "The draft rankings couldn't be loaded.";
+  }
 
   const tabs = document.querySelectorAll("[data-ltab]");
   tabs.forEach((b) => b.addEventListener("click", () => {

@@ -58,10 +58,7 @@
 
 <section class="ltab-panel" id="board-panel" hidden>
   <p class="result-note" id="board-note"></p>
-  <div class="table-wrap glow-frame" id="board-table"><table class="lottery-table board-table">
-    <thead><tr><th class="num">#</th><th>Player</th><th>Club</th><th class="num hide-sm">Ht / Wt</th><th class="num hide-sm">Born</th><th class="hide-xs">CSS list</th></tr></thead>
-    <tbody id="board-body"></tbody>
-  </table></div>
+  <div id="board-table"></div>
 </section>
 
 <p class="footnote"><b>How it works:</b> the 16 non-playoff teams are seeded worst to best by points percentage. The first draw decides #1 and the second decides #2. A winner can move up at most 10 spots: if a team seeded 12th or lower wins the first draw, it moves up 10 and the worst team keeps #1. In the second draw, any team already holding a top pick is redrawn, and the 10-spot limit counts from where a team sits after the first draw (so a team pushed down by a first-draw jump has a shorter reach). Everyone else drops into the remaining spots in standings order, so the worst team picks no lower than 3rd. The odds and the 10-spot cap match the NHL's current rules; the "Lottery odds" tab shows exact probabilities from every possible pair of draws. Traded picks and their protections update automatically every day <span id="picks-source"></span>. A protected pick shows the team that actually holds it at that slot; hover a team for trade details. Record and Pts% always describe the team whose finish sets the pick; when another club holds it, they carry that original team's tag (e.g. <b>FLA</b> .667).  Not modeled: the rule that limits how often one team can win the lottery.</p>

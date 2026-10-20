@@ -1,6 +1,5 @@
 {
-  "_note": "Optional tweaks to the Mock Lottery big board, which is otherwise built automatically from NHL Central Scouting. 'pin_top': full names to put first, in order (your own top of the board). 'remove': full names to drop. 'goalie_spacing': a goalie is slotted in about every N picks.",
+  "_note": "Optional tweaks to the consensus big board (Draft Watch and Mock Lottery), which is otherwise built automatically every day from public draft rankings. 'pin_top': full names to put first, in your order. 'remove': full names to drop.",
   "pin_top": [],
-  "remove": [],
-  "goalie_spacing": 15
+  "remove": []
 }

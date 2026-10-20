@@ -9,6 +9,7 @@ Writes:
   data/pick_owners.json    - traded first-round picks and protections (Mock Lottery);
                              hand corrections go in data/pick_overrides.json
   data/css_rankings.json   - NHL Central Scouting rankings for the next draft (when published)
+  data/draft_rankings.json - consensus big board from public draft rankings (Mock Lottery)
   content/drafts/*.md      - a recap draft for every prospect who played since the last run
 
 Usage:  python scripts/update_stats.py
@@ -461,6 +462,270 @@ def update_news(players):
     return len(articles)
 
 
+# ---------- public draft rankings (Mock Lottery big board) ----------
+FLAG_RE = re.compile("[\U0001F1E6-\U0001F1FF]{2}")
+POS_RE = r"(?:[LR]H?[DCW]|[LR]D|C|D|F|G|W|LW|RW)(?:\s*/\s*(?:[LR]H?[DCW]|C|D|F|W|LW|RW))*"
+LISTING_RE = re.compile(rf"^(?:#?\d{{1,3}}\s*[.):]?\s*)?(?P<name>[A-ZÀ-Ž][\w'’.\- ]{{2,40}}?),\s*(?P<pos>{POS_RE})\s*[,(]?\s*(?P<rest>.*)$")
+
+
+def html_blocks(body):
+    """Text of each paragraph / list item / heading, in page order."""
+    out = []
+    for tag, inner in re.findall(r"<(p|li|h[1-6])[^>]*>(.*?)</\1>", body, flags=re.S):
+        t = re.sub(r"\s+", " ", html_unescape(re.sub(r"<[^>]+>", "", inner))).strip()
+        if t:
+            out.append((tag, t))
+    return out
+
+
+def html_unescape(s):
+    import html
+    return html.unescape(s)
+
+
+def split_team(rest):
+    """'(University of Michigan, NCAA)' or 'Nizhny Novgorod (Rus.)' or 'Québec Remparts)' -> team, league."""
+    rest = rest.strip().strip(",").strip()
+    m = re.match(r"^\(?\s*(?P<team>[^()]+?)\s*,\s*(?P<league>[^(),]+?)\s*\)?$", rest)
+    if m:
+        return m.group("team"), m.group("league")
+    m = re.match(r"^(?P<team>[^()]+?)\s*\((?P<league>[^()]+)\)\s*$", rest)
+    if m:
+        return m.group("team"), m.group("league")
+    return rest.strip("() "), None
+
+
+def parse_listing_article(body, limit=100):
+    """Ranking articles written as 'N. Name, POS (Team, League)' or tiered 'Name, POS, Team (League)'."""
+    players, seen = [], set()
+    for _, t in html_blocks(body):
+        if len(t) > 140:
+            continue
+        m = LISTING_RE.match(t)
+        if not m:
+            continue
+        name = m.group("name").strip()
+        if len(name.split()) < 2 or name.lower() in seen:
+            continue
+        team, league = split_team(m.group("rest"))
+        seen.add(name.lower())
+        players.append({"name": name, "pos": re.sub(r"\s+", "", m.group("pos")), "team": team, "league": league})
+        if len(players) >= limit:
+            break
+    return players
+
+
+def parse_flag_list(body, limit=60):
+    """Prospect Hockey style: '🇨🇦Landon Dupont - A quick, agile ...' in rank order."""
+    players, seen = [], set()
+    for tag, t in html_blocks(body):
+        if tag.startswith("h") and re.search(r"honou?rable|mention|watch list", t, re.I) and players:
+            break
+        # A flag can sit mid-paragraph (the #1 entry shares a paragraph with the intro), so scan every flag.
+        for m in re.finditer(rf"{FLAG_RE.pattern}\s*(?P<name>[A-ZÀ-Ž][^-–(\n]{{2,40}}?)\s*[-–]\s", t):
+            name = m.group("name").strip()
+            if name.lower() not in seen and len(name.split()) >= 2:
+                seen.add(name.lower())
+                players.append({"name": name})
+        if len(players) >= limit:
+            break
+    return players[:limit]
+
+
+def newest_google_news(query, title_re):
+    """Newest Google News hit whose headline matches title_re; returns (title, real url, date)."""
+    hits = [a for a in google_news_search(query, "en") if re.search(title_re, a["title"], re.I)]
+    for a in sorted(hits, key=lambda a: a["published"], reverse=True):
+        url = resolve_google_news_link(a["google_link"])
+        if url:
+            return a["title"], url, a["published"]
+    return None
+
+
+def newest_substack_post(feed_url, title_re):
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+    root = ET.fromstring(fetch_text(feed_url).encode("utf-8"))
+    for it in root.iter("item"):
+        if re.search(title_re, it.findtext("title") or "", re.I):
+            content = it.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or ""
+            return (it.findtext("title").strip(), it.findtext("link"),
+                    parsedate_to_datetime(it.findtext("pubDate")).date().isoformat(), content)
+    return None
+
+
+def source_dailyfaceoff(year):
+    hit = newest_google_news(f'"{year} NHL Draft Rankings" dailyfaceoff', rf"^{year} NHL Draft Rankings")
+    if not hit:
+        return None
+    title, url, published = hit
+    return {"name": "Daily Faceoff", "title": title, "url": url, "published": published,
+            "players": parse_listing_article(fetch_text(url))}
+
+
+def source_thn(year):
+    hit = newest_google_news(f'"{year} NHL Draft" ranking thehockeynews', rf"^{year} NHL Draft Rankings?\b")
+    if not hit:
+        return None
+    title, url, published = hit
+    return {"name": "The Hockey News", "title": title, "url": url, "published": published,
+            "players": parse_listing_article(fetch_text(url))}
+
+
+def source_upside(year):
+    import csv, io
+    post = newest_substack_post("https://upsidehockey.substack.com/feed", rf"{year} NHL Draft Rankings")
+    if not post:
+        return None
+    title, url, published, content = post
+    dw = re.search(r"datawrapper\.dwcdn\.net/([A-Za-z0-9]+)/(\d+)", html_unescape(content))
+    if not dw:
+        return None
+    rows = list(csv.reader(io.StringIO(fetch_text(f"https://datawrapper.dwcdn.net/{dw.group(1)}/{dw.group(2)}/dataset.csv"))))
+    head, players = rows[0], []
+    col = lambda name: head.index(name) if name in head else None
+    for r in rows[1:]:
+        if not r or not r[0].strip().isdigit():
+            continue
+        last, _, first = r[col("Name")].partition(",")
+        team_league = r[col("League '26-27")] if col("League '26-27") is not None else ""
+        players.append({
+            "name": f"{first.strip()} {last.strip()}".strip(),
+            "pos": r[col("Pos")] if col("Pos") is not None else None,
+            "shoots": r[col("S")] if col("S") is not None else None,
+            "team": r[col("Team '26-27")] if col("Team '26-27") is not None else None,
+            "league": team_league.split(" - ")[-1] if team_league else None,
+            "country": r[col("Ctry")] if col("Ctry") is not None else None,
+            "height": r[col("Ht")] if col("Ht") is not None else None,
+            "weight": r[col("Wt")] if col("Wt") is not None else None,
+            "birth": r[col("Birth")] if col("Birth") is not None else None,
+        })
+    return {"name": "Upside Hockey", "title": title, "url": url, "published": published, "players": players}
+
+
+def source_prospect_hockey(year):
+    post = newest_substack_post("https://prospecthockey.substack.com/feed", rf"Draft Rank\w*\s*\({year}")
+    if not post:
+        return None
+    title, url, published, content = post
+    return {"name": "Prospect Hockey (Brian Murray)", "title": title, "url": url, "published": published,
+            "players": parse_flag_list(fetch_text(url))}
+
+
+def source_lines(year):
+    url = f"https://www.lines.com/nhl/drafts/{year}"
+    text = re.sub(r"\s+", " ", html_unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<script.*?</script>|<style.*?</style>", " ", fetch_text(url), flags=re.S))))
+    players, seen = [], set()
+    for m in re.finditer(r"Round 1 [–-] Pick (\d{1,2}) (?P<name>[^()]{4,50}?) \((?P<pos>[A-Z/]{1,6})\)", text):
+        name = re.sub(r'\s*"[^"]*"\s*', " ", m.group("name")).strip()   # drop quoted nicknames
+        nick = re.search(r'"([^"]+)"', m.group("name"))
+        if nick:  # Samuel "Sammy" Nelson -> Sammy Nelson
+            name = f'{nick.group(1)} {name.split()[-1]}'
+        if name.lower() not in seen:
+            seen.add(name.lower())
+            players.append({"name": name, "pos": m.group("pos")})
+    return {"name": "Lines.com mock draft", "title": f"{year} NHL Mock Draft", "url": url, "published": None, "players": players}
+
+
+def source_central_scouting(year):
+    path = DATA / "css_rankings.json"
+    css = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    if css.get("draftYear") != year or not css.get("categories"):
+        return None
+    rank_of = lambda r: next((r[k] for k in ("finalRank", "midtermRank", "rank", "preliminaryRank") if isinstance(r.get(k), int)), None)
+    skaters, goalies = [], []
+    for cat, rows in css["categories"].items():
+        ranked = [r for r in rows if rank_of(r)]
+        for r in ranked:
+            entry = (rank_of(r) / len(ranked), {"name": f"{r['firstName']} {r['lastName']}", "pos": r.get("positionCode"),
+                                                "team": r.get("lastAmateurClub"), "league": r.get("lastAmateurLeague")})
+            (goalies if "goalie" in cat.lower() else skaters).append(entry)
+    board = [p for _, p in sorted(skaters, key=lambda x: x[0])]
+    for i, (_, g) in enumerate(sorted(goalies, key=lambda x: x[0])):
+        board.insert(min(len(board), (i + 1) * 15 - 1), g)
+    return {"name": "NHL Central Scouting", "title": f"{year} rankings", "url": "https://www.nhl.com/news/topic/draft-rankings",
+            "published": None, "players": board}
+
+
+def name_key(name):
+    s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    s = re.sub(r'"[^"]*"', " ", s)
+    parts = re.sub(r"[^a-z\s-]", "", s).split()
+    return (parts[0][:1], parts[-1]) if len(parts) >= 2 else ("", s)
+
+
+def update_draft_rankings(season):
+    """Consensus big board for the upcoming draft from several public rankings (names, ranks, links only)."""
+    from difflib import SequenceMatcher
+    year = season % 10000
+    path = DATA / "draft_rankings.json"
+    previous = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    prev_sources = {s["name"]: s for s in previous.get("sources", []) if previous.get("draft_year") == year}
+
+    sources = []
+    for fn in (source_dailyfaceoff, source_thn, source_upside, source_prospect_hockey, source_lines, source_central_scouting):
+        try:
+            s = fn(year)
+        except Exception as e:
+            s = None
+            print(f"  ! draft rankings: {fn.__name__} failed: {e}", file=sys.stderr)
+        if s and len(s["players"]) >= 10:
+            sources.append(s)
+        elif fn.__name__ != "source_central_scouting":
+            label = fn.__name__.replace("source_", "")
+            kept = next((p for n, p in prev_sources.items() if n.lower().replace(" ", "").startswith(label[:6])), None)
+            if kept:
+                sources.append(kept)  # keep yesterday's copy of a list we couldn't read today
+                print(f"  ! draft rankings: kept previous {kept['name']} list", file=sys.stderr)
+            else:
+                print(f"  ! draft rankings: no usable list from {label}", file=sys.stderr)
+    if not sources:
+        print("Draft rankings: no sources this run; kept previous file", file=sys.stderr)
+        return None
+
+    # Merge the same player across lists (spellings vary: DuPont/Dupont, Sundström/Sundstrom, Jacobsen/Jacobson).
+    merged = []
+    def find(name):
+        first, last = name_key(name)
+        for m in merged:
+            f2, l2 = m["key"]
+            if first == f2 and (last == l2 or SequenceMatcher(None, last, l2).ratio() >= 0.85):
+                return m
+        return None
+    for s in sources:
+        for rank, p in enumerate(s["players"], start=1):
+            m = find(p["name"])
+            if not m:
+                m = {"key": name_key(p["name"]), "name": p["name"], "ranks": {}, "info": {}}
+                merged.append(m)
+            m["ranks"].setdefault(s["name"], rank)
+            for k, v in p.items():
+                if v and k != "name" and not m["info"].get(k):
+                    m["info"][k] = v
+
+    # Consensus: the median rank across every list, so one list leaving a player out (or an outlier) can't
+    # drag them far. A list that doesn't include a player counts as its length + 10; average breaks ties.
+    from statistics import median
+    for m in merged:
+        scores = [m["ranks"].get(s["name"], len(s["players"]) + 10) for s in sources]
+        m["median"] = median(scores)
+        m["avg"] = sum(scores) / len(scores)
+        m["listed"] = len(m["ranks"])
+    merged.sort(key=lambda m: (m["median"], m["avg"], -m["listed"]))
+
+    players = [{"rank": i + 1, "name": m["name"], **m["info"], "median_rank": m["median"], "avg_rank": round(m["avg"], 1),
+                "lists": m["listed"], "ranks": m["ranks"]} for i, m in enumerate(merged)]
+    path.write_text(json.dumps({
+        "draft_year": year,
+        "updated": date.today().isoformat(),
+        "method": "Median rank across every list (a list that leaves a player out counts as its length + 10); average breaks ties.",
+        "sources": [{k: s[k] for k in ("name", "title", "url", "published")} | {"count": len(s["players"]), "players": s["players"]}
+                    for s in sources],
+        "players": players,
+    }, indent=1, ensure_ascii=False), encoding="utf-8")
+    return len(players), [s["name"] for s in sources]
+
+
 # ---------- traded first-round picks (Mock Lottery) ----------
 WIKI_API = "https://en.wikipedia.org/w/api.php"
 NUMBER_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8,
@@ -698,6 +963,9 @@ def main():
     if traded is not None:
         print(f"Traded {season % 10000} first-round picks: {traded}")
     n = update_css_rankings(season)
+    board = update_draft_rankings(season)
+    if board:
+        print(f"Draft rankings {season % 10000}: {board[0]} players from {', '.join(board[1])}")
     print(f"Central Scouting {season % 10000}: {n} ranked players" if n else
           f"Central Scouting {season % 10000}: not published yet")
     if snapshot is None:

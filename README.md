@@ -51,9 +51,25 @@ The **News** page lists what other outlets write about the prospects. **Editoria
 
 Factors live in `data/nhle_factors.json` and are approximate starting values from published NHLe research. Tune them to taste. Keys must match the league names the NHL API uses, which are listed in the League dropdown on the Prospects page. Leagues without a factor show no NHLe.
 
-## Draft targets
+## Draft Watch and the consensus big board
 
-Undrafted players aren't in the NHL API, so the watchlist in `data/draft_targets.json` is maintained by hand. NHL Central Scouting rankings for the upcoming draft are pulled into `data/css_rankings.json` automatically once the NHL publishes them (usually a preliminary list in the fall, a midterm in January, and a final list in the spring).
+Every update builds a consensus board for the upcoming draft (`data/draft_rankings.json`) from public rankings:
+
+| Source | How the newest list is found | Format |
+|---|---|---|
+| Daily Faceoff | Google News search for its newest "<year> NHL Draft Rankings" article | Numbered list |
+| The Hockey News | Same, for "<year> NHL Draft Ranking" | Tiered list (ordered within tiers) |
+| Upside Hockey | Substack RSS feed, then the ranking table's Datawrapper CSV | Top 32 with stats |
+| Prospect Hockey (Brian Murray) | Substack RSS feed | Ordered list |
+| Lines.com | Fixed mock draft page | Round-one mock |
+| NHL Central Scouting | NHL API, once it publishes for that year | Four lists blended into one |
+
+- Only names, positions, clubs and rank numbers are taken from each list, and every source is linked on the page.
+- A player's consensus spot is the **median** of their ranks across the lists. A list that leaves a player out counts them as its length + 10, and the average rank breaks ties. Spellings are matched across lists (DuPont/Dupont, Sundström/Sundstrom).
+- If a source can't be read on a given day, yesterday's copy of that list is kept.
+- The board shows on **Draft Watch** (full board, with each outlet's rank) and in the Mock Lottery's **Big board** tab and **Mock pick** column.
+- To put your own stamp on the board, use `data/draft_board_overrides.json`: `pin_top` puts named players first in your order, and `remove` drops players.
+- Your own watchlist (`data/draft_targets.json`, maintained by hand) appears on Draft Watch once it has players.
 
 ## Mock Lottery
 
@@ -66,8 +82,7 @@ Undrafted players aren't in the NHL API, so the watchlist in `data/draft_targets
 - To correct something the parser got wrong, add it to `data/pick_overrides.json`, which is applied on top. For example, `"TOR": { "owner": "BOS" }` changes an owner, and `"VGK": null` drops a pick.
 - If Wikipedia can't be reached or the page format changes, the previous pick data is kept and the updater prints a warning, so the page never goes blank.
 - The draft year rolls over on its own each August, along with the season.
-- **Big board and mock picks:** the draft-eligible players come from NHL Central Scouting's rankings for the upcoming draft, which the updater pulls into `data/css_rankings.json` as soon as the NHL publishes them (a first list in the fall, midterm rankings in January, final rankings in the spring). Central Scouting ranks four separate lists (North American and International skaters and goalies). The page blends them into one board by how high each player sits in their own list, slots in a goalie about every 15 picks, and gives each pick in the draft order the best player left. Until the first list is out, the Big board tab says so and the Mock pick column stays hidden.
-- To put your own stamp on the board, use `data/draft_board_overrides.json`: `pin_top` puts named players first in your order, `remove` drops players, and `goalie_spacing` changes how often goalies are slotted in.
+- **Big board and mock picks:** the Big board tab and the Mock pick column use the consensus board described under Draft Watch below. Each pick in the draft order gets the best player left on it, and it updates with every simulated lottery.
 
 ## Hosting
 
