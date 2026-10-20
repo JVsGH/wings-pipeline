@@ -26,5 +26,5 @@ jobs:
           git config user.name "stats-bot"
           git config user.email "stats-bot@users.noreply.github.com"
           git add data content/drafts
-          git diff --cached --quiet || git commit -m "Update prospect stats $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "Update site data $(date -u +%F)"
           git push

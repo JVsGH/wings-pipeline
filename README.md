@@ -46,11 +46,27 @@ Undrafted players aren't in the NHL API, so the watchlist in `data/draft_targets
 - If Wikipedia can't be reached or the page format changes, the previous pick data is kept and the updater prints a warning, so the page never goes blank.
 - The draft year rolls over on its own each August, along with the season.
 
-## Hosting (free)
+## Hosting
 
-1. Create a GitHub repository and push this folder.
-2. Turn on GitHub Pages in **Settings → Pages**, deploying from the `main` branch root.
-3. `.github/workflows/update.yml` runs the stats updater every morning and commits new stats and recap drafts. Run `git pull` to get the drafts, write them up, then push.
+**Live site:** https://jvsgh.github.io/wings-pipeline/ (GitHub Pages, served from the `main` branch of [JVsGH/wings-pipeline](https://github.com/JVsGH/wings-pipeline)).
+
+- **Automatic updates:** every morning at 10:00 UTC (6 AM Eastern in summer, 5 AM in winter), `.github/workflows/update.yml` refreshes all the data, writes recap drafts and commits the result. Pages republishes about a minute later.
+- **Run it now:** to refresh outside the schedule, go to the repo's **Actions** tab → **Update site data** → **Run workflow**.
+- **Before you edit anything,** pull the bot's latest commit, so your push doesn't collide with its changes:
+
+  ```
+  git pull
+  ```
+
+- **Publishing a post:** move a draft from `content/drafts/` to `content/posts/`, run `python scripts/build_posts.py`, then commit and push:
+
+  ```
+  git add -A
+  git commit -m "New post"
+  git push
+  ```
+
+- **If a run fails,** GitHub emails you, and the site keeps its last good data.
 
 ## Files
 
@@ -59,7 +75,8 @@ Undrafted players aren't in the NHL API, so the watchlist in `data/draft_targets
 | `index.html`, `post.html` | News feed and article pages |
 | `prospects.html`, `player.html` | Stats table and player profiles |
 | `draft.html` | Draft watchlist and Central Scouting rankings |
+| `lottery.html` | Mock draft lottery (standings, odds, simulator) |
 | `assets/app.js`, `assets/style.css` | All page logic and styling |
-| `scripts/update_stats.py` | NHL API stats pull and recap drafts |
+| `scripts/update_stats.py` | Daily data refresh: stats, standings, rankings, traded picks, recap drafts |
 | `scripts/build_posts.py` | Markdown posts → `data/posts.json` |
 | `config.json` | Which players count as prospects |
