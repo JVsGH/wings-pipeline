@@ -186,6 +186,39 @@ td.num, th.num { text-align: right; }
   .prospect-table td.empty { grid-column: 1 / -1; text-align: center; }
   .prospect-table .bar { width: 100%; max-width: 120px; }
 }
+/* Home */
+.hero h1 { font-size: 2.2rem; }
+.home-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr)); gap: 16px; }
+.home-card { display: flex; flex-direction: column; gap: 10px; }
+.home-card h2 { margin: 0; font-size: 1.15rem; }
+.home-card h2 a { color: var(--ink); }
+.home-card .more-link { margin-top: auto; font-weight: 700; font-size: 0.9rem; }
+.home-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.home-list li { line-height: 1.35; }
+.home-list li > a { color: var(--ink); font-weight: 600; }
+.home-list .sub { display: block; margin-top: 2px; }
+.home-list .type { vertical-align: 1px; }
+.home-table { width: 100%; font-size: 0.92rem; }
+.home-table td { padding: 6px 0; white-space: normal; }
+.home-table td.num { padding-left: 10px; white-space: nowrap; }
+.home-table a { color: var(--ink); font-weight: 600; }
+.home-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.home-stats div { background: var(--chip); border-radius: 8px; padding: 8px 10px; }
+.home-stats span { display: block; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.home-stats b { font-size: 1.1rem; }
+
+/* Outside news */
+.news-item { padding: 14px 18px; }
+.news-item h3 { margin: 4px 0; font-size: 1.05rem; line-height: 1.35; }
+.news-item h3 a { color: var(--ink); }
+.news-item .outlet { font-weight: 700; color: var(--ink); }
+.lang {
+  font-size: 0.66rem; font-weight: 800; letter-spacing: 0.06em; padding: 1px 6px; border-radius: 4px;
+  background: #2f6fb3; color: #fff;
+}
+.translate { font-weight: 700; }
+#news-count { margin-left: auto; }
+
 /* Mock lottery */
 .btn {
   font: inherit; font-weight: 600; font-size: 0.92rem; cursor: pointer; padding: 8px 16px; border-radius: 8px;

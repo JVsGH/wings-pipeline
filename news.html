@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News · Wings Pipeline</title>
+<meta name="description" content="Articles from around the hockey world about Detroit Red Wings prospects, in English and other languages.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  // Apply the saved light/dark choice (or the system setting) before the page paints.
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    document.documentElement.dataset.theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  })();
+</script>
+</head>
+<body data-page="news">
+<main>
+<h1>Prospect news</h1>
+<p class="lede">What other outlets are writing about Detroit's prospects, gathered daily from Google News in English and the local language of each player's league. Headlines link to the original publisher. <span class="updated" id="updated"></span></p>
+<div class="controls">
+  <input type="search" id="q" placeholder="Search headlines or outlets">
+  <select id="player" aria-label="Prospect"></select>
+  <select id="lang" aria-label="Language"></select>
+  <span class="sub" id="news-count"></span>
+</div>
+<div class="feed" id="news-feed"></div>
+<p><button type="button" class="btn" id="more" hidden>Show more</button></p>
+<p class="footnote">Articles belong to their publishers; we only show the headline, outlet and date, and link to the original. "Read in English" opens a non-English article through Google Translate. Wrong match? Add it to <code>data/news_hidden.json</code>.</p>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>

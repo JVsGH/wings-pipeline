@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wings Pipeline · Red Wings prospect news</title>
-<meta name="description" content="Game-by-game news, analysis and NHL-equivalent stats for Detroit Red Wings prospects and draft targets.">
+<title>Wings Pipeline · Detroit Red Wings prospects</title>
+<meta name="description" content="Detroit Red Wings prospect news, NHL-equivalent stats, draft watch and a mock NHL draft lottery.">
 <link rel="stylesheet" href="assets/style.css">
 <script>
   // Apply the saved light/dark choice (or the system setting) before the page paints.
@@ -14,14 +14,14 @@
     document.documentElement.dataset.theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   })();
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 </head>
-<body data-page="news">
+<body data-page="home">
 <main>
-<h1>Prospect news</h1>
-<p class="lede">Game-by-game coverage of the Detroit Red Wings pipeline: recaps, analysis, opinion and scouting notes.</p>
-<div class="controls"><div class="chips" id="type-chips"></div></div>
-<div class="feed" id="feed"></div>
+<section class="hero">
+  <h1>Detroit's pipeline, game by game</h1>
+  <p class="lede">News, numbers and opinion on every Red Wings prospect, from Grand Rapids to Sweden, Russia and the CHL, plus the draft picks that will join them. <span class="updated" id="home-updated"></span></p>
+</section>
+<div class="home-grid" id="home-cards"></div>
 </main>
 <script src="assets/app.js"></script>
 </body>

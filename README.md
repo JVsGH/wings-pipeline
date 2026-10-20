@@ -24,6 +24,15 @@ Then open http://localhost:8000. (Opening the HTML files directly won't work, be
 
 You can also write posts from scratch. Copy the front matter from `content/posts/2026-10-19-welcome.md`. Post types: `recap`, `analysis`, `opinion`, `scouting`, `draft`. The `players:` list takes NHL player ids, which you'll find in the URL of each player page (`player.html?id=8485362`).
 
+## Outside news
+
+The **News** page lists what other outlets write about the prospects. **Editorials** is only your own posts.
+
+- Every update searches Google News for each prospect, in English plus the local language of the player's league and home country (Swedish, Finnish, Czech, Slovak, Russian, German or Norwegian). The query includes the local word for hockey, so namesakes in other sports mostly stay out.
+- Only the headline, outlet, date and a link are shown, never article text. Articles are kept for 60 days.
+- Each Google link is converted to the real article address. Non-English articles then get a "Read in English" link through Google Translate; a few publishers block this, and readers can still open the original.
+- Wrong match or unwanted outlet? Add it to `data/news_hidden.json`. You can hide by part of a link, part of a headline, an outlet name, or a phrase that shouldn't be tagged to one prospect.
+
 ## NHLe
 
 `NHLe per 82 = (points / games) × league factor × 82`
@@ -72,7 +81,9 @@ Undrafted players aren't in the NHL API, so the watchlist in `data/draft_targets
 
 | Path | What it is |
 |---|---|
-| `index.html`, `post.html` | News feed and article pages |
+| `index.html` | Home: snapshot cards of every section |
+| `editorials.html`, `post.html` | Your posts and the article page |
+| `news.html` | Outside articles about the prospects |
 | `prospects.html`, `player.html` | Stats table and player profiles |
 | `draft.html` | Draft watchlist and Central Scouting rankings |
 | `lottery.html` | Mock draft lottery (standings, odds, simulator) |

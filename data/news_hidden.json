@@ -1,0 +1,7 @@
+{
+  "_note": "Hide wrong or unwanted matches from the News page. All matching is case-insensitive. 'urls': any part of an article link. 'titles': any part of a headline. 'sources': exact outlet names. 'player_titles': stop tagging one prospect (by NHL id) on headlines containing a phrase, e.g. a different person with the same name. Changes apply on the next update.",
+  "urls": [],
+  "titles": ["Stats, Contract, Salary"],
+  "sources": [],
+  "player_titles": {}
+}

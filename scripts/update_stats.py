@@ -256,6 +256,167 @@ def update_standings():
     return len(teams)
 
 
+# ---------- outside news (News page) ----------
+# Google News editions to search, by league and by birth country. English is always searched.
+# Each edition has the local word(s) for hockey, so a query like "Eddie Genborg" stays on-topic.
+NEWS_EDITIONS = {
+    "en": {"hl": "en-US", "gl": "US", "ceid": "US:en", "hockey": ["hockey", "Red Wings"]},
+    "sv": {"hl": "sv", "gl": "SE", "ceid": "SE:sv", "hockey": ["hockey", "ishockey"]},
+    "fi": {"hl": "fi", "gl": "FI", "ceid": "FI:fi", "hockey": ["jääkiekko", "kiekko", "Liiga"]},
+    "cs": {"hl": "cs", "gl": "CZ", "ceid": "CZ:cs", "hockey": ["hokej", "hokejista"]},
+    "sk": {"hl": "sk", "gl": "SK", "ceid": "SK:sk", "hockey": ["hokej", "hokejista"]},
+    "ru": {"hl": "ru", "gl": "RU", "ceid": "RU:ru", "hockey": ["хоккей", "хоккеист"]},
+    "de": {"hl": "de", "gl": "DE", "ceid": "DE:de", "hockey": ["Eishockey", "DEL"]},
+    "no": {"hl": "no", "gl": "NO", "ceid": "NO:no", "hockey": ["hockey", "ishockey"]},
+}
+LEAGUE_LANG = {"SHL": "sv", "HockeyAllsvenskan": "sv", "U20 Nationell": "sv", "Liiga": "fi", "Mestis": "fi",
+               "U20 SM-sarja": "fi", "Czechia": "cs", "Slovakia": "sk", "KHL": "ru", "VHL": "ru", "MHL": "ru",
+               "DEL": "de", "NL": "de"}
+COUNTRY_LANG = {"SWE": "sv", "FIN": "fi", "CZE": "cs", "SVK": "sk", "RUS": "ru", "DEU": "de", "AUT": "de",
+                "CHE": "de", "NOR": "no"}
+NEWS_DAYS = 60            # keep articles this many days
+NEWS_MAX_DECODES = 200    # real-URL lookups per run (the rest wait for the next run)
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+
+
+def fetch_text(url, data=None, headers=None):
+    req = urllib.request.Request(url, data=data, headers={"User-Agent": BROWSER_UA, **(headers or {})})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def google_news_search(query, edition):
+    """Items from a Google News RSS search: title, Google link, outlet, publish time (ISO)."""
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+    e = NEWS_EDITIONS[edition]
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+        {"q": query, "hl": e["hl"], "gl": e["gl"], "ceid": e["ceid"]})
+    items = []
+    for it in ET.fromstring(fetch_text(url).encode("utf-8")).iter("item"):
+        source = it.find("source")
+        outlet = (source.text or "").strip() if source is not None else ""
+        title = (it.findtext("title") or "").strip()
+        if outlet and title.endswith(f" - {outlet}"):
+            title = title[: -len(outlet) - 3].strip()
+        try:
+            published = parsedate_to_datetime(it.findtext("pubDate")).date().isoformat()
+        except (TypeError, ValueError):
+            continue
+        items.append({"title": title, "google_link": it.findtext("link"), "source": outlet,
+                      "source_site": source.get("url") if source is not None else None,
+                      "published": published, "lang": edition})
+    return items
+
+
+def resolve_google_news_link(google_link):
+    """Google News RSS links are encoded redirects. Ask Google for the real article URL
+    (needed for 'Read in English' via Google Translate). Returns None if Google won't say."""
+    art_id = urllib.parse.urlparse(google_link).path.rsplit("/", 1)[-1]
+    page = fetch_text(f"https://news.google.com/rss/articles/{art_id}")
+    sig = re.search(r'data-n-a-sg="([^"]+)"', page)
+    ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+    if not (sig and ts):
+        return None
+    inner = ["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None, None, None, 0, 1],
+                            "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0], art_id, int(ts.group(1)), sig.group(1)]
+    body = urllib.parse.urlencode({"f.req": json.dumps([[["Fbv4je", json.dumps(inner), None, "generic"]]])}).encode()
+    resp = fetch_text("https://news.google.com/_/DotsSplashUi/data/batchexecute", data=body,
+                      headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
+    url = json.loads(json.loads(resp.split("\n\n", 1)[1])[0][2])[1]
+    return url if isinstance(url, str) and url.startswith("http") else None
+
+
+def news_hidden():
+    path = DATA / "news_hidden.json"
+    h = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    low = lambda xs: [x.lower() for x in xs or []]
+    return low(h.get("urls")), low(h.get("titles")), low(h.get("sources")), {
+        int(k): low(v) for k, v in (h.get("player_titles") or {}).items()}
+
+
+def update_news(players):
+    """Search Google News for every prospect and write data/news.json (headline, outlet, date, link only)."""
+    from datetime import timedelta
+    path = DATA / "news.json"
+    previous = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"articles": []}
+    known = {a["google_link"]: a for a in previous.get("articles", [])}
+    cutoff = (date.today() - timedelta(days=NEWS_DAYS)).isoformat()
+    found, failures = {}, 0
+
+    for p in players:
+        langs = {"en"}
+        langs |= {LEAGUE_LANG[r["league"]] for r in p["current"] + p["previous"] if r["league"] in LEAGUE_LANG}
+        if p.get("country") in COUNTRY_LANG:
+            langs.add(COUNTRY_LANG[p["country"]])
+        teams = list(dict.fromkeys(r["team"] for r in p["current"] if r.get("team")))[:2]
+        for lang in sorted(langs):
+            context = NEWS_EDITIONS[lang]["hockey"] + (teams if lang == "en" else [])
+            query = f'"{p["name"]}" (' + " OR ".join(f'"{c}"' if " " in c else c for c in context) + ")"
+            try:
+                results = google_news_search(query, lang)
+            except Exception as e:
+                failures += 1
+                print(f"  ! news search failed for {p['name']} ({lang}): {e}", file=sys.stderr)
+                continue
+            for item in results:
+                if item["published"] < cutoff:
+                    continue
+                key = item["google_link"]
+                entry = found.setdefault(key, {**known.get(key, {}), **item, "players": []})
+                if p["id"] not in entry["players"]:
+                    entry["players"].append(p["id"])
+            time.sleep(0.4)
+
+    if not found and previous.get("articles"):
+        print("News: no results this run; kept previous articles", file=sys.stderr)
+        return None
+
+    # Keep recent articles from earlier runs that this search didn't return again.
+    for key, a in known.items():
+        if key not in found and a.get("published", "") >= cutoff:
+            found[key] = a
+
+    # Same story syndicated under several links: keep the first copy per outlet + headline.
+    deduped = {}
+    for a in sorted(found.values(), key=lambda a: a["published"], reverse=True):
+        dk = (a["source"].lower(), re.sub(r"\W+", " ", a["title"].lower()).strip())
+        if dk in deduped:
+            deduped[dk]["players"] = sorted(set(deduped[dk]["players"]) | set(a["players"]))
+        else:
+            deduped[dk] = a
+
+    hide_urls, hide_titles, hide_sources, hide_player = news_hidden()
+    articles = []
+    for a in deduped.values():
+        hay = f'{a["google_link"]} {a.get("url") or ""}'.lower()
+        title = a["title"].lower()
+        if any(u in hay for u in hide_urls) or any(t in title for t in hide_titles) \
+                or a["source"].lower() in hide_sources:
+            continue
+        a["players"] = [pid for pid in a["players"] if not any(t in title for t in hide_player.get(pid, []))]
+        if a["players"]:
+            articles.append(a)
+
+    decodes = 0
+    for a in articles:
+        if "url" in a or decodes >= NEWS_MAX_DECODES:
+            continue
+        decodes += 1
+        try:
+            a["url"] = resolve_google_news_link(a["google_link"])
+        except Exception:
+            a["url"] = None
+        time.sleep(0.3)
+
+    articles.sort(key=lambda a: (a["published"], a["title"]), reverse=True)
+    path.write_text(json.dumps({"updated": date.today().isoformat(), "days": NEWS_DAYS, "articles": articles},
+                               indent=1, ensure_ascii=False), encoding="utf-8")
+    if failures:
+        print(f"  ! {failures} news searches failed", file=sys.stderr)
+    return len(articles)
+
+
 # ---------- traded first-round picks (Mock Lottery) ----------
 WIKI_API = "https://en.wikipedia.org/w/api.php"
 NUMBER_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8,
@@ -475,6 +636,10 @@ def main():
         "season": season,
         "players": players,
     }, indent=1, ensure_ascii=False), encoding="utf-8")
+
+    n_news = update_news(players)
+    if n_news is not None:
+        print(f"News: {n_news} articles from the last {NEWS_DAYS} days")
 
     print(f"Standings: {update_standings()} teams")
     traded = update_traded_picks(season)

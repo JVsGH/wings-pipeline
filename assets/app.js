@@ -2,7 +2,9 @@
 
 const SITE_NAME = "Wings Pipeline";
 const NAV = [
-  ["index.html", "News", "news"],
+  ["index.html", "Home", "home"],
+  ["editorials.html", "Editorials", "editorials"],
+  ["news.html", "News", "news"],
   ["prospects.html", "Prospects", "prospects"],
   ["draft.html", "Draft Watch", "draft"],
   ["lottery.html", "Mock Lottery", "lottery"],
@@ -103,7 +105,7 @@ function postCard(p, playersById) {
     <p>${esc(p.summary)}</p></article>`;
 }
 
-async function initNews() {
+async function initEditorials() {
   const [posts, data] = await Promise.all([load("data/posts.json"), load("data/prospects.json")]);
   const byId = Object.fromEntries(data.players.map((p) => [p.id, p]));
   let active = params.get("type") || "all";
@@ -126,7 +128,7 @@ async function initPost() {
   const [posts, data] = await Promise.all([load("data/posts.json"), load("data/prospects.json")]);
   const post = posts.find((p) => p.slug === params.get("slug"));
   const el = $("#article");
-  if (!post) { el.innerHTML = `<div class="empty">Post not found. <a href="index.html">Back to news</a></div>`; return; }
+  if (!post) { el.innerHTML = `<div class="empty">Post not found. <a href="editorials.html">Back to editorials</a></div>`; return; }
   document.title = `${post.title} · ${SITE_NAME}`;
   const byId = Object.fromEntries(data.players.map((p) => [p.id, p]));
   const names = post.players.map((id) => byId[id]).filter(Boolean)
@@ -135,6 +137,122 @@ async function initPost() {
     <h1>${esc(post.title)}</h1>
     ${names ? `<div class="meta tagline">Players: ${names}</div>` : ""}
     <div class="body">${marked.parse(post.body)}</div>`;
+}
+
+// ---------- outside news ----------
+const LANGS = { en: "English", sv: "Swedish", fi: "Finnish", cs: "Czech", sk: "Slovak", ru: "Russian", de: "German", no: "Norwegian" };
+const translateUrl = (url) => `https://translate.google.com/translate?sl=auto&tl=en&u=${encodeURIComponent(url)}`;
+
+function newsItem(a, playersById, { compact = false } = {}) {
+  const href = a.url || a.google_link;
+  const names = a.players.map((id) => playersById[id]).filter(Boolean)
+    .map((pl) => `<a href="player.html?id=${pl.id}">${esc(pl.name)}</a>`).join(", ");
+  const foreign = a.lang && a.lang !== "en";
+  return `<article class="card news-item">
+    <div class="meta"><span class="outlet">${esc(a.source || "Unknown outlet")}</span><span>${fmtDate(a.published)}</span>
+      ${foreign ? `<span class="lang" title="${esc(LANGS[a.lang] || a.lang)}">${esc(a.lang.toUpperCase())}</span>` : ""}</div>
+    <h3><a href="${esc(href)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
+    ${compact ? "" : `<div class="meta">${names ? `<span class="tagline">${names}</span>` : ""}
+      ${foreign && a.url ? `<a class="translate" href="${esc(translateUrl(a.url))}" target="_blank" rel="noopener">Read in English ↗</a>` : ""}</div>`}
+  </article>`;
+}
+
+async function initExternalNews() {
+  const [news, data] = await Promise.all([load("data/news.json"), load("data/prospects.json")]);
+  const byId = Object.fromEntries(data.players.map((p) => [p.id, p]));
+  const PAGE = 40;
+  let limit = PAGE;
+  $("#updated").textContent = `Checked ${fmtDate(news.updated)} · last ${news.days} days`;
+
+  const counts = {};
+  news.articles.forEach((a) => a.players.forEach((id) => { counts[id] = (counts[id] || 0) + 1; }));
+  const players = Object.keys(counts).map(Number).filter((id) => byId[id]).sort((a, b) => byId[a].name.localeCompare(byId[b].name));
+  $("#player").innerHTML = `<option value="">All prospects</option>` +
+    players.map((id) => `<option value="${id}">${esc(byId[id].name)} (${counts[id]})</option>`).join("");
+  const langs = [...new Set(news.articles.map((a) => a.lang))].filter((l) => l !== "en").sort();
+  $("#lang").innerHTML = `<option value="">All languages</option><option value="en">English</option>
+    <option value="other">Other languages</option>` + langs.map((l) => `<option value="${l}">${esc(LANGS[l] || l)}</option>`).join("");
+  if (params.get("player")) $("#player").value = params.get("player");
+
+  function render() {
+    const q = $("#q").value.trim().toLowerCase(), pid = Number($("#player").value), lang = $("#lang").value;
+    const shown = news.articles.filter((a) =>
+      (!pid || a.players.includes(pid)) &&
+      (!lang || (lang === "other" ? a.lang !== "en" : a.lang === lang)) &&
+      (!q || a.title.toLowerCase().includes(q) || (a.source || "").toLowerCase().includes(q)));
+    $("#news-count").textContent = `${shown.length} article${shown.length === 1 ? "" : "s"}`;
+    $("#news-feed").innerHTML = shown.length ? shown.slice(0, limit).map((a) => newsItem(a, byId)).join("")
+      : `<div class="card empty">No articles match.</div>`;
+    $("#more").hidden = shown.length <= limit;
+  }
+  ["#q", "#player", "#lang"].forEach((s) => $(s).addEventListener("input", () => { limit = PAGE; render(); }));
+  $("#more").addEventListener("click", () => { limit += PAGE; render(); });
+  render();
+}
+
+// ---------- home ----------
+async function initHome() {
+  const safe = (p) => load(p).catch(() => null);
+  const [posts, news, data, fx, standings, css, watch] = await Promise.all([
+    safe("data/posts.json"), safe("data/news.json"), load("data/prospects.json"), load("data/nhle_factors.json"),
+    safe("data/standings.json"), safe("data/css_rankings.json"), safe("data/draft_targets.json")]);
+  const byId = Object.fromEntries(data.players.map((p) => [p.id, p]));
+  const card = (href, title, body, cta) => `<section class="card home-card"><h2><a href="${href}">${title}</a></h2>${body}
+    <a class="more-link" href="${href}">${cta} →</a></section>`;
+  const cards = [];
+
+  // Editorials
+  const recent = (posts || []).slice(0, 3);
+  cards.push(card("editorials.html", "Editorials", recent.length ? `<ul class="home-list">${recent.map((p) => `<li>
+      <span class="type ${p.type}">${p.type}</span> <a href="post.html?slug=${encodeURIComponent(p.slug)}">${esc(p.title)}</a>
+      <span class="sub">${fmtDate(p.date)}</span></li>`).join("")}</ul>` : `<p class="sub">No posts yet.</p>`, "All editorials"));
+
+  // Outside news
+  const latest = (news?.articles || []).slice(0, 5);
+  cards.push(card("news.html", "In the news", latest.length ? `<ul class="home-list">${latest.map((a) => `<li>
+      <a href="${esc(a.url || a.google_link)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+      <span class="sub">${esc(a.source)} · ${fmtDate(a.published)}${a.lang !== "en" ? ` · ${esc(a.lang.toUpperCase())}` : ""}</span></li>`).join("")}</ul>`
+    : `<p class="sub">No articles yet.</p>`, `All ${news?.articles?.length || ""} articles`));
+
+  // Prospects: best NHL-equivalent pace this season (at least 5 games, non-NHL leagues)
+  const lines = data.players.filter((p) => !isGoalie(p)).flatMap((p) => p.current
+    .filter((r) => r.gp >= 5 && r.league !== "NHL").map((r) => ({ p, r, v: nhle(r, fx.factors) })))
+    .filter((x) => x.v != null).sort((a, b) => b.v - a.v).slice(0, 5);
+  cards.push(card("prospects.html", "Top NHLe pace", `<table class="home-table"><tbody>${lines.map(({ p, r, v }) => `<tr>
+      <td><a href="player.html?id=${p.id}">${esc(p.name)}</a> <span class="sub">${esc(r.league)}</span></td>
+      <td class="num sub">${r.pts} PTS / ${r.gp} GP</td><td class="num"><b>${v.toFixed(0)}</b></td></tr>`).join("")}</tbody></table>
+      <p class="sub">NHL-equivalent points per 82 games, minimum 5 GP, NHL games excluded.</p>`, "All prospects"));
+
+  // Mock lottery: where Detroit stands today
+  if (standings) {
+    const lottery = standings.teams.filter((t) => !t.playoff).slice(0, LOTTERY_ODDS.length);
+    const seed = lottery.findIndex((t) => t.abbrev === "DET");
+    let body;
+    if (seed >= 0) {
+      const m = lotteryMatrix()[seed];
+      const likely = m.indexOf(Math.max(...m));
+      body = `<div class="home-stats"><div><span>Lottery seed</span><b>${seed + 1} of ${lottery.length}</b></div>
+        <div><span>#1 pick</span><b>${pct(m[0])}</b></div><div><span>Most likely</span><b>#${likely + 1}</b></div></div>`;
+    } else {
+      const det = standings.teams.find((t) => t.abbrev === "DET");
+      body = `<p>Detroit is in a playoff spot today${det ? ` (${det.w}-${det.l}-${det.otl})` : ""}, so it has no lottery odds.</p>`;
+    }
+    body += `<p class="sub">Worst three right now: ${lottery.slice(0, 3).map((t) => esc(t.abbrev)).join(", ")} · standings through ${fmtDate(standings.updated)}</p>`;
+    cards.push(card("lottery.html", "Mock Lottery", body, "Run the lottery"));
+  }
+
+  // Draft watch
+  const year = css?.draftYear || watch?.draft_year;
+  const ranked = Object.entries(css?.categories || {});
+  const targets = (watch?.targets || []).filter((t) => !t.example);
+  const draftBody = ranked.length
+    ? `<ul class="home-list">${(ranked[0][1] || []).slice(0, 3).map((r) => `<li><b>${r.finalRank ?? r.midtermRank ?? ""}</b> ${esc(r.firstName)} ${esc(r.lastName)}
+        <span class="sub">${esc(r.positionCode)} · ${esc(r.lastAmateurClub)}</span></li>`).join("")}</ul><p class="sub">${esc(ranked[0][0])}, NHL Central Scouting</p>`
+    : `<p>${targets.length ? `${targets.length} players on the watchlist.` : "Watchlist coming soon."} NHL Central Scouting's ${year} rankings appear here once they're published.</p>`;
+  cards.push(card("draft.html", `${year} Draft Watch`, draftBody, "Draft Watch"));
+
+  $("#home-cards").innerHTML = cards.join("");
+  $("#home-updated").textContent = `Stats through ${fmtDate(data.updated)} · ${data.players.length} prospects tracked`;
 }
 
 // ---------- prospects table ----------
@@ -249,7 +367,8 @@ async function initProspects() {
 
 // ---------- player page ----------
 async function initPlayer() {
-  const [data, fx, posts] = await Promise.all([load("data/prospects.json"), load("data/nhle_factors.json"), load("data/posts.json")]);
+  const [data, fx, posts, news] = await Promise.all([load("data/prospects.json"), load("data/nhle_factors.json"),
+    load("data/posts.json"), load("data/news.json").catch(() => ({ articles: [] }))]);
   const p = data.players.find((x) => x.id === Number(params.get("id")));
   const el = $("#player");
   if (!p) { el.innerHTML = `<div class="empty">Player not found. <a href="prospects.html">Back to prospects</a></div>`; return; }
@@ -263,6 +382,7 @@ async function initPlayer() {
     ? `<tr><td>${seasonLabel(r.season)}</td><td>${esc(r.league)}</td><td>${esc(r.team)}</td><td class="num">${r.gp}</td><td class="num">${r.w ?? "–"}</td><td class="num">${r.l ?? "–"}</td><td class="num">${svp(r.svp)}</td><td class="num">${fixed(r.gaa)}</td><td class="num">${r.so ?? "–"}</td></tr>`
     : `<tr><td>${seasonLabel(r.season)}</td><td>${esc(r.league)}</td><td>${esc(r.team)}</td><td class="num">${r.gp}</td><td class="num">${r.g}</td><td class="num">${r.a}</td><td class="num"><b>${r.pts}</b></td><td class="num">${fixed(ppg(r))}</td>${nhleCell(nhle(r, fx.factors), maxN)}</tr>`).join("");
   const mine = posts.filter((x) => x.players.includes(p.id));
+  const inNews = news.articles.filter((a) => a.players.includes(p.id));
   el.innerHTML = `<div class="profile">
       <img src="${esc(p.headshot)}" alt="" onerror="this.style.visibility='hidden'">
       <div><h1>${esc(p.name)}${p.on_nhl_roster ? ` <span class="flag nhl">On DET roster</span>` : ""}</h1>
@@ -278,8 +398,11 @@ async function initPlayer() {
     <section><h2 class="section">${seasonLabel(data.season - 10001)} and ${seasonLabel(data.season)}</h2>
       <div class="table-wrap"><table><thead><tr>${head}</tr></thead><tbody>${body || `<tr><td colspan="9" class="empty">No stats yet.</td></tr>`}</tbody></table></div>
       <p class="footnote">Regular season only. Tournaments (WJC, Hlinka) show no NHLe.</p></section>
-    <section><h2 class="section">Coverage</h2>
-      <div class="feed">${mine.length ? mine.map((x) => postCard(x, { [p.id]: p })).join("") : `<div class="card empty">No posts about ${esc(p.name)} yet.</div>`}</div></section>`;
+    <section><h2 class="section">Our coverage</h2>
+      <div class="feed">${mine.length ? mine.map((x) => postCard(x, { [p.id]: p })).join("") : `<div class="card empty">No posts about ${esc(p.name)} yet.</div>`}</div></section>
+    <section><h2 class="section">In the news</h2>
+      <div class="feed">${inNews.length ? inNews.slice(0, 8).map((a) => newsItem(a, { [p.id]: p })).join("") : `<div class="card empty">No recent outside articles.</div>`}</div>
+      ${inNews.length > 8 ? `<p><a href="news.html?player=${p.id}">All ${inNews.length} articles about ${esc(p.name)} →</a></p>` : ""}</section>`;
 }
 
 // ---------- draft watch ----------
@@ -528,8 +651,8 @@ async function initLottery() {
 
 // ---------- boot ----------
 const page = document.body.dataset.page;
-header(page);
-({ news: initNews, post: initPost, prospects: initProspects, player: initPlayer, draft: initDraft, lottery: initLottery }[page])?.()
+header({ post: "editorials", player: "prospects" }[page] || page); // sub-pages highlight their section's tab
+({ home: initHome, editorials: initEditorials, news: initExternalNews, post: initPost, prospects: initProspects, player: initPlayer, draft: initDraft, lottery: initLottery }[page])?.()
   .catch((e) => {
     console.error(e);
     $("main").insertAdjacentHTML("beforeend", `<div class="card empty">Couldn't load site data (${esc(e.message)}). If you opened this file directly, run a local server: <code>python -m http.server</code>.</div>`);
