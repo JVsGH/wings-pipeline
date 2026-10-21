@@ -58,12 +58,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 3,
+  "gp": 4,
   "g": 0,
   "a": 1,
   "pts": 1,
   "pim": 0,
-  "pm": -2
+  "pm": -4
  },
  "8483045|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -91,10 +91,10 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 8,
+  "gp": 9,
   "g": 1,
-  "a": 1,
-  "pts": 2,
+  "a": 2,
+  "pts": 3,
   "pim": 10,
   "pm": 1
  },
@@ -181,11 +181,11 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 6,
+  "gp": 7,
   "g": 0,
   "a": 1,
   "pts": 1,
-  "pim": 2,
+  "pim": 4,
   "pm": -1
  },
  "8484425|20262027|AHL|Grand Rapids Griffins": {
@@ -214,7 +214,7 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 8,
+  "gp": 9,
   "g": 2,
   "a": 4,
   "pts": 6,
@@ -318,7 +318,7 @@
   "a": 4,
   "pts": 7,
   "pim": 6,
-  "pm": 0
+  "pm": -1
  },
  "8485545|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
