@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.89185,
-   "shots_against": 8183,
-   "goals_against": 885
+   "save_pct": 0.89199,
+   "shots_against": 8286,
+   "goals_against": 895
   }
  },
  "players": [
@@ -536,11 +536,11 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 7,
-      "goals": 1,
-      "pim": 18,
-      "plusMinus": 0,
-      "points": 2
+      "gamesPlayed": 8,
+      "goals": 2,
+      "pim": 22,
+      "plusMinus": 1,
+      "points": 3
      }
     }
    ],
@@ -567,12 +567,12 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "assists": 2,
-      "gamesPlayed": 5,
+      "assists": 3,
+      "gamesPlayed": 6,
       "goals": 2,
       "pim": 6,
       "plusMinus": 1,
-      "points": 4
+      "points": 5
      }
     }
    ],
@@ -650,7 +650,7 @@
       "shootingPctg": 0.0,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 4
+      "shots": 3
      }
     }
    ],
@@ -690,10 +690,10 @@
      "team": "Almtuna IS",
      "stats": {
       "assists": 6,
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "goals": 1,
       "pim": 4,
-      "plusMinus": -6,
+      "plusMinus": -7,
       "points": 7
      }
     }
@@ -722,10 +722,10 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "goals": 0,
-      "pim": 4,
-      "plusMinus": 2,
+      "pim": 6,
+      "plusMinus": 3,
       "points": 0
      }
     }
@@ -788,12 +788,12 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "assists": 4,
-      "gamesPlayed": 7,
+      "assists": 5,
+      "gamesPlayed": 8,
       "goals": 1,
       "pim": 2,
       "plusMinus": -3,
-      "points": 5
+      "points": 6
      }
     }
    ],
@@ -820,12 +820,12 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "assists": 2,
-      "gamesPlayed": 7,
+      "assists": 3,
+      "gamesPlayed": 8,
       "goals": 2,
       "pim": 0,
       "plusMinus": 2,
-      "points": 4
+      "points": 5
      }
     }
    ],
@@ -1156,12 +1156,21 @@
     "overallPick": 26
    },
    "on_nhl_roster": false,
-   "lines": [],
-   "last_team": {
-    "league": "NHL",
-    "team": "Detroit Red Wings",
-    "season": 20252026
-   }
+   "lines": [
+    {
+     "league": "AHL",
+     "team": "Grand Rapids Griffins",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 1,
+      "goals": 0,
+      "pim": 2,
+      "plusMinus": 0,
+      "points": 0
+     }
+    }
+   ],
+   "last_team": null
   },
   {
    "id": 8480196,
@@ -1185,10 +1194,10 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 6,
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "goals": 1,
       "pim": 4,
-      "plusMinus": 0,
+      "plusMinus": -1,
       "points": 7
      }
     }
@@ -1216,12 +1225,12 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "assists": 2,
-      "gamesPlayed": 7,
+      "assists": 3,
+      "gamesPlayed": 8,
       "goals": 5,
       "pim": 7,
-      "plusMinus": 5,
-      "points": 7
+      "plusMinus": 4,
+      "points": 8
      }
     }
    ],
@@ -1289,7 +1298,7 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "goals": 5,
       "pim": 0,
       "plusMinus": 1,
@@ -2048,10 +2057,10 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 3,
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "goals": 0,
       "pim": 0,
-      "plusMinus": -5,
+      "plusMinus": -6,
       "points": 3
      }
     }
@@ -2079,12 +2088,12 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "assists": 4,
-      "gamesPlayed": 7,
-      "goals": 0,
+      "assists": 5,
+      "gamesPlayed": 8,
+      "goals": 1,
       "pim": 2,
-      "plusMinus": 3,
-      "points": 4
+      "plusMinus": 2,
+      "points": 6
      }
     }
    ],
@@ -2178,33 +2187,6 @@
    }
   },
   {
-   "id": 8486365,
-   "name": "Salvatore Viviano",
-   "number": null,
-   "pos": "C",
-   "shoots": null,
-   "age": 19,
-   "country": "USA",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8486365.png",
-   "draft": null,
-   "on_nhl_roster": false,
-   "lines": [
-    {
-     "league": "USHL",
-     "team": "Waterloo Black Hawks",
-     "stats": {
-      "assists": 1,
-      "gamesPlayed": 8,
-      "goals": 3,
-      "pim": 2,
-      "plusMinus": 0,
-      "points": 4
-     }
-    }
-   ],
-   "last_team": null
-  },
-  {
    "id": 8482777,
    "name": "Shai Buium",
    "number": 17,
@@ -2226,11 +2208,11 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 4,
-      "gamesPlayed": 7,
-      "goals": 0,
+      "gamesPlayed": 8,
+      "goals": 1,
       "pim": 2,
-      "plusMinus": 1,
-      "points": 4
+      "plusMinus": -1,
+      "points": 5
      }
     }
    ],
@@ -2356,12 +2338,12 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "assists": 2,
-      "gamesPlayed": 6,
+      "assists": 3,
+      "gamesPlayed": 7,
       "goals": 1,
       "pim": 2,
-      "plusMinus": -3,
-      "points": 3
+      "plusMinus": -2,
+      "points": 4
      }
     }
    ],
@@ -2388,16 +2370,16 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "gamesPlayed": 3,
-      "goalsAgainst": 10,
-      "goalsAgainstAvg": 3.27,
+      "gamesPlayed": 4,
+      "goalsAgainst": 13,
+      "goalsAgainstAvg": 3.21,
       "losses": 1,
       "otLosses": 1,
-      "savePctg": 0.882,
-      "shotsAgainst": 85,
+      "savePctg": 0.886,
+      "shotsAgainst": 114,
       "shutouts": 0,
-      "timeOnIce": "183:14",
-      "wins": 1
+      "timeOnIce": "243:14",
+      "wins": 2
      }
     }
    ],
@@ -2522,11 +2504,11 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 2,
-      "gamesPlayed": 7,
-      "goals": 3,
+      "gamesPlayed": 8,
+      "goals": 4,
       "pim": 6,
-      "plusMinus": 2,
-      "points": 5
+      "plusMinus": 4,
+      "points": 6
      }
     }
    ],
@@ -2591,10 +2573,10 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 2,
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "goals": 1,
       "pim": 8,
-      "plusMinus": -1,
+      "plusMinus": -2,
       "points": 3
      }
     }

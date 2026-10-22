@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "season": 20262027,
  "teams": [
   {
@@ -60,25 +60,6 @@
    "league_rank": 30
   },
   {
-   "abbrev": "PHI",
-   "name": "Philadelphia Flyers",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
-   "conf": "E",
-   "div": "Metropolitan",
-   "gp": 11,
-   "w": 2,
-   "l": 6,
-   "otl": 3,
-   "pts": 7,
-   "pts_pct": 0.318182,
-   "rw": 2,
-   "gd": -19,
-   "streak": "W2",
-   "l10": "2-5-3",
-   "playoff": false,
-   "league_rank": 29
-  },
-  {
    "abbrev": "CHI",
    "name": "Chicago Blackhawks",
    "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
@@ -95,7 +76,7 @@
    "streak": "L1",
    "l10": "3-6-0",
    "playoff": false,
-   "league_rank": 28
+   "league_rank": 29
   },
   {
    "abbrev": "PIT",
@@ -114,7 +95,7 @@
    "streak": "L4",
    "l10": "3-6-1",
    "playoff": false,
-   "league_rank": 27
+   "league_rank": 28
   },
   {
    "abbrev": "CBJ",
@@ -132,6 +113,25 @@
    "gd": -9,
    "streak": "L2",
    "l10": "3-5-0",
+   "playoff": false,
+   "league_rank": 27
+  },
+  {
+   "abbrev": "PHI",
+   "name": "Philadelphia Flyers",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+   "conf": "E",
+   "div": "Metropolitan",
+   "gp": 12,
+   "w": 3,
+   "l": 6,
+   "otl": 3,
+   "pts": 9,
+   "pts_pct": 0.375,
+   "rw": 3,
+   "gd": -17,
+   "streak": "W3",
+   "l10": "3-5-2",
    "playoff": false,
    "league_rank": 26
   },
@@ -155,6 +155,25 @@
    "league_rank": 25
   },
   {
+   "abbrev": "BUF",
+   "name": "Buffalo Sabres",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+   "conf": "E",
+   "div": "Atlantic",
+   "gp": 10,
+   "w": 4,
+   "l": 4,
+   "otl": 2,
+   "pts": 10,
+   "pts_pct": 0.5,
+   "rw": 2,
+   "gd": -9,
+   "streak": "L1",
+   "l10": "4-4-2",
+   "playoff": false,
+   "league_rank": 24
+  },
+  {
    "abbrev": "DET",
    "name": "Detroit Red Wings",
    "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
@@ -171,7 +190,7 @@
    "streak": "OT1",
    "l10": "3-3-3",
    "playoff": false,
-   "league_rank": 24
+   "league_rank": 23
   },
   {
    "abbrev": "STL",
@@ -190,7 +209,7 @@
    "streak": "W1",
    "l10": "4-4-1",
    "playoff": false,
-   "league_rank": 23
+   "league_rank": 22
   },
   {
    "abbrev": "TOR",
@@ -209,7 +228,7 @@
    "streak": "W2",
    "l10": "5-3-2",
    "playoff": false,
-   "league_rank": 22
+   "league_rank": 21
   },
   {
    "abbrev": "SJS",
@@ -228,7 +247,7 @@
    "streak": "W1",
    "l10": "5-4-1",
    "playoff": false,
-   "league_rank": 21
+   "league_rank": 20
   },
   {
    "abbrev": "COL",
@@ -247,7 +266,7 @@
    "streak": "L2",
    "l10": "5-4-1",
    "playoff": false,
-   "league_rank": 20
+   "league_rank": 19
   },
   {
    "abbrev": "MTL",
@@ -263,25 +282,6 @@
    "pts_pct": 0.555556,
    "rw": 1,
    "gd": -4,
-   "streak": "OT1",
-   "l10": "4-3-2",
-   "playoff": false,
-   "league_rank": 19
-  },
-  {
-   "abbrev": "BUF",
-   "name": "Buffalo Sabres",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
-   "conf": "E",
-   "div": "Atlantic",
-   "gp": 9,
-   "w": 4,
-   "l": 3,
-   "otl": 2,
-   "pts": 10,
-   "pts_pct": 0.555556,
-   "rw": 2,
-   "gd": -7,
    "streak": "OT1",
    "l10": "4-3-2",
    "playoff": false,
@@ -364,6 +364,25 @@
    "league_rank": 14
   },
   {
+   "abbrev": "FLA",
+   "name": "Florida Panthers",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+   "conf": "E",
+   "div": "Atlantic",
+   "gp": 10,
+   "w": 5,
+   "l": 3,
+   "otl": 2,
+   "pts": 12,
+   "pts_pct": 0.6,
+   "rw": 3,
+   "gd": 1,
+   "streak": "L1",
+   "l10": "5-3-2",
+   "playoff": true,
+   "league_rank": 13
+  },
+  {
    "abbrev": "DAL",
    "name": "Dallas Stars",
    "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
@@ -380,7 +399,7 @@
    "streak": "W3",
    "l10": "5-3-1",
    "playoff": true,
-   "league_rank": 13
+   "league_rank": 12
   },
   {
    "abbrev": "NYI",
@@ -399,7 +418,7 @@
    "streak": "W2",
    "l10": "5-3-1",
    "playoff": true,
-   "league_rank": 12
+   "league_rank": 11
   },
   {
    "abbrev": "SEA",
@@ -418,45 +437,7 @@
    "streak": "W1",
    "l10": "6-3-1",
    "playoff": true,
-   "league_rank": 11
-  },
-  {
-   "abbrev": "FLA",
-   "name": "Florida Panthers",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
-   "conf": "E",
-   "div": "Atlantic",
-   "gp": 9,
-   "w": 5,
-   "l": 2,
-   "otl": 2,
-   "pts": 12,
-   "pts_pct": 0.666667,
-   "rw": 3,
-   "gd": 5,
-   "streak": "W3",
-   "l10": "5-2-2",
-   "playoff": true,
    "league_rank": 10
-  },
-  {
-   "abbrev": "OTT",
-   "name": "Ottawa Senators",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-   "conf": "E",
-   "div": "Atlantic",
-   "gp": 9,
-   "w": 6,
-   "l": 3,
-   "otl": 0,
-   "pts": 12,
-   "pts_pct": 0.666667,
-   "rw": 4,
-   "gd": 1,
-   "streak": "L1",
-   "l10": "6-3-0",
-   "playoff": true,
-   "league_rank": 9
   },
   {
    "abbrev": "NYR",
@@ -474,6 +455,25 @@
    "gd": 9,
    "streak": "W1",
    "l10": "7-2-1",
+   "playoff": true,
+   "league_rank": 9
+  },
+  {
+   "abbrev": "OTT",
+   "name": "Ottawa Senators",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+   "conf": "E",
+   "div": "Atlantic",
+   "gp": 10,
+   "w": 7,
+   "l": 3,
+   "otl": 0,
+   "pts": 14,
+   "pts_pct": 0.7,
+   "rw": 5,
+   "gd": 5,
+   "streak": "W1",
+   "l10": "7-3-0",
    "playoff": true,
    "league_rank": 8
   },

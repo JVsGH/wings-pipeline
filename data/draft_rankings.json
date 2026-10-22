@@ -1,6 +1,6 @@
 {
  "draft_year": 2027,
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "method": "Median rank across every list (a list that leaves a player out counts as its length + 10); average breaks ties.",
  "sources": [
   {
@@ -9,7 +9,7 @@
    "title": "2027 NHL Draft Rankings: Early-season top 40",
    "url": "https://www.dailyfaceoff.com/news/2027-nhl-draft-rankings-early-season-top-40-dupont-skvortsov-privalov-zhilkin-meyer",
    "published": "2026-10-09",
-   "fetched": "2026-10-21",
+   "fetched": "2026-10-22",
    "count": 40,
    "players": [
     {
@@ -260,7 +260,7 @@
    "title": "2027 NHL Draft Ranking: Pre-Season Tier List Sees Landon Dupont Alone Atop",
    "url": "https://thehockeynews.com/news/latest-news/2027-nhl-draft-ranking-pre-season-tier-list-sees-landon-dupont-alone-atop",
    "published": "2026-09-18",
-   "fetched": "2026-10-21",
+   "fetched": "2026-10-22",
    "count": 17,
    "players": [
     {
@@ -373,7 +373,7 @@
    "title": "2027 NHL Draft Rankings (Top 128)",
    "url": "https://www.upsidehockey.com/nhl-draft-rankings/2027-nhl-draft-rankings",
    "published": null,
-   "fetched": "2026-10-21",
+   "fetched": "2026-10-22",
    "count": 128,
    "players": [
     {
@@ -1792,13 +1792,13 @@
    "title": "2027 NHL Draft Rankings, top 32",
    "url": "https://draftprospectshockey.com/rankings",
    "published": "2026-09-07",
-   "fetched": "2026-10-21",
+   "fetched": "2026-10-22",
    "count": 32,
    "players": [
     {
      "name": "Landon DuPont",
      "pos": null,
-     "team": "University of Michigan",
+     "team": "Michigan",
      "league": null
     },
     {
@@ -1810,7 +1810,7 @@
     {
      "name": "Jonah Neuenschwander",
      "pos": "F",
-     "team": "EHC BIEL-BIENNE",
+     "team": "EHC Biel-Bienne",
      "league": "NL"
     },
     {
@@ -1852,7 +1852,7 @@
     {
      "name": "Sammy Nelson",
      "pos": "F",
-     "team": "University of Notre Dame",
+     "team": "Notre Dame",
      "league": "NCAA"
     },
     {
@@ -1894,7 +1894,7 @@
     {
      "name": "Bosse Meijer",
      "pos": "C",
-     "team": "Frolunda HC U20",
+     "team": "Frölunda HC U20",
      "league": "U20 NATIONELL"
     },
     {
@@ -1995,7 +1995,7 @@
    "title": "2027 NHL Mock Draft",
    "url": "https://www.lines.com/nhl/drafts/2027",
    "published": null,
-   "fetched": "2026-10-21",
+   "fetched": "2026-10-22",
    "count": 30,
    "players": [
     {
