@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "season": 20262027,
  "players": [
   {
@@ -26,12 +26,12 @@
      "season": 20262027,
      "league": "SHL",
      "team": "Malmö Redhawks",
-     "gp": 9,
+     "gp": 10,
      "g": 1,
      "a": 2,
      "pts": 3,
      "pim": 8,
-     "pm": 1
+     "pm": 3
     }
    ],
    "previous": [
@@ -65,19 +65,19 @@
     "round": 2,
     "overallPick": 32
    },
-   "nhl_gp": 4,
+   "nhl_gp": 5,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 4,
-     "g": 1,
+     "gp": 5,
+     "g": 2,
      "a": 1,
-     "pts": 2,
+     "pts": 3,
      "pim": 0,
-     "pm": -1
+     "pm": 0
     }
    ],
    "previous": [
@@ -266,19 +266,19 @@
     "round": 3,
     "overallPick": 70
    },
-   "nhl_gp": 13,
+   "nhl_gp": 14,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 4,
+     "gp": 5,
      "g": 0,
      "a": 1,
      "pts": 1,
-     "pim": 0,
-     "pm": -4
+     "pim": 2,
+     "pm": -3
     }
    ],
    "previous": [
@@ -466,19 +466,19 @@
     "round": 4,
     "overallPick": 105
    },
-   "nhl_gp": 9,
+   "nhl_gp": 10,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 9,
+     "gp": 10,
      "g": 1,
-     "a": 2,
-     "pts": 3,
-     "pim": 10,
-     "pm": 1
+     "a": 3,
+     "pts": 4,
+     "pim": 12,
+     "pm": 3
     }
    ],
    "previous": [
@@ -678,14 +678,14 @@
     "round": 1,
     "overallPick": 9
    },
-   "nhl_gp": 35,
+   "nhl_gp": 36,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 7,
+     "gp": 8,
      "g": 0,
      "a": 2,
      "pts": 2,
@@ -1058,6 +1058,17 @@
      "pts": 4,
      "pim": 4,
      "pm": 2
+    },
+    {
+     "season": 20252026,
+     "league": "DEL",
+     "team": "Adler Mannheim",
+     "gp": 1,
+     "g": 0,
+     "a": 0,
+     "pts": 0,
+     "pim": 0,
+     "pm": 0
     }
    ]
   },
@@ -1114,19 +1125,19 @@
     "round": 1,
     "overallPick": 15
    },
-   "nhl_gp": 23,
+   "nhl_gp": 24,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 9,
+     "gp": 10,
      "g": 2,
-     "a": 4,
-     "pts": 6,
+     "a": 6,
+     "pts": 8,
      "pim": 2,
-     "pm": 8
+     "pm": 10
     }
    ],
    "previous": [
@@ -1151,6 +1162,17 @@
      "pts": 44,
      "pim": 42,
      "pm": 17
+    },
+    {
+     "season": 20252026,
+     "league": "WC",
+     "team": "Norway",
+     "gp": 5,
+     "g": 3,
+     "a": 3,
+     "pts": 6,
+     "pim": 4,
+     "pm": 4
     }
    ]
   },
@@ -1270,12 +1292,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Minnesota",
-     "gp": 4,
+     "gp": 5,
      "g": 0,
      "a": 0,
      "pts": 0,
-     "pim": 2,
-     "pm": 2
+     "pim": 4,
+     "pm": 4
     }
    ],
    "previous": [
@@ -1316,7 +1338,7 @@
      "season": 20262027,
      "league": "SHL",
      "team": "Brynäs IF",
-     "gp": 4,
+     "gp": 5,
      "g": 0,
      "a": 1,
      "pts": 1,
@@ -1533,12 +1555,12 @@
      "season": 20262027,
      "league": "SHL",
      "team": "Timrå IK",
-     "gp": 10,
+     "gp": 11,
      "g": 3,
      "a": 4,
      "pts": 7,
      "pim": 6,
-     "pm": -1
+     "pm": -3
     }
    ],
    "previous": [
@@ -1589,9 +1611,22 @@
    "country": "CZE",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485545.png",
    "draft": null,
-   "nhl_gp": 0,
-   "on_nhl_roster": false,
+   "nhl_gp": 1,
+   "on_nhl_roster": true,
    "current": [
+    {
+     "season": 20262027,
+     "league": "NHL",
+     "team": "Detroit Red Wings",
+     "gp": 1,
+     "w": 0,
+     "l": 0,
+     "ga": 1,
+     "sa": 8,
+     "svp": 0.875,
+     "gaa": 3.037975,
+     "so": 0
+    },
     {
      "season": 20262027,
      "league": "AHL",
@@ -1682,12 +1717,12 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Windsor Spitfires",
-     "gp": 11,
+     "gp": 12,
      "g": 3,
      "a": 4,
      "pts": 7,
      "pim": 2,
-     "pm": -2
+     "pm": -3
     }
    ],
    "previous": [
@@ -1837,6 +1872,17 @@
      "pts": 29,
      "pim": 40,
      "pm": 15
+    },
+    {
+     "season": 20252026,
+     "league": "MHL",
+     "team": "MHK Spartak-MAH Moskva",
+     "gp": 4,
+     "g": 0,
+     "a": 1,
+     "pts": 1,
+     "pim": 0,
+     "pm": -2
     },
     {
      "season": 20252026,
@@ -2221,12 +2267,12 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Peterborough Petes",
-     "gp": 8,
-     "g": 3,
-     "a": 5,
-     "pts": 8,
-     "pim": 7,
-     "pm": -5
+     "gp": 9,
+     "g": 4,
+     "a": 6,
+     "pts": 10,
+     "pim": 9,
+     "pm": -2
     }
    ],
    "previous": [

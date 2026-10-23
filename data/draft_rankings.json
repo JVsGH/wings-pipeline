@@ -1,6 +1,6 @@
 {
  "draft_year": 2027,
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "method": "Median rank across every list (a list that leaves a player out counts as its length + 10); average breaks ties.",
  "sources": [
   {
@@ -9,7 +9,7 @@
    "title": "2027 NHL Draft Rankings: Early-season top 40",
    "url": "https://www.dailyfaceoff.com/news/2027-nhl-draft-rankings-early-season-top-40-dupont-skvortsov-privalov-zhilkin-meyer",
    "published": "2026-10-09",
-   "fetched": "2026-10-22",
+   "fetched": "2026-10-23",
    "count": 40,
    "players": [
     {
@@ -260,7 +260,7 @@
    "title": "2027 NHL Draft Ranking: Pre-Season Tier List Sees Landon Dupont Alone Atop",
    "url": "https://thehockeynews.com/news/latest-news/2027-nhl-draft-ranking-pre-season-tier-list-sees-landon-dupont-alone-atop",
    "published": "2026-09-18",
-   "fetched": "2026-10-22",
+   "fetched": "2026-10-23",
    "count": 17,
    "players": [
     {
@@ -373,7 +373,7 @@
    "title": "2027 NHL Draft Rankings (Top 128)",
    "url": "https://www.upsidehockey.com/nhl-draft-rankings/2027-nhl-draft-rankings",
    "published": null,
-   "fetched": "2026-10-22",
+   "fetched": "2026-10-23",
    "count": 128,
    "players": [
     {
@@ -1792,7 +1792,7 @@
    "title": "2027 NHL Draft Rankings, top 32",
    "url": "https://draftprospectshockey.com/rankings",
    "published": "2026-09-07",
-   "fetched": "2026-10-22",
+   "fetched": "2026-10-23",
    "count": 32,
    "players": [
     {
@@ -1811,19 +1811,19 @@
      "name": "Jonah Neuenschwander",
      "pos": "F",
      "team": "EHC Biel-Bienne",
-     "league": "NL"
+     "league": "NL; the club's site, as of 21 Oct 2026"
     },
     {
      "name": "Carter Meyer",
      "pos": "C",
      "team": "Quebec Remparts",
-     "league": "QMJHL"
+     "league": "QMJHL; the club's roster on chl.ca, as of 22 Oct 2026"
     },
     {
      "name": "Brock England",
      "pos": "C",
-     "team": "",
-     "league": null
+     "team": "Seattle Thunderbirds",
+     "league": "WHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Sergei Skvortsov",
@@ -1835,157 +1835,157 @@
      "name": "Dima Zhilkin",
      "pos": "RW",
      "team": "Saginaw Spirit",
-     "league": "OHL"
+     "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Milan Sundström",
      "pos": "C",
-     "team": "MODO HOCKEY U20",
-     "league": "U20 Nationell"
+     "team": "MoDo Hockey U20",
+     "league": "U20 Nationell; the Swedish federation's league roster, as of 20 Oct 2026"
     },
     {
      "name": "Alexis Joseph",
      "pos": "C",
-     "team": "Saint John Sea Dogs",
-     "league": "QMJHL"
+     "team": "Saint John Sea Dogs (QMJHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "league": null
     },
     {
      "name": "Sammy Nelson",
      "pos": "F",
-     "team": "Notre Dame",
-     "league": "NCAA"
+     "team": "Notre Dame (NCAA; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "league": null
     },
     {
      "name": "Jaxon Jacobson",
      "pos": "C",
      "team": "Brandon Wheat Kings",
-     "league": "WHL"
+     "league": "WHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Luca Santala",
      "pos": "C/W",
-     "team": "London Knights",
-     "league": "OHL"
+     "team": "Kitchener Rangers",
+     "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Brock Cripps",
      "pos": "D",
-     "team": "",
-     "league": null
+     "team": "Prince Albert Raiders",
+     "league": "WHL; the CHL's site, as of 22 Oct 2026"
     },
     {
-     "name": "Timothy Kazda",
+     "name": "Timo Kazda",
      "pos": "F",
      "team": "Guelph Storm",
-     "league": "OHL"
+     "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Jaakko Wycisk",
      "pos": "RW/C",
      "team": "Guelph Storm",
-     "league": "OHL"
+     "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Andrei Pustovoi",
      "pos": "RW/C",
-     "team": "Loko Yaroslavl",
-     "league": "MHL"
+     "team": "Loko Yaroslavl (MHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "league": null
     },
     {
      "name": "Bosse Meijer",
      "pos": "C",
-     "team": "Frölunda HC U20",
-     "league": "U20 NATIONELL"
+     "team": "Frölunda HC",
+     "league": "SHL; the Swedish federation's league roster, as of 20 Oct 2026"
     },
     {
      "name": "Petr Tomek",
      "pos": "C",
-     "team": "",
-     "league": null
+     "team": "BYD Energie Karlovy Vary",
+     "league": "Czechia; the club's site, as of 20 Oct 2026"
     },
     {
      "name": "Tomáš Selič",
      "pos": "RW",
-     "team": "HC Kometa Brno",
+     "team": "HC Kometa Brno (DPH prospect tracker (Don's working file), as of 1 Oct 2026",
      "league": null
     },
     {
      "name": "Noah Davidson",
      "pos": "F",
-     "team": "",
-     "league": null
+     "team": "Medicine Hat Tigers",
+     "league": "WHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "James Scantlebury",
      "pos": "C",
      "team": "Quebec Remparts",
-     "league": "QMJHL"
+     "league": "QMJHL; the club's roster on chl.ca, as of 22 Oct 2026"
     },
     {
      "name": "Jamie Glance",
      "pos": "RW/C",
-     "team": "Saint John Sea Dogs",
-     "league": "QMJHL"
+     "team": "Saint John Sea Dogs (QMJHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "league": null
     },
     {
      "name": "Max Calce",
      "pos": "C",
      "team": "Adler Mannheim",
-     "league": "DEL"
+     "league": "DEL; the club's site, as of 21 Oct 2026"
     },
     {
      "name": "Vladimir Shtyrkhunov",
      "pos": "D",
      "team": "Shawinigan Cataractes",
-     "league": "QMJHL"
+     "league": "QMJHL; the club's roster on chl.ca, as of 22 Oct 2026"
     },
     {
      "name": "Evgeny Yakunin",
      "pos": "C",
-     "team": "MHK Spartak Moskva",
-     "league": "MHL"
+     "team": "MHK Spartak Moskva (MHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "league": null
     },
     {
      "name": "Lenni Kokkonen",
      "pos": "RD",
-     "team": "Kärpät U20",
+     "team": "Kärpät U20 (DPH prospect tracker (Don's working file), as of 1 Oct 2026",
      "league": null
     },
     {
      "name": "Levi Harper",
      "pos": "D",
-     "team": "",
-     "league": null
+     "team": "Saginaw Spirit",
+     "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Shaeffer Gordon-Carroll",
      "pos": "F",
      "team": "Medicine Hat Tigers",
-     "league": "WHL"
+     "league": "WHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Boston Tait",
      "pos": "D",
      "team": "Wenatchee Wild",
-     "league": "WHL"
+     "league": "WHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Nolan Fitzhenry",
      "pos": "C",
-     "team": "USNTDP Juniors",
-     "league": "USHL"
+     "team": "USNTDP Juniors (USHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "league": null
     },
     {
      "name": "Ryerson Edgar",
      "pos": "C",
      "team": "Niagara IceDogs",
-     "league": "OHL"
+     "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Malik L'Italien",
      "pos": "D",
      "team": "Halifax Mooseheads",
-     "league": "QMJHL"
+     "league": "QMJHL; the club's roster on chl.ca, as of 22 Oct 2026"
     }
    ]
   },
@@ -1995,7 +1995,7 @@
    "title": "2027 NHL Mock Draft",
    "url": "https://www.lines.com/nhl/drafts/2027",
    "published": null,
-   "fetched": "2026-10-22",
+   "fetched": "2026-10-23",
    "count": 30,
    "players": [
     {
@@ -3089,8 +3089,7 @@
    "rank": 48,
    "name": "Evgeny Yakunin",
    "pos": "C",
-   "team": "MHK Spartak Moskva",
-   "league": "MHL",
+   "team": "MHK Spartak Moskva (MHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
    "median_rank": 40,
    "avg_rank": 56.0,
    "lists": 1,

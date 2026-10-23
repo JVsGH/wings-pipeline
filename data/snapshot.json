@@ -3,23 +3,23 @@
   "season": 20262027,
   "league": "SHL",
   "team": "Malmö Redhawks",
-  "gp": 9,
+  "gp": 10,
   "g": 1,
   "a": 2,
   "pts": 3,
   "pim": 8,
-  "pm": 1
+  "pm": 3
  },
  "8482171|20262027|NHL|Detroit Red Wings": {
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 4,
-  "g": 1,
+  "gp": 5,
+  "g": 2,
   "a": 1,
-  "pts": 2,
+  "pts": 3,
   "pim": 0,
-  "pm": -1
+  "pm": 0
  },
  "8482184|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -58,12 +58,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 4,
+  "gp": 5,
   "g": 0,
   "a": 1,
   "pts": 1,
-  "pim": 0,
-  "pm": -4
+  "pim": 2,
+  "pm": -3
  },
  "8483045|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -91,12 +91,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 9,
+  "gp": 10,
   "g": 1,
-  "a": 2,
-  "pts": 3,
-  "pim": 10,
-  "pm": 1
+  "a": 3,
+  "pts": 4,
+  "pim": 12,
+  "pm": 3
  },
  "8483717|20262027|NCAA|Ferris State Univ.": {
   "season": 20262027,
@@ -137,7 +137,7 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 7,
+  "gp": 8,
   "g": 0,
   "a": 2,
   "pts": 2,
@@ -214,12 +214,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 9,
+  "gp": 10,
   "g": 2,
-  "a": 4,
-  "pts": 6,
+  "a": 6,
+  "pts": 8,
   "pim": 2,
-  "pm": 8
+  "pm": 10
  },
  "8484836|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -247,18 +247,18 @@
   "season": 20262027,
   "league": "NCAA",
   "team": "Univ. of Minnesota",
-  "gp": 4,
+  "gp": 5,
   "g": 0,
   "a": 0,
   "pts": 0,
-  "pim": 2,
-  "pm": 2
+  "pim": 4,
+  "pm": 4
  },
  "8485079|20262027|SHL|Brynäs IF": {
   "season": 20262027,
   "league": "SHL",
   "team": "Brynäs IF",
-  "gp": 4,
+  "gp": 5,
   "g": 0,
   "a": 1,
   "pts": 1,
@@ -313,12 +313,25 @@
   "season": 20262027,
   "league": "SHL",
   "team": "Timrå IK",
-  "gp": 10,
+  "gp": 11,
   "g": 3,
   "a": 4,
   "pts": 7,
   "pim": 6,
-  "pm": -1
+  "pm": -3
+ },
+ "8485545|20262027|NHL|Detroit Red Wings": {
+  "season": 20262027,
+  "league": "NHL",
+  "team": "Detroit Red Wings",
+  "gp": 1,
+  "w": 0,
+  "l": 0,
+  "ga": 1,
+  "sa": 8,
+  "svp": 0.875,
+  "gaa": 3.037975,
+  "so": 0
  },
  "8485545|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -337,12 +350,12 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Windsor Spitfires",
-  "gp": 11,
+  "gp": 12,
   "g": 3,
   "a": 4,
   "pts": 7,
   "pim": 2,
-  "pm": -2
+  "pm": -3
  },
  "8485604|20262027|NCAA|Univ. of Wisconsin": {
   "season": 20262027,
@@ -427,12 +440,12 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Peterborough Petes",
-  "gp": 8,
-  "g": 3,
-  "a": 5,
-  "pts": 8,
-  "pim": 7,
-  "pm": -5
+  "gp": 9,
+  "g": 4,
+  "a": 6,
+  "pts": 10,
+  "pim": 9,
+  "pm": -2
  },
  "8486305|20262027|OHL|Erie Otters": {
   "season": 20262027,
