@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.89199,
-   "shots_against": 8962,
-   "goals_against": 968
+   "save_pct": 0.89194,
+   "shots_against": 9069,
+   "goals_against": 980
   }
  },
  "players": [
@@ -32,9 +32,9 @@
      "team": "Peterborough Petes",
      "stats": {
       "assists": 6,
-      "gamesPlayed": 9,
+      "gamesPlayed": 10,
       "goals": 4,
-      "pim": 9,
+      "pim": 11,
       "plusMinus": -2,
       "points": 10
      }
@@ -147,12 +147,12 @@
      "league": "KHL",
      "team": "Avtomobilist Yekaterinburg",
      "stats": {
-      "assists": 2,
-      "gamesPlayed": 17,
+      "assists": 3,
+      "gamesPlayed": 18,
       "goals": 5,
       "pim": 8,
-      "plusMinus": -7,
-      "points": 7
+      "plusMinus": -6,
+      "points": 8
      }
     }
    ],
@@ -306,10 +306,10 @@
      "team": "Miami Univ. (Ohio)",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "goals": 1,
       "pim": 0,
-      "plusMinus": 0,
+      "plusMinus": -1,
       "points": 2
      }
     }
@@ -380,7 +380,7 @@
      "team": "Univ. of Notre Dame",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "goals": 0,
       "pim": 0,
       "plusMinus": 0,
@@ -454,10 +454,10 @@
      "team": "Univ. of Minnesota-Duluth",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "goals": 0,
       "pim": 10,
-      "plusMinus": 3,
+      "plusMinus": 5,
       "points": 0
      }
     }
@@ -480,12 +480,21 @@
     "overallPick": 212
    },
    "on_nhl_roster": false,
-   "lines": [],
-   "last_team": {
-    "league": "NCAA",
-    "team": "Univ. of Notre Dame",
-    "season": 20252026
-   }
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Univ. of Notre Dame",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 1,
+      "goals": 0,
+      "pim": 0,
+      "plusMinus": -1,
+      "points": 0
+     }
+    }
+   ],
+   "last_team": null
   },
   {
    "id": 8485604,
@@ -536,9 +545,9 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 2,
-      "pim": 22,
+      "pim": 24,
       "plusMinus": 1,
       "points": 3
      }
@@ -568,7 +577,7 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 3,
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "goals": 2,
       "pim": 6,
       "plusMinus": 1,
@@ -690,7 +699,7 @@
      "team": "Almtuna IS",
      "stats": {
       "assists": 6,
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "goals": 1,
       "pim": 4,
       "plusMinus": -7,
@@ -789,7 +798,7 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 5,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 1,
       "pim": 2,
       "plusMinus": -3,
@@ -821,7 +830,7 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 3,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 2,
       "pim": 0,
       "plusMinus": 2,
@@ -1000,12 +1009,12 @@
      "league": "NCAA",
      "team": "Colorado College",
      "stats": {
-      "assists": 3,
-      "gamesPlayed": 4,
+      "assists": 4,
+      "gamesPlayed": 5,
       "goals": 0,
-      "pim": 0,
-      "plusMinus": 7,
-      "points": 3
+      "pim": 4,
+      "plusMinus": 8,
+      "points": 4
      }
     }
    ],
@@ -1098,7 +1107,7 @@
      "team": "Univ. of Michigan",
      "stats": {
       "assists": 2,
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "goals": 1,
       "pim": 6,
       "plusMinus": 1,
@@ -1162,9 +1171,9 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "goals": 0,
-      "pim": 2,
+      "pim": 4,
       "plusMinus": 0,
       "points": 0
      }
@@ -1193,12 +1202,12 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "assists": 6,
-      "gamesPlayed": 8,
+      "assists": 7,
+      "gamesPlayed": 9,
       "goals": 1,
-      "pim": 4,
+      "pim": 8,
       "plusMinus": -1,
-      "points": 7
+      "points": 8
      }
     }
    ],
@@ -1226,11 +1235,11 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 3,
-      "gamesPlayed": 8,
-      "goals": 5,
+      "gamesPlayed": 9,
+      "goals": 6,
       "pim": 7,
-      "plusMinus": 4,
-      "points": 8
+      "plusMinus": 5,
+      "points": 9
      }
     }
    ],
@@ -1297,12 +1306,12 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "assists": 1,
-      "gamesPlayed": 4,
+      "assists": 2,
+      "gamesPlayed": 5,
       "goals": 5,
-      "pim": 0,
+      "pim": 2,
       "plusMinus": 1,
-      "points": 6
+      "points": 7
      }
     }
    ],
@@ -1543,10 +1552,10 @@
      "team": "Erie Otters",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 3,
       "pim": 0,
-      "plusMinus": -3,
+      "plusMinus": -4,
       "points": 4
      }
     }
@@ -1774,16 +1783,16 @@
      "league": "WHL",
      "team": "Prince Albert Raiders",
      "stats": {
-      "gamesPlayed": 8,
-      "goalsAgainst": 27,
-      "goalsAgainstAvg": 3.41,
+      "gamesPlayed": 9,
+      "goalsAgainst": 29,
+      "goalsAgainstAvg": 3.25,
       "losses": 4,
       "otLosses": 2,
-      "savePctg": 0.877,
-      "shotsAgainst": 220,
+      "savePctg": 0.885,
+      "shotsAgainst": 253,
       "shutouts": 0,
-      "timeOnIce": "474:55",
-      "wins": 2
+      "timeOnIce": "534:55",
+      "wins": 3
      }
     }
    ],
@@ -1958,12 +1967,12 @@
      "league": "QMJHL",
      "team": "Moncton Wildcats",
      "stats": {
-      "assists": 5,
-      "gamesPlayed": 10,
+      "assists": 6,
+      "gamesPlayed": 11,
       "goals": 3,
-      "pim": 6,
+      "pim": 8,
       "plusMinus": -1,
-      "points": 8
+      "points": 9
      }
     }
    ],
@@ -2077,10 +2086,10 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 3,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 0,
       "pim": 0,
-      "plusMinus": -6,
+      "plusMinus": -5,
       "points": 3
      }
     }
@@ -2109,10 +2118,10 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 5,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 1,
-      "pim": 2,
-      "plusMinus": 2,
+      "pim": 4,
+      "plusMinus": 3,
       "points": 6
      }
     }
@@ -2141,11 +2150,11 @@
      "team": "Ferris State Univ.",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 4,
-      "goals": 1,
+      "gamesPlayed": 5,
+      "goals": 2,
       "pim": 4,
-      "plusMinus": -3,
-      "points": 1
+      "plusMinus": -2,
+      "points": 2
      }
     }
    ],
@@ -2227,12 +2236,12 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "assists": 4,
-      "gamesPlayed": 8,
+      "assists": 5,
+      "gamesPlayed": 9,
       "goals": 1,
       "pim": 2,
-      "plusMinus": -1,
-      "points": 5
+      "plusMinus": 0,
+      "points": 6
      }
     }
    ],
@@ -2277,11 +2286,11 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 2,
-      "goals": 3,
+      "gamesPlayed": 3,
+      "goals": 4,
       "pim": 4,
       "plusMinus": 0,
-      "points": 4
+      "points": 5
      }
     }
    ],
@@ -2359,7 +2368,7 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 3,
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "goals": 1,
       "pim": 2,
       "plusMinus": -2,
@@ -2390,15 +2399,15 @@
      "league": "AHL",
      "team": "Grand Rapids Griffins",
      "stats": {
-      "gamesPlayed": 4,
-      "goalsAgainst": 13,
-      "goalsAgainstAvg": 3.21,
+      "gamesPlayed": 5,
+      "goalsAgainst": 15,
+      "goalsAgainstAvg": 2.92,
       "losses": 1,
-      "otLosses": 1,
-      "savePctg": 0.886,
-      "shotsAgainst": 114,
+      "otLosses": 2,
+      "savePctg": 0.901,
+      "shotsAgainst": 152,
       "shutouts": 0,
-      "timeOnIce": "243:14",
+      "timeOnIce": "308:14",
       "wins": 2
      }
     }
@@ -2426,12 +2435,12 @@
      "league": "NCAA",
      "team": "Univ. of Minnesota-Duluth",
      "stats": {
-      "assists": 3,
-      "gamesPlayed": 6,
+      "assists": 4,
+      "gamesPlayed": 7,
       "goals": 1,
       "pim": 0,
-      "plusMinus": 1,
-      "points": 4
+      "plusMinus": 2,
+      "points": 5
      }
     }
    ],
@@ -2524,7 +2533,7 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 2,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 4,
       "pim": 6,
       "plusMinus": 4,
@@ -2593,7 +2602,7 @@
      "team": "Grand Rapids Griffins",
      "stats": {
       "assists": 2,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 1,
       "pim": 8,
       "plusMinus": -2,

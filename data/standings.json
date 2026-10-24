@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "season": 20262027,
  "teams": [
   {
@@ -27,16 +27,16 @@
    "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
    "conf": "W",
    "div": "Central",
-   "gp": 9,
+   "gp": 10,
    "w": 3,
-   "l": 6,
+   "l": 7,
    "otl": 0,
    "pts": 6,
-   "pts_pct": 0.333333,
+   "pts_pct": 0.3,
    "rw": 2,
-   "gd": -15,
-   "streak": "L1",
-   "l10": "3-6-0",
+   "gd": -18,
+   "streak": "L2",
+   "l10": "3-7-0",
    "playoff": false,
    "league_rank": 31
   },
@@ -269,44 +269,6 @@
    "league_rank": 19
   },
   {
-   "abbrev": "COL",
-   "name": "Colorado Avalanche",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-   "conf": "W",
-   "div": "Central",
-   "gp": 10,
-   "w": 5,
-   "l": 4,
-   "otl": 1,
-   "pts": 11,
-   "pts_pct": 0.55,
-   "rw": 5,
-   "gd": 10,
-   "streak": "L2",
-   "l10": "5-4-1",
-   "playoff": true,
-   "league_rank": 18
-  },
-  {
-   "abbrev": "MTL",
-   "name": "Montréal Canadiens",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-   "conf": "E",
-   "div": "Atlantic",
-   "gp": 9,
-   "w": 4,
-   "l": 3,
-   "otl": 2,
-   "pts": 10,
-   "pts_pct": 0.555556,
-   "rw": 1,
-   "gd": -4,
-   "streak": "OT1",
-   "l10": "4-3-2",
-   "playoff": false,
-   "league_rank": 17
-  },
-  {
    "abbrev": "WSH",
    "name": "Washington Capitals",
    "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
@@ -323,7 +285,7 @@
    "streak": "L1",
    "l10": "5-4-0",
    "playoff": false,
-   "league_rank": 16
+   "league_rank": 18
   },
   {
    "abbrev": "TOR",
@@ -341,8 +303,8 @@
    "gd": 4,
    "streak": "W3",
    "l10": "5-3-2",
-   "playoff": true,
-   "league_rank": 15
+   "playoff": false,
+   "league_rank": 17
   },
   {
    "abbrev": "SJS",
@@ -360,6 +322,44 @@
    "gd": -4,
    "streak": "W2",
    "l10": "5-4-1",
+   "playoff": true,
+   "league_rank": 16
+  },
+  {
+   "abbrev": "COL",
+   "name": "Colorado Avalanche",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+   "conf": "W",
+   "div": "Central",
+   "gp": 11,
+   "w": 6,
+   "l": 4,
+   "otl": 1,
+   "pts": 13,
+   "pts_pct": 0.590909,
+   "rw": 6,
+   "gd": 13,
+   "streak": "W1",
+   "l10": "5-4-1",
+   "playoff": true,
+   "league_rank": 15
+  },
+  {
+   "abbrev": "MTL",
+   "name": "Montréal Canadiens",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+   "conf": "E",
+   "div": "Atlantic",
+   "gp": 10,
+   "w": 5,
+   "l": 3,
+   "otl": 2,
+   "pts": 12,
+   "pts_pct": 0.6,
+   "rw": 2,
+   "gd": -1,
+   "streak": "W1",
+   "l10": "5-3-2",
    "playoff": true,
    "league_rank": 14
   },
@@ -535,6 +535,25 @@
    "league_rank": 5
   },
   {
+   "abbrev": "TBL",
+   "name": "Tampa Bay Lightning",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+   "conf": "E",
+   "div": "Atlantic",
+   "gp": 10,
+   "w": 7,
+   "l": 3,
+   "otl": 0,
+   "pts": 14,
+   "pts_pct": 0.7,
+   "rw": 6,
+   "gd": 5,
+   "streak": "L1",
+   "l10": "7-3-0",
+   "playoff": true,
+   "league_rank": 4
+  },
+  {
    "abbrev": "CAR",
    "name": "Carolina Hurricanes",
    "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
@@ -551,7 +570,7 @@
    "streak": "OT1",
    "l10": "8-1-1",
    "playoff": true,
-   "league_rank": 4
+   "league_rank": 3
   },
   {
    "abbrev": "BOS",
@@ -569,25 +588,6 @@
    "gd": 20,
    "streak": "W1",
    "l10": "7-2-1",
-   "playoff": true,
-   "league_rank": 3
-  },
-  {
-   "abbrev": "TBL",
-   "name": "Tampa Bay Lightning",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
-   "conf": "E",
-   "div": "Atlantic",
-   "gp": 9,
-   "w": 7,
-   "l": 2,
-   "otl": 0,
-   "pts": 14,
-   "pts_pct": 0.777778,
-   "rw": 6,
-   "gd": 8,
-   "streak": "W3",
-   "l10": "7-2-0",
    "playoff": true,
    "league_rank": 2
   },
