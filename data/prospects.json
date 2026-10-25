@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "season": 20262027,
  "players": [
   {
@@ -26,7 +26,7 @@
      "season": 20262027,
      "league": "SHL",
      "team": "Malmö Redhawks",
-     "gp": 10,
+     "gp": 11,
      "g": 1,
      "a": 2,
      "pts": 3,
@@ -65,14 +65,14 @@
     "round": 2,
     "overallPick": 32
    },
-   "nhl_gp": 5,
+   "nhl_gp": 6,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 5,
+     "gp": 6,
      "g": 2,
      "a": 1,
      "pts": 3,
@@ -113,12 +113,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 8,
+     "gp": 9,
      "g": 1,
-     "a": 3,
-     "pts": 4,
-     "pim": 2,
-     "pm": -2
+     "a": 4,
+     "pts": 5,
+     "pim": 4,
+     "pm": -3
     }
    ],
    "previous": [
@@ -181,7 +181,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 5,
+     "gp": 6,
      "g": 0,
      "a": 0,
      "pts": 0,
@@ -227,11 +227,11 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 9,
+     "gp": 10,
      "g": 1,
-     "a": 5,
-     "pts": 6,
-     "pim": 2,
+     "a": 6,
+     "pts": 7,
+     "pim": 4,
      "pm": 0
     }
    ],
@@ -382,12 +382,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Notre Dame",
-     "gp": 1,
-     "g": 0,
+     "gp": 2,
+     "g": 1,
      "a": 0,
-     "pts": 0,
-     "pim": 0,
-     "pm": -1
+     "pts": 1,
+     "pim": 15,
+     "pm": 0
     }
    ],
    "previous": [
@@ -428,7 +428,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 9,
+     "gp": 10,
      "g": 2,
      "a": 3,
      "pts": 5,
@@ -478,19 +478,19 @@
     "round": 4,
     "overallPick": 105
    },
-   "nhl_gp": 10,
+   "nhl_gp": 11,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 10,
+     "gp": 11,
      "g": 1,
      "a": 3,
      "pts": 4,
      "pim": 12,
-     "pm": 3
+     "pm": 2
     }
    ],
    "previous": [
@@ -542,10 +542,10 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Ferris State Univ.",
-     "gp": 5,
+     "gp": 6,
      "g": 2,
-     "a": 0,
-     "pts": 2,
+     "a": 1,
+     "pts": 3,
      "pim": 4,
      "pm": -2
     }
@@ -651,7 +651,7 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Minnesota-Duluth",
-     "gp": 7,
+     "gp": 8,
      "g": 0,
      "a": 0,
      "pts": 0,
@@ -690,19 +690,19 @@
     "round": 1,
     "overallPick": 9
    },
-   "nhl_gp": 36,
+   "nhl_gp": 37,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 8,
+     "gp": 9,
      "g": 0,
      "a": 2,
      "pts": 2,
      "pim": 2,
-     "pm": -1
+     "pm": -2
     }
    ],
    "previous": [
@@ -754,12 +754,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 9,
+     "gp": 10,
      "g": 0,
      "a": 3,
      "pts": 3,
      "pim": 0,
-     "pm": -5
+     "pm": -6
     }
    ],
    "previous": [
@@ -811,12 +811,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Massachusetts",
-     "gp": 6,
+     "gp": 7,
      "g": 1,
      "a": 0,
      "pts": 1,
-     "pim": 2,
-     "pm": 2
+     "pim": 4,
+     "pm": 4
     }
    ],
    "previous": [
@@ -857,12 +857,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 9,
+     "gp": 10,
      "g": 6,
-     "a": 3,
-     "pts": 9,
-     "pim": 7,
-     "pm": 5
+     "a": 4,
+     "pts": 10,
+     "pim": 9,
+     "pm": 4
     }
    ],
    "previous": [
@@ -1137,18 +1137,18 @@
     "round": 1,
     "overallPick": 15
    },
-   "nhl_gp": 24,
+   "nhl_gp": 25,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 10,
+     "gp": 11,
      "g": 2,
      "a": 6,
      "pts": 8,
-     "pim": 2,
+     "pim": 4,
      "pm": 10
     }
    ],
@@ -1212,12 +1212,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 9,
-     "g": 1,
+     "gp": 10,
+     "g": 2,
      "a": 5,
-     "pts": 6,
+     "pts": 7,
      "pim": 4,
-     "pm": 3
+     "pm": 1
     }
    ],
    "previous": [
@@ -1418,7 +1418,7 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Miami Univ. (Ohio)",
-     "gp": 5,
+     "gp": 6,
      "g": 1,
      "a": 1,
      "pts": 2,
@@ -1464,12 +1464,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Colorado College",
-     "gp": 5,
+     "gp": 6,
      "g": 0,
-     "a": 4,
-     "pts": 4,
+     "a": 5,
+     "pts": 5,
      "pim": 4,
-     "pm": 8
+     "pm": 9
     }
    ],
    "previous": [
@@ -1510,12 +1510,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 7,
+     "gp": 8,
      "g": 2,
-     "a": 3,
-     "pts": 5,
+     "a": 4,
+     "pts": 6,
      "pim": 6,
-     "pm": 1
+     "pm": 4
     }
    ],
    "previous": [
@@ -1567,10 +1567,10 @@
      "season": 20262027,
      "league": "SHL",
      "team": "Timrå IK",
-     "gp": 11,
-     "g": 3,
+     "gp": 12,
+     "g": 4,
      "a": 4,
-     "pts": 7,
+     "pts": 8,
      "pim": 6,
      "pm": -3
     }
@@ -1729,11 +1729,11 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Windsor Spitfires",
-     "gp": 12,
+     "gp": 13,
      "g": 3,
-     "a": 4,
-     "pts": 7,
-     "pim": 2,
+     "a": 5,
+     "pts": 8,
+     "pim": 4,
      "pm": -3
     }
    ],
@@ -2012,12 +2012,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Notre Dame",
-     "gp": 5,
+     "gp": 6,
      "g": 0,
      "a": 1,
      "pts": 1,
      "pim": 0,
-     "pm": 0
+     "pm": 1
     }
    ],
    "previous": [
@@ -2137,13 +2137,13 @@
      "season": 20262027,
      "league": "WHL",
      "team": "Prince Albert Raiders",
-     "gp": 9,
-     "w": 3,
+     "gp": 10,
+     "w": 4,
      "l": 4,
-     "ga": 29,
-     "sa": 253,
-     "svp": 0.885,
-     "gaa": 3.25,
+     "ga": 31,
+     "sa": 279,
+     "svp": 0.889,
+     "gaa": 3.13,
      "so": 0
     }
    ],
@@ -2200,12 +2200,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Minnesota-Duluth",
-     "gp": 7,
+     "gp": 8,
      "g": 1,
      "a": 4,
      "pts": 5,
      "pim": 0,
-     "pm": 2
+     "pm": 3
     }
    ],
    "previous": [
@@ -2325,10 +2325,10 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Erie Otters",
-     "gp": 9,
-     "g": 3,
+     "gp": 10,
+     "g": 4,
      "a": 1,
-     "pts": 4,
+     "pts": 5,
      "pim": 0,
      "pm": -4
     }
@@ -2393,12 +2393,12 @@
      "season": 20262027,
      "league": "QMJHL",
      "team": "Moncton Wildcats",
-     "gp": 11,
+     "gp": 12,
      "g": 3,
      "a": 6,
      "pts": 9,
      "pim": 8,
-     "pm": -1
+     "pm": -2
     }
    ],
    "previous": [
