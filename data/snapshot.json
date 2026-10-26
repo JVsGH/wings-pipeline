@@ -462,18 +462,18 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Erie Otters",
-  "gp": 10,
-  "g": 4,
+  "gp": 11,
+  "g": 5,
   "a": 1,
-  "pts": 5,
+  "pts": 6,
   "pim": 0,
-  "pm": -4
+  "pm": -3
  },
  "8486324|20262027|QMJHL|Moncton Wildcats": {
   "season": 20262027,
   "league": "QMJHL",
   "team": "Moncton Wildcats",
-  "gp": 12,
+  "gp": 13,
   "g": 3,
   "a": 6,
   "pts": 9,

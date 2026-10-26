@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.89157,
-   "shots_against": 9739,
-   "goals_against": 1056
+   "save_pct": 0.89144,
+   "shots_against": 10013,
+   "goals_against": 1087
   }
  },
  "players": [
@@ -1552,11 +1552,11 @@
      "team": "Erie Otters",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 10,
-      "goals": 4,
+      "gamesPlayed": 11,
+      "goals": 5,
       "pim": 0,
-      "plusMinus": -4,
-      "points": 5
+      "plusMinus": -3,
+      "points": 6
      }
     }
    ],
@@ -1968,7 +1968,7 @@
      "team": "Moncton Wildcats",
      "stats": {
       "assists": 6,
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "goals": 3,
       "pim": 8,
       "plusMinus": -2,
