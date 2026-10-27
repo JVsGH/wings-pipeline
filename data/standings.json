@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "season": 20262027,
  "teams": [
   {
@@ -41,25 +41,6 @@
    "league_rank": 31
   },
   {
-   "abbrev": "LAK",
-   "name": "Los Angeles Kings",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
-   "conf": "W",
-   "div": "Pacific",
-   "gp": 9,
-   "w": 2,
-   "l": 5,
-   "otl": 2,
-   "pts": 6,
-   "pts_pct": 0.333333,
-   "rw": 1,
-   "gd": -11,
-   "streak": "L1",
-   "l10": "2-5-2",
-   "playoff": false,
-   "league_rank": 30
-  },
-  {
    "abbrev": "PHI",
    "name": "Philadelphia Flyers",
    "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
@@ -76,26 +57,26 @@
    "streak": "L1",
    "l10": "3-6-1",
    "playoff": false,
-   "league_rank": 29
+   "league_rank": 30
   },
   {
-   "abbrev": "CGY",
-   "name": "Calgary Flames",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+   "abbrev": "LAK",
+   "name": "Los Angeles Kings",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
    "conf": "W",
    "div": "Pacific",
    "gp": 10,
-   "w": 4,
-   "l": 6,
-   "otl": 0,
+   "w": 3,
+   "l": 5,
+   "otl": 2,
    "pts": 8,
    "pts_pct": 0.4,
-   "rw": 4,
-   "gd": -16,
-   "streak": "W3",
-   "l10": "4-6-0",
+   "rw": 2,
+   "gd": -8,
+   "streak": "W1",
+   "l10": "3-5-2",
    "playoff": false,
-   "league_rank": 28
+   "league_rank": 29
   },
   {
    "abbrev": "CBJ",
@@ -114,7 +95,7 @@
    "streak": "W1",
    "l10": "4-5-0",
    "playoff": false,
-   "league_rank": 27
+   "league_rank": 28
   },
   {
    "abbrev": "ANA",
@@ -132,6 +113,25 @@
    "gd": -5,
    "streak": "W1",
    "l10": "4-6-0",
+   "playoff": false,
+   "league_rank": 27
+  },
+  {
+   "abbrev": "CGY",
+   "name": "Calgary Flames",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+   "conf": "W",
+   "div": "Pacific",
+   "gp": 11,
+   "w": 5,
+   "l": 6,
+   "otl": 0,
+   "pts": 10,
+   "pts_pct": 0.454545,
+   "rw": 5,
+   "gd": -13,
+   "streak": "W4",
+   "l10": "5-5-0",
    "playoff": false,
    "league_rank": 26
   },
@@ -174,25 +174,6 @@
    "league_rank": 24
   },
   {
-   "abbrev": "DET",
-   "name": "Detroit Red Wings",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
-   "conf": "E",
-   "div": "Atlantic",
-   "gp": 11,
-   "w": 4,
-   "l": 4,
-   "otl": 3,
-   "pts": 11,
-   "pts_pct": 0.5,
-   "rw": 3,
-   "gd": -5,
-   "streak": "L1",
-   "l10": "4-3-3",
-   "playoff": false,
-   "league_rank": 23
-  },
-  {
    "abbrev": "WPG",
    "name": "Winnipeg Jets",
    "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
@@ -209,7 +190,7 @@
    "streak": "L1",
    "l10": "4-4-2",
    "playoff": false,
-   "league_rank": 22
+   "league_rank": 23
   },
   {
    "abbrev": "STL",
@@ -226,6 +207,25 @@
    "rw": 5,
    "gd": 0,
    "streak": "L1",
+   "l10": "4-5-1",
+   "playoff": false,
+   "league_rank": 22
+  },
+  {
+   "abbrev": "NYR",
+   "name": "New York Rangers",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+   "conf": "E",
+   "div": "Metropolitan",
+   "gp": 14,
+   "w": 7,
+   "l": 6,
+   "otl": 1,
+   "pts": 15,
+   "pts_pct": 0.535714,
+   "rw": 7,
+   "gd": 2,
+   "streak": "L3",
    "l10": "4-5-1",
    "playoff": false,
    "league_rank": 21
@@ -250,6 +250,25 @@
    "league_rank": 20
   },
   {
+   "abbrev": "DET",
+   "name": "Detroit Red Wings",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+   "conf": "E",
+   "div": "Atlantic",
+   "gp": 12,
+   "w": 5,
+   "l": 4,
+   "otl": 3,
+   "pts": 13,
+   "pts_pct": 0.541667,
+   "rw": 3,
+   "gd": -4,
+   "streak": "W1",
+   "l10": "5-2-3",
+   "playoff": false,
+   "league_rank": 19
+  },
+  {
    "abbrev": "COL",
    "name": "Colorado Avalanche",
    "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
@@ -266,7 +285,7 @@
    "streak": "L1",
    "l10": "4-5-1",
    "playoff": true,
-   "league_rank": 19
+   "league_rank": 18
   },
   {
    "abbrev": "NSH",
@@ -285,7 +304,7 @@
    "streak": "W1",
    "l10": "4-2-4",
    "playoff": true,
-   "league_rank": 18
+   "league_rank": 17
   },
   {
    "abbrev": "NYI",
@@ -304,26 +323,26 @@
    "streak": "L1",
    "l10": "5-3-2",
    "playoff": false,
-   "league_rank": 17
+   "league_rank": 16
   },
   {
-   "abbrev": "NYR",
-   "name": "New York Rangers",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+   "abbrev": "TOR",
+   "name": "Toronto Maple Leafs",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
    "conf": "E",
-   "div": "Metropolitan",
-   "gp": 13,
+   "div": "Atlantic",
+   "gp": 14,
    "w": 7,
    "l": 5,
-   "otl": 1,
-   "pts": 15,
-   "pts_pct": 0.576923,
-   "rw": 7,
-   "gd": 5,
-   "streak": "L2",
-   "l10": "5-4-1",
+   "otl": 2,
+   "pts": 16,
+   "pts_pct": 0.571429,
+   "rw": 6,
+   "gd": 6,
+   "streak": "L1",
+   "l10": "5-3-2",
    "playoff": false,
-   "league_rank": 16
+   "league_rank": 15
   },
   {
    "abbrev": "FLA",
@@ -341,8 +360,8 @@
    "gd": -2,
    "streak": "W1",
    "l10": "5-4-1",
-   "playoff": false,
-   "league_rank": 15
+   "playoff": true,
+   "league_rank": 14
   },
   {
    "abbrev": "WSH",
@@ -360,25 +379,6 @@
    "gd": 2,
    "streak": "W1",
    "l10": "6-4-0",
-   "playoff": true,
-   "league_rank": 14
-  },
-  {
-   "abbrev": "TOR",
-   "name": "Toronto Maple Leafs",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
-   "conf": "E",
-   "div": "Atlantic",
-   "gp": 13,
-   "w": 7,
-   "l": 4,
-   "otl": 2,
-   "pts": 16,
-   "pts_pct": 0.615385,
-   "rw": 6,
-   "gd": 9,
-   "streak": "W4",
-   "l10": "6-2-2",
    "playoff": true,
    "league_rank": 13
   },
@@ -554,6 +554,25 @@
    "league_rank": 4
   },
   {
+   "abbrev": "EDM",
+   "name": "Edmonton Oilers",
+   "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+   "conf": "W",
+   "div": "Pacific",
+   "gp": 12,
+   "w": 8,
+   "l": 2,
+   "otl": 2,
+   "pts": 18,
+   "pts_pct": 0.75,
+   "rw": 6,
+   "gd": 9,
+   "streak": "OT1",
+   "l10": "7-2-1",
+   "playoff": true,
+   "league_rank": 3
+  },
+  {
    "abbrev": "CAR",
    "name": "Carolina Hurricanes",
    "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
@@ -569,25 +588,6 @@
    "gd": 18,
    "streak": "W1",
    "l10": "8-1-1",
-   "playoff": true,
-   "league_rank": 3
-  },
-  {
-   "abbrev": "EDM",
-   "name": "Edmonton Oilers",
-   "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
-   "conf": "W",
-   "div": "Pacific",
-   "gp": 11,
-   "w": 8,
-   "l": 2,
-   "otl": 1,
-   "pts": 17,
-   "pts_pct": 0.772727,
-   "rw": 6,
-   "gd": 10,
-   "streak": "L1",
-   "l10": "8-2-0",
    "playoff": true,
    "league_rank": 2
   },

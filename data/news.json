@@ -1,7 +1,595 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "days": 60,
  "articles": [
+  {
+   "title": "Wings nip Oilers in shootout as Michal Postava wins first start",
+   "google_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd2s0UXVjY28yZzBVLWtlWkp5X29oU3VRbGJDNm5ueWYwNXdHRGxhblEtYUI4WEpTcXBraEhVOU9lZTFLRHJXdlpJdWN6aHRNc2VnbTRfbVRfY3hxS1ZremJpVEthNGZZdmVnelV3UU12Q1pKc3NEOFNJeTJ3LWd3YnJPUWtxMEU1cGJZS0RmM3ZOZ28zM25V?oc=5",
+   "source": "Reuters",
+   "source_site": "https://www.reuters.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.reuters.com/sports/nhl/red-wings-rally-late-top-oilers-shootout--flm-2026-10-27/"
+  },
+  {
+   "title": "What we learned from Red Wings’ road trip: Postava looks ready, Arvidsson’s fit",
+   "google_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZnhENTNjODhRaktxVHpndWRQeFBrRDdGSHBQcDN0VW5RVGJ0Y1RoZlpPMEpZT2NTaTI5R3o4ckRHUDlvak5lRjJBa3NMdTJpblhtYVlBZVNfeGZ2VUJzdXFlenVTS0ZUd0VBZmg1RU9xS0l0VU5ycXBZNUpHVDREb1JUV2FKaGd6Mk9zLVB6Zm9HQmF6M0dCU0sweE9zeksxNjVZUg?oc=5",
+   "source": "The New York Times",
+   "source_site": "https://www.nytimes.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.nytimes.com/athletic/7728579/2026/10/27/detroit-red-wings-michal-postava-viktor-arvidsson/"
+  },
+  {
+   "title": "There's no benefit to keeping Axel Sandin-Pellikka on the bench",
+   "google_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVQ0T2dRUFNrZ25sSEJRTXA0cGRHb1dMMHMyRnVVeHBmOEpTRHlQWDR0VVhpT1lFQlJCekR4NjlKTTJQMXBtOG1yWlQ4cWRvT3JoREM4TlplVlJyVmFadjEwUEJfbkJROXZwU2VMeHJrN3ViRmc5RVZDVXpmQmpOQ0ozTGxucFVxa0ZITXM2UndMeHZ5N0dyMGUtYmdtNUYwWGsyVk9n?oc=5",
+   "source": "Octopus Thrower",
+   "source_site": "https://octopusthrower.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8484223
+   ],
+   "url": "https://octopusthrower.com/there-s-no-benefit-to-keeping-axel-sandin-pellikka-on-the-bench-01m5xkd0a0fd"
+  },
+  {
+   "title": "The Postman delivers for Red Wings in his first start",
+   "google_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkdQb3BwWjhvU0pxMUpkc3pMX0kwaHpYOV96RlhHRkw3a0p1U2c4RlNETlFfR3EtM3dXOVRkVkZnMzdQc1BVdEZCREFNVUl4WDl6Nnc1aU03ano3X0dISEpRclhSTElwWlBITTdGd0RlN0hmbThLMlBrWUFFWm1sU0JXXzIwZEFyMGE2S0FhaUo1NlVzNVpRdg?oc=5",
+   "source": "Octopus Thrower",
+   "source_site": "https://octopusthrower.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://octopusthrower.com/the-postman-delivers-for-red-wings-in-his-first-start-01m5xxb7yer1"
+  },
+  {
+   "title": "Skvělý Postava se radoval na ledě silného Edmontonu",
+   "google_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SZE9hZEVDbkMwdy1fQ2doYVFhVXlBOXl1TTBYS1duZmhuZ2xTS1BuSjVyOUlTZ2lWN2RoNVA1SC16djR0VmVsaDBTZ0ZwT2dSVFNSZUNCc3ItSHB1YnN1N1Z3TkE2T0QtbHZ1OFl0bERqVFI2R010LXVnOWdyNTA?oc=5",
+   "source": "iDNES.cz",
+   "source_site": "https://www.idnes.cz",
+   "published": "2026-10-27",
+   "lang": "cs",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.idnes.cz/hokej/nhl/vysledky-nhl-postava.A261027_065314_nhl_mkr"
+  },
+  {
+   "title": "Sakra dobrý Postava napodobil Mrázka. Není monstrum jako jiní brankáři, ví trenér",
+   "google_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeFVqT1FCdS1qcHNPQVBxcUtRSUQyR0p5TlJHcXg3b3UyNmt3ZEpEOHRIMXE3eEgxVVhXZlllT2xweFp1cVlMek1xbVlDb0VwbHBpcERsSE1Gd2ZMTjl1TExDbDNzckpVSnlHNF9vSkgtcVN1WTlZRU4wa09BVWpIcWkzeDlCbFVFa28xNF9VemRSOFNNYVE?oc=5",
+   "source": "iDNES.cz",
+   "source_site": "https://www.idnes.cz",
+   "published": "2026-10-27",
+   "lang": "cs",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.idnes.cz/hokej/nhl/michal-postava-detroit-edmonton-vyhra.A261027_090725_nhl_hrj"
+  },
+  {
+   "title": "Rookie Goalie Michal Postava The Feel-Good Story in a Not-So-Feel-Good Loss for the Oilers",
+   "google_link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONXY0MFREcDMyRk5tdFE2ZGFaa1lzdmlTNE90ZFMxU3NjTDJmRHNheEFISjktc3UwV3pGb0x6dXNxZV90c3FKLXFOXzVjUl9XOUsxeWFrNzM3QUxJRmZfSjhIVjh4RUNIRXJiY0RZa2hvU29zZVpCQjFXLV9mS2l3VXVIZzBNeHFhVGh3VG00YXZXbjRPZnMwTVV3cEs5SmdQSUExdVBuYXhiN3ExYkpQV2ZUYlRZNUxmc1ozNkU2ZC15RTk1bThacXlqTEpzWk1xVWNaeTZxdjZiVjNLZWJTMUN3?oc=5",
+   "source": "The Hockey News",
+   "source_site": "https://thehockeynews.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://thehockeynews.com/nhl/edmonton-oilers/latest-news/rookie-goalie-michal-postava-the-feel-good-story-in-a-not-so-feel-good-loss-for-the-oilers"
+  },
+  {
+   "title": "Red Wings’ Postava impresses in first NHL start and 4-3 win over Oilers",
+   "google_link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObmtvcU1XUDZKSU5vUU1OQW91bi15Ml9tdm1XbkV1ejdYUWliTE9md3ZpblVqenVjaXI3LVVSOFlmMDRKRHVNWHhHbmxTSGhmTHJHR1VjVTA5cnRSTUJTTC01c1p4NUE0a0VlMEVvU0V0a21XRGhHT1o3MEhzZjZpNlBmOEpGN24xS3dLQnNQVUhHcnJ4V1A4MjFQTG83dG1ybWs0RTdVaDVJd1VqaUNxTy1ub0ZIUzh0UXgtN1VBb3JqSDdrd3FuZXY1WmlJM0o5blBaMkk1MkpOWEgyZThlY0FtY0tTOGU4QjJobTY1dw?oc=5",
+   "source": "Toronto Star",
+   "source_site": "https://www.thestar.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.thestar.com/sports/hockey/red-wings-postava-impresses-in-first-nhl-start-and-4-3-win-over-oilers/article_90397e0e-3466-5896-b2b8-5faa5e8f7096.html"
+  },
+  {
+   "title": "Red Wings’ Postava impresses in first NHL start and 4-3 win over Oilers",
+   "google_link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV01faExQRFVheE1ZY0l2SjNyMUFoLVVwUVdWV0E3TFlWY0JMbDYzdkQwQ0x3ZjljZ3hVQ2JkZTNFU0hTbXRIVGNlZzQ4Z08wOGt3ODhtOF9jT2JVZGptdUxyUjBFcXVGV2dINnBmSmdaUFhZUUF5SS05MzZZOU9ZRkVxRnhNeVBTeF9MSUktWTB5LTBFNWdZdWUydW1DQmhTbElyRTRYcG5TdjhWMGpqZS1qSTlsZTctUThScGRKRE5QdGpEVXBYUA?oc=5",
+   "source": "Winnipeg Free Press",
+   "source_site": "https://www.winnipegfreepress.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.winnipegfreepress.com/sports/hockey/2026/10/27/red-wings-postava-impresses-in-first-nhl-start-and-4-3-win-over-oilers"
+  },
+  {
+   "title": "Red Wings’ Michal Postava steps up in shootout to win first NHL start",
+   "google_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZERkUUVFMTAtdmhpNnp5T1JybjAyMjBiYlU4Y1VQbktQZThwWjFET0RVZ0NjRl9hcE5jdUszOU5lM1NWTWw0R1pOSFQ3Z053Mk1iY29DckZuX3pfWFlBcDVpUmdmNmFTeDQ3dGRGV0VINDAtRi0zdEs1QjNIMkhQSEUxc19Bc2lScUU1OU4tNVhjRXlNb1BBODl2VDVPY0JDYTJnUHo5Q2JGZW1JM213NkNB?oc=5",
+   "source": "MLive.com",
+   "source_site": "https://www.mlive.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.mlive.com/redwings/2026/10/red-wings-michal-postava-steps-up-in-shootout-to-win-first-nhl-start.html"
+  },
+  {
+   "title": "Red Wings’ Michal Postava Validates the Cossa Trade",
+   "google_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLVphMGp6d0REZDNzdUlhTU8wdU9zZ2U2TnJzWVBoUHl4d2Q1aWNxcGVoZk5ZTVFoUE1RU0ZSQVpaWm9TOUZFcGVLcnRBdG1RTWZfMDBNT0JLT2l2SFpGRE5ESEYzenhOYVJyc2Z4VEpVa19HVjh2ekx3aTNnZUNaNVpPbXlTZEU?oc=5",
+   "source": "The Hockey Writers",
+   "source_site": "https://thehockeywriters.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://thehockeywriters.com/red-wings-michal-postava-validates-the-cossa-trade/"
+  },
+  {
+   "title": "Red Wings' Postava impresses in first NHL start and 4-3 win over Oilers",
+   "google_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWWVYNnVDSHZOTFpfSzJpbjZHVXhybFV6OFJ5VUVmeG8wbjBDTlB4SEgyT1BTRmd6VVF5b3dBWEpZdUxLeWF5VGpvQjNZWkxSblJnMEt1S201blkxMkJIRGdrazhneWNTUW5FckhQU3ZQZ3BnbGJvald5eW9qa0Z0QXhvNmh5azJ2Mk9FeHRKcnhSZ2h0QUlYLXdIcm9ZMnBITm1nbm0tQzNWbUQzR1FWeDRkNTM?oc=5",
+   "source": "Castanet",
+   "source_site": "https://www.castanet.net",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.castanet.net/news/Hockey/635793/Red-Wings-Postava-impresses-in-first-NHL-start-and-4-3-win-over-Oilers"
+  },
+  {
+   "title": "Red Wings' Michal Postava: Earns first NHL win in shootout",
+   "google_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONWhMaVNBZW9uaXZQRGJBQldHN1U5LTExb2lWWUh0SkFmXzhEU1BtTE5iOGE3VGpXTkxtQkRDYlY1aUVrdmd4eEQ5RXJzSU5NTkhHNGdfY05ONFc2TnJWQkFtR0J4MFNueDV2UEFxTThWb2k1aFF5MUVLaURfQWpDU2FibzVHeExRQkhvNmRLb3U0X2dCX21tV21DRjVZYW5NTDZnN0dn?oc=5",
+   "source": "CBS Sports",
+   "source_site": "https://www.cbssports.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-michal-postava-earns-first-nhl-win-in-shootout/"
+  },
+  {
+   "title": "Red Wings' Michal Postava a winner in first career NHL start",
+   "google_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbTdicDhsS0c3TnFpQjZOX18yNTFNVlJ6VmdmaFR0d0wwZC1CNHBDNHQ2YUkxUUtEcnlPX2JueDFBajJvY1JobjZQV2R4dkZuWkdjZHVMNWgtelphdWY3bFVOYThsR29IVUdNd1YyRlZkRFJIWFBkLVhJeV93RktudXNDb3NweWtldUJndWVoZy1rVkwwX0I1dGNUNVQ5NWV3?oc=5",
+   "source": "ESPN",
+   "source_site": "https://www.espn.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.espn.com/nhl/story/_/id/50294617/red-wings-michal-postava-winner-first-career-nhl-start"
+  },
+  {
+   "title": "Red Wings' John Gibson Faces Uncomfortable Reality as Rookie Gets the Call",
+   "google_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbVNPSjdFZ3ZTeWFBdy00NGpGRzZhLTY3ZkJkM1h6dDU1TW14Qm9GVG9ld1BpR0RQYmFuc0R6eWhJNl9TUWZIa3J4YXhyRVFTcG9NR3dfMUxXR2pVenAySDF4cVp0WTYycVBoQ0huZ3ZZalhEeldGUjdWT3ZhVkxNX2FPVGlKbWNxUDd6UUhPUnY5Q1plRnB0c21kNTZhRlA0SWhsd19UV0ZwcWJrLWc?oc=5",
+   "source": "Sports Illustrated",
+   "source_site": "https://www.si.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.si.com/nhl/red-wings/onsi/news/red-wings-john-gibson-faces-uncomfortable-reality-rookie-gets-call"
+  },
+  {
+   "title": "Red Wings defeat Oilers in shootout",
+   "google_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQWpUaEpCYTRhWmtnMFE5dmhKbEpoa1FrV244TS1PVnQ1eFZsVjN0bUo0blJETHBVMGRCME41WWRId1BMQWwxNHk3U0h0SU9wcFRTRUNHLXllSFVLZzV5Y2d0NlhMSHIxcTVFZU1zR3lQV3BjekVLZEZJdExPN2FiY3RqV3JBZ21y?oc=5",
+   "source": "NHL.com",
+   "source_site": "https://www.nhl.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.nhl.com/video/topic/highlights/det-at-edm-full-shootout-6407453287112"
+  },
+  {
+   "title": "Red Wings contain Oilers stars as Michal Postava shines in shootout",
+   "google_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRWdURk5QaDgzbWNsZlNZVWU5RWpqSWpsbnZzSWhvNk1LWjZPRjJvUWxhakVXOThqRzd0YW01dlJmTXdaOHRveEtDY3JUZS10SGVid29KeDVGMzZscU5McW9OZEhIUjEwRE85U1M0SGVBLW83X2s5TE9lZnRvalRwR09QSm93UQ?oc=5",
+   "source": "Yahoo Sports",
+   "source_site": "https://sports.yahoo.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://sports.yahoo.com/articles/red-wings-contain-oilers-stars-042408361.html"
+  },
+  {
+   "title": "Red Wings Rookie Pulls Off Something Few Expected Against Oilers",
+   "google_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTWdoVEdIRlIyVlRMa1FWd3Q4cVlvN2FoSXlKeV9DZ0piUE1Vcjhxbjd1c2FwT3ZITGlrRFQ3emF5NHo5UVJSQTJjaWthLWhoRkxFU0Y1Sk13VHhlMHI3Q1hsT2dwcDI5aW1lbTllSk9WVklha1RJaTE1S0hNQzJZNU1xQ3lXNWdtMTV0Uw?oc=5",
+   "source": "Heavy.com",
+   "source_site": "https://heavy.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://heavy.com/sports/nhl/detroit-red-wings/red-wings-rookie-few-expected-oilers/"
+  },
+  {
+   "title": "Postava wins first NHL start, Red Wings rally past Oilers in shootout",
+   "google_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORlBxU3Q5Ukg0WmxsXzZINkdFMktmLUNZekw2TjcyRWtxbW9rNVJUYTV2VW5DMjY0N1NfV05wYVVnQm5uWk1hOWs1SE9QV19rVHJXN3NsVEEyYXhmcGYtVy1NM2NDU2pBQ1dvM1VjeFlzZUJnQUYyb3BaOWV2NXJGRGd5NjJhMjhXeWhFbU5R?oc=5",
+   "source": "NHL.com",
+   "source_site": "https://www.nhl.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.nhl.com/news/detroit-red-wings-edmonton-oilers-game-recap-october-26-2026"
+  },
+  {
+   "title": "Postava vychytal Edmonton. McDavid si proti českému nováčkovi neškrtl",
+   "google_link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSlk2ZzRWcEliUE14ZWM0MHZWWXJ0QzFYWE5QT1l5YlRNeVNPZERNYlJaSTFoZHBkTTFwUG1XTmFfNUc0NlRKVkphNkJZUEdiaHNONjgzRXV2a1lSTUppZHZPaG1qR1p2cGQ0dWdQTkhBeENVQUxaTkw2N2trZ2RzSjZEVVhtR0NnVmM1V2MySmppMzdaaVVTRVY5a1lZX1RkX0x1cGQwNU01V1dLdkhRTElXcGZxcmpvd2lSajgzUGptM3EtblBtMXhxQXVlbWZIdFE?oc=5",
+   "source": "iSport.cz",
+   "source_site": "https://isport.blesk.cz",
+   "published": "2026-10-27",
+   "lang": "cs",
+   "players": [
+    8485545
+   ],
+   "url": "https://isport.blesk.cz/clanek/hokej-nhl/481438/fantasticky-postava-cech-vymazal-nejlepsiho-hrace-sveta-to-museli-videt-mini-expert.html"
+  },
+  {
+   "title": "Postava v nájezdech vychytal hvězdy Oilers a postaral se tak o vítězství Red Wings. ,Je to neuvěřitelné‘",
+   "google_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUmNJZ25QckJxdU84MzdXUVdxZi1NNktWTUVRcllNOGtCZTRWS0ZxMlFsRU8xN0lZUHdzdmo3TVA5WlVPa0JIZlVWQkxTMm55Y0lCOU40dks0UmxTQ3pLaFFOQ0JBMFRaY1U2TDFIT0pFWlBGUDYxUm9FdFVqRkZKN1MzMXQ4elhyZHVNR0tQNUd1ZWRmZjh3Rw?oc=5",
+   "source": "iROZHLAS",
+   "source_site": "https://www.irozhlas.cz",
+   "published": "2026-10-27",
+   "lang": "cs",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.irozhlas.cz/sport/hokej/hokej-nhl-michal-postava-detroit-red-wings_2610270656_kri"
+  },
+  {
+   "title": "Postava Perfect Against McDavid in First Start to Lead Red Wings to Victory",
+   "google_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUE1PeUdDQWZRTnJobS1XM1lJbktNT1E5MmN3OFE2RTlfeC1sMGhZYzM0MTRjcmZSTXloS1d2NjZCQkZMTUNLcUdDV0YzQVhZSmlGZ00yQWl2SGpMN1BWX3NpUXoza0plNTB5Y3ZlWTFQWko0VEFhQnBSV1ZDeHp3Zkl3?oc=5",
+   "source": "Detroit Hockey Now",
+   "source_site": "https://detroithockeynow.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://detroithockeynow.com/postava-perfect-against-mcdavid-in-first-start/"
+  },
+  {
+   "title": "Postava First Win: Red Wings Goalie Beats Oilers in Shootout",
+   "google_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVWEwVF9oTnp0a3hMWElCemYwVy1LZVBFVnRzLUdCdzBMMnNESlg5anFwUlBfdThJT0dac2l1ZmRLUnB6WDNZclkwQTRZVDlxbnlKZ2lzWXVNRS1nZWljLVZmNHhnVHAxTzhXWWRrVjZJbXk1UVJqN3dfeGhLU0ZYeEJB?oc=5",
+   "source": "Gino Hard",
+   "source_site": "https://www.ginohard.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.ginohard.com/red-wings-michal-postava-first-win-oilers-shootout/"
+  },
+  {
+   "title": "PREVIEW: Red Wings take on Oilers on Monday, wrap up four-game road trip through Pacific Northwest and Western Canada",
+   "google_link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPd0hsNGtQekpaU284bnZpdDdiSVBYOVBJUnFsVzN4dkZuTEhwZUI4TDk5S0t5ZGJsWG83YXNSNHRuX3RLcUM5Vi1xVE5wSU1XSjYtYXFNaXpVTmw2TGhBXzRaU0xnZW52amJJdS1pdDVEd2ZSSmtNVWNGVmZIcVRQMEtmeDdVSG9WeE5QdzYwTTg0QnVFaThBcFgwT0EwSmlDVXl5TC1Mb1JRTV9Ya2xFTmtmeUJGX2FZNWkwUzlnSFplRTlPdEo0MkFXaDkxLTZIWEFwdDlSYkxlYzhDNE5xUUNSYw?oc=5",
+   "source": "NHL.com",
+   "source_site": "https://www.nhl.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.nhl.com/redwings/news/preview-red-wings-take-on-oilers-on-monday-wrap-up-four-game-road-trip-through-pacific-northwest-and-western-canada"
+  },
+  {
+   "title": "Nájezdy neměl rád, teď v nich vymazal McDavida. Postava očaroval i NHL",
+   "google_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRk1kc0Z2R3ZUWTl0bVg2NWt6ZkFYeGo1N2NjenJ0MkxZUHFTMGtEbTlTc2twTzVYVUFpdlZsY2VkZDlKdFhZem1vQlpJNFBhQnhlMldxS2VlMkZYYmhEQkxsWDc3X2wtR3JINGlTMTBQQ1dMTkdDcFNBVVA5Y2ZaQ2Z1YmM1M3hjVllFeEkwTlhqXzFZLUpGZzJfZTRaVzR3ZzZscQ?oc=5",
+   "source": "Přerovský deník",
+   "source_site": "https://prerovsky.denik.cz",
+   "published": "2026-10-27",
+   "lang": "cs",
+   "players": [
+    8485545
+   ],
+   "url": "https://prerovsky.denik.cz/hokej/najezdy-nemel-rad-ted-v-nich-vymazal-mcdavida-postava-ocaroval-i-nhl/"
+  },
+  {
+   "title": "NHL roundup: Wings' Michal Postava wins first start, tops Oilers in SO",
+   "google_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZzV4NzRic0dtTk1MbVl2QlVWX2dwYTgzZUROV3dEVUYzQU91X0E5eVFFMFJiOE9QeE9TQV9ZVkdUc003WTZ6UUFScG4xSnpuM3ljbWJYUzhlMy1lZGVSbWJ4VHhILU4yTV9HZFJ3YjN6ZFhYTXRweDVVdGYySE51aVhkTnVkblZBdXhSeWx5T3k3Nm5ZQW5DbUxWeWtWVUxnRDZIZ0VXZEhtWFlYTWt3SkpB?oc=5",
+   "source": "Reuters",
+   "source_site": "https://www.reuters.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.reuters.com/sports/nhl-roundup-wings-michal-postava-wins-first-start-tops-oilers-so--flm-2026-10-27/"
+  },
+  {
+   "title": "Michal Postava vychytal první výhru v NHL. V nájezdech zastavil McDavida i Draisaitla",
+   "google_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMDRaME8ya1pLTWZvTl9Ta2hOSUgxbUJ3aU1Tc000VUFOYkhPNFFkRldrdlF3bEl0RWZYVWt5eUk5RnYzcnM2WFNIOXZSYjB1RUxUeFI1dHRBVkRvMV96UUFQMkpOaC1sWXVQZUZZb0xCeEN0T2Q5NzAyV0hOc0k5YUhkZGFWejR5ZEZ1b0RzNjFvMEFDck1Yd3lWWXBXMGd4OE5wQkJpR3g?oc=5",
+   "source": "Ruik",
+   "source_site": "https://www.ruik.cz",
+   "published": "2026-10-27",
+   "lang": "cs",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.ruik.cz/michal-postava-vychytal-prvni-vyhru-v-nhl-v-najezdech-zastavil-mcdavida-i-draisaitla/"
+  },
+  {
+   "title": "Michal Postava set for first NHL start against Edmonton — Red Wings turn to rookie in tough spot",
+   "google_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5la0c5YTRMYmFaRGEyOHhoODhiaWF6ZVhrR3FReHFEczBMQzR1dDdXR0tyanlMdkYyMVUycEp5cDJhYW1BM2cxQ2tjTFlOd0FqQ05R?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "source_site": "https://twaslnews1.twaslnews.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://twaslnews1.twaslnews.com/6655798/"
+  },
+  {
+   "title": "Michal Postava Just Did Something to Connor McDavid and Leon Draisaitl That Red Wings Fans Won't Forget",
+   "google_link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNDJLbE9wWDB4dzJZWDV4c215RFoyYnlCNENhc3FVQXRlb3FuU1o2OThMSXFVUW80Z1pHbzZibFBZWmItWjBUUVRIYzVnU2syUUcwb2pBRE9Ub0hLTGdNbDhvdGJ1RU5zTFRFYzNWRmRyUzBKUWZUMUM0THJ6dmRzTUx0OXM0N1kxVHEzNExGMmxLSzZhX044RHlrejd2Uk92dzZSN0Q2QTMzQnpxZXRQSEtNZElQbDQ0ZHpCMTZtTHpyMUQxY2lrLTRlVjI5VTQ?oc=5",
+   "source": "Detroit Sports Nation",
+   "source_site": "https://detroitsportsnation.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://detroitsportsnation.com/michal-postava-red-wings-mcdavid-draisaitl-shootout/richardknight/detroit-red-wings/10/27/2026/502806/"
+  },
+  {
+   "title": "Michal Postava Gets First NHL Start as Red Wings Face Oilers — Red Wings Vs Oilers Preview",
+   "google_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UVjNiekFjOUMxOXpfYlBOUFFWMjhnQkVqTnJ1bG9RZlF0dlZxNjJKcEtsZ2xZSnJvV1pRVW9Eek41Tjd6c3lZNU9DekRwd2pXelBZ?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "source_site": "https://twaslnews1.twaslnews.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://twaslnews1.twaslnews.com/6651213/"
+  },
+  {
+   "title": "Michal Postava Becomes Third Detroit Red Wings Goalie In 25 Years To Win First NHL Start",
+   "google_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObXNYcTIwdlVvaVN6X3A2dk5yOWwxbWFVWUhpQlJBSmNxLUp4b0h4VC1SRnByQjhZWHlUeXJSYVdjTDJNQXg5ckViaGtWSjdhV0ZmVmFKV0l2REl0eFVWS3lRV3FvbjU3eTV6Wk9JYjNEVVQ3OFpvc1RHTWpZMWFyZjdiVVRGUWhva0ZPZ1VJbHNiUU1CTW5pclBqZHBsWF9MOFNWZzlHNWdDVC05b2lPYWN2Sk9PNTBUeDRGQ0FSeFZTeGhOaXFJ?oc=5",
+   "source": "NDTV Sports",
+   "source_site": "https://sports.ndtv.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://sports.ndtv.com/us/nhl/michal-postava-becomes-third-detroit-red-wings-goalie-in-25-years-to-win-first-nhl-start-12241449"
+  },
+  {
+   "title": "It's time to have the Nate Danielson conversation",
+   "google_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYl9FX1RPeEkzMUFSR0QxNmprTzdudHhCTmdpbUJtMGxiMEZZX28yTDZBdWlWWlNrN3M4TTBMTWVhcG5peDVsQ0hvcE1QQkFNWUV2aWJCOW5nOEROU3N0dlJmRkNObFNoSnFqQzFzMUxuUHlrQUtkMDhjcndhMnltSHdXckJuLTV4aFRaQW5XVzQ4T0k?oc=5",
+   "source": "Octopus Thrower",
+   "source_site": "https://octopusthrower.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8484160
+   ],
+   "url": "https://octopusthrower.com/it-s-time-to-have-the-nate-danielson-conversation-01m5wet4nhdc"
+  },
+  {
+   "title": "Dylan Larkin Scores Late, Michal Postava Backstops Red Wings To Comeback S/O Win Over Oilers",
+   "google_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc1dUYlM0eWVhdlNvTDVRQmoxTnpvWHQ2ZGVtX1N4LXQxSXl4Q3V3dXQxSmZVcWoyWWZXNUNhMERSS0h2UTNmTnJjTnBXdG1vN0l0T3hFM0dkTFJfRUttYkEzUTRzMXpYTjQxSmM2R1hZYjdBQ1B0MzhRUWNWeXRqTlFKd2Qtb1cyVWxN?oc=5",
+   "source": "Yahoo Sports",
+   "source_site": "https://sports.yahoo.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://sports.yahoo.com/articles/dylan-larkin-scores-michal-postava-043929747.html"
+  },
+  {
+   "title": "Deen’s Daily: Avalanche Shakeup Coming?; Postava Shines For Detroit; NHL Trade Boards",
+   "google_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS21TVlJ1UVBrU280Nk51NXNsdWtGU05RbC1NeFEwNHhWRERqXzFyX3kyY201ZEtDTmtCR2NMVThqTzA2YXFuTEp1NEh2eFNQd2dOZUUtMFI5elBYeE9TbzlLN3RiVURfUmVWQ1hrc05rZDJiZUUwVW9tdXcwTDR6VVdXWFRaZnlCREFIcU4tVTI1Mlhpd19yVlRFVDZsa2dCcTI4azNGNTVoMm1MaW9wMA?oc=5",
+   "source": "Colorado Hockey Now",
+   "source_site": "https://coloradohockeynow.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://coloradohockeynow.com/deens-daily-avalanche-shakeup-coming-postava-shines-for-detroit-nhl-trade-boards/"
+  },
+  {
+   "title": "DET@EDM: Postava with a great save against Evan Bouchard",
+   "google_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV01rZGpSQm5pY2l4YmZnUDZ5dzZ0SjNsVWkzUlJoWWlhWEs5MUh0Ylk4d0xPYUxxM0VWRjVFdmdZcHE2WXRfOEdPN05VRTFSbFg2VEJqMnN2b0taV2twYnVkc1lMVDBJN0RKS3doZmdSMnN4S3FmN2RyZVRYY0FFX1dzSnFCdXpkeks4UjNNX3VtTjNQbXlCLU8xbjFMendZbm02QTlybw?oc=5",
+   "source": "NHL.com",
+   "source_site": "https://www.nhl.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.nhl.com/redwings/video/det-edm-postava-with-a-great-save-against-evan-bouchard-6407454754112"
+  },
+  {
+   "title": "Axel Sandin Pellikkas tuffa sits – petad igen",
+   "google_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaVFCRzl1R1pXZHBMaHozeWlZRUhCQVFhYVBOTDQ0YlJOY00yVXEtSXVOb2N1cXYwTzk5THNyWEtMVjhxYmY3dm50VXlqRnE0VXIzWjFQcGtKM3JHUFJmcWV2alJYWW4yRVVHSFI1cVkzV2FnX3FoQkpHMkR3QTVFTWZsRkt0M1NFamctTWZKMWF5R3ltSHBoek9xWllMMjRWMXYzMjJQZjE?oc=5",
+   "source": "Hockeysverige",
+   "source_site": "https://hockeysverige.se",
+   "published": "2026-10-27",
+   "lang": "sv",
+   "players": [
+    8484223
+   ],
+   "url": "https://hockeysverige.se/nhl/axel-sandin-pellikka-petad-detroit-red-wings-todd-mclellan-nhl-a2HLF8v3m41Y/"
+  },
+  {
+   "title": "\"I Feel Like A Kid\": Red Wings' Michal Postava Beaming After 1st Career NHL Win",
+   "google_link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdXdqbXBXU05Sdm1DR0VDbzZLY05LNVNZNjNwRnotTE1oS05fUWd2Y3BiTklxMEJGaU9sT0lDOGNlYzZrM2U5VDJ3MzEyMzd5RnR0WWo1eUpveG8wc1FBbHRneFhUQ2E4SXFITmNTUnV6MkpYX1dBSFdxOHpfa1Z4SXBrTWIwOV90X2MyS2FSTlU4MmtrZVFaRXQxUlRvVV8zSG1iSzJhVEVMZkxsR2pzb2pHel9rRW4tQllhaFlhWm1DWUxOWWVCb1NlajdCTHlo?oc=5",
+   "source": "The Hockey News",
+   "source_site": "https://thehockeynews.com",
+   "published": "2026-10-27",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/i-feel-like-a-kid-red-wings-michal-postava-beaming-after-1st-career-nhl-win"
+  },
+  {
+   "title": "Red Wings' Michal Postava: Facing Oilers",
+   "google_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlpSdGtXOUxHTS1CbHpTOFlFVFNSVzB1ZFNvT2FHQVBCZUFucDZCcnZyZmQ0eDN5VkFBTmg1TnlhRlhSZGctQnZCX1RGdEVwMV9ZemRqTXJzdG9ocVVVUUpxNzhCUzNZQ1E4c2dFTkZ2dGxKMV90OG8ydGVkcW5DbXBsb1FiVFc4WTVwTnRB?oc=5",
+   "source": "CBS Sports",
+   "source_site": "https://www.cbssports.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-michal-postava-facing-oilers/"
+  },
+  {
+   "title": "Red Wings' Michal Postava to get first NHL start Monday against Edmonton",
+   "google_link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNa2tUMENkTkJPdUhCOHRSSkdNNlpOUXZZOGRoVEdPVHNYX1pHNG5XSXAwRllkQnJfcjJRR1NacThWZFRBYVB0TFR4ZVdRbVVsYWlGRDFMR05HYTladGFMRmtGbFBFalRnRnJRR3RoblVwU2VfZTBvMUdIR0Rsa1B1LU5XYmpGYWUxaTlYMHhnX2VKRmpkekhQOENRZTZ4YnhUM1ZWRldfY0JrOER5Q3MyNk5lRGVMTW5QNzNmRU5PVmJGaHoxcGsyOVhLVXpsRGI1b0dDMHE5eTFLTnNzM2tsc3hkRHY?oc=5",
+   "source": "The Detroit News",
+   "source_site": "https://www.detroitnews.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.detroitnews.com/story/sports/nhl/red-wings/2026/10/26/red-wings-michal-postava-to-get-first-nhl-start-against-edmonton-oilers/92447128007/"
+  },
+  {
+   "title": "Red Wings at Oilers projected lineups",
+   "google_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeFhXQ1pSQUVnZ1FWSFphak9GWElHUXJtRmhlNHlNNU9ZSzd6cUV6Wkk3XzdheGJvS21WNkVwWWtZd0xleXhRTFlNalVKeERhQl83QTlJNWt3Y0w2bktNZVVheGotVGV0SFR3ZHBZZXVJQ2lRQUs5ZnVDcE1wNVNOT1VGUXBwOE5hY3VBblJvbEU?oc=5",
+   "source": "NHL.com",
+   "source_site": "https://www.nhl.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8484223
+   ],
+   "url": "https://www.nhl.com/news/detroit-red-wings-edmonton-oilers-game-preview-october-26-2026"
+  },
+  {
+   "title": "Red Wings Turn to an Untested Goalie in Edmonton",
+   "google_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVhyeE9IWWpfZXo4aHFMUW8zX29hbm9sbHJQVG41T01nTXF6Ung3Rlpjak44X1dFVVVCbFpqWWVpQzVxUGpNbExUdk8xak5wUXZCZmtPYXl3TGdEQWxKTlBiaUFReV9ERnh4R0ZPTWZEWDJ4eC00RHlmdnBnUTQySFk2QzJqTGJmOVhEMmFPT0RTaGVtZFpnTDFaSGFCRmZWVzVhMFJSWkdTM2xuM0VsUnFoRWhuakdhNVFhZmpZaGFpUQ?oc=5",
+   "source": "Detroit Sports Nation",
+   "source_site": "https://detroitsportsnation.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://detroitsportsnation.com/michal-postava-first-nhl-start-red-wings-oilers/gkaplan/detroit-red-wings/10/26/2026/502764/"
+  },
+  {
+   "title": "NHL Prospect Roundup: Five players dominating the AHL early in 2026-27",
+   "google_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONnlWcXJOS3dBVnhkZDlzelE1T09QZG5LZ0pKNlBGajFibi1aYjFEUHZ4LVVmMjJGS0tGeHMxb2ctTHJVOWpMZWttVTlMRnB3c1ZlSVdXWlM1WTdEZHdYZnhyT2U5QjlQcDJTd3hobWpiZk43cVhaSmh0WW1CZUdGVXNqN3lGaTM3UnlWX1kwZ01jYUVkdUxhZ0dqUHBoSWFDY2ttenZad01XN2NqUm5TMWlFRkd1TzVJNkZCdmtRdVdncHlhc0N1MnlvMVdnR2NmSGwtcHRlS2o4VTB1WDN1Uw?oc=5",
+   "source": "Daily Faceoff",
+   "source_site": "https://www.dailyfaceoff.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8484183
+   ],
+   "url": "https://www.dailyfaceoff.com/news/five-nhl-prospects-ahl-chibrikov-mittelstadt-jugnauth-kiiskinen-nabokov-avalanche-canadiens-red-wings-jets-kraken"
+  },
+  {
+   "title": "Michal Postava to Make First Career NHL Start With Red Wings",
+   "google_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdC0wTDYzenRkSUV5aXM1dklGdnFqV0NUR2RnV3lQeUlfdWRvX1F3YjRHTE9HMTVRRU1IS1h0NDdSSUdBeTBXUld4OWh2Z0NKRGdyaFQwU0JXMTh2dTB1d2JFRUpHVFFjalpqOFVjXzVvVU0wVEtZWGMtX3JLSnRIemJjMllLZmxDa2tSZWdtWDdGSGo5Y1doeTFCaw?oc=5",
+   "source": "Sports Illustrated",
+   "source_site": "https://www.si.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.si.com/nhl/red-wings/onsi/news/michal-postava-make-first-career-nhl-start-red-wings"
+  },
+  {
+   "title": "Michal Postava faces tough test in first NHL start for Red Wings",
+   "google_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbEgzeURiWHh5RF84VVgxNTlnV2xLZ0w1SlplajBzVmpFUW1GLWhBakVaYVpNbVZKcDNRY0hSdmZodWRKejdIdk83bUF2clpLMzUzNUFLcjZEcl9CT1JGd3NadFI0SjdVcUItNHVRV0NCQ1JxWlF1VlBLMV9kZjFOUDloZ2FZeDlLMVhFOHNKUTFZNDluMFlPRHRtWFhqdGJiWXRKTU9KaHd2azBB?oc=5",
+   "source": "MLive.com",
+   "source_site": "https://www.mlive.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.mlive.com/redwings/2026/10/michal-postava-faces-tough-test-in-first-nhl-start-for-red-wings.html"
+  },
+  {
+   "title": "Michal Postava earns his first official NHL start",
+   "google_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd1E4aWRNdHZQclI2emNOWXRmV1BxZFN3ZHo1MWg5cGk0LVhMbUZueEhjWnlzZkZzUU5yTGloZTZ6SFdpRVZBMWVGSExfa2xNeTJPWm83T3Q2YWQ3RHRIeE56bTdiQ2JLTkl5Q2hhMTQ4NG9rTGFFMlBROHJ4TkNvYVZrNURuVkJma3BWSmpvWmZCVnM?oc=5",
+   "source": "Octopus Thrower",
+   "source_site": "https://octopusthrower.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://octopusthrower.com/michal-postava-earns-his-first-official-nhl-start-01m5wn3xtm1s"
+  },
+  {
+   "title": "Michal Postava To Start 1st Career Regular Season Game For Red Wings",
+   "google_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMnQ1d0N5Z3Y1YkJoUW1MMi03bWNlYUY3bGowWEN4bENfczNma1BvTkp0N2d5LTd4OHlJMGZBelU2am16cUV0eTZ4cm1KNkhxYnVyY3NyeGJtYUNZTlZKcjUwTmI3d3lGUGVXMFc4YmljT2Jzb1BOVkJzazZTNWVIYVpPSllhUEU?oc=5",
+   "source": "Yahoo Sports",
+   "source_site": "https://sports.yahoo.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://sports.yahoo.com/articles/michal-postava-start-1st-career-181237179.html"
+  },
+  {
+   "title": "Michal Postava To Start 1st Career Regular Season Game For Red Wings",
+   "google_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX01meVNyc2J1b2NTdHpKRHM2SDFJQXJjbk5Jd2RGM0RCVUtoM3dEdFF4SGtoSU5TX3d6WnFrVzFtbzJtaGljaXVTY0V6T3ppXzdtc3BpUk1ha0VYMEwtN00tRDhHSHJPWEVJLWwyUGUyVjZYX2tERmgzS0hHLVB5QkdWcUZSYUtqS2tkOG9ZUnZhT3NfbzB2azVuNHlvVW56TExBQU84emRBalVzZGd0TUMzeXdneDItaXZ0a1p5dnR3WGFWRmhj?oc=5",
+   "source": "The Hockey News",
+   "source_site": "https://thehockeynews.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/michal-postava-to-start-1st-career-regular-season-game-for-red-wings"
+  },
+  {
+   "title": "Michal Postava Earns First NHL Start Tonight",
+   "google_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORExYVlYyWXlqc0RaS0sxeVFWVlpVaEktOW5RMVQyUlRGdFVSc0ozeUdlUW40a1ozTHlsZEVTU2NjUHk4eF9WUlNEUGp5Snd2VGpGWGJHbzY4ZFNzSi1RSWxWLVd6R3JmQms2RVFEX2lzcUtfck1YeWo4ZjYyZXlPTk5QZ0dnbWVvYjNSVnFn?oc=5",
+   "source": "Detroit Hockey Now",
+   "source_site": "https://detroithockeynow.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://detroithockeynow.com/michal-postava-nhl-debut-tonight-versus-edmonton-oilers/"
+  },
+  {
+   "title": "Herjer i NHL: – Jeg lever drømmen",
+   "google_link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DUnNZTThMbVo1d0hXZldVSXRoS09BV1pKWlUteURFOTZ0UmJlR1lnY0gzQkxuM1dBX0JLSFV4V1V6V3lVejAwZ05BcktXWHczZExaQjFNUXNlV0JacEx0a2hONlVBMHZNYlBtTl9UNGVoX1E?oc=5",
+   "source": "TV 2",
+   "source_site": "https://www.tv2.no",
+   "published": "2026-10-26",
+   "lang": "no",
+   "players": [
+    8484794
+   ],
+   "url": "https://www.tv2.no/sport/herjer-i-nhl-jeg-lever-drommen/19361177/"
+  },
   {
    "title": "Ferris St Hockey",
    "google_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV0pEYXRZUC1Wb2hfbWpfa1ROZGJjNDBURXFDTHJ3dVZsRjhDMlppSVVrejFzb1FmVU4taWFkcUhoVzhMYzRnR2pEcFN1TV9GMC1fWVpSV2JpRkVTNzdTTlRMNkZwVXNITU1RLS1uNENyRjl0dE50OFAtempWMUFVWW02Q3U0amp6WTZkOU1IdWcxdUFWWThlUTJsVW9TMG5zVXdnYzhxZXpJaFQwc2lwZ2pfRkdMbGs?oc=5",
@@ -15,6 +603,42 @@
    "url": "https://www.athensreview.com/sports/national_sports/ferris-st-hockey/image_5cd4abcc-8e7f-545c-9f8a-488656401077.html"
   },
   {
+   "title": "Detroit Red Wings Prospect Luka Arkko Goal (5) | 2026 Erie Otters vs Brampton Steelheads | Oct 25",
+   "google_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdEl5S3hRc1JJVUloSTJBV2tMTHp4MVhZRFFSYTRjN29FN25EeVVaMW9xYzB2bEgxN0U1Rmo1Y0NsUnd2QjJOeS1rNEJoUUFzMlBVVURNU2QtRU8wMHBUb01nLWVXTHQxVEhtYzhRS0NTNm5QRWlrc3hkT1EwcGJxNUFkb3BVMjIwYmtoOVZ3?oc=5",
+   "source": "FloHockey",
+   "source_site": "https://www.flohockey.tv",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8486305
+   ],
+   "url": "https://www.flohockey.tv/collections/6752010-continue-watching/video?playing=16305303"
+  },
+  {
+   "title": "Deadline For Unsigned Red Wings' D Simon Edvinsson Getting Closer By The Day",
+   "google_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQlE4QmI2SzdoRjdoQXYzWW1jQ3BpZUYyZEdWN3FPa1RXZHlfNEVhRTFxa1I5dGRCX3BNd1FKUWtjeUdnUHlRcW5rVS1iWVRnbnp6dWd2WWdnczZ5ZDh3Uzk1QVlpQS0tSzlXbmR3QmRSNHpYNkh0NmpnblhmRDlRT2JqOEJKeGZMY243a0NOcm5wMG44WGg3YjNtY3E5cFo5UXpJbDFWc0RjSTVnRjdV?oc=5",
+   "source": "The Hockey News",
+   "source_site": "https://thehockeynews.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8484223
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/players/deadline-for-simon-edvinsson-getting-closer-by-the-day"
+  },
+  {
+   "title": "Anton Johansson's 1st NHL goal evens score for Red Wings",
+   "google_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zYTJZQTVaTDZPNTY5ZHJCZWJsWWxkVVJmcEFKNXN2cl9hQ0dyYUZnWFA3dW5HMUs4SmRnbUtweHJFMTZhLTJzTHRYUWt3VlJybHlteFpqbkJKdEU?oc=5",
+   "source": "ESPN",
+   "source_site": "https://www.espn.com",
+   "published": "2026-10-26",
+   "lang": "en",
+   "players": [
+    8483679
+   ],
+   "url": "https://www.espn.com/watch/player/_/id/50192851"
+  },
+  {
    "title": "VIDEO CHL: Slováci v zámorí o sebe dávajú vedieť. Kovalčík režíroval výhru, bodovali aj Bernát so Svrčekom",
    "google_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVGFaLV9oLUZ6VWpxdGd3dWpVbjZTUjhiNDVPSVE1LVZoSTRpeV94NjBVQ29DX2k5TUxRMk83S3RFTXo5T2IzRkV1UzQ2Zmt5eS1WX1hULURNRjlzY0lNcG1OVXBaQWZteDJ6ZmZuRGQ4ZkRpZFpxLWlhc2R6bGpUWWppY1A2OXdUZHdUb3V2T0syZ0ZPOURRSFFsSVlGaWNzR09DWEFR?oc=5",
    "source": "Šport.sk",
@@ -25,6 +649,18 @@
     8485592
    ],
    "url": "https://sport.aktuality.sk/hokej/clanok/chl-slovaci-v-zamori-bernat-svrcek-bodovali-2026102509564066438"
+  },
+  {
+   "title": "The Daily: Brandsegg-Nygard Tied for NHL Rookie Points Lead; Ex-Red Wing Lands a Job",
+   "google_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjBXQVJfaTlZRG5NazBMcEhDX2VtTUR3aC0wVThHN2ppRWMwQTdaOXdKY2tpT0FwRFN0ckR2NnZWTVNZaWxDVkxTS0pVelljMU5CRkluSXFkMkk1ekg2QmpQcWF5Wjk5ZVdyZy13aHlDbW45WWlUVDNLLUp1N2p4ZVhNWkc3RWxSTTdUbGhheU5oeUdMc1h3SWJCRjRzdDJnakIwYjVYY01ZQmZl?oc=5",
+   "source": "Detroit Hockey Now",
+   "source_site": "https://detroithockeynow.com",
+   "published": "2026-10-25",
+   "lang": "en",
+   "players": [
+    8484794
+   ],
+   "url": "https://detroithockeynow.com/detroit-red-wings-michael-brandsegg-nygard-tied-first-place-nhl-rookie-scoring/"
   },
   {
    "title": "Michael Dec Goal (6) | 2026 Niagara IceDogs vs Erie Otters | Oct 24",
@@ -160,7 +796,7 @@
   },
   {
    "title": "Post-Game Interview – Michal Orsulak, October 23, 2026",
-   "google_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdmNuTTEzWVpJTzF5T2dxdjJUNVMzMEIzNmxOMUFBdFR5MWV3TjNhR24ycHJIalc1ZkJ2djB3Y3NlSURxOWlMNENmcnYzeVNBemJrM0FyQlhrY2U5cTJ4cEFwUzQxWkRnaDJuMWtJN3BNY0lkWHo5am52MFotTmo4cDlPaDlHQ0lkNlFV?oc=5",
+   "google_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQazd6VFI0cGV4U2YxalBGMUxua0U3bmN4V3ZDLWgtSmhrYjk3Zk9UQ2hXakV0VDlLSEVIdGtoUDMtalNsNVVtQWhYTVlCMHliT05RMEZ0aHh0c2d2ZTJ2eVhUSXdFbkF6YmYyU3U5MkZYOGZjNTB0T0xYX2RNWVdySDZNbkNneDBJLWRweA?oc=5",
    "source": "Canadian Hockey League",
    "source_site": "https://chl.ca",
    "published": "2026-10-24",
@@ -168,7 +804,7 @@
    "players": [
     8486080
    ],
-   "url": "https://chl.ca/whl-raiders/video/post-game-interview-michal-orsulak-october-23-2026"
+   "url": "https://chl.ca/whl-raiders/video/post-game-interview-michal-orsulak-october-23-2026/"
   },
   {
    "title": "Ondrej Becher Stats: 2026-27 Season, Game Log & Career",
@@ -325,18 +961,6 @@
     8484794
    ],
    "url": "https://sports.yahoo.com/articles/daily-brandsegg-nygard-tied-nhl-170821522.html"
-  },
-  {
-   "title": "The Daily: Brandsegg-Nygard Tied for NHL Rookie Points Lead; Ex-Red Wing Lands a Job",
-   "google_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjBXQVJfaTlZRG5NazBMcEhDX2VtTUR3aC0wVThHN2ppRWMwQTdaOXdKY2tpT0FwRFN0ckR2NnZWTVNZaWxDVkxTS0pVelljMU5CRkluSXFkMkk1ekg2QmpQcWF5Wjk5ZVdyZy13aHlDbW45WWlUVDNLLUp1N2p4ZVhNWkc3RWxSTTdUbGhheU5oeUdMc1h3SWJCRjRzdDJnakIwYjVYY01ZQmZl?oc=5",
-   "source": "Detroit Hockey Now",
-   "source_site": "https://detroithockeynow.com",
-   "published": "2026-10-23",
-   "lang": "en",
-   "players": [
-    8484794
-   ],
-   "url": "https://detroithockeynow.com/detroit-red-wings-michael-brandsegg-nygard-tied-first-place-nhl-rookie-scoring/"
   },
   {
    "title": "THESE SWEDES ARE TERRIFYING: AXEL SANDIN PELLIKKA & IVAR STENBERG ARE BREAKING THE NHL (Red Wings) Hantavirus Mascherine (emAd8RrZNR)",
@@ -555,6 +1179,18 @@
    "url": "https://detroithockeynow.com/raymond-powers-red-wings-past-canucks-in-michal-postavas-debut/"
   },
   {
+   "title": "Před dvěma a půl lety v Přerově, teď Postava debutoval v NHL a pobavil reportéry",
+   "google_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNazJBQVVDSzl5ODRQaVZqbjlhUDZsdDZpMjBEQ3YtWjY3QnRtUXdtb1BrZDNZWk14Rkd4d1k1WUlIQllGTEhfd0tVZzNkWEFTRkx5c0REV3d3U0tHcGgtOVNoWDZ1S0ZTd1VtRFlvQVpyUTdYTkpDZFAwRG92cmF4c1I2SWpTdEdPTU5iV0dUMEVUdzNuZE1FMTJvc19OZlozSEw4cWp5N254SlltYW5MRWI3bw?oc=5",
+   "source": "Přerovský deník",
+   "source_site": "https://prerovsky.denik.cz",
+   "published": "2026-10-23",
+   "lang": "cs",
+   "players": [
+    8485545
+   ],
+   "url": "https://prerovsky.denik.cz/hokej/pred-dvema-a-pul-lety-v-prerove-ted-postava-debutoval-v-nhl-a-pobavil-reportery/"
+  },
+  {
    "title": "NHL-legendaren på plats – för att se Eddie Genborg: ”Liten chock”",
    "google_link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd2dvcl9sOGkxODVLSDNzRVlkbml6TVRrTXl5YnE2V0liTTd6d0dCejJwMnFkODBLX1E0Q0F6QlBKRDc0LUwtUjZiRW9WeVpnVFJ5RVQweDd2aXVnQl9tSjR1cUNIVVEyRTZYTklNdElnZWVwMkVaQjhjbnZjUVVCc29udE1wSF91YWZlV1BLa1BwekxaOVFTUE5NY1IydUEwMmZ6YkNNbmlsdkJtaUdIQXhCby1rSm91WnY1QVZNOGkwSkdCYTlaXy1lRVh4UQ?oc=5",
    "source": "TTELA",
@@ -603,6 +1239,18 @@
    "url": "https://www.usatoday.com/story/sports/nhl/red-wings/2026/10/23/detroit-red-wings-get-big-saves-from-goalie-prospect-michal-postava/92381928007/?gnt-cfr=1&gca-cat=p&gca-uir=true&gca-epti=z11xx31p119750l003550c119750e1185xxv11xx31d--49--b--49--&gca-ft=8&gca-ds=sophi"
   },
   {
+   "title": "Michal Postava si odbyl debut v NHL, 🇨🇿 Hronek ani Chytil na něj nevyzráli",
+   "google_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWXJxcUNoV3c3TVhqVW15c1JmRC1MMDRJaG1NZi1VRXNUbkZwU3BmWEwzSXFXNXRxZkhTbnRFeU1BaHAwWDNYa3NTd3FxUW9NMTVDTWF4ZlRzVmRyZWg5WHhTYk5sOHFBc0Z5RnU5TnNDVVpKWFhQNWtuVlVydTQ5YnY3VW9DT3Ju?oc=5",
+   "source": "HokejZpravy.cz",
+   "source_site": "https://www.hokejzpravy.cz",
+   "published": "2026-10-23",
+   "lang": "cs",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.hokejzpravy.cz/rubriky/nhl/michal-postava-prvni-zapas-v-nhl_4171.html"
+  },
+  {
    "title": "Michal Postava debutoval v NHL. Do brány Detroitu naskočil nečekaně po zranění Gibsona",
    "google_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUlo0dTAyTS1GVVdDMW12Q2pHckRYX3ZQdVEwbzA4MGlvZFR4eGRHSjJUS2tNdU5haF80QUM1emlndkRjS1RXX0xnTnBnNmhRZVJITDFPSkU0cFlxV0dPTGdBZTd2U1hjZnBzVjd1a3BhWUJoeHFsSVFHTzNBQy1BemRkVU5aYm5XdVJPVTFrT1UwNUt1SC1zUHBNMDg1N25xOU5JRkdZYVJOdw?oc=5",
    "source": "Ruik",
@@ -613,6 +1261,18 @@
     8485545
    ],
    "url": "https://www.ruik.cz/michal-postava-debutoval-v-nhl-do-brany-detroitu-naskocil-necekane-po-zraneni-gibsona/"
+  },
+  {
+   "title": "Michal Postava Makes Emotional Admission After Unexpected Red Wings Debut",
+   "google_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTk1WaU9yODM3bE1FWGRKbmlCblJOOE1YcjZVSjYtWFFsTFNOX0VvR09MVTBlYW5OQ1I3VVA0bWUta3haMWQ0eXFMRTRqT25rYzJ1R2J2SzU0a3VXcExhUVZybVJvQ0c5WF95VWdSWG5qRlNXY0xlQVdBaWhvcHNlVWZnVFk5MFRhLVFFMG4xeGhvaEU?oc=5",
+   "source": "Yahoo Sports",
+   "source_site": "https://sports.yahoo.com",
+   "published": "2026-10-23",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://sports.yahoo.com/articles/michal-postava-makes-emotional-admission-142416634.html"
   },
   {
    "title": "Michal Postava Makes Emotional Admission After Unexpected Red Wings Debut",
@@ -646,8 +1306,7 @@
    "published": "2026-10-23",
    "lang": "en",
    "players": [
-    8484794,
-    8485545
+    8484794
    ],
    "url": "https://www.nhl.com/redwings/video/meijer-postgame-comments-10-22-26-6407276452112"
   },
@@ -856,6 +1515,18 @@
    "url": "https://octopusthrower.com/a-shiny-new-swedish-forward-has-emerged-with-the-griffins-01m5cnmt7jyw"
   },
   {
+   "title": "5 things you might have missed from UND's series-opening loss at Minnesota",
+   "google_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVFplTk81VGVPaXhWaVRLdmE5RmRMMGo1SUFyLTRVOEY3ZWFuZkZTSWYzOHBiVWM1LVh6VU85QXQ1WWUwbVlsWFdYbHFvSGNZVmR4LUN0Qlg0eWlWU2dHZnBhMC1lQWpqV3ljdURuTU5Cd29WSm5GclFRLUVLR0d2Q0paVHFTQjB2aDJodVlycFlWN1REVkluR3VaRUhQY0p2ckdjb3plSHJQNWVZRTFzMi1vVmxWSlVOa2VQWTU2Wjd5QQ?oc=5",
+   "source": "Grand Forks Herald",
+   "source_site": "https://www.grandforksherald.com",
+   "published": "2026-10-23",
+   "lang": "en",
+   "players": [
+    8485040
+   ],
+   "url": "https://www.grandforksherald.com/sports/und-hockey/5-things-you-might-have-missed-from-unds-series-opening-loss-at-minnesota"
+  },
+  {
    "title": "William Wallinder, Todd McLellan Morning Skate | Detroit Red Wings",
    "google_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdFh4TEhCYmd1dGhtVDA4OXFXLUtUNkFmcUo4dmJrQy1ncHhpRXQ3UGZwQ0FSYzJIUjVyY1BrWDhkSEgtVFgyOVdvSGxZU3pnXzVMZEZUdzdEUmNuUExFaXZkNjR3NVIzdS05YmtvZkN4WDJiRnd1Mnk4a2V0SWJ5THpxNkhqbnhORG1WdWo0RXNDTnlwR2hIVmVB?oc=5",
    "source": "NHL.com",
@@ -893,6 +1564,18 @@
   },
   {
    "title": "Todd McLellan on what Detroit Red Wings need from Nate Danielson",
+   "google_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTEhYOFJtOW1leFlSXzc1OF9TQUoyRjhId1gxbzdIcVdKbmJJS09UT0c4M0VsUEVvdUNDQVQ1d3hwUmhBQ09ycS1GZDhWZ0NLRk00S1RWYW12c1UyVURybWtkWFJSUk9oVUs0RWVGcDR1WklDQVhGWVdXTEduQjljNkw2d1NjbF9zblBTU2UwUGNpVVMyaGRUekQxTkZnOGlYWGlibWxmT09hQXZvYURCUlcweEhQa0pBM2YyTw?oc=5",
+   "source": "Detroit Free Press",
+   "source_site": "https://www.freep.com",
+   "published": "2026-10-22",
+   "lang": "en",
+   "players": [
+    8484160
+   ],
+   "url": "https://www.freep.com/videos/sports/nhl/red-wings/2026/10/21/todd-mclellan-detroit-red-wings-nate-danielson/92370680007/"
+  },
+  {
+   "title": "Todd McLellan on what Detroit Red Wings need from Nate Danielson",
    "google_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb0laZGdyV2hVdXpUNGF5dDhncGdZb0wxZV9NdjZWeTYzZjFBX2FoUVZwWFdNS1RlVmV4MDZrcXIwOW93ZkxxTTZPVUhVd0JtRktTYzBjd1FqQWVjeWNpdFg0Z1ExUndQNGNuVDc1U2IwZGczY1VIYmw3SDB5WmpEcnlDNEsxQW15QjJPanVQaXBWWXVlYWlNTFNMZHBZTWJZWDR3RnlaMktHY3lDc09ocE9KeGZDOXprb2dCN1hOUS0?oc=5",
    "source": "USA Today",
    "source_site": "https://www.usatoday.com",
@@ -914,18 +1597,6 @@
     8484160
    ],
    "url": "https://www.yahoo.com/news/videos/todd-mclellan-detroit-red-wings-021425589.html"
-  },
-  {
-   "title": "Todd McLellan on what Detroit Red Wings need from Nate Danielson",
-   "google_link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVFhlRDJsaHFKYkpJcWgtMnVLWUllOUtiR2lvdUk5MEpPMHBhWm9vc3p3VHJHUU9nWWtpdW9SRmNzX3B2dnVNdmNqdUpLY2RhTkNKZHNwM0t2MjJmR1hCdlM4TGI5MFpaeFJrWklVUGNVRlhwM1hibXNmcW81VVoxbUk1UTRjVzhYQjdJc3lHVXo2SXRQU2tsWFV4ajktVzFlSnBrR003dldwZFczc0VySXZvY1NYdzkzdFNJbzVDQjYyR2M?oc=5",
-   "source": "Detroit Free Press",
-   "source_site": "https://uw-media.freep.com",
-   "published": "2026-10-22",
-   "lang": "en",
-   "players": [
-    8484160
-   ],
-   "url": "https://uw-media.freep.com/videos/sports/nhl/red-wings/2026/10/21/todd-mclellan-detroit-red-wings-nate-danielson/92370680007/"
   },
   {
    "title": "This Red Wings prospect has a big opportunity with the Griffins",
@@ -964,6 +1635,18 @@
    "url": "https://www.flashscore.sk/spravy/top-5-slovakov-tyzdna-v-zamori-svrcek-a-tomik-zvysuju-tempo-pripomenul-sa-sramaty/WKfgn5DG/"
   },
   {
+   "title": "Splnění snu se přiblížilo. Český gólman je povolán do NHL",
+   "google_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYzVkbzBhbHp1QW00QWxLZUtvZGJDbjYwZVdRS3Z1blk4S3RUbS1qdldSdVp6ZEw5eGVBX2l1QnlsTmdVRnBtemh1V3djRFJNR0RCd1RBS0t3dWM2UWVKUXRweHo1a2s1elN3ZHdtZmFlVDhUVFpNamNDd09ka0xUWGxWRENCOHFMYUEwR0I5UmxraERFbzVFaHVPbVF3SVphVTNWOA?oc=5",
+   "source": "Sport.cz",
+   "source_site": "https://www.sport.cz",
+   "published": "2026-10-22",
+   "lang": "cs",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.sport.cz/clanek/hokej-nhl-splneni-snu-se-priblizilo-cesky-golman-je-povolan-do-nhl-5559951"
+  },
+  {
    "title": "Sandin-Pellikka aktuell för NHL-debut",
    "google_link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04VVZwcmtpdzR2akNlTHJnZDhYQWkxVTEyRW5VS0F4dUxTMW1JM2ZrS21McEVBQzN1VUpwTXMxc3hzUG1LTkxNd3JQcW5kb0xualdYY1A5WVJWeVA1WWc2eXAycGRqbm1ucVFiOXE5YU8zMEttT2c?oc=5",
    "source": "Hockeynews",
@@ -977,18 +1660,6 @@
   },
   {
    "title": "Report: Michal Postava Recalled By Detroit Red Wings",
-   "google_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa0dKTXowZ2VIQUNfd19Ia3ozRjNaOXpFTEJveHNXakp4UVZCVXlYYklHYXJ4QTBpYW5KdDNpa2t2Q3BRSnphcTRRMS01eGlTQzktSWJjSVgtV0NIX0ZwR2xQV3VQRWFmTFN4Y2gtWktpX0xvVzhnZTRhTXdmeGRXZEVCN3h2OS1rZmo4Tk83V0RGeWs5ZE1MUk9lSkpIRExFY0V4bTZ2dzNMcTVFOXc?oc=5",
-   "source": "Yardbarker",
-   "source_site": "https://www.yardbarker.com",
-   "published": "2026-10-22",
-   "lang": "en",
-   "players": [
-    8485545
-   ],
-   "url": "https://www.yardbarker.com/nhl/articles/report_michal_postava_recalled_by_detroit_red_wings/s1_17352_44458160"
-  },
-  {
-   "title": "Report: Michal Postava Recalled By Detroit Red Wings",
    "google_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbDhRXzZPYkxxRGl2RWZYMWhIakVGLUZ2TkFONVBmSFRUMkxsRUZ5MHoxd0xfTW1YZm1NWk9OMUtHMndRUzM1ODUzMXF1a2RUX3dPdDRWeTVZck1SdTc2T2NqaW9oWXZUVzRMM21GY1JRSHpYT2pCYnExQzZfNGJlN25zTDM?oc=5",
    "source": "Inside The Rink",
    "source_site": "https://insidetherink.com",
@@ -998,6 +1669,18 @@
     8485545
    ],
    "url": "https://insidetherink.com/report-michal-postava-recalled-by-detroit-red-wings/"
+  },
+  {
+   "title": "Report: Michal Postava Recalled By Detroit Red Wings",
+   "google_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa0dKTXowZ2VIQUNfd19Ia3ozRjNaOXpFTEJveHNXakp4UVZCVXlYYklHYXJ4QTBpYW5KdDNpa2t2Q3BRSnphcTRRMS01eGlTQzktSWJjSVgtV0NIX0ZwR2xQV3VQRWFmTFN4Y2gtWktpX0xvVzhnZTRhTXdmeGRXZEVCN3h2OS1rZmo4Tk83V0RGeWs5ZE1MUk9lSkpIRExFY0V4bTZ2dzNMcTVFOXc?oc=5",
+   "source": "Yardbarker",
+   "source_site": "https://www.yardbarker.com",
+   "published": "2026-10-22",
+   "lang": "en",
+   "players": [
+    8485545
+   ],
+   "url": "https://www.yardbarker.com/nhl/articles/report_michal_postava_recalled_by_detroit_red_wings/s1_17352_44458160"
   },
   {
    "title": "Red Wings' Michal Postava: Coming up to NHL",
@@ -1193,18 +1876,6 @@
   },
   {
    "title": "Goaltender Michal Postava To Be Called Up To Red Wings",
-   "google_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV1ZoWmtCcC1iZnotUXY1cllmTklCT0h6Z1JualpBUXRON1pKX2pnVkxBclRtcnhEUXJLU3NNd1N1U0llV0dQVDVEMmRrOTFCUEZaNUFPeU9lcmZhR29teXMwZ0pkWExjVHFLQTNTNUxEVmt1TFJ5TjBVQlFuQjZIeTI0MWZEYUo2c0dKR3Ita2wzVlh6UmtnWlQ0amRod0FZSDNUMmJwN1poeG5vMVdZbHRXbF8?oc=5",
-   "source": "The Hockey News",
-   "source_site": "https://thehockeynews.com",
-   "published": "2026-10-22",
-   "lang": "en",
-   "players": [
-    8484223
-   ],
-   "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/goaltender-michal-postava-to-be-called-up-to-red-wings"
-  },
-  {
-   "title": "Goaltender Michal Postava To Be Called Up To Red Wings",
    "google_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSU9Ua3ZNWHd5b1oyZ2xNTmNwVnkySi1xalkwaExTcWtmN0pVU0dNUVBwczBlTGFpaklJUmw0T0hZLVNfcnJTcXlxbVNYVW1DQkZtSVdNX3BSR3dPa2JLRGM3SXM0cjl5Rnl2SVZDUVF0bGx3Ym16N2pNX3FlZi16WjlfYnQ5d1l5aEVhNkRR?oc=5",
    "source": "Yahoo Sports",
    "source_site": "https://sports.yahoo.com",
@@ -1214,6 +1885,18 @@
     8485545
    ],
    "url": "https://sports.yahoo.com/articles/goaltender-michal-postava-called-red-125419191.html"
+  },
+  {
+   "title": "Goaltender Michal Postava To Be Called Up To Red Wings",
+   "google_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV1ZoWmtCcC1iZnotUXY1cllmTklCT0h6Z1JualpBUXRON1pKX2pnVkxBclRtcnhEUXJLU3NNd1N1U0llV0dQVDVEMmRrOTFCUEZaNUFPeU9lcmZhR29teXMwZ0pkWExjVHFLQTNTNUxEVmt1TFJ5TjBVQlFuQjZIeTI0MWZEYUo2c0dKR3Ita2wzVlh6UmtnWlQ0amRod0FZSDNUMmJwN1poeG5vMVdZbHRXbF8?oc=5",
+   "source": "The Hockey News",
+   "source_site": "https://thehockeynews.com",
+   "published": "2026-10-22",
+   "lang": "en",
+   "players": [
+    8484223
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/goaltender-michal-postava-to-be-called-up-to-red-wings"
   },
   {
    "title": "Förlängde nyss – kan lämna ändå: \"Provar\"",
@@ -1286,18 +1969,6 @@
     8484223
    ],
    "url": "https://octopusthrower.com/axel-sandin-pellikka-proved-why-he-needs-more-ice-time-01m5e80dbtyv"
-  },
-  {
-   "title": "5 things you might have missed from UND's series-opening loss at Minnesota",
-   "google_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVFplTk81VGVPaXhWaVRLdmE5RmRMMGo1SUFyLTRVOEY3ZWFuZkZTSWYzOHBiVWM1LVh6VU85QXQ1WWUwbVlsWFdYbHFvSGNZVmR4LUN0Qlg0eWlWU2dHZnBhMC1lQWpqV3ljdURuTU5Cd29WSm5GclFRLUVLR0d2Q0paVHFTQjB2aDJodVlycFlWN1REVkluR3VaRUhQY0p2ckdjb3plSHJQNWVZRTFzMi1vVmxWSlVOa2VQWTU2Wjd5QQ?oc=5",
-   "source": "Grand Forks Herald",
-   "source_site": "https://www.grandforksherald.com",
-   "published": "2026-10-22",
-   "lang": "en",
-   "players": [
-    8485040
-   ],
-   "url": "https://www.grandforksherald.com/sports/und-hockey/5-things-you-might-have-missed-from-unds-series-opening-loss-at-minnesota"
   },
   {
    "title": "Video - Breaking Down Teams on Dylan Larkin’s Trade List That Could Actually Make a Deal Work",
@@ -1655,9 +2326,7 @@
    "published": "2026-10-18",
    "lang": "en",
    "players": [
-    8483459,
-    8484141,
-    8485362
+    8484141
    ],
    "url": "https://detroithockeynow.com/detroit-red-wings-prospect-trey-augustine-first-ahl-win/"
   },
@@ -1672,18 +2341,6 @@
     8484223
    ],
    "url": "https://detroithockeynow.com/detroit-red-wings-simon-edvinssonjacob-bernard-docker-grand-rapids-griffins/"
-  },
-  {
-   "title": "Hvidston's Two Goals Leads 12th-Ranked Tigers Past #17 UConn",
-   "google_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONFhja0dHMUFXZ3hVRDRJMnh2T0lXYnN1amk1MGpsdTRBVkRvd0Vqc0RzQUwwOVVabDc2cmIwMjh3T0xFc1VWTVNsT3VEbVJvWnJaMU4tZGZ4cXp1OGdyUnMwMUw3SFlhZnloYmVBTDRBZkREZVJrcEVxSzMwNzBmMWN1VlVCcWZKTVlhbjdhcTR3LW5aS1FNRGtjVTZqTkJITy1SVW5qbWl2aS1IMHV6YTdCSQ?oc=5",
-   "source": "Colorado College Athletics",
-   "source_site": "https://cctigers.com",
-   "published": "2026-10-18",
-   "lang": "en",
-   "players": [
-    8485103
-   ],
-   "url": "https://cctigers.com/news/2026/10/17/mens-ice-hockey-hvidstons-two-goals-leads-12th-ranked-tigers-past-uconn.aspx"
   },
   {
    "title": "Finnie and Brandsegg-Nygård Are the Reason for Streaking Red Wings",
@@ -1744,18 +2401,6 @@
     8484223
    ],
    "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/win-scrappy-todd-mclellan-points-to-red-wings-identity"
-  },
-  {
-   "title": "Štvorbodová noc slovenského mladíka, formu potvrdil aj Nemec",
-   "google_link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVG1BY1RBZ1Y2Tk54VEY2bUd6NFVJVzQ0SEx3cnZCX1lzMnZaRGlLRFJUZXhPLVpRUU1XRU9VMTBfUndRdzdyT2t6TmJqdnR1dURMVnZQRUpXYWZacW1mVEdxVzJHRnhORE1KdFZrczJUMGNWTmNxbFRGTUZZRzVGN29YdWJ1NUd0c2w1VURYc1Q5UTc3ektwMGk5dXQ4NTBSQnFHRGcwSGE1aTRtTXZVS2hXV2tzWC1kYU5iRXV6X0l3c05mNElIaWxiVQ?oc=5",
-   "source": "Flashscore.sk",
-   "source_site": "https://www.flashscore.sk",
-   "published": "2026-10-17",
-   "lang": "sk",
-   "players": [
-    8485592
-   ],
-   "url": "https://www.flashscore.sk/spravy/hokej-ohl-svrcek-odohral-najlepsi-zapas-v-zamori-nemec-aj-lisy-pokracuju-na-bodovej-vlne/OrcuzirH/"
   },
   {
    "title": "VIDEO Slovenskí mladíci v zámorí hviezdili. Svrček zažil životný večer a režíroval jedenásťgólovú deštrukciu",
@@ -1892,6 +2537,18 @@
    "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/lucas-raymond-still-feeling-confidence-amidst-goal-drought"
   },
   {
+   "title": "Hvidston's Two Goals Leads 12th-Ranked Tigers Past #17 UConn",
+   "google_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONFhja0dHMUFXZ3hVRDRJMnh2T0lXYnN1amk1MGpsdTRBVkRvd0Vqc0RzQUwwOVVabDc2cmIwMjh3T0xFc1VWTVNsT3VEbVJvWnJaMU4tZGZ4cXp1OGdyUnMwMUw3SFlhZnloYmVBTDRBZkREZVJrcEVxSzMwNzBmMWN1VlVCcWZKTVlhbjdhcTR3LW5aS1FNRGtjVTZqTkJITy1SVW5qbWl2aS1IMHV6YTdCSQ?oc=5",
+   "source": "Colorado College Athletics",
+   "source_site": "https://cctigers.com",
+   "published": "2026-10-17",
+   "lang": "en",
+   "players": [
+    8485103
+   ],
+   "url": "https://cctigers.com/news/2026/10/17/mens-ice-hockey-hvidstons-two-goals-leads-12th-ranked-tigers-past-uconn.aspx"
+  },
+  {
    "title": "Detroit si ho vybral v drafte, teraz zažiaril štyrmi bodmi. Svrček pomohol Windsoru k vysokej výhre",
    "google_link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqTkJNUTd4SnAxMWdTTUZmYVlCM0J3eXU1d3RUZ0lNY2EwNHhDYTVycEs0MEVfMTZuajVLU2F0UUpvUUNHdnBaYWlCaEczUU5RR2pkblNKVHVqTVlwczlodzg0RExpQlo5cDJCai10azdaNHZ3RW1F?oc=5",
    "source": "DennikSport.sk",
@@ -1914,6 +2571,18 @@
     8483679
    ],
    "url": "https://www.mcall.com/2026/10/17/bobby-clarke-brian-boucher-agree-that-flyers-need-to-stick-together-to-turn-season-around-opinion/"
+  },
+  {
+   "title": "Axel Sandin-Pellikka Stats: 2026-27 Season, Game Log & Career",
+   "google_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wMFpNN2ItU2FQZENRQ0VZRDJxcDVrM1VUUlVRVmktS0NzWUpfcEhab2tpdkM5N2tabGtjYmRLWmJKOVVJNjV5eGMyV1ltYlV3VUtQT1hXdkVsWkF2cHJydmdlazhEX3YyVXB0SmZ0QUp0Sm1qZkhSTm0yaWI2Zw?oc=5",
+   "source": "Inside The Rink",
+   "source_site": "https://insidetherink.com",
+   "published": "2026-10-17",
+   "lang": "en",
+   "players": [
+    8484223
+   ],
+   "url": "https://insidetherink.com/stats/nhl/players/axel-sandin-pellikka-8484223/"
   },
   {
    "title": "Anton Johansson Stats: 2026-27 Season, Game Log & Career",
@@ -1962,6 +2631,18 @@
     8485613
    ],
    "url": "https://www.sports.kz/news/rossiya-obyyavila-sostav-na-hokkeynyie-matchi-protiv-kazahstana-i-belarusi"
+  },
+  {
+   "title": "Štvorbodová noc slovenského mladíka, formu potvrdil aj Nemec",
+   "google_link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVG1BY1RBZ1Y2Tk54VEY2bUd6NFVJVzQ0SEx3cnZCX1lzMnZaRGlLRFJUZXhPLVpRUU1XRU9VMTBfUndRdzdyT2t6TmJqdnR1dURMVnZQRUpXYWZacW1mVEdxVzJHRnhORE1KdFZrczJUMGNWTmNxbFRGTUZZRzVGN29YdWJ1NUd0c2w1VURYc1Q5UTc3ektwMGk5dXQ4NTBSQnFHRGcwSGE1aTRtTXZVS2hXV2tzWC1kYU5iRXV6X0l3c05mNElIaWxiVQ?oc=5",
+   "source": "Flashscore.sk",
+   "source_site": "https://www.flashscore.sk",
+   "published": "2026-10-16",
+   "lang": "sk",
+   "players": [
+    8485592
+   ],
+   "url": "https://www.flashscore.sk/spravy/hokej-ohl-svrcek-odohral-najlepsi-zapas-v-zamori-nemec-aj-lisy-pokracuju-na-bodovej-vlne/OrcuzirH/"
   },
   {
    "title": "VIDEO: Slovenský talent sa blysom štyrmi bodmi a bol hviezdou. Darilo sa aj ďalším",
@@ -2144,18 +2825,6 @@
    "url": "https://www.cbssports.com/nhl/players/28901932/anton-johansson/fantasy/"
   },
   {
-   "title": "Anton Johansson's 1st NHL goal evens score for Red Wings",
-   "google_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNFlhbThRZFBBMlJ0UUxMTTJQUDVHR2FHV3lCZ0NHelNlNGoxeUQ3ZU4zcHBVRmp4WDBjSU9jS2ZnbExDeTdtdFcwcHdud01Ja21sOEdITGUwb2NBcHN0cmI3cW1Zc0plSEU1bUxlZnA4OWVQWW50Y0pob0ZlLW5fZHktX01mNEx0UVBTSUVCVnpzM292Q2Y1dXlVbDhlRWtY?oc=5",
-   "source": "ESPN",
-   "source_site": "https://www.espn.com.au",
-   "published": "2026-10-16",
-   "lang": "en",
-   "players": [
-    8483679
-   ],
-   "url": "https://www.espn.com.au/video/clip/_/id/50192851/anton-johansson-1st-nhl-goal-evens-score-red-wings"
-  },
-  {
    "title": "Anton Johansson and Daniil Tarasoov are making early and solid impressions in their first seasons with the Detroit Red Wings. See link below ⬇️ 📸 Rick Osentoski, IMAGN IMAGES via Reuters",
    "google_link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNclhhWFhzN1FJYlk3RW1zTEJOUW41Yko2M3BQRWJmNmI5WWFsQl9DZDlLeklISk5ZQ1UwZXhHaTBVdmw5TDFFNUhJbEdvZnRkdGhUbDhEb2ZYNnVSSnJNRW9lMXBvcHhwcS0wZ19qeDRJWS1TdnRaTXBGYUI1T1h3R25RYVc0N0hjNHZOaFVSV195VEVqVVdJU0U2QjJoYndWUDFYd2xEWFhiTU44UWhqYUtaYW1oU2RRS2FFM2dHSDZXYVlFbW9POEZSd3ZtSVVtbVIwamRFaWJQUU1YOFRN?oc=5",
    "source": "Facebook",
@@ -2166,6 +2835,18 @@
     8483679
    ],
    "url": "https://www.facebook.com/detroitfreepress/posts/anton-johansson-and-daniil-tarasoov-are-making-early-and-solid-impressions-in-th/1583775403794606/"
+  },
+  {
+   "title": "28 хоккеистов вошли в состав молодежной сборной России на Кубок Будущего в Санкт-Петербурге",
+   "google_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SaWlPRThpX1lhZVRHQ3N5S1ZQM3daUHZXVVZjZm1rb09PVFVtWjhDS3cyWVJ0STY3SEUtMmVGYWZjUDV2ZVY4V3c2MEtwUUJodzBLd3F1d3FBZw?oc=5",
+   "source": "Хоккей Беларуси",
+   "source_site": "https://hockey.by",
+   "published": "2026-10-16",
+   "lang": "ru",
+   "players": [
+    8485613
+   ],
+   "url": "https://hockey.by/news/sobytie/news458891.html"
   },
   {
    "title": "12th-Ranked Tigers Fall to #17 UConn in Overtime",
@@ -2624,18 +3305,6 @@
    "url": "https://www.nettavisen.no/sport/bade-mal-og-assist-fra-brandsegg-nygard-da-red-wings-tapte-pa-overtid/s/80-95-157473"
   },
   {
-   "title": "NJD@DET: Brandsegg-Nygård scores goal against Jake Allen | Detroit Red Wings",
-   "google_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2pSUUZ4RUhiUjNlYi05NWpUaUxIYWltMkNSLXdhb21tNEtVZ2NXSW1YXzE3UjB0UUlPNVV1QURVcW1LcnZ3ZU42bzJnSTV4aXFtaVRMMGxtcFBDSjBSYVRjblVKV241TjV1dlR1cXB1ZWZMTzlicUN1SlRSMm4tcVdkZ0M4V2YzZW5PT2FaNk9Venc4WklTTXlORWk0RnpRQkpneDRrcw?oc=5",
-   "source": "NHL.com",
-   "source_site": "https://www.nhl.com",
-   "published": "2026-10-14",
-   "lang": "en",
-   "players": [
-    8484794
-   ],
-   "url": "https://www.nhl.com/redwings/video/njd-det-brandsegg-nygard-scores-goal-against-jake-allen-6406796782112"
-  },
-  {
    "title": "Michael Brandsegg-Nygård Heating Up For Red Wings",
    "google_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLXpoV2dvVkI0V1pSUkg2YnpDX1dKM2drcXdoZlRyRFktaV9acDBHUVdiS3ZPTkcyUGtFNm44VVdUTGVuRXRYNmdjSFZ1eVFSeW5UMjdCbVF2WW1XWUNjenl3cFFSRzVrbG50MmNOXzBybXJLaF9lWXlHWnc1VGRoVVpVUXZGVTM1?oc=5",
    "source": "Yahoo Sports",
@@ -2778,6 +3447,18 @@
     8485545
    ],
    "url": "https://sports.yahoo.com/articles/red-wings-goaltending-prospect-named-120007816.html"
+  },
+  {
+   "title": "NJD@DET: Brandsegg-Nygård scores goal against Jake Allen | Detroit Red Wings",
+   "google_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2pSUUZ4RUhiUjNlYi05NWpUaUxIYWltMkNSLXdhb21tNEtVZ2NXSW1YXzE3UjB0UUlPNVV1QURVcW1LcnZ3ZU42bzJnSTV4aXFtaVRMMGxtcFBDSjBSYVRjblVKV241TjV1dlR1cXB1ZWZMTzlicUN1SlRSMm4tcVdkZ0M4V2YzZW5PT2FaNk9Venc4WklTTXlORWk0RnpRQkpneDRrcw?oc=5",
+   "source": "NHL.com",
+   "source_site": "https://www.nhl.com",
+   "published": "2026-10-13",
+   "lang": "en",
+   "players": [
+    8484794
+   ],
+   "url": "https://www.nhl.com/redwings/video/njd-det-brandsegg-nygard-scores-goal-against-jake-allen-6406796782112"
   },
   {
    "title": "Michal Pradel NHL Splits",
@@ -2943,8 +3624,7 @@
    "published": "2026-10-12",
    "lang": "en",
    "players": [
-    8484183,
-    8485362
+    8484183
    ],
    "url": "https://youtu.be/iewC-gg3QTs?si=WEkVBtIQEFr0iQDH"
   },
@@ -3112,8 +3792,7 @@
    "published": "2026-10-12",
    "lang": "en",
    "players": [
-    8484183,
-    8485362
+    8484183
    ],
    "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/detroit-s-ahl-griffins-getting-early-boost-from-standout-rookies"
   },
@@ -3341,8 +4020,6 @@
    "published": "2026-10-10",
    "lang": "en",
    "players": [
-    8483045,
-    8485362,
     8485545
    ],
    "url": "https://detroithockeynow.com/michal-postava-starts-hot-grand-rapids-griffins-top-red-wings-goalie-prospect/"
@@ -3396,6 +4073,18 @@
    "url": "https://www.cbssports.com/fantasy/hockey/news/red-wings-michael-brandsegg-nygard-nets-first-nhl-goal-friday/"
   },
   {
+   "title": "Red Wings at Canadiens projected lineups",
+   "google_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQS10MFdhTkZxdER4aUh3dUlPZm9IWkZ3VnN5S0thVHF5VjdXbGhLOXZSYXo0N3BUdE1RdzdoZ0s1MlRiUzUteW82dFNmaHhBUURZMlhnbjBVOHFwMVV5Z0I4WTFHY0FBalVLY1BTZWZadV92c01DeFVKQkcwY1ZMV29SZ2o5bDMwN1VBRUcwbzhuc3Z2?oc=5",
+   "source": "NHL.com",
+   "source_site": "https://www.nhl.com",
+   "published": "2026-10-10",
+   "lang": "en",
+   "players": [
+    8482802
+   ],
+   "url": "https://www.nhl.com/news/detroit-red-wings-montreal-canadiens-game-preview-october-10-2026"
+  },
+  {
    "title": "Red Wings Prospect Discusses His Lost Summer",
    "google_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uR1Z6TjdWei16UTg2eEpwd1VrU3h4U2Zhek5IZlh1Ml9sTE1NYnA5ZFVpajhoRXFfUWt3d2JhZEZMLW1KbjM5bnNPdmh4SGVNTkpHaGFzbXcxSGVIaEJCVHpSSDhvUDZNMEJneDhuc3Z1b3RaUFg1MnpOcE5HbDQ?oc=5",
    "source": "Detroit Hockey Now",
@@ -3415,8 +4104,7 @@
    "published": "2026-10-10",
    "lang": "en",
    "players": [
-    8482171,
-    8484223
+    8482171
    ],
    "url": "https://heavy.com/sports/nhl/detroit-red-wings/red-wings-conversation-william-wallinder/"
   },
@@ -3625,7 +4313,7 @@
    "url": "https://griffinshockey.com/news/oct-9-2026-griffins-2-vs-moose-1"
   },
   {
-   "title": "SEA@DET: Wallinder scores goal against Philipp Grubauer | Detroit Red Wings",
+   "title": "SEA@DET: Wallinder scores goal against Philipp Grubauer",
    "google_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNWhIVHVkeGRrZnBaMXMxY3g1RE9TUEgxTVhRcUdzeTNreUZ0WVltWXpwYzBMQm1iLWd0VzhWSW5FSjQ1OENadFRWaU9ZYnRyMkpxN2p2cFB4VDdJdXcwNTliWWJ0bG1VVFdBc3lCZnZHdlNGY3ZpWHVBSk5RV2lUMXhiRmF2UV9RaVZYQUV3V2tvLVMzSDBmNEp5NlJXXzNUaE11am53?oc=5",
    "source": "NHL.com",
    "source_site": "https://www.nhl.com",
@@ -3746,6 +4434,18 @@
    "url": "https://detroithockeynow.com/red-wings-looking-for-depth-goals/"
   },
   {
+   "title": "Red Wings Finally Seeing Emergence of Young Talent Acquired During Rebuild",
+   "google_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pUlhfU0RRQVFJUjJ1V0w5M2JLVEJ5bUY5NGtVdFFzRzVzOU9mTDZETXJZWlh1dHhLOUllMExUS0JBeVZUeTI2TEh6RF9HM2NnUndUaVIwTDBtUWhhdTlkN2VPdEpmR0k5aU4tQklFM2x3VDA1ZVVod1JlZU5Fdw?oc=5",
+   "source": "The Hockey Writers",
+   "source_site": "https://thehockeywriters.com",
+   "published": "2026-10-09",
+   "lang": "en",
+   "players": [
+    8483679
+   ],
+   "url": "https://thehockeywriters.com/red-wings-young-players-emerging-as-leaders/"
+  },
+  {
    "title": "No. 7 Wisconsin earns 4-0 road victory over No. 19 Minnesota State",
    "google_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOUUwYkI4UWNNd1hTN2lBdFBLZlpQdjdCa3NCc1FPOGxkQ3owS2h6ZEZpYXlMVTYzamo4NW9sT3lvQ0w4cVEyMkgyUGhmZmF1MV9nc0NnbjBNMTNTM29wNkhyaFN1cEM4Rks2WnpYMmptMTg4dHczaXdqbDduQW9YYnlEQ2VxYnpZaGkwU0JnUlpncm8yXzMyMFBIT1R3cGtSenhkOQ?oc=5",
    "source": "Wisconsin Badgers",
@@ -3816,6 +4516,18 @@
     8485394
    ],
    "url": "https://www.expressen.se/sport/hockey/shl/eddie-genborg-om-tuffa-vagen-tillbaka-efter-skadan/"
+  },
+  {
+   "title": "Game Notes: Griffins vs. Moose - Oct. 9, 2026",
+   "google_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0VXFjdi1zV1NHaTVIYmJyUlYwNm5jQWpZUEdlNEt2MmJYMWxPZDZnNkxFNnozZE83M3JQX0d6NjVsMFBrYTNBcHBHLTRlWkd2RlRkeUY1aWFBTzcxbkVIdGtZQjdqa2J3OEhsVGN2MVRFZENqVGVrN3NfYw?oc=5",
+   "source": "Grand Rapids Griffins",
+   "source_site": "https://griffinshockey.com",
+   "published": "2026-10-09",
+   "lang": "en",
+   "players": [
+    8484141
+   ],
+   "url": "https://griffinshockey.com/news/game-notes-griffins-vs-moose-oct-9-2026"
   },
   {
    "title": "Friday Red Wings Three Things: Reinforcements For GR",
@@ -3926,6 +4638,18 @@
     8482714
    ],
    "url": "https://griffinshockey.com/roster/chase-stillman"
+  },
+  {
+   "title": "11 Carter Bear",
+   "google_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUM0lzTlQ4SXRIRWtSc3JiX3NmVDVFNndGamptRUlldjFYUDI1ZVFiV0dqV1pjSnlVME4wS0V6LWFpWk9LTmk5QTIwaGtuMDBJNk9pVWQ3OUc?oc=5",
+   "source": "Grand Rapids Griffins",
+   "source_site": "https://griffinshockey.com",
+   "published": "2026-10-09",
+   "lang": "en",
+   "players": [
+    8485362
+   ],
+   "url": "https://griffinshockey.com/roster/carter-bear"
   },
   {
    "title": "\"It'll Go In For Him\": Todd McLellan Indicates Only Matter Of Time Before Michael Brandsegg-Nygård's 1st Goal",
@@ -4091,8 +4815,6 @@
    "published": "2026-10-08",
    "lang": "en",
    "players": [
-    8484157,
-    8484870,
     8486084
    ],
    "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/red-wings-blue-chip-prospect-suffers-upper-body-injury-in-ncaa-season-opener"
@@ -4338,6 +5060,18 @@
    "url": "https://sports.yahoo.com/articles/mclellan-liked-wallinder-debut-played-153500477.html"
   },
   {
+   "title": "McLellan Liked Wallinder’s Debut. He Played Him 9 Minutes.",
+   "google_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMzBoVjR6RWJ5MXpuUTRXQWNsT0NFTHlVYlpMbmF3eHdxNlBTOHMtenZPTEt1V0JyelhWNlZ5Z1lHM3lTcFM0TmFlcTN1VnJGN3FvYlNfNnctVHhfX0lOMG50aWVSeFNPWmZZX0UxeUczbUs5QjI1cnNMZTFkejQ2ZlJfWFlHeUh1SjRxLVVlWG5YTUYzXzVxNGFPNWRfakwwb2xtM1R4a3drUGdQYWo0MmhFRFRKdm9hOTdxLU0wcw?oc=5",
+   "source": "detroitsportsnation.com",
+   "source_site": "https://detroitsportsnation.com",
+   "published": "2026-10-07",
+   "lang": "en",
+   "players": [
+    8482171
+   ],
+   "url": "https://detroitsportsnation.com/william-wallinder-nhl-debut-mclellan-ice-time/gkaplan/detroit-red-wings/10/07/2026/498138/"
+  },
+  {
    "title": "Max Plante suffers injury, ruled out against Augustana",
    "google_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZkNsNThpVFRjZ1p3U1dYUWpFMUo4bTlTVWZKTDJOazJBam1QbTUtSi1GRGlZT05rUzhfNFBKY0tFaGhWdGsya0F0ZG1mMlZCRXZEN0FmYnBFQmhRU1dBMkkyMnNDR0MxSkt1aFpYX0NQdjdQQ0xoVEdRbFlDTkRsNWpucVV2el9QX0JfbDVFTENHWUU5aUY0YVl0N3JKeU15Sl91ZmJPTndkU0lncy04?oc=5",
    "source": "Duluth News Tribune",
@@ -4513,7 +5247,8 @@
    "published": "2026-10-05",
    "lang": "en",
    "players": [
-    8484183
+    8484183,
+    8485394
    ],
    "url": "https://detroithockeynow.com/detroit-red-wings-jesse-kiiskinen-enjoys-strong-start-max-plante/"
   },
@@ -4686,6 +5421,18 @@
    "url": "https://www.nhl.com/redwings/video/meijer-postgame-comments-10-04-26-6406224919112"
   },
   {
+   "title": "Bulldogs open season at 0-1-1",
+   "google_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQV3dBUktPS05VOGdmNWxVOEQxSk1OR2FpNlAyWFRQUkQ4dFlhbFh1eXZ6Wllpd2h4U1JQbVdhclV2YVdpdThCU196Rk5rZm12YWIydk1KYUhucHRyX28ydVlRR1htTW95a0JCdUw1WWwtMFdIeWN6TFpDQU1MM1RuSEVIWlBLaUVvbEdqUTY3Z3RxY3oxbnA2MTVRYVFmZw?oc=5",
+   "source": "Big Rapids Pioneer",
+   "source_site": "https://www.bigrapidsnews.com",
+   "published": "2026-10-04",
+   "lang": "en",
+   "players": [
+    8483717
+   ],
+   "url": "https://www.bigrapidsnews.com/sports/article/ferris-hockey-team-settles-saturday-tie-22461626.php"
+  },
+  {
    "title": "The Daily: Red Wings Prospects Still Getting It Done for Griffins; Strong Reviews for Johansson",
    "google_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWTExQktMbHFsX3pyN1hRMDJEeWpmZzB4cFZfNmk4ejFWdU1oSDEwS01QTmdsMjFEWG9hS2RRdUtEUXBSaVdlZWhzSDhzNXM5cExYNFVWZG9CVHNBTW9vNHRRNTVDNE04Qk9fUnViZEtUckdlOEd1THl1SjF6MWJrOGU3TFNsb2RzTG9SQ3FDdHdRSFZSbkdvQWRUbjdweVdIVllQamVBZDN4TngwLUY3Y3ZHakg?oc=5",
    "source": "Detroit Hockey Now",
@@ -4694,11 +5441,21 @@
    "lang": "en",
    "players": [
     8482802,
-    8483679,
-    8484223,
-    8484425
+    8483679
    ],
    "url": "https://detroithockeynow.com/red-wings-prospects-impressive-anton-johansson-sutter-muzzatti-grand-rapids-griffins/"
+  },
+  {
+   "title": "Red Wings Rookie Calls NHL Debut a Nervous Day",
+   "google_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSFdEVzl5Y3dMMDlVeTJUMlNyMm5peFBoYkZtLXFSZl9qTGt2SmtncmQ3RjBENGIxS2NWWUlfaWJTWUd3WU52TEVvWmpjQUZXUDBEVFpsSVBoRjBqWU5jYzZ5YTFnU2oyYklQWC1YTW5ZMWxzN2ZBN1JGejBPdEMzMU1OOXNLMGI4WGY1R2UzVlBfQTdaTm52VzNOZVB6VVdONGhkMTdiRnVQMGJYMExTT21wektEWVBVN09yOGVDdw?oc=5",
+   "source": "Detroit Sports Nation",
+   "source_site": "https://detroitsportsnation.com",
+   "published": "2026-10-03",
+   "lang": "en",
+   "players": [
+    8483679
+   ],
+   "url": "https://detroitsportsnation.com/anton-johansson-nervous-nhl-debut-red-wings/ddrysdale/detroit-red-wings/10/03/2026/497431/"
   },
   {
    "title": "Red Wings May Have Found an Answer Amid Simon Edvinsson Standoff",
@@ -4960,7 +5717,7 @@
    "published": "2026-10-02",
    "lang": "en",
    "players": [
-    8485362
+    8484141
    ],
    "url": "https://octopusthrower.com/4-red-wings-prospects-to-keep-an-eye-on-in-2026-27-01m3sz5bavw1"
   },
@@ -5020,7 +5777,6 @@
    "published": "2026-10-01",
    "lang": "en",
    "players": [
-    8484870,
     8486084
    ],
    "url": "https://www.duluthnewstribune.com/sports/bulldogs-hockey/bulldog-insider-q-a-victor-plante-excited-to-be-reunited-with-older-brothers-at-umd"
@@ -5250,7 +6006,7 @@
    "published": "2026-09-28",
    "lang": "en",
    "players": [
-    8484223
+    8484141
    ],
    "url": "https://detroithockeynow.com/the-daily-red-wings-make-no-moves-prospects-keep-their-room/"
   },
@@ -5265,6 +6021,18 @@
     8483679
    ],
    "url": "https://www.aftonbladet.se/sportbladet/hockey/a/V6WgJr/flera-svenska-nhl-rookies-med-i-premiartrupperna"
+  },
+  {
+   "title": "Sutter Muzzatti Stats and Player Profile | TheAHL.com",
+   "google_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53RmxDd09ZYmJYWlZmSVJLdmEtS2p1V1E4MjN0LWZKbGk1cjlXeWtYelluTHpuN3E3WUlrWFAxVFpDX2JjTlVBRUszcF9GTzFITUdla0JNNFpLSmFsdUh0aW53RHM4Sms?oc=5",
+   "source": "The American Hockey League",
+   "source_site": "https://theahl.com",
+   "published": "2026-09-28",
+   "lang": "en",
+   "players": [
+    8484425
+   ],
+   "url": "https://theahl.com/stats/player/11336/93/muzzatti-sutter"
   },
   {
    "title": "Sandin-Pellikka Presents Conundrum to Red Wings (DHN+)",
@@ -5348,8 +6116,7 @@
    "lang": "en",
    "players": [
     8482802,
-    8483679,
-    8484223
+    8483679
    ],
    "url": "https://octopusthrower.com/red-wings-embracing-change-with-opening-night-lineup-01m3m4r2n769"
   },
@@ -5361,11 +6128,8 @@
    "published": "2026-09-28",
    "lang": "en",
    "players": [
-    8482714,
     8482802,
-    8483679,
-    8484223,
-    8485362
+    8483679
    ],
    "url": "https://detroithockeynow.com/red-wings-youngster-make-roster-maybe-temporarily/"
   },
@@ -5377,8 +6141,7 @@
    "published": "2026-09-28",
    "lang": "en",
    "players": [
-    8482802,
-    8485362
+    8482802
    ],
    "url": "https://sports.yahoo.com/articles/detroit-red-wings-finalize-23-210656839.html"
   },
@@ -5450,6 +6213,7 @@
    "published": "2026-09-27",
    "lang": "en",
    "players": [
+    8484141,
     8484836
    ],
    "url": "https://www.mlive.com/griffins/2026/09/ondrej-becher-trey-augustine-lead-griffins-to-preseason-sweep.html"
@@ -5607,8 +6371,7 @@
    "published": "2026-09-26",
    "lang": "en",
    "players": [
-    8483679,
-    8484223
+    8483679
    ],
    "url": "https://octopusthrower.com/final-red-wings-roster-decisions-come-down-to-tonight-s-game-01m3czx89bxh"
   },
@@ -5851,7 +6614,8 @@
    "players": [
     8482777,
     8483045,
-    8483459
+    8483459,
+    8484141
    ],
    "url": "https://www.nhl.com/redwings/news/red-wings-reduce-preseason-26-27-roster-to-28"
   },
@@ -5887,8 +6651,7 @@
    "published": "2026-09-25",
    "lang": "en",
    "players": [
-    8484161,
-    8484223
+    8484161
    ],
    "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/red-wings-get-closer-to-final-roster-with-latest-reductions"
   },
@@ -5960,6 +6723,7 @@
    "published": "2026-09-25",
    "lang": "en",
    "players": [
+    8484141,
     8484183
    ],
    "url": "https://www.flohockey.tv/articles/16201083-how-to-watch-detroit-red-wings-prospects-on-flohockey"
@@ -6010,7 +6774,7 @@
    "players": [
     8483045,
     8483459,
-    8484836
+    8484141
    ],
    "url": "https://griffinshockey.com/news/detroit-announces-multiple-transactions-2"
   },
@@ -6106,8 +6870,7 @@
    "published": "2026-09-25",
    "lang": "en",
    "players": [
-    8483679,
-    8484223
+    8483679
    ],
    "url": "https://insidetherink.com/anton-johansson-may-cause-uncomfortable-conversations-for-the-red-wings/"
   },
@@ -6156,8 +6919,7 @@
    "lang": "en",
    "players": [
     8482171,
-    8483679,
-    8484223
+    8483679
    ],
    "url": "https://www.detroitnews.com/story/sports/nhl/red-wings/2026/09/24/william-wallinder-anton-johansson-making-strong-cases-with-red-wings/91917139007/"
   },
@@ -6265,8 +7027,7 @@
    "published": "2026-09-24",
    "lang": "en",
    "players": [
-    8483679,
-    8484223
+    8483679
    ],
    "url": "https://octopusthrower.com/red-wings-face-tough-choice-for-final-spot-on-blueline-01m379ybxktn"
   },
@@ -6278,8 +7039,7 @@
    "published": "2026-09-24",
    "lang": "en",
    "players": [
-    8483679,
-    8484223
+    8483679
    ],
    "url": "https://www.si.com/nhl/red-wings/onsi/news/red-wings-have-tough-decision-make-final-defensive-spot"
   },
@@ -6364,8 +7124,8 @@
    "published": "2026-09-24",
    "lang": "en",
    "players": [
-    8484183,
-    8484870
+    8484141,
+    8484183
    ],
    "url": "https://www.flohockey.tv/articles/16200023-detroit-red-wings-prospect-guide-prospects-to-watch-2026-27"
   },
@@ -6478,18 +7238,6 @@
    "url": "https://www.freep.com/story/sports/nhl/red-wings/2026/09/24/detroit-red-wings-preseason-game-score-recap-buffalo-sabres-alex-debrincat/91919293007/"
   },
   {
-   "title": "\"I'm Excited\": Axel Sandin-Pellikka Looks Forward To Second Year With Red Wings",
-   "google_link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaE5DaEJ3QWgtdGJuOHBVQWtSN1FaMFhfalJSSDg0UGdxMGx1c3BiVUJSLU9wS081R0stUVYxRUEwWC1DMEFYZU5NQ1JQeDMycVptRGxlNWEtQkFMTEp0akRYaHJGX0MzNXZJaTJRNmEwaThXa21DS1A2aHZvSi1oZElXNDlHbU56VDdnRDNkR3NhYW5oSEV4cGVnZ0ppRTUwSlpGUEt4Z3RGZ0pzeFdCTnZVajRyU0tIZE1YSzNNbGVFd2pEejJnTktjcw?oc=5",
-   "source": "The Hockey News",
-   "source_site": "https://thehockeynews.com",
-   "published": "2026-09-24",
-   "lang": "en",
-   "players": [
-    8484223
-   ],
-   "url": "https://thehockeynews.com/nhl/detroit-red-wings/players/im-excited-axel-sandin-pellikka-looks-forward-to-second-year-with-red-wings"
-  },
-  {
    "title": "\"Confidence Is High\": Emmitt Finnie Eager To Begin Sophomore Season With Red Wings",
    "google_link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcy1VcFJqRjlTTFh6bl9vZ1dJcDdPZ1F0NXdXZzRYRnJRVTNfcTEwYkNPb1FuVnpIS2s0WnFybmJOdFFVUXFCWVJnZEsxU0loVktyWDk3OUt3S1JXWGJHVnVGNUhyQU5qcllUSjV5b3VEZkgyQ0NKbTFrOVNYR3hEM2NHUXkyTy1EeXRhZ3dCSk5md1hCQW1rX3N5TmJMTnFEYUM4Z0FTU1IxMElzMUc0eFdaVWRHSzlya2UxVEhZNjZkb3RUaU1zMUEwcnR0Y2JBOERLLTB3?oc=5",
    "source": "The Hockey News",
@@ -6522,8 +7270,7 @@
    "published": "2026-09-23",
    "lang": "en",
    "players": [
-    8483679,
-    8484794
+    8483679
    ],
    "url": "https://www.nytimes.com/athletic/7621992/2026/09/23/detroit-red-wings-preseason-prospects-michael-brandsegg-nygard/"
   },
@@ -6602,7 +7349,7 @@
   {
    "title": "Red Wings Prospect Anton Johansson Delivers Four-Assist Night",
    "google_link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdi1RYTcyU0pMNENUZVh2UEdNTWtQbFVObG03ckRreHZETzNrWUJrRlRWd0FlV1h0eFhIZzRjY2JIUjhDdkhxMWVZZ1ZIWjJFMmNFQV9XWGQtbjRrX29yZW50bDl2UExyWjBQcjV5eF9sOEtzRU1WSXBpcFVzaDhPYmoxN3lOZG1qWWpuNW5zbExQWkRTRmtWcU96RU9RYXgzVzdqNGxNcGtGVTBpVGw0dUdZZTV0c0RCSm1ucjVDMHVQV2s?oc=5",
-   "source": "Detroit Sports Nation",
+   "source": "detroitsportsnation.com",
    "source_site": "https://detroitsportsnation.com",
    "published": "2026-09-23",
    "lang": "en",
@@ -6829,6 +7576,18 @@
   },
   {
    "title": "\"I'm Excited\": Axel Sandin-Pellikka Looks Forward To Second Year With Red Wings",
+   "google_link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaE5DaEJ3QWgtdGJuOHBVQWtSN1FaMFhfalJSSDg0UGdxMGx1c3BiVUJSLU9wS081R0stUVYxRUEwWC1DMEFYZU5NQ1JQeDMycVptRGxlNWEtQkFMTEp0akRYaHJGX0MzNXZJaTJRNmEwaThXa21DS1A2aHZvSi1oZElXNDlHbU56VDdnRDNkR3NhYW5oSEV4cGVnZ0ppRTUwSlpGUEt4Z3RGZ0pzeFdCTnZVajRyU0tIZE1YSzNNbGVFd2pEejJnTktjcw?oc=5",
+   "source": "The Hockey News",
+   "source_site": "https://thehockeynews.com",
+   "published": "2026-09-23",
+   "lang": "en",
+   "players": [
+    8484223
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/players/im-excited-axel-sandin-pellikka-looks-forward-to-second-year-with-red-wings"
+  },
+  {
+   "title": "\"I'm Excited\": Axel Sandin-Pellikka Looks Forward To Second Year With Red Wings",
    "google_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWVqRHlCMUVYT1hxZW1xSTR3Um9wWkJnQWRkclkxcEFGWE9LS1RpamxfZzBwYk1IZnZGSDdmWFZHVkxxZnlhOTJtVG1zWWw0Skt5SkQtRHZpQ250X1lobnZzQ20zMU9iQ2t2bWkzdWZZWjlEUUo0cElBLVltNWN4SHRlOWNtWEU?oc=5",
    "source": "Yahoo Sports",
    "source_site": "https://sports.yahoo.com",
@@ -6895,7 +7654,7 @@
    "published": "2026-09-22",
    "lang": "en",
    "players": [
-    8484794
+    8482184
    ],
    "url": "https://detroithockeynow.com/red-wings-score-seven-versus-pittsburgh-penguinswhat-scoring-problem-red-wings-net-seven-vs-penguins/"
   },
@@ -6955,8 +7714,7 @@
    "published": "2026-09-22",
    "lang": "en",
    "players": [
-    8482184,
-    8485545
+    8482184
    ],
    "url": "https://detroithockeynow.com/the-daily-red-wings-fall-in-shootout-preseason-in-full-swing/"
   },
@@ -7004,8 +7762,7 @@
    "published": "2026-09-22",
    "lang": "en",
    "players": [
-    8483679,
-    8484223
+    8483679
    ],
    "url": "https://www.freep.com/story/sports/nhl/red-wings/2026/09/22/red-wings-game-score-nhl-preseason-penguins/91885200007/"
   },
@@ -7287,6 +8044,18 @@
    "url": "https://insidetherink.com/detroit-red-wings-place-six-on-waivers-2/"
   },
   {
+   "title": "DET@PIT: Sandin Pellikka scores goal against Arturs Silovs",
+   "google_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR2FCNnhtM1hpUWhDSTJKNS1FQXNkVGRyTHdaQi1PZ2prWkRxSWl1X0FfN3pEcWg2ajVyR2M0UWhJczJ4UTZOUXFlQ0gzeDBCcWxvVzV0M0h6Tm11RTNNZl96SHV6YS1nWlU0b0w3azZMd2dQRHFyTmxpbzctMGpSb1A3UFZDM1ljWlAtMFhVbVdST0VtdXpWTEdQTFlyTGx3RkNWZUFxc0NaZw?oc=5",
+   "source": "NHL.com",
+   "source_site": "https://www.nhl.com",
+   "published": "2026-09-22",
+   "lang": "en",
+   "players": [
+    8484223
+   ],
+   "url": "https://www.nhl.com/redwings/video/det-pit-sandin-pellikka-scores-goal-against-arturs-silovs-6405452942112"
+  },
+  {
    "title": "DET@PIT: McGroarty scores goal against Trey Augustine",
    "google_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdlI1VW9UamtPTFlTZHQtNlBlSmdVZXFTNDBYLXlrNk9GUDRQZ2dNWll1UkZJRzN6YkhsOVlncGRzU2NYV240dm5zWWVuS29SdTB5aEI3OHRqaE5DUEVZdE8zcnZQZEZjM0paSlBrTWhPTmhCM2FYT3dDZkVISEY2YnhWc0pzaG9sQW8zMTc4M0hCekVnOEkwakFNaEVrNklpek5n?oc=5",
    "source": "NHL.com",
@@ -7378,8 +8147,7 @@
    "published": "2026-09-22",
    "lang": "en",
    "players": [
-    8482802,
-    8485362
+    8482802
    ],
    "url": "https://www.si.com/nhl/red-wings/onsi/news/carter-mazur-has-chance-force-red-wings-hand"
   },
@@ -7391,7 +8159,6 @@
    "published": "2026-09-22",
    "lang": "en",
    "players": [
-    8484870,
     8486084
    ],
    "url": "https://www.duluthnewstribune.com/sports/bulldogs-hockey/bulldogs-fans-wont-have-to-wait-long-for-plante-plante-plante"
@@ -7621,7 +8388,7 @@
    "published": "2026-09-21",
    "lang": "en",
    "players": [
-    8485545
+    8483459
    ],
    "url": "https://www.freep.com/story/sports/nhl/red-wings/2026/09/21/detroit-red-wings-preseason-game-score-recap-columbus-blue-jackets-goalies/91870930007/"
   },
@@ -8517,6 +9284,18 @@
    "url": "https://www.detroitnews.com/story/sports/nhl/red-wings/2026/09/14/trey-augustine-sharpening-game-for-start-of-red-wings-training-camp/91756002007/"
   },
   {
+   "title": "Red Wings Prospects Drop 4-3 Decision To Penguins",
+   "google_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ3VBZnhsR3ZhczMyemtYNVpaWERWMHB1MEJaMGFFektnRU9PVXFTZ1h1aFRPTVFyT0RHakVjbmlhNm1mcTc3WDRLLWZyOUM2cnp2elpQd2Z1N2NDR015VElEVWJxTHlCX1F5U1dhN1NaenkzNjhqQS0yWU85YzhBZEE4ZjQwT1B3TEJCSGxCUS1MS2FHa01Ja1RvMHlFOE95aU9zcENGeC1fX0x0VlE?oc=5",
+   "source": "The Hockey News",
+   "source_site": "https://thehockeynews.com",
+   "published": "2026-09-14",
+   "lang": "en",
+   "players": [
+    8484160
+   ],
+   "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/red-wings-prospects-drop-4-3-decision-to-penguins"
+  },
+  {
    "title": "Red Wings First Pick and Last Pick Get Our Attention (DHN+)",
    "google_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcWNSZXlnM3FWUG10M2F4cFVzdTdVY1lCdEgxREZDMDVEbm9Oclh3TFZ0RFF5emE0b2ltbnR3ZjBlVVU5Z2ZXelpFdjYyb0U3SDhhSGd6R3dfWEtjNkdQRGlMX252ZDJFdC1ENThKTFJBTTA4dzhSb1BNcXZMRGR4UW5n?oc=5",
    "source": "Detroit Hockey Now",
@@ -8524,7 +9303,6 @@
    "published": "2026-09-14",
    "lang": "en",
    "players": [
-    8485362,
     8486324
    ],
    "url": "https://detroithockeynow.com/red-wings-carter-bear-myles-brosnan-impressive/"
@@ -8723,18 +9501,6 @@
   },
   {
    "title": "Trey Augustine Ready For Challenges Of First Professional Season",
-   "google_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ndDJSbEtTLUtuZzlocTZSbk9KLUg2SlNTdFYwM1gzNnhFVE9yODBlRzE2M0t1SHdpZ3hhaklYWjg0Q2N0ZFdnNFJfREpSQzZjcmw5cVdvZk1aS1NOZl9ScGYxYW15eXlqZFJLdU10WlY?oc=5",
-   "source": "Yahoo Sports",
-   "source_site": "https://sports.yahoo.com",
-   "published": "2026-09-13",
-   "lang": "en",
-   "players": [
-    8484141
-   ],
-   "url": "https://sports.yahoo.com/articles/trey-augustine-181234998.html"
-  },
-  {
-   "title": "Trey Augustine Ready For Challenges Of First Professional Season",
    "google_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVWM5Nm9zM1BqSWhLNVhzVEM5YWcyeEtRNm9BSzVDV0pqOTVFVXVVUWdfc2ZaV0FSUU1Uc2liSHVLYzV6Zmpyck5Oa2ltSUNXLUtBNEVCRlFnSzFfdy16alJvMExBVzF1NzFaaHJmS0IxdUtKSjZCRllkSFhVVTJnU1pKT0l2alVZUzZsaF9HYlFnd3hyMlBGQUhCUkJvRmtuWTlkQ2oxZzVidVdvT01uV1Zwek5lR2Z3RzVkMVVmZTRkVG9QTDJB?oc=5",
    "source": "The Hockey News",
    "source_site": "https://thehockeynews.com",
@@ -8744,6 +9510,18 @@
     8484141
    ],
    "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/so-much-faster-trey-augustine-looks-forward-to-first-full-pro-season"
+  },
+  {
+   "title": "Trey Augustine Ready For Challenges Of First Professional Season",
+   "google_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ndDJSbEtTLUtuZzlocTZSbk9KLUg2SlNTdFYwM1gzNnhFVE9yODBlRzE2M0t1SHdpZ3hhaklYWjg0Q2N0ZFdnNFJfREpSQzZjcmw5cVdvZk1aS1NOZl9ScGYxYW15eXlqZFJLdU10WlY?oc=5",
+   "source": "Yahoo Sports",
+   "source_site": "https://sports.yahoo.com",
+   "published": "2026-09-13",
+   "lang": "en",
+   "players": [
+    8484141
+   ],
+   "url": "https://sports.yahoo.com/articles/trey-augustine-181234998.html"
   },
   {
    "title": "The Daily: Red Wings Prospects Dig Down; Former Duck Makes Canadiens Flight",
@@ -8963,18 +9741,6 @@
   },
   {
    "title": "The Daily: Does Augustine Era Begin Today ?; Genborg Has His Own Office",
-   "google_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUXZkakZXUGcyYzhPRjVmdDlINlc2cnBfR0s5RHF6aElfOG5nd25ZaXI0ckVsVmZaQzNxNERaUVFJSmZyTEhWMW9YN3ktb0NrVzVFdVJRMUszR0k3THhXRGtrT0k5WGYwTHktTkZjdmthbTh3V01IRHVXT3gwaGJZcFVtM3Vvdw?oc=5",
-   "source": "Yahoo Sports",
-   "source_site": "https://sports.yahoo.com",
-   "published": "2026-09-12",
-   "lang": "en",
-   "players": [
-    8485394
-   ],
-   "url": "https://sports.yahoo.com/articles/daily-does-augustine-era-begin-134906969.html"
-  },
-  {
-   "title": "The Daily: Does Augustine Era Begin Today ?; Genborg Has His Own Office",
    "google_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbGVCX2lNbDgzTmNycDFORzVXZXZpWVM2X2dsLUZHM3dTLS1xaGh4aXdiNk9qaW9JN0p5ZFA0SzVqdC1mV1Zib0taeUI5a0wtN0VDSXpUYVBXeERjRjlqTElBVUptM3VNQUg1VjNraUgydWRHWkhjR0hLWXRGWXNfYW5mUEljRHhGTVYzWEV0MU1kSVh2NE5ldw?oc=5",
    "source": "Detroit Hockey Now",
    "source_site": "https://detroithockeynow.com",
@@ -8984,6 +9750,19 @@
     8484141
    ],
    "url": "https://detroithockeynow.com/trey-augustine-starts-first-full-season-detroit-red-wings-today/"
+  },
+  {
+   "title": "The Daily: Does Augustine Era Begin Today ?; Genborg Has His Own Office",
+   "google_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUXZkakZXUGcyYzhPRjVmdDlINlc2cnBfR0s5RHF6aElfOG5nd25ZaXI0ckVsVmZaQzNxNERaUVFJSmZyTEhWMW9YN3ktb0NrVzVFdVJRMUszR0k3THhXRGtrT0k5WGYwTHktTkZjdmthbTh3V01IRHVXT3gwaGJZcFVtM3Vvdw?oc=5",
+   "source": "Yahoo Sports",
+   "source_site": "https://sports.yahoo.com",
+   "published": "2026-09-12",
+   "lang": "en",
+   "players": [
+    8484141,
+    8485394
+   ],
+   "url": "https://sports.yahoo.com/articles/daily-does-augustine-era-begin-134906969.html"
   },
   {
    "title": "Red Wings Prospect Likes to Mix It Up",
@@ -9103,8 +9882,8 @@
    "lang": "en",
    "players": [
     8482184,
-    8484183,
-    8485362
+    8484141,
+    8484183
    ],
    "url": "https://detroithockeynow.com/red-wings-win-shootout-draper-goal/"
   },
@@ -9158,18 +9937,6 @@
   },
   {
    "title": "Red Wings Prospect Balances Hockey Dreams With a Passion for Music",
-   "google_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNzJmREhlR0w2bVJqVmZPMkNjSDg2TkQtcHJfTm5NQUZDcnFRU3R5UW04NmhVUFRQVDhTR3JPUDVqeWxGN2U2UF94RTJ6Vmx4RnFXYlhBVmVma2ZIaW01eTJpY2h4OENsUnRtbUpORU1vYlREYU4wWWtrOGIyaHNiNnVVWlByNWNETUVF?oc=5",
-   "source": "Yahoo Sports",
-   "source_site": "https://sports.yahoo.com",
-   "published": "2026-09-11",
-   "lang": "en",
-   "players": [
-    8485079
-   ],
-   "url": "https://sports.yahoo.com/articles/red-wings-prospect-balances-hockey-130053874.html"
-  },
-  {
-   "title": "Red Wings Prospect Balances Hockey Dreams With a Passion for Music",
    "google_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS3k1dGRib2JwazZJRGhwRl9tV1dLWlRUWmRvZUQzakV5RkMzdXlBdlZrY2h2ajJ3TF9KMm5rdnp4MmItb3hlTzlFOURXTmE2V3JpQXlLNVY3bTllZktMel9fSU5qWjQwYXc1dEZoa0pVUzVvYlh6Z05RR1FwNzBmRkZwYlEtSlkweUV1WnA0TE5ERVVvd0h1ZllSRjNrVWJyMy1lVFF5R0VyWk5fV0xsYWE0Wkw4aXRSVFg3WG5ldw?oc=5",
    "source": "The Hockey News",
    "source_site": "https://thehockeynews.com",
@@ -9179,6 +9946,18 @@
     8485079
    ],
    "url": "https://thehockeynews.com/nhl/detroit-red-wings/players/red-wings-prospect-balances-hockey-dreams-with-a-passion-for-music"
+  },
+  {
+   "title": "Red Wings Prospect Balances Hockey Dreams With a Passion for Music",
+   "google_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNzJmREhlR0w2bVJqVmZPMkNjSDg2TkQtcHJfTm5NQUZDcnFRU3R5UW04NmhVUFRQVDhTR3JPUDVqeWxGN2U2UF94RTJ6Vmx4RnFXYlhBVmVma2ZIaW01eTJpY2h4OENsUnRtbUpORU1vYlREYU4wWWtrOGIyaHNiNnVVWlByNWNETUVF?oc=5",
+   "source": "Yahoo Sports",
+   "source_site": "https://sports.yahoo.com",
+   "published": "2026-09-11",
+   "lang": "en",
+   "players": [
+    8485079
+   ],
+   "url": "https://sports.yahoo.com/articles/red-wings-prospect-balances-hockey-130053874.html"
   },
   {
    "title": "No. 19: Red Wings Needs Are Opportunity for Dower Nilsson",
@@ -9766,9 +10545,7 @@
    "players": [
     8482802,
     8483045,
-    8483459,
-    8484223,
-    8484836
+    8483459
    ],
    "url": "https://detroithockeynow.com/no-shortage-players-available-for-red-wings-farm-club/"
   },
@@ -9840,22 +10617,22 @@
    "published": "2026-09-04",
    "lang": "en",
    "players": [
-    8484870,
-    8486084
+    8484870
    ],
    "url": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/red-wings-prospect-max-plante-named-captain-at-minnesota-duluth"
   },
   {
    "title": "Red Wings Prospect Max Plante Named Captain At Minnesota Duluth",
-   "google_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcV9IUm03YXNpRmhhZ0xRdFplYkFvZWNoNXFaLTM4RHFVWThYNkkwdHRsSzg2OE5IZDNJcTZ2RDFtaHlWQU9OcGtjUzJHUzF2TGw2STk0bWRFdTFENzh2TzRXZXdHM3RfeFFNSDQyRFVIOTFSWjZKQklFdlJLQjZncktn?oc=5",
+   "google_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWFhQVXdYT05CY1NxdmE0a2FXb0l2WmpnX2JBblFET2Z3NGxMNFZZTW9ZNUZyRklHR180VG1kZDQ4bXZVY2w4TUU4SlFPTmJxNl9uOS13bGl2dExseDFfdmd3MHZIWlVsQkppdng0aGRLTXYxRU5zSVd0S0xOYUtoM1Z4T2E?oc=5",
    "source": "Yahoo Sports",
    "source_site": "https://sports.yahoo.com",
    "published": "2026-09-04",
    "lang": "en",
    "players": [
-    8484870
+    8484870,
+    8486084
    ],
-   "url": "https://sports.yahoo.com/videos/red-wings-prospect-max-plante-195038805.html"
+   "url": "https://sports.yahoo.com/articles/red-wings-prospect-max-plante-195038799.html"
   },
   {
    "title": "Red Wings Might Just Have a Brandon Hagel of their Own",
@@ -10165,6 +10942,7 @@
    "published": "2026-09-02",
    "lang": "en",
    "players": [
+    8484160,
     8485362
    ],
    "url": "https://www.nhl.com/redwings/news/red-wings-release-2026-nhl-prospect-tournament-roster-and-schedule"
@@ -10201,7 +10979,6 @@
    "published": "2026-09-02",
    "lang": "en",
    "players": [
-    8485362,
     8485592,
     8486324
    ],
@@ -10348,7 +11125,6 @@
    "published": "2026-08-31",
    "lang": "en",
    "players": [
-    8485362,
     8486049
    ],
    "url": "https://octopusthrower.com/multiple-red-wings-prospects-earn-top-prospect-honors-01m1by9qd1dj"
@@ -10523,18 +11299,6 @@
   },
   {
    "title": "More Red Wings Dismay : No Genborg in Training Camp",
-   "google_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYjAwZ1hOd3dVdFBDSXpFUjNFWlZPSkF3Z202WGdSWHpNRWdSbEcyZ25YME9fVENHVk8yckthSlZLOXYtTVd6cnFSRlZ5VDNCQzROTVhmVzhBRzN5VDZ1Y0djM3Q2S2N5eGpxTWlGYnRfcTlVZ2RWUDhsOGNxLUJNazhfS0IwRDBpbmtB?oc=5",
-   "source": "Detroit Hockey Now",
-   "source_site": "https://detroithockeynow.com",
-   "published": "2026-08-28",
-   "lang": "en",
-   "players": [
-    8485394
-   ],
-   "url": "https://detroithockeynow.com/red-wings-genborg-wont-attend-red-wings-training-camp/"
-  },
-  {
-   "title": "More Red Wings Dismay : No Genborg in Training Camp",
    "google_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KUzBCYkRaUl9wTkUyUTAwMmpVa1B6NVdTNTVLdnFNNDNMS0NRejFmUjZfbERZSm5MMFhmSVV2OVVsZEhkbWdDOEVnVThjQ09JYV9Zb2JfMkJCUF9MZEdxQUN5YkpIQlVpUVBPSmtZOGlpVTI0Q0FiVjMtd1dXQQ?oc=5",
    "source": "Yahoo Sports",
    "source_site": "https://sports.yahoo.com",
@@ -10544,6 +11308,18 @@
     8485394
    ],
    "url": "https://sports.yahoo.com/articles/more-red-wings-dismay-no-162843947.html"
+  },
+  {
+   "title": "More Red Wings Dismay : No Genborg in Training Camp",
+   "google_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYjAwZ1hOd3dVdFBDSXpFUjNFWlZPSkF3Z202WGdSWHpNRWdSbEcyZ25YME9fVENHVk8yckthSlZLOXYtTVd6cnFSRlZ5VDNCQzROTVhmVzhBRzN5VDZ1Y0djM3Q2S2N5eGpxTWlGYnRfcTlVZ2RWUDhsOGNxLUJNazhfS0IwRDBpbmtB?oc=5",
+   "source": "Detroit Hockey Now",
+   "source_site": "https://detroithockeynow.com",
+   "published": "2026-08-28",
+   "lang": "en",
+   "players": [
+    8485394
+   ],
+   "url": "https://detroithockeynow.com/red-wings-genborg-wont-attend-red-wings-training-camp/"
   },
   {
    "title": "Beskedet: JVM-guldhjälten stannar i SHL",
@@ -10556,32 +11332,6 @@
     8485394
    ],
    "url": "https://hockeysverige.se/shl/eddie-genborg-stannar-timra-ik-shl-detroit-red-wings-apWc57B0zkbS/"
-  },
-  {
-   "title": "It's Red Wings or bust for William Wallinder",
-   "google_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT2ZMQmR4aEY5QWs0LXkxRHlRNFdibnhFUzZ4WGVnMFZLaXpKdWxOTDdvVG5NakthaWpJNl9VMkNlOFVvbWFUaDBhMFB2cUMzZ21hVEpFVTdaUmZmeklvLWhVTVpaeU9WUkhWekZQazhoTGpqb25hb0I5UXFlSU5rcGZrVXhzRnVCdi1JOA?oc=5",
-   "source": "Octopus Thrower",
-   "source_site": "https://octopusthrower.com",
-   "published": "2026-08-27",
-   "lang": "en",
-   "players": [
-    8482171,
-    8482777,
-    8484223
-   ],
-   "url": "https://octopusthrower.com/it-s-red-wings-or-bust-for-william-wallinder-01m0z9z78mt7"
-  },
-  {
-   "title": "Dvadsiatka oslavuje ďalšie víťazstvo na kvalitne obsadenom turnaji, presadil sa aj Kazda",
-   "google_link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQ2ZQWk9KZmlpakp0VXpVbHRFdFBqSnZyMTdqcGFuV0NMelVhUUd4cjNyaWxYY28yTjhyUE5qRk1zUnBjWHNIVG1adDNSZmtFU0ZfRFBoRVNfMklHdzRuSWp0SE5YMzJEbWpuUDI2LUpsSHlUREtNUEN1RHpGMDFLSHZlMXNFVWlKLXNpNmpCQzFsVXhDYmdnMG9JU1dIWGtVeWl4NU1SVGZyMkVxaTZtMTZmbF95WkkwS2xFc0k3dE5tbDV2UGlaMDNWRmVsLUJuZ29aeEgtVGx6c3RnUGdTamJLRjJHR1BNU09J?oc=5",
-   "source": "Výsledky",
-   "source_site": "https://www.flashscore.sk",
-   "published": "2026-08-27",
-   "lang": "sk",
-   "players": [
-    8485592
-   ],
-   "url": "https://www.flashscore.sk/spravy/hokej-medzistatne-zapasy-dvadsiatka-oslavuje-dalsie-vitazstvo-na-kvalitne-obsadenom-turnaji-presadil-sa-aj-kazda/bBG2pga4/"
   }
  ]
 }

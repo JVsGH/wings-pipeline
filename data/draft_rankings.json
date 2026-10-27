@@ -1,6 +1,6 @@
 {
  "draft_year": 2027,
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "method": "Median rank across every list (a list that leaves a player out counts as its length + 10); average breaks ties.",
  "sources": [
   {
@@ -9,7 +9,7 @@
    "title": "2027 NHL Draft Rankings: Early-season top 40",
    "url": "https://www.dailyfaceoff.com/news/2027-nhl-draft-rankings-early-season-top-40-dupont-skvortsov-privalov-zhilkin-meyer",
    "published": "2026-10-09",
-   "fetched": "2026-10-26",
+   "fetched": "2026-10-27",
    "count": 40,
    "players": [
     {
@@ -260,7 +260,7 @@
    "title": "2027 NHL Draft Ranking: Pre-Season Tier List Sees Landon Dupont Alone Atop",
    "url": "https://thehockeynews.com/news/latest-news/2027-nhl-draft-ranking-pre-season-tier-list-sees-landon-dupont-alone-atop",
    "published": "2026-09-18",
-   "fetched": "2026-10-26",
+   "fetched": "2026-10-27",
    "count": 17,
    "players": [
     {
@@ -373,7 +373,7 @@
    "title": "2027 NHL Draft Rankings (Top 128)",
    "url": "https://www.upsidehockey.com/nhl-draft-rankings/2027-nhl-draft-rankings",
    "published": null,
-   "fetched": "2026-10-26",
+   "fetched": "2026-10-27",
    "count": 128,
    "players": [
     {
@@ -1792,7 +1792,7 @@
    "title": "2027 NHL Draft Rankings, top 32",
    "url": "https://draftprospectshockey.com/rankings",
    "published": "2026-09-07",
-   "fetched": "2026-10-26",
+   "fetched": "2026-10-27",
    "count": 32,
    "players": [
     {
@@ -1846,13 +1846,13 @@
     {
      "name": "Alexis Joseph",
      "pos": "C",
-     "team": "Saint John Sea Dogs (QMJHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "team": "",
      "league": null
     },
     {
      "name": "Sammy Nelson",
      "pos": "F",
-     "team": "Notre Dame (NCAA; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "team": "",
      "league": null
     },
     {
@@ -1888,7 +1888,7 @@
     {
      "name": "Andrei Pustovoi",
      "pos": "RW/C",
-     "team": "Loko Yaroslavl (MHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "team": "",
      "league": null
     },
     {
@@ -1924,7 +1924,7 @@
     {
      "name": "Jamie Glance",
      "pos": "RW/C",
-     "team": "Saint John Sea Dogs (QMJHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "team": "",
      "league": null
     },
     {
@@ -1942,7 +1942,7 @@
     {
      "name": "Evgeny Yakunin",
      "pos": "C",
-     "team": "MHK Spartak Moskva (MHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "team": "",
      "league": null
     },
     {
@@ -1972,7 +1972,7 @@
     {
      "name": "Nolan Fitzhenry",
      "pos": "C",
-     "team": "USNTDP Juniors (USHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
+     "team": "",
      "league": null
     },
     {
@@ -1995,7 +1995,7 @@
    "title": "2027 NHL Mock Draft",
    "url": "https://www.lines.com/nhl/drafts/2027",
    "published": null,
-   "fetched": "2026-10-26",
+   "fetched": "2026-10-27",
    "count": 30,
    "players": [
     {
@@ -3089,7 +3089,6 @@
    "rank": 48,
    "name": "Evgeny Yakunin",
    "pos": "C",
-   "team": "MHK Spartak Moskva (MHL; DPH prospect tracker (Don's working file), as of 1 Oct 2026",
    "median_rank": 40,
    "avg_rank": 56.0,
    "lists": 1,

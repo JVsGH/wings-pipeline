@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "season": 20262027,
  "players": [
   {
@@ -65,19 +65,19 @@
     "round": 2,
     "overallPick": 32
    },
-   "nhl_gp": 6,
+   "nhl_gp": 7,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 6,
+     "gp": 7,
      "g": 2,
      "a": 1,
      "pts": 3,
      "pim": 0,
-     "pm": 0
+     "pm": -1
     }
    ],
    "previous": [
@@ -266,19 +266,19 @@
     "round": 3,
     "overallPick": 70
    },
-   "nhl_gp": 14,
+   "nhl_gp": 15,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 5,
+     "gp": 6,
      "g": 0,
      "a": 1,
      "pts": 1,
      "pim": 2,
-     "pm": -3
+     "pm": -4
     }
    ],
    "previous": [
@@ -478,14 +478,14 @@
     "round": 4,
     "overallPick": 105
    },
-   "nhl_gp": 11,
+   "nhl_gp": 12,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 11,
+     "gp": 12,
      "g": 1,
      "a": 3,
      "pts": 4,
@@ -690,19 +690,19 @@
     "round": 1,
     "overallPick": 9
    },
-   "nhl_gp": 37,
+   "nhl_gp": 38,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 9,
+     "gp": 10,
      "g": 0,
      "a": 2,
      "pts": 2,
      "pim": 2,
-     "pm": -2
+     "pm": -3
     }
    ],
    "previous": [
@@ -1137,19 +1137,19 @@
     "round": 1,
     "overallPick": 15
    },
-   "nhl_gp": 25,
+   "nhl_gp": 26,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 11,
+     "gp": 12,
      "g": 2,
      "a": 6,
      "pts": 8,
-     "pim": 4,
-     "pm": 10
+     "pim": 6,
+     "pm": 9
     }
    ],
    "previous": [
@@ -1446,7 +1446,7 @@
    "pos": "D",
    "shoots": "L",
    "born": "2004-10-27",
-   "age": 21,
+   "age": 22,
    "height": 73,
    "weight": 179,
    "country": "USA",
@@ -1623,20 +1623,20 @@
    "country": "CZE",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8485545.png",
    "draft": null,
-   "nhl_gp": 1,
+   "nhl_gp": 2,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 1,
-     "w": 0,
+     "gp": 2,
+     "w": 1,
      "l": 0,
-     "ga": 1,
-     "sa": 8,
-     "svp": 0.875,
-     "gaa": 3.037975,
+     "ga": 4,
+     "sa": 35,
+     "svp": 0.885714,
+     "gaa": 2.890986,
      "so": 0
     },
     {
