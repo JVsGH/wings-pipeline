@@ -3,12 +3,12 @@
   "season": 20262027,
   "league": "SHL",
   "team": "Malmö Redhawks",
-  "gp": 11,
+  "gp": 12,
   "g": 1,
   "a": 2,
   "pts": 3,
   "pim": 8,
-  "pm": 3
+  "pm": 5
  },
  "8482171|20262027|NHL|Detroit Red Wings": {
   "season": 20262027,
@@ -383,12 +383,12 @@
   "season": 20262027,
   "league": "MHL",
   "team": "MHK Spartak Moskva",
-  "gp": 2,
+  "gp": 3,
   "g": 0,
-  "a": 0,
-  "pts": 0,
+  "a": 3,
+  "pts": 3,
   "pim": 2,
-  "pm": 0
+  "pm": 2
  },
  "8485613|20262027|VHL|Khimik Voskresensk": {
   "season": 20262027,

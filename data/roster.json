@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.89137,
-   "shots_against": 10181,
-   "goals_against": 1106
+   "save_pct": 0.89244,
+   "shots_against": 10766,
+   "goals_against": 1158
   }
  },
  "players": [
@@ -936,10 +936,10 @@
      "team": "Malmö Redhawks",
      "stats": {
       "assists": 2,
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "goals": 1,
       "pim": 8,
-      "plusMinus": 3,
+      "plusMinus": 5,
       "points": 3
      }
     }
@@ -2041,12 +2041,12 @@
      "league": "MHL",
      "team": "MHK Spartak Moskva",
      "stats": {
-      "assists": 0,
-      "gamesPlayed": 2,
+      "assists": 3,
+      "gamesPlayed": 3,
       "goals": 0,
       "pim": 2,
-      "plusMinus": 0,
-      "points": 0
+      "plusMinus": 2,
+      "points": 3
      }
     },
     {
