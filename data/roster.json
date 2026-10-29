@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.89244,
-   "shots_against": 10766,
-   "goals_against": 1158
+   "save_pct": 0.8922,
+   "shots_against": 10983,
+   "goals_against": 1184
   }
  },
  "players": [
@@ -699,11 +699,11 @@
      "team": "Almtuna IS",
      "stats": {
       "assists": 6,
-      "gamesPlayed": 14,
-      "goals": 1,
+      "gamesPlayed": 15,
+      "goals": 2,
       "pim": 4,
       "plusMinus": -7,
-      "points": 7
+      "points": 8
      }
     }
    ],
