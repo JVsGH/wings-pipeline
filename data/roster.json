@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.89089,
-   "shots_against": 11576,
-   "goals_against": 1263
+   "save_pct": 0.89071,
+   "shots_against": 11739,
+   "goals_against": 1283
   }
  },
  "players": [
@@ -32,10 +32,10 @@
      "team": "Peterborough Petes",
      "stats": {
       "assists": 6,
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "goals": 5,
       "pim": 13,
-      "plusMinus": -1,
+      "plusMinus": -2,
       "points": 11
      }
     }
@@ -306,7 +306,7 @@
      "team": "Miami Univ. (Ohio)",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "goals": 1,
       "pim": 0,
       "plusMinus": -1,
@@ -331,7 +331,7 @@
     "round": 1,
     "overallPick": 17
    },
-   "on_nhl_roster": true,
+   "on_nhl_roster": false,
    "lines": [
     {
      "league": "NHL",
@@ -380,10 +380,10 @@
      "team": "Univ. of Notre Dame",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "goals": 0,
       "pim": 0,
-      "plusMinus": 1,
+      "plusMinus": 0,
       "points": 1
      }
     }
@@ -454,7 +454,7 @@
      "team": "Univ. of Minnesota-Duluth",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 0,
       "pim": 10,
       "plusMinus": 5,
@@ -486,10 +486,10 @@
      "team": "Univ. of Notre Dame",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "goals": 1,
-      "pim": 15,
-      "plusMinus": 0,
+      "pim": 27,
+      "plusMinus": -1,
       "points": 1
      }
     }
@@ -518,11 +518,11 @@
      "team": "Univ. of Wisconsin",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 3,
-      "goals": 1,
+      "gamesPlayed": 4,
+      "goals": 3,
       "pim": 15,
-      "plusMinus": 1,
-      "points": 1
+      "plusMinus": 3,
+      "points": 3
      }
     }
    ],
@@ -698,12 +698,12 @@
      "league": "HockeyAllsvenskan",
      "team": "Almtuna IS",
      "stats": {
-      "assists": 6,
-      "gamesPlayed": 15,
+      "assists": 7,
+      "gamesPlayed": 16,
       "goals": 2,
       "pim": 4,
       "plusMinus": -7,
-      "points": 8
+      "points": 9
      }
     }
    ],
@@ -1010,10 +1010,10 @@
      "team": "Colorado College",
      "stats": {
       "assists": 5,
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "goals": 0,
       "pim": 4,
-      "plusMinus": 9,
+      "plusMinus": 8,
       "points": 5
      }
     }
@@ -1139,10 +1139,10 @@
      "team": "Univ. of Wisconsin",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "goals": 0,
       "pim": 2,
-      "plusMinus": 4,
+      "plusMinus": 5,
       "points": 0
      }
     }
@@ -1164,7 +1164,7 @@
     "round": 1,
     "overallPick": 26
    },
-   "on_nhl_roster": false,
+   "on_nhl_roster": true,
    "lines": [
     {
      "league": "AHL",
@@ -1478,11 +1478,11 @@
      "team": "Univ. of Massachusetts",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 8,
-      "goals": 1,
+      "gamesPlayed": 9,
+      "goals": 2,
       "pim": 4,
-      "plusMinus": 4,
-      "points": 1
+      "plusMinus": 5,
+      "points": 2
      }
     }
    ],
@@ -1552,7 +1552,7 @@
      "team": "Erie Otters",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "goals": 5,
       "pim": 0,
       "plusMinus": -3,
@@ -1783,16 +1783,16 @@
      "league": "WHL",
      "team": "Prince Albert Raiders",
      "stats": {
-      "gamesPlayed": 10,
-      "goalsAgainst": 31,
-      "goalsAgainstAvg": 3.13,
+      "gamesPlayed": 11,
+      "goalsAgainst": 34,
+      "goalsAgainstAvg": 3.11,
       "losses": 4,
       "otLosses": 2,
-      "savePctg": 0.889,
-      "shotsAgainst": 279,
+      "savePctg": 0.895,
+      "shotsAgainst": 323,
       "shutouts": 0,
-      "timeOnIce": "594:55",
-      "wins": 4
+      "timeOnIce": "654:55",
+      "wins": 5
      }
     }
    ],
@@ -1968,7 +1968,7 @@
      "team": "Moncton Wildcats",
      "stats": {
       "assists": 6,
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "goals": 3,
       "pim": 8,
       "plusMinus": -2,
@@ -2149,12 +2149,12 @@
      "league": "NCAA",
      "team": "Ferris State Univ.",
      "stats": {
-      "assists": 1,
-      "gamesPlayed": 6,
+      "assists": 2,
+      "gamesPlayed": 7,
       "goals": 2,
       "pim": 4,
-      "plusMinus": -2,
-      "points": 3
+      "plusMinus": -3,
+      "points": 4
      }
     }
    ],
@@ -2208,12 +2208,25 @@
     "overallPick": 169
    },
    "on_nhl_roster": false,
-   "lines": [],
-   "last_team": {
-    "league": "QMJHL",
-    "team": "Moncton Wildcats",
-    "season": 20252026
-   }
+   "lines": [
+    {
+     "league": "NCAA",
+     "team": "Harvard Univ.",
+     "stats": {
+      "gamesPlayed": 1,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 3.05,
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.893,
+      "shotsAgainst": 28,
+      "shutouts": 0,
+      "timeOnIce": "59:00",
+      "wins": 0
+     }
+    }
+   ],
+   "last_team": null
   },
   {
    "id": 8482777,
@@ -2436,7 +2449,7 @@
      "team": "Univ. of Minnesota-Duluth",
      "stats": {
       "assists": 4,
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "goals": 1,
       "pim": 0,
       "plusMinus": 3,
@@ -2504,12 +2517,21 @@
     "overallPick": 172
    },
    "on_nhl_roster": false,
-   "lines": [],
-   "last_team": {
-    "league": "QMJHL",
-    "team": "Cape Breton Eagles",
-    "season": 20252026
-   }
+   "lines": [
+    {
+     "league": "QMJHL",
+     "team": "Cape Breton Eagles",
+     "stats": {
+      "assists": 0,
+      "gamesPlayed": 1,
+      "goals": 0,
+      "pim": 4,
+      "plusMinus": 0,
+      "points": 0
+     }
+    }
+   ],
+   "last_team": null
   },
   {
    "id": 8478021,
