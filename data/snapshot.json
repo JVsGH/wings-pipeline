@@ -14,12 +14,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 9,
+  "gp": 10,
   "g": 2,
   "a": 2,
   "pts": 4,
   "pim": 0,
-  "pm": 0
+  "pm": -1
  },
  "8482184|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -58,12 +58,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 8,
-  "g": 0,
+  "gp": 9,
+  "g": 1,
   "a": 2,
-  "pts": 2,
+  "pts": 3,
   "pim": 2,
-  "pm": -3
+  "pm": -2
  },
  "8483045|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -102,12 +102,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 14,
+  "gp": 15,
   "g": 1,
   "a": 3,
   "pts": 4,
   "pim": 12,
-  "pm": 1
+  "pm": 2
  },
  "8483717|20262027|NCAA|Ferris State Univ.": {
   "season": 20262027,
@@ -249,12 +249,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 14,
-  "g": 2,
-  "a": 6,
-  "pts": 8,
-  "pim": 8,
-  "pm": 9
+  "gp": 15,
+  "g": 3,
+  "a": 7,
+  "pts": 10,
+  "pim": 10,
+  "pm": 10
  },
  "8484836|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
