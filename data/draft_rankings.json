@@ -1,6 +1,6 @@
 {
  "draft_year": 2027,
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "method": "Median rank across every list (a list that leaves a player out counts as its length + 10); average breaks ties.",
  "sources": [
   {
@@ -9,7 +9,7 @@
    "title": "2027 NHL Draft Rankings: Early-season top 40",
    "url": "https://www.dailyfaceoff.com/news/2027-nhl-draft-rankings-early-season-top-40-dupont-skvortsov-privalov-zhilkin-meyer",
    "published": "2026-10-09",
-   "fetched": "2026-11-03",
+   "fetched": "2026-11-04",
    "count": 40,
    "players": [
     {
@@ -260,7 +260,7 @@
    "title": "2027 NHL Draft Ranking: Pre-Season Tier List Sees Landon Dupont Alone Atop",
    "url": "https://thehockeynews.com/news/latest-news/2027-nhl-draft-ranking-pre-season-tier-list-sees-landon-dupont-alone-atop",
    "published": "2026-09-18",
-   "fetched": "2026-11-03",
+   "fetched": "2026-11-04",
    "count": 17,
    "players": [
     {
@@ -373,7 +373,7 @@
    "title": "2027 NHL Draft Rankings (Top 128)",
    "url": "https://www.upsidehockey.com/nhl-draft-rankings/2027-nhl-draft-rankings",
    "published": null,
-   "fetched": "2026-11-03",
+   "fetched": "2026-11-04",
    "count": 128,
    "players": [
     {
@@ -1792,7 +1792,7 @@
    "title": "2027 NHL Draft Rankings, top 32",
    "url": "https://draftprospectshockey.com/rankings",
    "published": "2026-09-07",
-   "fetched": "2026-11-03",
+   "fetched": "2026-11-04",
    "count": 32,
    "players": [
     {
@@ -1803,13 +1803,13 @@
     },
     {
      "name": "Nazar Privalov",
-     "pos": "C/LW",
-     "team": "",
-     "league": null
+     "pos": "C",
+     "team": "CSKA",
+     "league": "NHL Central Scouting, Preliminary Players to Watch, as of 26 Oct 2026"
     },
     {
      "name": "Jonah Neuenschwander",
-     "pos": "F",
+     "pos": "C",
      "team": "EHC Biel-Bienne",
      "league": "NL; the club's site, as of 21 Oct 2026"
     },
@@ -1828,32 +1828,32 @@
     {
      "name": "Sergei Skvortsov",
      "pos": "LW",
-     "team": "",
-     "league": null
+     "team": "Nizhny Novgorod",
+     "league": "NHL Central Scouting, Preliminary Players to Watch, as of 26 Oct 2026"
     },
     {
      "name": "Dima Zhilkin",
-     "pos": "RW",
+     "pos": "LW",
      "team": "Saginaw Spirit",
      "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Milan Sundström",
-     "pos": "C",
-     "team": "MoDo Hockey U20",
-     "league": "U20 Nationell; the Swedish federation's league roster, as of 20 Oct 2026"
+     "pos": null,
+     "team": null,
+     "league": null
     },
     {
      "name": "Alexis Joseph",
      "pos": "C",
-     "team": "",
-     "league": null
+     "team": "Saint John Sea Dogs",
+     "league": "NHL Central Scouting, Preliminary Players to Watch, as of 26 Oct 2026"
     },
     {
      "name": "Sammy Nelson",
-     "pos": "F",
-     "team": "",
-     "league": null
+     "pos": "C",
+     "team": "Notre Dame",
+     "league": "NHL Central Scouting, Preliminary Players to Watch, as of 26 Oct 2026"
     },
     {
      "name": "Jaxon Jacobson",
@@ -1863,7 +1863,7 @@
     },
     {
      "name": "Luca Santala",
-     "pos": "C/W",
+     "pos": "C",
      "team": "Kitchener Rangers",
      "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
@@ -1875,31 +1875,31 @@
     },
     {
      "name": "Timo Kazda",
-     "pos": "F",
+     "pos": "RW",
      "team": "Guelph Storm",
      "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Jaakko Wycisk",
-     "pos": "RW/C",
+     "pos": "C",
      "team": "Guelph Storm",
      "league": "OHL; the CHL's site, as of 22 Oct 2026"
     },
     {
      "name": "Andrei Pustovoi",
-     "pos": "RW/C",
-     "team": "",
+     "pos": null,
+     "team": null,
      "league": null
     },
     {
      "name": "Bosse Meijer",
-     "pos": "C",
-     "team": "Frölunda HC",
-     "league": "SHL; the Swedish federation's league roster, as of 20 Oct 2026"
+     "pos": null,
+     "team": null,
+     "league": null
     },
     {
      "name": "Petr Tomek",
-     "pos": "C",
+     "pos": "RW",
      "team": "BYD Energie Karlovy Vary",
      "league": "Czechia; the club's site, as of 20 Oct 2026"
     },
@@ -1911,7 +1911,7 @@
     },
     {
      "name": "Noah Davidson",
-     "pos": "F",
+     "pos": "C",
      "team": "Medicine Hat Tigers",
      "league": "WHL; the CHL's site, as of 22 Oct 2026"
     },
@@ -1923,9 +1923,9 @@
     },
     {
      "name": "Jamie Glance",
-     "pos": "RW/C",
-     "team": "",
-     "league": null
+     "pos": "RW",
+     "team": "Saint John Sea Dogs",
+     "league": "NHL Central Scouting, Preliminary Players to Watch, as of 26 Oct 2026"
     },
     {
      "name": "Max Calce",
@@ -1941,15 +1941,15 @@
     },
     {
      "name": "Evgeny Yakunin",
-     "pos": "C",
-     "team": "",
+     "pos": null,
+     "team": null,
      "league": null
     },
     {
      "name": "Lenni Kokkonen",
-     "pos": "RD",
+     "pos": null,
      "team": "Kärpät U20",
-     "league": "the club's site, as of 21 Oct 2026"
+     "league": null
     },
     {
      "name": "Levi Harper",
@@ -1959,7 +1959,7 @@
     },
     {
      "name": "Shaeffer Gordon-Carroll",
-     "pos": "F",
+     "pos": "C",
      "team": "Medicine Hat Tigers",
      "league": "WHL; the CHL's site, as of 22 Oct 2026"
     },
@@ -1972,8 +1972,8 @@
     {
      "name": "Nolan Fitzhenry",
      "pos": "C",
-     "team": "",
-     "league": null
+     "team": "USA U-18",
+     "league": "NHL Central Scouting, Preliminary Players to Watch, as of 26 Oct 2026"
     },
     {
      "name": "Ryerson Edgar",
@@ -1995,8 +1995,8 @@
    "title": "2027 NHL Mock Draft",
    "url": "https://www.lines.com/nhl/drafts/2027",
    "published": null,
-   "fetched": "2026-11-03",
-   "count": 29,
+   "fetched": "2026-11-04",
+   "count": 30,
    "players": [
     {
      "name": "Landon Dupont",
@@ -2007,16 +2007,24 @@
      "pos": "LHC"
     },
     {
+     "name": "Jonah Neuenschwander",
+     "pos": "LHC"
+    },
+    {
+     "name": "Dima Zhilkin",
+     "pos": "RW"
+    },
+    {
+     "name": "Andrei Pustovoy",
+     "pos": "LHRW"
+    },
+    {
      "name": "Sergei Skvortsov",
      "pos": "LW"
     },
     {
-     "name": "Alexis Joseph",
-     "pos": "LHC"
-    },
-    {
-     "name": "Jonah Neuenschwander",
-     "pos": "LHC"
+     "name": "Noah Davidson",
+     "pos": "LW"
     },
     {
      "name": "Sammy Nelson",
@@ -2027,16 +2035,16 @@
      "pos": "LHC"
     },
     {
-     "name": "Dima Zhilkin",
-     "pos": "RW"
-    },
-    {
-     "name": "Brock England",
+     "name": "Bosse Meijer",
      "pos": "LHC"
     },
     {
-     "name": "Brock Cripps",
-     "pos": "RD"
+     "name": "Maxmilian Mareš",
+     "pos": "LW"
+    },
+    {
+     "name": "Aleks Kulemin",
+     "pos": "LHC"
     },
     {
      "name": "Carter Meyer",
@@ -2047,24 +2055,20 @@
      "pos": "LHC"
     },
     {
-     "name": "Andrei Pustovoy",
-     "pos": "LHRW"
+     "name": "Benjamin Geiger",
+     "pos": "RD"
     },
     {
-     "name": "Bosse Meijer",
-     "pos": "LHC"
-    },
-    {
-     "name": "Timothy Kazda",
-     "pos": "RW"
+     "name": "Lenni Kokkonen",
+     "pos": "RD"
     },
     {
      "name": "Jaakko Wycisk",
      "pos": "RHC"
     },
     {
-     "name": "Noah Davidson",
-     "pos": "LW"
+     "name": "Brock England",
+     "pos": "LHC"
     },
     {
      "name": "Max Calce aka Penkin",
@@ -2103,16 +2107,16 @@
      "pos": "LHC"
     },
     {
+     "name": "Timothy Kazda",
+     "pos": "RW"
+    },
+    {
      "name": "Jaxon Jacobson",
      "pos": "LW"
     },
     {
      "name": "Cooper McAslan",
      "pos": "RD"
-    },
-    {
-     "name": "Kayden Stroeder",
-     "pos": "LW"
     }
    ]
   }
@@ -2173,15 +2177,15 @@
    "height": "6'1",
    "weight": "165",
    "birth": "11-May-09",
-   "median_rank": 3,
-   "avg_rank": 3.4,
+   "median_rank": 4,
+   "avg_rank": 4.0,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 2,
     "The Hockey News": 2,
     "Upside Hockey": 4,
     "Draft Prospects Hockey": 6,
-    "Lines.com mock draft": 3
+    "Lines.com mock draft": 6
    }
   },
   {
@@ -2196,18 +2200,40 @@
    "weight": "187",
    "birth": "10-Mar-09",
    "median_rank": 5,
-   "avg_rank": 5.2,
+   "avg_rank": 4.8,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 7,
     "The Hockey News": 6,
     "Upside Hockey": 5,
     "Draft Prospects Hockey": 3,
-    "Lines.com mock draft": 5
+    "Lines.com mock draft": 3
    }
   },
   {
    "rank": 5,
+   "name": "Dima Zhilkin",
+   "pos": "RW",
+   "team": "Saginaw Spirit",
+   "league": "OHL",
+   "shoots": "R",
+   "country": "CDN",
+   "height": "5'10",
+   "weight": "185",
+   "birth": "21-Oct-08",
+   "median_rank": 5,
+   "avg_rank": 5.6,
+   "lists": 5,
+   "ranks": {
+    "Daily Faceoff": 4,
+    "The Hockey News": 5,
+    "Upside Hockey": 8,
+    "Draft Prospects Hockey": 7,
+    "Lines.com mock draft": 4
+   }
+  },
+  {
+   "rank": 6,
    "name": "Carter Meyer",
    "pos": "C",
    "team": "Québec Remparts",
@@ -2218,36 +2244,14 @@
    "weight": "176",
    "birth": "10-Apr-09",
    "median_rank": 5,
-   "avg_rank": 7.0,
+   "avg_rank": 7.4,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 5,
     "The Hockey News": 4,
     "Upside Hockey": 11,
     "Draft Prospects Hockey": 4,
-    "Lines.com mock draft": 11
-   }
-  },
-  {
-   "rank": 6,
-   "name": "Dima Zhilkin",
-   "pos": "RW",
-   "team": "Saginaw Spirit",
-   "league": "OHL",
-   "shoots": "R",
-   "country": "CDN",
-   "height": "5'10",
-   "weight": "185",
-   "birth": "21-Oct-08",
-   "median_rank": 7,
-   "avg_rank": 6.4,
-   "lists": 5,
-   "ranks": {
-    "Daily Faceoff": 4,
-    "The Hockey News": 5,
-    "Upside Hockey": 8,
-    "Draft Prospects Hockey": 7,
-    "Lines.com mock draft": 8
+    "Lines.com mock draft": 13
    }
   },
   {
@@ -2262,14 +2266,14 @@
    "weight": "174",
    "birth": "22-Aug-08",
    "median_rank": 7,
-   "avg_rank": 7.4,
+   "avg_rank": 9.2,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 6,
     "The Hockey News": 7,
     "Upside Hockey": 10,
     "Draft Prospects Hockey": 5,
-    "Lines.com mock draft": 9
+    "Lines.com mock draft": 18
    }
   },
   {
@@ -2284,14 +2288,14 @@
    "weight": "196",
    "birth": "6-May-09",
    "median_rank": 8,
-   "avg_rank": 7.2,
+   "avg_rank": 7.6,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 10,
     "The Hockey News": 8,
     "Upside Hockey": 3,
     "Draft Prospects Hockey": 8,
-    "Lines.com mock draft": 7
+    "Lines.com mock draft": 9
    }
   },
   {
@@ -2306,14 +2310,13 @@
    "weight": "201",
    "birth": "16-Jun-09",
    "median_rank": 9,
-   "avg_rank": 9.0,
-   "lists": 5,
+   "avg_rank": 16.2,
+   "lists": 4,
    "ranks": {
     "Daily Faceoff": 9,
     "The Hockey News": 14,
     "Upside Hockey": 9,
-    "Draft Prospects Hockey": 9,
-    "Lines.com mock draft": 4
+    "Draft Prospects Hockey": 9
    }
   },
   {
@@ -2328,40 +2331,18 @@
    "weight": "192",
    "birth": "19-Sep-08",
    "median_rank": 10,
-   "avg_rank": 9.0,
+   "avg_rank": 9.4,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 12,
     "The Hockey News": 10,
     "Upside Hockey": 7,
     "Draft Prospects Hockey": 10,
-    "Lines.com mock draft": 6
+    "Lines.com mock draft": 8
    }
   },
   {
    "rank": 11,
-   "name": "Brock Cripps",
-   "pos": "RHD",
-   "team": "Prince Albert Raiders",
-   "league": "WHL",
-   "shoots": "R",
-   "country": "CDN",
-   "height": "5'10",
-   "weight": "161",
-   "birth": "23-Jul-09",
-   "median_rank": 11,
-   "avg_rank": 13.6,
-   "lists": 5,
-   "ranks": {
-    "Daily Faceoff": 8,
-    "The Hockey News": 11,
-    "Upside Hockey": 26,
-    "Draft Prospects Hockey": 13,
-    "Lines.com mock draft": 10
-   }
-  },
-  {
-   "rank": 12,
    "name": "Andrei Pustovoy",
    "pos": "C",
    "team": "Lokomotiv Yaroslavl",
@@ -2371,14 +2352,35 @@
    "height": "6'3",
    "weight": "201",
    "birth": "5-Dec-08",
-   "median_rank": 13,
-   "avg_rank": 14.6,
+   "median_rank": 11,
+   "avg_rank": 13.0,
    "lists": 4,
    "ranks": {
     "Daily Faceoff": 11,
     "Upside Hockey": 6,
     "Draft Prospects Hockey": 16,
-    "Lines.com mock draft": 13
+    "Lines.com mock draft": 5
+   }
+  },
+  {
+   "rank": 12,
+   "name": "Brock Cripps",
+   "pos": "RHD",
+   "team": "Prince Albert Raiders",
+   "league": "WHL",
+   "shoots": "R",
+   "country": "CDN",
+   "height": "5'10",
+   "weight": "161",
+   "birth": "23-Jul-09",
+   "median_rank": 13,
+   "avg_rank": 19.6,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 8,
+    "The Hockey News": 11,
+    "Upside Hockey": 26,
+    "Draft Prospects Hockey": 13
    }
   },
   {
@@ -2393,13 +2395,13 @@
    "weight": "183",
    "birth": "11-Dec-08",
    "median_rank": 14,
-   "avg_rank": 18.4,
+   "avg_rank": 18.8,
    "lists": 4,
    "ranks": {
     "Daily Faceoff": 13,
     "Upside Hockey": 14,
     "Draft Prospects Hockey": 11,
-    "Lines.com mock draft": 27
+    "Lines.com mock draft": 29
    }
   },
   {
@@ -2414,39 +2416,18 @@
    "weight": "190",
    "birth": "16-Mar-09",
    "median_rank": 15,
-   "avg_rank": 15.2,
+   "avg_rank": 15.4,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 14,
     "The Hockey News": 15,
     "Upside Hockey": 16,
     "Draft Prospects Hockey": 15,
-    "Lines.com mock draft": 16
+    "Lines.com mock draft": 17
    }
   },
   {
    "rank": 15,
-   "name": "Timothy Kazda",
-   "pos": "RW",
-   "team": "Guelph Storm",
-   "league": "OHL",
-   "shoots": "R",
-   "country": "SVK",
-   "height": "6'1",
-   "weight": "194",
-   "birth": "4-Oct-08",
-   "median_rank": 15,
-   "avg_rank": 18.6,
-   "lists": 4,
-   "ranks": {
-    "Daily Faceoff": 24,
-    "Upside Hockey": 13,
-    "Draft Prospects Hockey": 14,
-    "Lines.com mock draft": 15
-   }
-  },
-  {
-   "rank": 16,
    "name": "Bosse Meijer",
    "pos": "C",
    "team": "Frölunda HC",
@@ -2457,18 +2438,18 @@
    "weight": "168",
    "birth": "17-Dec-08",
    "median_rank": 17,
-   "avg_rank": 15.6,
+   "avg_rank": 14.8,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 19,
     "The Hockey News": 9,
     "Upside Hockey": 19,
     "Draft Prospects Hockey": 17,
-    "Lines.com mock draft": 14
+    "Lines.com mock draft": 10
    }
   },
   {
-   "rank": 17,
+   "rank": 16,
    "name": "Noah Davidson",
    "pos": "C",
    "team": "Medicine Hat Tigers",
@@ -2479,17 +2460,17 @@
    "weight": "216",
    "birth": "1-Nov-08",
    "median_rank": 17,
-   "avg_rank": 19.2,
+   "avg_rank": 17.2,
    "lists": 4,
    "ranks": {
     "Daily Faceoff": 15,
     "Upside Hockey": 17,
     "Draft Prospects Hockey": 20,
-    "Lines.com mock draft": 17
+    "Lines.com mock draft": 7
    }
   },
   {
-   "rank": 18,
+   "rank": 17,
    "name": "Luca Santala",
    "pos": "RW",
    "team": "Kitchener Rangers",
@@ -2500,17 +2481,17 @@
    "weight": "176",
    "birth": "28-Jul-09",
    "median_rank": 18,
-   "avg_rank": 19.8,
+   "avg_rank": 20.0,
    "lists": 4,
    "ranks": {
     "Daily Faceoff": 18,
     "Upside Hockey": 18,
     "Draft Prospects Hockey": 12,
-    "Lines.com mock draft": 24
+    "Lines.com mock draft": 25
    }
   },
   {
-   "rank": 19,
+   "rank": 18,
    "name": "Malik L’Italien",
    "pos": "LHD",
    "team": "Halifax Mooseheads",
@@ -2520,19 +2501,19 @@
    "height": "6'3",
    "weight": "187",
    "birth": "10-Jun-09",
-   "median_rank": 21,
-   "avg_rank": 21.2,
+   "median_rank": 22,
+   "avg_rank": 21.4,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 26,
     "The Hockey News": 12,
     "Upside Hockey": 15,
     "Draft Prospects Hockey": 32,
-    "Lines.com mock draft": 21
+    "Lines.com mock draft": 22
    }
   },
   {
-   "rank": 20,
+   "rank": 19,
    "name": "Petr Tomek",
    "pos": "C",
    "team": "HC Energie Karlovy Vary",
@@ -2543,18 +2524,18 @@
    "weight": "165",
    "birth": "23-Oct-08",
    "median_rank": 23,
-   "avg_rank": 22.4,
+   "avg_rank": 22.6,
    "lists": 5,
    "ranks": {
     "Daily Faceoff": 23,
     "The Hockey News": 16,
     "Upside Hockey": 29,
     "Draft Prospects Hockey": 18,
-    "Lines.com mock draft": 26
+    "Lines.com mock draft": 27
    }
   },
   {
-   "rank": 21,
+   "rank": 20,
    "name": "Jamie Glance",
    "pos": "RW",
    "team": "Saint John Sea Dogs",
@@ -2565,13 +2546,34 @@
    "weight": "185",
    "birth": "23-Sep-08",
    "median_rank": 23,
-   "avg_rank": 24.0,
+   "avg_rank": 24.2,
    "lists": 4,
    "ranks": {
     "Daily Faceoff": 28,
     "Upside Hockey": 23,
     "Draft Prospects Hockey": 22,
-    "Lines.com mock draft": 20
+    "Lines.com mock draft": 21
+   }
+  },
+  {
+   "rank": 21,
+   "name": "Timothy Kazda",
+   "pos": "RW",
+   "team": "Guelph Storm",
+   "league": "OHL",
+   "shoots": "R",
+   "country": "SVK",
+   "height": "6'1",
+   "weight": "194",
+   "birth": "4-Oct-08",
+   "median_rank": 24,
+   "avg_rank": 21.2,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 24,
+    "Upside Hockey": 13,
+    "Draft Prospects Hockey": 14,
+    "Lines.com mock draft": 28
    }
   },
   {
@@ -2585,13 +2587,13 @@
    "height": "6'3",
    "weight": "194",
    "birth": "9-Feb-09",
-   "median_rank": 23,
-   "avg_rank": 25.2,
+   "median_rank": 24,
+   "avg_rank": 25.4,
    "lists": 3,
    "ranks": {
     "Daily Faceoff": 22,
     "Upside Hockey": 12,
-    "Lines.com mock draft": 23
+    "Lines.com mock draft": 24
    }
   },
   {
@@ -2606,13 +2608,13 @@
    "weight": "183",
    "birth": "10-Feb-09",
    "median_rank": 25,
-   "avg_rank": 22.8,
+   "avg_rank": 23.2,
    "lists": 4,
    "ranks": {
     "Daily Faceoff": 25,
     "Upside Hockey": 20,
     "Draft Prospects Hockey": 30,
-    "Lines.com mock draft": 12
+    "Lines.com mock draft": 14
    }
   },
   {
@@ -2627,13 +2629,13 @@
    "weight": "157",
    "birth": "15-Jan-09",
    "median_rank": 25,
-   "avg_rank": 25.4,
+   "avg_rank": 25.6,
    "lists": 4,
    "ranks": {
     "Daily Faceoff": 32,
     "Upside Hockey": 25,
     "Draft Prospects Hockey": 24,
-    "Lines.com mock draft": 19
+    "Lines.com mock draft": 20
    }
   },
   {
@@ -2648,7 +2650,7 @@
    "weight": "190",
    "birth": "26-Nov-08",
    "median_rank": 27,
-   "avg_rank": 27.8,
+   "avg_rank": 28.0,
    "lists": 3,
    "ranks": {
     "Daily Faceoff": 21,
@@ -2668,7 +2670,7 @@
    "weight": "181",
    "birth": "11-Jun-09",
    "median_rank": 27,
-   "avg_rank": 28.0,
+   "avg_rank": 28.2,
    "lists": 3,
    "ranks": {
     "Daily Faceoff": 30,
@@ -2678,26 +2680,6 @@
   },
   {
    "rank": 27,
-   "name": "Levi Harper",
-   "pos": "RHD",
-   "team": "Saginaw Spirit",
-   "league": "OHL",
-   "shoots": "R",
-   "country": "USA",
-   "height": "5'11",
-   "weight": "174",
-   "birth": "3-Oct-08",
-   "median_rank": 27,
-   "avg_rank": 30.8,
-   "lists": 3,
-   "ranks": {
-    "Daily Faceoff": 20,
-    "Upside Hockey": 41,
-    "Draft Prospects Hockey": 27
-   }
-  },
-  {
-   "rank": 28,
    "name": "Lenni Kokkonen",
    "pos": "D",
    "shoots": "R",
@@ -2708,35 +2690,75 @@
    "weight": "190",
    "birth": "25-May-09",
    "median_rank": 27,
-   "avg_rank": 33.8,
-   "lists": 2,
+   "avg_rank": 29.2,
+   "lists": 3,
    "ranks": {
     "Upside Hockey": 27,
-    "Draft Prospects Hockey": 26
+    "Draft Prospects Hockey": 26,
+    "Lines.com mock draft": 16
+   }
+  },
+  {
+   "rank": 28,
+   "name": "Maximilian Mares",
+   "pos": "C",
+   "shoots": "L",
+   "team": "Rimouski",
+   "league": "QMJHL",
+   "country": "CZE",
+   "height": "6'6",
+   "weight": "225",
+   "birth": "3-Apr-09",
+   "median_rank": 27,
+   "avg_rank": 30.4,
+   "lists": 2,
+   "ranks": {
+    "Upside Hockey": 22,
+    "Lines.com mock draft": 11
    }
   },
   {
    "rank": 29,
-   "name": "Kayden Stroeder",
-   "pos": "C",
-   "team": "Edmonton Oil Kings",
-   "league": "WHL",
-   "shoots": "L",
-   "country": "CDN",
-   "height": "5'10",
-   "weight": "150",
-   "birth": "1-May-09",
-   "median_rank": 29,
-   "avg_rank": 34.0,
+   "name": "Levi Harper",
+   "pos": "RHD",
+   "team": "Saginaw Spirit",
+   "league": "OHL",
+   "shoots": "R",
+   "country": "USA",
+   "height": "5'11",
+   "weight": "174",
+   "birth": "3-Oct-08",
+   "median_rank": 27,
+   "avg_rank": 31.0,
    "lists": 3,
    "ranks": {
-    "Daily Faceoff": 16,
-    "Upside Hockey": 56,
-    "Lines.com mock draft": 29
+    "Daily Faceoff": 20,
+    "Upside Hockey": 41,
+    "Draft Prospects Hockey": 27
    }
   },
   {
    "rank": 30,
+   "name": "Aleks Kulemin",
+   "pos": "C",
+   "team": "Kingston Frontenacs",
+   "league": "OHL",
+   "shoots": "L",
+   "country": "CDN",
+   "height": "6'2",
+   "weight": "183",
+   "birth": "20-Mar-09",
+   "median_rank": 27,
+   "avg_rank": 33.0,
+   "lists": 3,
+   "ranks": {
+    "Daily Faceoff": 27,
+    "Upside Hockey": 57,
+    "Lines.com mock draft": 12
+   }
+  },
+  {
+   "rank": 31,
    "name": "Roberts Naudiņš",
    "pos": "LW",
    "team": "Penticton Vees",
@@ -2747,7 +2769,7 @@
    "weight": "205",
    "birth": "18-Nov-08",
    "median_rank": 30,
-   "avg_rank": 33.4,
+   "avg_rank": 33.6,
    "lists": 2,
    "ranks": {
     "Daily Faceoff": 29,
@@ -2755,7 +2777,7 @@
    }
   },
   {
-   "rank": 31,
+   "rank": 32,
    "name": "Ryerson Edgar",
    "pos": "C",
    "team": "Niagara IceDogs",
@@ -2766,17 +2788,17 @@
    "weight": "161",
    "birth": "30-Jul-09",
    "median_rank": 31,
-   "avg_rank": 28.8,
+   "avg_rank": 29.0,
    "lists": 4,
    "ranks": {
     "Daily Faceoff": 33,
     "Upside Hockey": 31,
     "Draft Prospects Hockey": 31,
-    "Lines.com mock draft": 22
+    "Lines.com mock draft": 23
    }
   },
   {
-   "rank": 32,
+   "rank": 33,
    "name": "Boston Tait",
    "pos": "LHD",
    "team": "Wenatchee Wild",
@@ -2787,7 +2809,7 @@
    "weight": "183",
    "birth": "13-Apr-09",
    "median_rank": 32,
-   "avg_rank": 33.2,
+   "avg_rank": 33.4,
    "lists": 3,
    "ranks": {
     "Daily Faceoff": 39,
@@ -2796,7 +2818,7 @@
    }
   },
   {
-   "rank": 33,
+   "rank": 34,
    "name": "Tomas Selic",
    "pos": "RW",
    "shoots": "L",
@@ -2807,7 +2829,7 @@
    "weight": "187",
    "birth": "8-May-09",
    "median_rank": 33,
-   "avg_rank": 33.6,
+   "avg_rank": 33.8,
    "lists": 2,
    "ranks": {
     "Upside Hockey": 33,
@@ -2815,7 +2837,7 @@
    }
   },
   {
-   "rank": 34,
+   "rank": 35,
    "name": "Cooper McAslan",
    "pos": "RHD",
    "team": "London Knights",
@@ -2826,16 +2848,16 @@
    "weight": "174",
    "birth": "16-Mar-09",
    "median_rank": 34,
-   "avg_rank": 36.6,
+   "avg_rank": 37.0,
    "lists": 3,
    "ranks": {
     "Daily Faceoff": 34,
     "Upside Hockey": 52,
-    "Lines.com mock draft": 28
+    "Lines.com mock draft": 30
    }
   },
   {
-   "rank": 35,
+   "rank": 36,
    "name": "James Scantlebury",
    "pos": "C",
    "team": "Québec Remparts",
@@ -2846,7 +2868,7 @@
    "weight": "172",
    "birth": "15-Jan-09",
    "median_rank": 35,
-   "avg_rank": 34.6,
+   "avg_rank": 34.8,
    "lists": 3,
    "ranks": {
     "Daily Faceoff": 35,
@@ -2855,7 +2877,7 @@
    }
   },
   {
-   "rank": 36,
+   "rank": 37,
    "name": "Diego Gutiérrez",
    "pos": "RHD",
    "team": "USNTDP",
@@ -2866,7 +2888,7 @@
    "weight": "187",
    "birth": "13-May-09",
    "median_rank": 37,
-   "avg_rank": 32.4,
+   "avg_rank": 32.6,
    "lists": 2,
    "ranks": {
     "Daily Faceoff": 17,
@@ -2874,7 +2896,7 @@
    }
   },
   {
-   "rank": 37,
+   "rank": 38,
    "name": "Gunnar Conboy",
    "pos": "C",
    "team": "Green Bay Gamblers",
@@ -2885,7 +2907,7 @@
    "weight": "201",
    "birth": "2-Apr-09",
    "median_rank": 38,
-   "avg_rank": 35.4,
+   "avg_rank": 35.6,
    "lists": 2,
    "ranks": {
     "Daily Faceoff": 31,
@@ -2893,7 +2915,7 @@
    }
   },
   {
-   "rank": 38,
+   "rank": 39,
    "name": "Kohyn Eshkawkogan",
    "pos": "RHD",
    "team": "Ottawa 67’s",
@@ -2903,8 +2925,8 @@
    "height": "5'11",
    "weight": "183",
    "birth": "11-Nov-08",
-   "median_rank": 39,
-   "avg_rank": 34.6,
+   "median_rank": 40,
+   "avg_rank": 34.8,
    "lists": 3,
    "ranks": {
     "Daily Faceoff": 40,
@@ -2913,25 +2935,26 @@
    }
   },
   {
-   "rank": 39,
-   "name": "Maximilian Mares",
+   "rank": 40,
+   "name": "Kayden Stroeder",
    "pos": "C",
+   "team": "Edmonton Oil Kings",
+   "league": "WHL",
    "shoots": "L",
-   "team": "Rimouski",
-   "league": "QMJHL",
-   "country": "CZE",
-   "height": "6'6",
-   "weight": "225",
-   "birth": "3-Apr-09",
-   "median_rank": 39,
-   "avg_rank": 36.0,
-   "lists": 1,
+   "country": "CDN",
+   "height": "5'10",
+   "weight": "150",
+   "birth": "1-May-09",
+   "median_rank": 40,
+   "avg_rank": 36.2,
+   "lists": 2,
    "ranks": {
-    "Upside Hockey": 22
+    "Daily Faceoff": 16,
+    "Upside Hockey": 56
    }
   },
   {
-   "rank": 40,
+   "rank": 41,
    "name": "Gavin Burcar",
    "pos": "C",
    "team": "Spokane Chiefs",
@@ -2941,8 +2964,8 @@
    "height": "6'2",
    "weight": "174",
    "birth": "8-Jan-09",
-   "median_rank": 39,
-   "avg_rank": 37.2,
+   "median_rank": 40,
+   "avg_rank": 37.4,
    "lists": 2,
    "ranks": {
     "Daily Faceoff": 38,
@@ -2950,7 +2973,7 @@
    }
   },
   {
-   "rank": 41,
+   "rank": 42,
    "name": "Aspe, Dorian Eklund",
    "pos": "C",
    "shoots": "R",
@@ -2960,15 +2983,15 @@
    "height": "6'4",
    "weight": "209",
    "birth": "4-Feb-09",
-   "median_rank": 39,
-   "avg_rank": 37.2,
+   "median_rank": 40,
+   "avg_rank": 37.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 28
    }
   },
   {
-   "rank": 42,
+   "rank": 43,
    "name": "Douglas Johnsson",
    "pos": "RHD",
    "team": "Skellefteå AIK",
@@ -2978,32 +3001,13 @@
    "height": "5'10",
    "weight": "172",
    "birth": "1-Jul-09",
-   "median_rank": 39,
-   "avg_rank": 37.4,
+   "median_rank": 40,
+   "avg_rank": 37.6,
    "lists": 3,
    "ranks": {
     "Daily Faceoff": 36,
     "The Hockey News": 17,
     "Upside Hockey": 53
-   }
-  },
-  {
-   "rank": 43,
-   "name": "Aleks Kulemin",
-   "pos": "C",
-   "team": "Kingston Frontenacs",
-   "league": "OHL",
-   "shoots": "L",
-   "country": "CDN",
-   "height": "6'2",
-   "weight": "183",
-   "birth": "20-Mar-09",
-   "median_rank": 39,
-   "avg_rank": 38.4,
-   "lists": 2,
-   "ranks": {
-    "Daily Faceoff": 27,
-    "Upside Hockey": 57
    }
   },
   {
@@ -3017,8 +3021,8 @@
    "height": "6'0",
    "weight": "172",
    "birth": "14-Aug-09",
-   "median_rank": 39,
-   "avg_rank": 38.4,
+   "median_rank": 40,
+   "avg_rank": 38.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 34
@@ -3035,8 +3039,8 @@
    "height": "6'2",
    "weight": "183",
    "birth": "15-Feb-09",
-   "median_rank": 39,
-   "avg_rank": 38.6,
+   "median_rank": 40,
+   "avg_rank": 38.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 35
@@ -3053,8 +3057,8 @@
    "height": "6'0",
    "weight": "190",
    "birth": "11-Jun-09",
-   "median_rank": 39,
-   "avg_rank": 38.8,
+   "median_rank": 40,
+   "avg_rank": 39.0,
    "lists": 2,
    "ranks": {
     "Daily Faceoff": 37,
@@ -3072,8 +3076,8 @@
    "height": "6'2",
    "weight": "194",
    "birth": "18-Feb-09",
-   "median_rank": 39,
-   "avg_rank": 38.8,
+   "median_rank": 40,
+   "avg_rank": 39.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 36
@@ -3082,9 +3086,8 @@
   {
    "rank": 48,
    "name": "Evgeny Yakunin",
-   "pos": "C",
-   "median_rank": 39,
-   "avg_rank": 55.8,
+   "median_rank": 40,
+   "avg_rank": 56.0,
    "lists": 1,
    "ranks": {
     "Draft Prospects Hockey": 25
@@ -3102,7 +3105,7 @@
    "weight": "201",
    "birth": "1-Mar-09",
    "median_rank": 42,
-   "avg_rank": 40.0,
+   "avg_rank": 40.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 42
@@ -3120,7 +3123,7 @@
    "weight": "198",
    "birth": "25-Sep-08",
    "median_rank": 42,
-   "avg_rank": 40.2,
+   "avg_rank": 40.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 43
@@ -3138,7 +3141,7 @@
    "weight": "190",
    "birth": "15-Aug-09",
    "median_rank": 42,
-   "avg_rank": 40.4,
+   "avg_rank": 40.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 44
@@ -3156,7 +3159,7 @@
    "weight": "159",
    "birth": "7-May-09",
    "median_rank": 42,
-   "avg_rank": 40.6,
+   "avg_rank": 40.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 45
@@ -3174,7 +3177,7 @@
    "weight": "172",
    "birth": "10-Apr-09",
    "median_rank": 42,
-   "avg_rank": 40.8,
+   "avg_rank": 41.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 46
@@ -3192,7 +3195,7 @@
    "weight": "176",
    "birth": "10-Jan-09",
    "median_rank": 42,
-   "avg_rank": 41.0,
+   "avg_rank": 41.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 47
@@ -3210,7 +3213,7 @@
    "weight": "170",
    "birth": "2-Apr-09",
    "median_rank": 42,
-   "avg_rank": 41.2,
+   "avg_rank": 41.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 48
@@ -3228,7 +3231,7 @@
    "weight": "165",
    "birth": "31-Oct-08",
    "median_rank": 42,
-   "avg_rank": 41.6,
+   "avg_rank": 41.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 50
@@ -3246,7 +3249,7 @@
    "weight": "198",
    "birth": "26-Oct-08",
    "median_rank": 42,
-   "avg_rank": 42.4,
+   "avg_rank": 42.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 54
@@ -3264,7 +3267,7 @@
    "weight": "209",
    "birth": "12-Oct-08",
    "median_rank": 42,
-   "avg_rank": 42.6,
+   "avg_rank": 42.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 55
@@ -3282,7 +3285,7 @@
    "weight": "170",
    "birth": "17-Dec-08",
    "median_rank": 42,
-   "avg_rank": 43.2,
+   "avg_rank": 43.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 58
@@ -3300,7 +3303,7 @@
    "weight": "176",
    "birth": "28-Jan-09",
    "median_rank": 42,
-   "avg_rank": 43.4,
+   "avg_rank": 43.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 59
@@ -3318,7 +3321,7 @@
    "weight": "170",
    "birth": "11-Jun-09",
    "median_rank": 42,
-   "avg_rank": 43.6,
+   "avg_rank": 43.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 60
@@ -3336,7 +3339,7 @@
    "weight": "174",
    "birth": "8-Apr-09",
    "median_rank": 42,
-   "avg_rank": 44.0,
+   "avg_rank": 44.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 62
@@ -3354,7 +3357,7 @@
    "weight": "190",
    "birth": "2-Oct-08",
    "median_rank": 42,
-   "avg_rank": 44.2,
+   "avg_rank": 44.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 63
@@ -3372,7 +3375,7 @@
    "weight": "196",
    "birth": "31-Jan-09",
    "median_rank": 42,
-   "avg_rank": 44.4,
+   "avg_rank": 44.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 64
@@ -3390,7 +3393,7 @@
    "weight": "163",
    "birth": "2-Jan-09",
    "median_rank": 42,
-   "avg_rank": 44.6,
+   "avg_rank": 44.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 65
@@ -3408,11 +3411,11 @@
    "weight": "174",
    "birth": "28-Dec-08",
    "median_rank": 42,
-   "avg_rank": 44.8,
+   "avg_rank": 45.0,
    "lists": 2,
    "ranks": {
     "Upside Hockey": 80,
-    "Lines.com mock draft": 25
+    "Lines.com mock draft": 26
    }
   },
   {
@@ -3427,7 +3430,7 @@
    "weight": "176",
    "birth": "10-Sep-09",
    "median_rank": 42,
-   "avg_rank": 44.8,
+   "avg_rank": 45.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 66
@@ -3445,7 +3448,7 @@
    "weight": "190",
    "birth": "24-May-09",
    "median_rank": 42,
-   "avg_rank": 45.0,
+   "avg_rank": 45.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 67
@@ -3463,7 +3466,7 @@
    "weight": "201",
    "birth": "14-Jun-09",
    "median_rank": 42,
-   "avg_rank": 45.2,
+   "avg_rank": 45.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 68
@@ -3481,7 +3484,7 @@
    "weight": "201",
    "birth": "14-May-09",
    "median_rank": 42,
-   "avg_rank": 45.4,
+   "avg_rank": 45.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 69
@@ -3499,7 +3502,7 @@
    "weight": "192",
    "birth": "28-Dec-08",
    "median_rank": 42,
-   "avg_rank": 45.6,
+   "avg_rank": 45.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 70
@@ -3517,7 +3520,7 @@
    "weight": "183",
    "birth": "11-Feb-09",
    "median_rank": 42,
-   "avg_rank": 45.8,
+   "avg_rank": 46.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 71
@@ -3535,7 +3538,7 @@
    "weight": "187",
    "birth": "4-May-09",
    "median_rank": 42,
-   "avg_rank": 46.0,
+   "avg_rank": 46.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 72
@@ -3553,7 +3556,7 @@
    "weight": "172",
    "birth": "7-Nov-08",
    "median_rank": 42,
-   "avg_rank": 46.2,
+   "avg_rank": 46.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 73
@@ -3571,7 +3574,7 @@
    "weight": "190",
    "birth": "10-Feb-09",
    "median_rank": 42,
-   "avg_rank": 46.4,
+   "avg_rank": 46.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 74
@@ -3589,7 +3592,7 @@
    "weight": "190",
    "birth": "6-Apr-09",
    "median_rank": 42,
-   "avg_rank": 46.6,
+   "avg_rank": 46.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 75
@@ -3607,7 +3610,7 @@
    "weight": "183",
    "birth": "11-May-09",
    "median_rank": 42,
-   "avg_rank": 46.8,
+   "avg_rank": 47.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 76
@@ -3625,7 +3628,7 @@
    "weight": "183",
    "birth": "15-Feb-09",
    "median_rank": 42,
-   "avg_rank": 47.0,
+   "avg_rank": 47.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 77
@@ -3643,7 +3646,7 @@
    "weight": "165",
    "birth": "11-Jun-09",
    "median_rank": 42,
-   "avg_rank": 47.2,
+   "avg_rank": 47.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 78
@@ -3661,7 +3664,7 @@
    "weight": "187",
    "birth": "30-Apr-09",
    "median_rank": 42,
-   "avg_rank": 47.4,
+   "avg_rank": 47.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 79
@@ -3679,7 +3682,7 @@
    "weight": "181",
    "birth": "30-Jan-09",
    "median_rank": 42,
-   "avg_rank": 47.8,
+   "avg_rank": 48.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 81
@@ -3697,7 +3700,7 @@
    "weight": "190",
    "birth": "19-Jun-09",
    "median_rank": 42,
-   "avg_rank": 48.0,
+   "avg_rank": 48.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 82
@@ -3715,7 +3718,7 @@
    "weight": "218",
    "birth": "9-Dec-08",
    "median_rank": 42,
-   "avg_rank": 48.2,
+   "avg_rank": 48.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 83
@@ -3733,7 +3736,7 @@
    "weight": "154",
    "birth": "4-Mar-09",
    "median_rank": 42,
-   "avg_rank": 48.4,
+   "avg_rank": 48.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 84
@@ -3751,7 +3754,7 @@
    "weight": "198",
    "birth": "26-May-09",
    "median_rank": 42,
-   "avg_rank": 48.6,
+   "avg_rank": 48.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 85
@@ -3769,7 +3772,7 @@
    "weight": "190",
    "birth": "13-Sep-09",
    "median_rank": 42,
-   "avg_rank": 48.8,
+   "avg_rank": 49.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 86
@@ -3787,7 +3790,7 @@
    "weight": "185",
    "birth": "11-Jul-09",
    "median_rank": 42,
-   "avg_rank": 49.0,
+   "avg_rank": 49.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 87
@@ -3805,7 +3808,7 @@
    "weight": "165",
    "birth": "28-Jul-09",
    "median_rank": 42,
-   "avg_rank": 49.2,
+   "avg_rank": 49.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 88
@@ -3823,7 +3826,7 @@
    "weight": "176",
    "birth": "27-Jan-09",
    "median_rank": 42,
-   "avg_rank": 49.4,
+   "avg_rank": 49.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 89
@@ -3841,7 +3844,7 @@
    "weight": "176",
    "birth": "19-Jan-09",
    "median_rank": 42,
-   "avg_rank": 49.6,
+   "avg_rank": 49.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 90
@@ -3859,7 +3862,7 @@
    "weight": "174",
    "birth": "10-Oct-08",
    "median_rank": 42,
-   "avg_rank": 49.8,
+   "avg_rank": 50.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 91
@@ -3877,7 +3880,7 @@
    "weight": "183",
    "birth": "6-Aug-09",
    "median_rank": 42,
-   "avg_rank": 50.0,
+   "avg_rank": 50.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 92
@@ -3895,7 +3898,7 @@
    "weight": "201",
    "birth": "9-Nov-08",
    "median_rank": 42,
-   "avg_rank": 50.2,
+   "avg_rank": 50.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 93
@@ -3913,7 +3916,7 @@
    "weight": "196",
    "birth": "13-Mar-09",
    "median_rank": 42,
-   "avg_rank": 50.4,
+   "avg_rank": 50.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 94
@@ -3931,7 +3934,7 @@
    "weight": "190",
    "birth": "22-May-09",
    "median_rank": 42,
-   "avg_rank": 50.6,
+   "avg_rank": 50.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 95
@@ -3949,7 +3952,7 @@
    "weight": "179",
    "birth": "13-Apr-09",
    "median_rank": 42,
-   "avg_rank": 50.8,
+   "avg_rank": 51.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 96
@@ -3967,7 +3970,7 @@
    "weight": "163",
    "birth": "8-Jul-09",
    "median_rank": 42,
-   "avg_rank": 51.0,
+   "avg_rank": 51.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 97
@@ -3985,7 +3988,7 @@
    "weight": "190",
    "birth": "10-Jun-08",
    "median_rank": 42,
-   "avg_rank": 51.2,
+   "avg_rank": 51.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 98
@@ -4003,7 +4006,7 @@
    "weight": "174",
    "birth": "27-Nov-08",
    "median_rank": 42,
-   "avg_rank": 51.4,
+   "avg_rank": 51.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 99
@@ -4021,7 +4024,7 @@
    "weight": "185",
    "birth": "2-Apr-09",
    "median_rank": 42,
-   "avg_rank": 51.6,
+   "avg_rank": 51.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 100
@@ -4039,7 +4042,7 @@
    "weight": "181",
    "birth": "3-Dec-08",
    "median_rank": 42,
-   "avg_rank": 51.8,
+   "avg_rank": 52.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 101
@@ -4057,7 +4060,7 @@
    "weight": "183",
    "birth": "6-Jul-09",
    "median_rank": 42,
-   "avg_rank": 52.0,
+   "avg_rank": 52.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 102
@@ -4075,7 +4078,7 @@
    "weight": "170",
    "birth": "13-Jun-09",
    "median_rank": 42,
-   "avg_rank": 52.2,
+   "avg_rank": 52.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 103
@@ -4093,7 +4096,7 @@
    "weight": "185",
    "birth": "21-Jul-09",
    "median_rank": 42,
-   "avg_rank": 52.4,
+   "avg_rank": 52.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 104
@@ -4111,7 +4114,7 @@
    "weight": "203",
    "birth": "20-Apr-09",
    "median_rank": 42,
-   "avg_rank": 52.6,
+   "avg_rank": 52.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 105
@@ -4129,7 +4132,7 @@
    "weight": "168",
    "birth": "20-Mar-09",
    "median_rank": 42,
-   "avg_rank": 52.8,
+   "avg_rank": 53.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 106
@@ -4147,7 +4150,7 @@
    "weight": "183",
    "birth": "17-Apr-08",
    "median_rank": 42,
-   "avg_rank": 53.0,
+   "avg_rank": 53.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 107
@@ -4165,7 +4168,7 @@
    "weight": "187",
    "birth": "18-Feb-09",
    "median_rank": 42,
-   "avg_rank": 53.2,
+   "avg_rank": 53.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 108
@@ -4183,7 +4186,7 @@
    "weight": "214",
    "birth": "16-Aug-09",
    "median_rank": 42,
-   "avg_rank": 53.4,
+   "avg_rank": 53.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 109
@@ -4201,7 +4204,7 @@
    "weight": "179",
    "birth": "27-Jul-09",
    "median_rank": 42,
-   "avg_rank": 53.6,
+   "avg_rank": 53.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 110
@@ -4219,7 +4222,7 @@
    "weight": "205",
    "birth": "7-Apr-09",
    "median_rank": 42,
-   "avg_rank": 53.8,
+   "avg_rank": 54.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 111
@@ -4237,7 +4240,7 @@
    "weight": "176",
    "birth": "23-Jan-09",
    "median_rank": 42,
-   "avg_rank": 54.0,
+   "avg_rank": 54.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 112
@@ -4255,7 +4258,7 @@
    "weight": "170",
    "birth": "6-Mar-09",
    "median_rank": 42,
-   "avg_rank": 54.2,
+   "avg_rank": 54.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 113
@@ -4263,6 +4266,17 @@
   },
   {
    "rank": 114,
+   "name": "Benjamin Geiger",
+   "pos": "RD",
+   "median_rank": 42,
+   "avg_rank": 54.4,
+   "lists": 1,
+   "ranks": {
+    "Lines.com mock draft": 15
+   }
+  },
+  {
+   "rank": 115,
    "name": "Michel Lazovsky",
    "pos": "C",
    "shoots": "L",
@@ -4273,14 +4287,14 @@
    "weight": "172",
    "birth": "4-May-09",
    "median_rank": 42,
-   "avg_rank": 54.4,
+   "avg_rank": 54.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 114
    }
   },
   {
-   "rank": 115,
+   "rank": 116,
    "name": "Miska Liljeberg",
    "pos": "LW",
    "shoots": "L",
@@ -4291,14 +4305,14 @@
    "weight": "190",
    "birth": "20-Feb-09",
    "median_rank": 42,
-   "avg_rank": 54.6,
+   "avg_rank": 54.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 115
    }
   },
   {
-   "rank": 116,
+   "rank": 117,
    "name": "Artyom Mate",
    "pos": "D",
    "shoots": "L",
@@ -4309,14 +4323,14 @@
    "weight": "196",
    "birth": "9-Apr-09",
    "median_rank": 42,
-   "avg_rank": 54.8,
+   "avg_rank": 55.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 116
    }
   },
   {
-   "rank": 117,
+   "rank": 118,
    "name": "Oliver Ozogany",
    "pos": "LW",
    "shoots": "L",
@@ -4327,25 +4341,25 @@
    "weight": "203",
    "birth": "16-Jan-09",
    "median_rank": 42,
-   "avg_rank": 55.0,
+   "avg_rank": 55.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 117
    }
   },
   {
-   "rank": 118,
+   "rank": 119,
    "name": "Max Calce aka Penkin",
    "pos": "LHC",
    "median_rank": 42,
-   "avg_rank": 55.0,
+   "avg_rank": 55.2,
    "lists": 1,
    "ranks": {
-    "Lines.com mock draft": 18
+    "Lines.com mock draft": 19
    }
   },
   {
-   "rank": 119,
+   "rank": 120,
    "name": "Andrei Nikolayev",
    "pos": "G",
    "shoots": "L",
@@ -4356,14 +4370,14 @@
    "weight": "168",
    "birth": "3-Jun-09",
    "median_rank": 42,
-   "avg_rank": 55.2,
+   "avg_rank": 55.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 118
    }
   },
   {
-   "rank": 120,
+   "rank": 121,
    "name": "Noel Nord",
    "pos": "C",
    "shoots": "L",
@@ -4374,14 +4388,14 @@
    "weight": "181",
    "birth": "22-Jan-09",
    "median_rank": 42,
-   "avg_rank": 55.4,
+   "avg_rank": 55.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 119
    }
   },
   {
-   "rank": 121,
+   "rank": 122,
    "name": "Max Poikela",
    "pos": "C",
    "shoots": "L",
@@ -4392,14 +4406,14 @@
    "weight": "172",
    "birth": "9-Sep-09",
    "median_rank": 42,
-   "avg_rank": 55.6,
+   "avg_rank": 55.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 120
    }
   },
   {
-   "rank": 122,
+   "rank": 123,
    "name": "Patrik Polacek",
    "pos": "LW",
    "shoots": "L",
@@ -4410,14 +4424,14 @@
    "weight": "194",
    "birth": "13-May-09",
    "median_rank": 42,
-   "avg_rank": 55.8,
+   "avg_rank": 56.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 121
    }
   },
   {
-   "rank": 123,
+   "rank": 124,
    "name": "Rhett Sather",
    "pos": "D",
    "shoots": "L",
@@ -4428,14 +4442,14 @@
    "weight": "179",
    "birth": "25-Sep-08",
    "median_rank": 42,
-   "avg_rank": 56.0,
+   "avg_rank": 56.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 122
    }
   },
   {
-   "rank": 124,
+   "rank": 125,
    "name": "Simon Sejc",
    "pos": "RW",
    "shoots": "R",
@@ -4446,14 +4460,14 @@
    "weight": "172",
    "birth": "29-May-09",
    "median_rank": 42,
-   "avg_rank": 56.2,
+   "avg_rank": 56.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 123
    }
   },
   {
-   "rank": 125,
+   "rank": 126,
    "name": "Max Syrjalainen",
    "pos": "D",
    "shoots": "L",
@@ -4464,14 +4478,14 @@
    "weight": "187",
    "birth": "30-Jan-09",
    "median_rank": 42,
-   "avg_rank": 56.4,
+   "avg_rank": 56.6,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 124
    }
   },
   {
-   "rank": 126,
+   "rank": 127,
    "name": "Matus Valek",
    "pos": "C",
    "shoots": "L",
@@ -4482,14 +4496,14 @@
    "weight": "168",
    "birth": "16-Feb-09",
    "median_rank": 42,
-   "avg_rank": 56.6,
+   "avg_rank": 56.8,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 125
    }
   },
   {
-   "rank": 127,
+   "rank": 128,
    "name": "Jonas Vanicek",
    "pos": "C",
    "shoots": "L",
@@ -4500,14 +4514,14 @@
    "weight": "176",
    "birth": "6-Apr-09",
    "median_rank": 42,
-   "avg_rank": 56.8,
+   "avg_rank": 57.0,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 126
    }
   },
   {
-   "rank": 128,
+   "rank": 129,
    "name": "Oliver Vanha",
    "pos": "C",
    "shoots": "L",
@@ -4518,14 +4532,14 @@
    "weight": "203",
    "birth": "22-Aug-09",
    "median_rank": 42,
-   "avg_rank": 57.0,
+   "avg_rank": 57.2,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 127
    }
   },
   {
-   "rank": 129,
+   "rank": 130,
    "name": "Felix Timraz Westin",
    "pos": "G",
    "shoots": "L",
@@ -4536,7 +4550,7 @@
    "weight": "209",
    "birth": "13-Nov-08",
    "median_rank": 42,
-   "avg_rank": 57.2,
+   "avg_rank": 57.4,
    "lists": 1,
    "ranks": {
     "Upside Hockey": 128
