@@ -36,18 +36,18 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 7,
+  "gp": 8,
   "g": 1,
   "a": 0,
   "pts": 1,
-  "pim": 6,
+  "pim": 12,
   "pm": 3
  },
  "8482777|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 11,
+  "gp": 12,
   "g": 1,
   "a": 7,
   "pts": 8,
@@ -69,12 +69,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 10,
+  "gp": 11,
   "g": 2,
   "a": 1,
   "pts": 3,
-  "pim": 24,
-  "pm": 0
+  "pim": 48,
+  "pm": 1
  },
  "8483421|20262027|NCAA|Univ. of Notre Dame": {
   "season": 20262027,
@@ -91,12 +91,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 11,
-  "g": 2,
-  "a": 5,
-  "pts": 7,
+  "gp": 12,
+  "g": 3,
+  "a": 6,
+  "pts": 9,
   "pim": 0,
-  "pm": 3
+  "pm": 4
  },
  "8483679|20262027|NHL|Detroit Red Wings": {
   "season": 20262027,
@@ -124,13 +124,13 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 5,
-  "w": 2,
+  "gp": 6,
+  "w": 3,
   "l": 1,
-  "ga": 15,
-  "sa": 152,
-  "svp": 0.901,
-  "gaa": 2.92,
+  "ga": 17,
+  "sa": 178,
+  "svp": 0.904,
+  "gaa": 2.77,
   "so": 0
  },
  "8484157|20262027|NCAA|Univ. of Minnesota-Duluth": {
@@ -159,12 +159,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 11,
-  "g": 1,
+  "gp": 12,
+  "g": 2,
   "a": 3,
-  "pts": 4,
+  "pts": 5,
   "pim": 0,
-  "pm": -6
+  "pm": -7
  },
  "8484182|20262027|NCAA|Univ. of Massachusetts": {
   "season": 20262027,
@@ -181,7 +181,7 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 11,
+  "gp": 12,
   "g": 6,
   "a": 5,
   "pts": 11,
@@ -203,12 +203,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 1,
+  "gp": 2,
   "g": 0,
-  "a": 1,
-  "pts": 1,
+  "a": 2,
+  "pts": 2,
   "pim": 0,
-  "pm": 1
+  "pm": 0
  },
  "8484425|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -260,12 +260,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 11,
+  "gp": 12,
   "g": 2,
-  "a": 6,
-  "pts": 8,
+  "a": 8,
+  "pts": 10,
   "pim": 4,
-  "pm": 2
+  "pm": 1
  },
  "8484870|20262027|NCAA|Univ. of Minnesota-Duluth": {
   "season": 20262027,
@@ -337,12 +337,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 9,
+  "gp": 10,
   "g": 3,
-  "a": 6,
-  "pts": 9,
+  "a": 7,
+  "pts": 10,
   "pim": 6,
-  "pm": 7
+  "pm": 8
  },
  "8485394|20262027|SHL|Timrå IK": {
   "season": 20262027,
@@ -473,13 +473,13 @@
   "season": 20262027,
   "league": "WHL",
   "team": "Prince Albert Raiders",
-  "gp": 11,
+  "gp": 12,
   "w": 5,
-  "l": 4,
-  "ga": 34,
-  "sa": 323,
-  "svp": 0.895,
-  "gaa": 3.11,
+  "l": 5,
+  "ga": 36,
+  "sa": 352,
+  "svp": 0.898,
+  "gaa": 3.03,
   "so": 0
  },
  "8486084|20262027|NCAA|Univ. of Minnesota-Duluth": {
@@ -508,12 +508,12 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Erie Otters",
-  "gp": 13,
-  "g": 5,
-  "a": 1,
-  "pts": 6,
-  "pim": 0,
-  "pm": -3
+  "gp": 14,
+  "g": 7,
+  "a": 2,
+  "pts": 9,
+  "pim": 2,
+  "pm": 0
  },
  "8486324|20262027|QMJHL|Moncton Wildcats": {
   "season": 20262027,
