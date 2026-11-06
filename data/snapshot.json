@@ -14,7 +14,7 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 11,
+  "gp": 12,
   "g": 2,
   "a": 2,
   "pts": 4,
@@ -58,10 +58,10 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 10,
+  "gp": 11,
   "g": 1,
-  "a": 2,
-  "pts": 3,
+  "a": 3,
+  "pts": 4,
   "pim": 2,
   "pm": -3
  },
@@ -102,10 +102,10 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 16,
-  "g": 1,
+  "gp": 17,
+  "g": 2,
   "a": 3,
-  "pts": 4,
+  "pts": 5,
   "pim": 12,
   "pm": 2
  },
@@ -148,12 +148,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 12,
+  "gp": 13,
   "g": 0,
   "a": 2,
   "pts": 2,
   "pim": 2,
-  "pm": -4
+  "pm": -5
  },
  "8484161|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -225,12 +225,12 @@
   "season": 20262027,
   "league": "NCAA",
   "team": "Univ. of Wisconsin",
-  "gp": 6,
+  "gp": 7,
   "g": 0,
   "a": 0,
   "pts": 0,
   "pim": 2,
-  "pm": 6
+  "pm": 7
  },
  "8484453|20262027|NCAA|Harvard Univ.": {
   "season": 20262027,
@@ -249,7 +249,7 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 16,
+  "gp": 17,
   "g": 3,
   "a": 7,
   "pts": 10,
@@ -282,12 +282,12 @@
   "season": 20262027,
   "league": "NCAA",
   "team": "Univ. of Minnesota",
-  "gp": 5,
+  "gp": 6,
   "g": 0,
   "a": 0,
   "pts": 0,
   "pim": 4,
-  "pm": 4
+  "pm": 3
  },
  "8485079|20262027|SHL|Brynäs IF": {
   "season": 20262027,
@@ -385,10 +385,10 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Windsor Spitfires",
-  "gp": 16,
-  "g": 4,
+  "gp": 17,
+  "g": 5,
   "a": 6,
-  "pts": 10,
+  "pts": 11,
   "pim": 6,
   "pm": -1
  },
@@ -396,7 +396,7 @@
   "season": 20262027,
   "league": "NCAA",
   "team": "Univ. of Wisconsin",
-  "gp": 5,
+  "gp": 6,
   "g": 3,
   "a": 0,
   "pts": 3,
@@ -497,12 +497,12 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Peterborough Petes",
-  "gp": 13,
+  "gp": 14,
   "g": 5,
-  "a": 7,
-  "pts": 12,
-  "pim": 13,
-  "pm": -2
+  "a": 8,
+  "pts": 13,
+  "pim": 15,
+  "pm": -1
  },
  "8486305|20262027|OHL|Erie Otters": {
   "season": 20262027,
@@ -519,11 +519,11 @@
   "season": 20262027,
   "league": "QMJHL",
   "team": "Moncton Wildcats",
-  "gp": 15,
+  "gp": 16,
   "g": 4,
-  "a": 6,
-  "pts": 10,
+  "a": 7,
+  "pts": 11,
   "pim": 8,
-  "pm": -2
+  "pm": -1
  }
 }
