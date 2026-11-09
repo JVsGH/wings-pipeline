@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.88956,
-   "shots_against": 15013,
-   "goals_against": 1658
+   "save_pct": 0.88992,
+   "shots_against": 15361,
+   "goals_against": 1691
   }
  },
  "players": [
@@ -31,12 +31,12 @@
      "league": "OHL",
      "team": "Peterborough Petes",
      "stats": {
-      "assists": 8,
-      "gamesPlayed": 14,
+      "assists": 10,
+      "gamesPlayed": 15,
       "goals": 5,
       "pim": 15,
-      "plusMinus": -1,
-      "points": 13
+      "plusMinus": 1,
+      "points": 15
      }
     }
    ],
@@ -148,11 +148,11 @@
      "team": "Avtomobilist Yekaterinburg",
      "stats": {
       "assists": 5,
-      "gamesPlayed": 22,
-      "goals": 7,
+      "gamesPlayed": 23,
+      "goals": 8,
       "pim": 12,
-      "plusMinus": -3,
-      "points": 12
+      "plusMinus": -2,
+      "points": 13
      }
     }
    ],
@@ -1936,12 +1936,12 @@
      "league": "OHL",
      "team": "Windsor Spitfires",
      "stats": {
-      "assists": 6,
-      "gamesPlayed": 18,
-      "goals": 6,
+      "assists": 7,
+      "gamesPlayed": 19,
+      "goals": 7,
       "pim": 6,
-      "plusMinus": -1,
-      "points": 12
+      "plusMinus": 0,
+      "points": 14
      }
     }
    ],
@@ -2011,9 +2011,9 @@
      "team": "Moncton Wildcats",
      "stats": {
       "assists": 7,
-      "gamesPlayed": 17,
+      "gamesPlayed": 18,
       "goals": 4,
-      "pim": 8,
+      "pim": 12,
       "plusMinus": -2,
       "points": 11
      }
@@ -2566,7 +2566,7 @@
      "team": "Cape Breton Eagles",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "goals": 0,
       "pim": 6,
       "plusMinus": 2,

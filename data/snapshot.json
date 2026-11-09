@@ -385,12 +385,12 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Windsor Spitfires",
-  "gp": 18,
-  "g": 6,
-  "a": 6,
-  "pts": 12,
+  "gp": 19,
+  "g": 7,
+  "a": 7,
+  "pts": 14,
   "pim": 6,
-  "pm": -1
+  "pm": 0
  },
  "8485604|20262027|NCAA|Univ. of Wisconsin": {
   "season": 20262027,
@@ -429,7 +429,7 @@
   "season": 20262027,
   "league": "QMJHL",
   "team": "Cape Breton Eagles",
-  "gp": 4,
+  "gp": 5,
   "g": 0,
   "a": 1,
   "pts": 1,
@@ -497,12 +497,12 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Peterborough Petes",
-  "gp": 14,
+  "gp": 15,
   "g": 5,
-  "a": 8,
-  "pts": 13,
+  "a": 10,
+  "pts": 15,
   "pim": 15,
-  "pm": -1
+  "pm": 1
  },
  "8486305|20262027|OHL|Erie Otters": {
   "season": 20262027,
@@ -519,11 +519,11 @@
   "season": 20262027,
   "league": "QMJHL",
   "team": "Moncton Wildcats",
-  "gp": 17,
+  "gp": 18,
   "g": 4,
   "a": 7,
   "pts": 11,
-  "pim": 8,
+  "pim": 12,
   "pm": -2
  }
 }
