@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "season": 20262027,
  "players": [
   {
@@ -65,14 +65,14 @@
     "round": 2,
     "overallPick": 32
    },
-   "nhl_gp": 13,
+   "nhl_gp": 14,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 13,
+     "gp": 14,
      "g": 2,
      "a": 2,
      "pts": 4,
@@ -478,19 +478,19 @@
     "round": 4,
     "overallPick": 105
    },
-   "nhl_gp": 18,
+   "nhl_gp": 19,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 18,
+     "gp": 19,
      "g": 2,
      "a": 3,
      "pts": 5,
      "pim": 14,
-     "pm": 2
+     "pm": 1
     }
    ],
    "previous": [
@@ -1162,19 +1162,19 @@
     "round": 1,
     "overallPick": 15
    },
-   "nhl_gp": 32,
+   "nhl_gp": 33,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 18,
+     "gp": 19,
      "g": 3,
      "a": 7,
      "pts": 10,
      "pim": 12,
-     "pm": 9
+     "pm": 10
     }
    ],
    "previous": [

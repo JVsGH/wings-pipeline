@@ -14,7 +14,7 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 13,
+  "gp": 14,
   "g": 2,
   "a": 2,
   "pts": 4,
@@ -102,12 +102,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 18,
+  "gp": 19,
   "g": 2,
   "a": 3,
   "pts": 5,
   "pim": 14,
-  "pm": 2
+  "pm": 1
  },
  "8483717|20262027|NCAA|Ferris State Univ.": {
   "season": 20262027,
@@ -249,12 +249,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 18,
+  "gp": 19,
   "g": 3,
   "a": 7,
   "pts": 10,
   "pim": 12,
-  "pm": 9
+  "pm": 10
  },
  "8484836|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
