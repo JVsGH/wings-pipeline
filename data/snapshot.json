@@ -47,7 +47,7 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 14,
+  "gp": 15,
   "g": 1,
   "a": 8,
   "pts": 9,
@@ -69,12 +69,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 13,
+  "gp": 14,
   "g": 2,
   "a": 1,
   "pts": 3,
-  "pim": 48,
-  "pm": 0
+  "pim": 53,
+  "pm": -1
  },
  "8483421|20262027|NCAA|Univ. of Notre Dame": {
   "season": 20262027,
@@ -91,7 +91,7 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 14,
+  "gp": 15,
   "g": 5,
   "a": 7,
   "pts": 12,
@@ -155,11 +155,22 @@
   "pim": 2,
   "pm": -5
  },
+ "8484160|20262027|AHL|Grand Rapids Griffins": {
+  "season": 20262027,
+  "league": "AHL",
+  "team": "Grand Rapids Griffins",
+  "gp": 1,
+  "g": 0,
+  "a": 3,
+  "pts": 3,
+  "pim": 0,
+  "pm": 1
+ },
  "8484161|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 14,
+  "gp": 15,
   "g": 4,
   "a": 3,
   "pts": 7,
@@ -181,12 +192,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 14,
+  "gp": 15,
   "g": 6,
-  "a": 6,
-  "pts": 12,
+  "a": 8,
+  "pts": 14,
   "pim": 9,
-  "pm": 5
+  "pm": 6
  },
  "8484223|20262027|NHL|Detroit Red Wings": {
   "season": 20262027,
@@ -203,10 +214,10 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 4,
-  "g": 1,
-  "a": 2,
-  "pts": 3,
+  "gp": 5,
+  "g": 2,
+  "a": 3,
+  "pts": 5,
   "pim": 2,
   "pm": -1
  },
@@ -214,12 +225,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 5,
+  "gp": 6,
   "g": 2,
   "a": 1,
   "pts": 3,
   "pim": 2,
-  "pm": -1
+  "pm": 0
  },
  "8484426|20262027|NCAA|Univ. of Wisconsin": {
   "season": 20262027,
@@ -260,7 +271,7 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 14,
+  "gp": 15,
   "g": 2,
   "a": 8,
   "pts": 10,
@@ -304,12 +315,12 @@
   "season": 20262027,
   "league": "HockeyAllsvenskan",
   "team": "Almtuna IS",
-  "gp": 17,
+  "gp": 18,
   "g": 3,
   "a": 7,
   "pts": 10,
   "pim": 4,
-  "pm": -7
+  "pm": -8
  },
  "8485098|20262027|NCAA|Miami Univ. (Ohio)": {
   "season": 20262027,
@@ -337,12 +348,12 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 12,
-  "g": 3,
-  "a": 11,
-  "pts": 14,
+  "gp": 13,
+  "g": 5,
+  "a": 13,
+  "pts": 18,
   "pim": 8,
-  "pm": 8
+  "pm": 9
  },
  "8485394|20262027|SHL|Timrå IK": {
   "season": 20262027,
@@ -372,13 +383,13 @@
   "season": 20262027,
   "league": "AHL",
   "team": "Grand Rapids Griffins",
-  "gp": 5,
-  "w": 5,
+  "gp": 6,
+  "w": 6,
   "l": 0,
-  "ga": 6,
-  "sa": 134,
-  "svp": 0.955,
-  "gaa": 1.2,
+  "ga": 9,
+  "sa": 162,
+  "svp": 0.944,
+  "gaa": 1.5,
   "so": 0
  },
  "8485592|20262027|OHL|Windsor Spitfires": {
@@ -418,12 +429,12 @@
   "season": 20262027,
   "league": "VHL",
   "team": "Khimik Voskresensk",
-  "gp": 12,
+  "gp": 13,
   "g": 0,
   "a": 1,
   "pts": 1,
   "pim": 4,
-  "pm": -2
+  "pm": -1
  },
  "8485641|20262027|QMJHL|Cape Breton Eagles": {
   "season": 20262027,
@@ -519,7 +530,7 @@
   "season": 20262027,
   "league": "QMJHL",
   "team": "Moncton Wildcats",
-  "gp": 18,
+  "gp": 19,
   "g": 4,
   "a": 7,
   "pts": 11,
