@@ -3,7 +3,7 @@
   "season": 20262027,
   "league": "SHL",
   "team": "Malmö Redhawks",
-  "gp": 14,
+  "gp": 15,
   "g": 1,
   "a": 2,
   "pts": 3,
@@ -14,12 +14,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 14,
+  "gp": 15,
   "g": 2,
-  "a": 2,
-  "pts": 4,
+  "a": 3,
+  "pts": 5,
   "pim": 2,
-  "pm": -2
+  "pm": -1
  },
  "8482184|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -58,10 +58,10 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 12,
+  "gp": 13,
   "g": 1,
-  "a": 3,
-  "pts": 4,
+  "a": 4,
+  "pts": 5,
   "pim": 2,
   "pm": -3
  },
@@ -80,7 +80,7 @@
   "season": 20262027,
   "league": "NCAA",
   "team": "Univ. of Notre Dame",
-  "gp": 6,
+  "gp": 7,
   "g": 2,
   "a": 1,
   "pts": 3,
@@ -102,11 +102,11 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 19,
+  "gp": 20,
   "g": 2,
   "a": 3,
   "pts": 5,
-  "pim": 14,
+  "pim": 16,
   "pm": 1
  },
  "8483717|20262027|NCAA|Ferris State Univ.": {
@@ -260,12 +260,12 @@
   "season": 20262027,
   "league": "NHL",
   "team": "Detroit Red Wings",
-  "gp": 19,
+  "gp": 20,
   "g": 3,
   "a": 7,
   "pts": 10,
-  "pim": 12,
-  "pm": 10
+  "pim": 14,
+  "pm": 9
  },
  "8484836|20262027|AHL|Grand Rapids Griffins": {
   "season": 20262027,
@@ -359,12 +359,12 @@
   "season": 20262027,
   "league": "SHL",
   "team": "Timrå IK",
-  "gp": 14,
+  "gp": 15,
   "g": 4,
   "a": 4,
   "pts": 8,
   "pim": 8,
-  "pm": -1
+  "pm": -3
  },
  "8485545|20262027|NHL|Detroit Red Wings": {
   "season": 20262027,
@@ -396,10 +396,10 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Windsor Spitfires",
-  "gp": 19,
-  "g": 7,
+  "gp": 20,
+  "g": 8,
   "a": 7,
-  "pts": 14,
+  "pts": 15,
   "pim": 6,
   "pm": 0
  },
@@ -462,12 +462,12 @@
   "season": 20262027,
   "league": "NCAA",
   "team": "Univ. of Notre Dame",
-  "gp": 10,
+  "gp": 11,
   "g": 1,
   "a": 2,
   "pts": 3,
   "pim": 2,
-  "pm": -1
+  "pm": -2
  },
  "8486049|20262027|NCAA|Univ. of Michigan": {
   "season": 20262027,
@@ -508,18 +508,18 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Peterborough Petes",
-  "gp": 15,
-  "g": 5,
-  "a": 10,
-  "pts": 15,
+  "gp": 16,
+  "g": 7,
+  "a": 11,
+  "pts": 18,
   "pim": 15,
-  "pm": 1
+  "pm": 3
  },
  "8486305|20262027|OHL|Erie Otters": {
   "season": 20262027,
   "league": "OHL",
   "team": "Erie Otters",
-  "gp": 16,
+  "gp": 17,
   "g": 7,
   "a": 2,
   "pts": 9,

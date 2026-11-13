@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.89102,
-   "shots_against": 16242,
-   "goals_against": 1770
+   "save_pct": 0.89095,
+   "shots_against": 16836,
+   "goals_against": 1836
   }
  },
  "players": [
@@ -31,12 +31,12 @@
      "league": "OHL",
      "team": "Peterborough Petes",
      "stats": {
-      "assists": 10,
-      "gamesPlayed": 15,
-      "goals": 5,
+      "assists": 11,
+      "gamesPlayed": 16,
+      "goals": 7,
       "pim": 15,
-      "plusMinus": 1,
-      "points": 15
+      "plusMinus": 3,
+      "points": 18
      }
     }
    ],
@@ -106,21 +106,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 9,
-      "avgToi": "19:46",
+      "avgToi": "19:42",
       "faceoffWinningPctg": 0.285714,
       "gameWinningGoals": 0,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 7,
       "otGoals": 0,
-      "pim": 10,
+      "pim": 15,
       "plusMinus": 8,
       "points": 16,
       "powerPlayGoals": 2,
       "powerPlayPoints": 5,
-      "shootingPctg": 0.104478,
+      "shootingPctg": 0.101449,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 67
+      "shots": 69
      }
     }
    ],
@@ -147,12 +147,12 @@
      "league": "KHL",
      "team": "Avtomobilist Yekaterinburg",
      "stats": {
-      "assists": 5,
-      "gamesPlayed": 23,
-      "goals": 8,
+      "assists": 6,
+      "gamesPlayed": 24,
+      "goals": 9,
       "pim": 12,
-      "plusMinus": -2,
-      "points": 13
+      "plusMinus": -1,
+      "points": 15
      }
     }
    ],
@@ -180,21 +180,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 0,
-      "avgToi": "13:21",
+      "avgToi": "13:25",
       "faceoffWinningPctg": 0.0,
       "gameWinningGoals": 0,
-      "gamesPlayed": 14,
-      "goals": 0,
+      "gamesPlayed": 15,
+      "goals": 1,
       "otGoals": 0,
       "pim": 7,
-      "plusMinus": 4,
-      "points": 0,
+      "plusMinus": 3,
+      "points": 1,
       "powerPlayGoals": 0,
       "powerPlayPoints": 0,
-      "shootingPctg": 0.0,
+      "shootingPctg": 0.166667,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 5
+      "shots": 6
      }
     }
    ],
@@ -221,22 +221,22 @@
      "league": "NHL",
      "team": "Detroit Red Wings",
      "stats": {
-      "assists": 5,
-      "avgToi": "18:37",
-      "faceoffWinningPctg": 0.506757,
+      "assists": 6,
+      "avgToi": "18:42",
+      "faceoffWinningPctg": 0.511254,
       "gameWinningGoals": 1,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 3,
       "otGoals": 0,
       "pim": 6,
       "plusMinus": -4,
-      "points": 8,
+      "points": 9,
       "powerPlayGoals": 0,
       "powerPlayPoints": 3,
-      "shootingPctg": 0.096774,
+      "shootingPctg": 0.09375,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 31
+      "shots": 32
      }
     }
    ],
@@ -264,21 +264,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 3,
-      "avgToi": "13:35",
+      "avgToi": "13:30",
       "faceoffWinningPctg": 0.0,
       "gameWinningGoals": 0,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 2,
       "otGoals": 0,
-      "pim": 14,
+      "pim": 16,
       "plusMinus": 1,
       "points": 5,
       "powerPlayGoals": 0,
       "powerPlayPoints": 0,
-      "shootingPctg": 0.1,
+      "shootingPctg": 0.090909,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 20
+      "shots": 22
      }
     }
    ],
@@ -392,10 +392,10 @@
      "team": "Univ. of Notre Dame",
      "stats": {
       "assists": 2,
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "goals": 1,
       "pim": 2,
-      "plusMinus": -1,
+      "plusMinus": -2,
       "points": 3
      }
     }
@@ -424,21 +424,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 2,
-      "avgToi": "20:17",
+      "avgToi": "20:16",
       "faceoffWinningPctg": 0.0,
       "gameWinningGoals": 0,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 0,
       "otGoals": 0,
       "pim": 23,
-      "plusMinus": -5,
+      "plusMinus": -6,
       "points": 2,
       "powerPlayGoals": 0,
       "powerPlayPoints": 0,
       "shootingPctg": 0.0,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 18
+      "shots": 20
      }
     }
    ],
@@ -498,7 +498,7 @@
      "team": "Univ. of Notre Dame",
      "stats": {
       "assists": 1,
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "goals": 2,
       "pim": 31,
       "plusMinus": 1,
@@ -656,16 +656,16 @@
      "league": "NHL",
      "team": "Detroit Red Wings",
      "stats": {
-      "assists": 3,
-      "avgToi": "8:38",
+      "assists": 4,
+      "avgToi": "9:01",
       "faceoffWinningPctg": 0.0,
       "gameWinningGoals": 0,
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "goals": 1,
       "otGoals": 0,
       "pim": 2,
       "plusMinus": -3,
-      "points": 4,
+      "points": 5,
       "powerPlayGoals": 0,
       "powerPlayPoints": 0,
       "shootingPctg": 0.083333,
@@ -916,10 +916,10 @@
      "team": "Timrå IK",
      "stats": {
       "assists": 4,
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "goals": 4,
       "pim": 8,
-      "plusMinus": -1,
+      "plusMinus": -3,
       "points": 8
      }
     }
@@ -948,7 +948,7 @@
      "team": "Malmö Redhawks",
      "stats": {
       "assists": 2,
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "goals": 1,
       "pim": 10,
       "plusMinus": 3,
@@ -980,10 +980,10 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 4,
-      "avgToi": "18:30",
-      "faceoffWinningPctg": 0.489177,
+      "avgToi": "18:38",
+      "faceoffWinningPctg": 0.482072,
       "gameWinningGoals": 0,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 7,
       "otGoals": 0,
       "pim": 4,
@@ -991,10 +991,10 @@
       "points": 11,
       "powerPlayGoals": 1,
       "powerPlayPoints": 2,
-      "shootingPctg": 0.175,
+      "shootingPctg": 0.162791,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 40
+      "shots": 43
      }
     }
    ],
@@ -1086,21 +1086,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 4,
-      "avgToi": "15:21",
-      "faceoffWinningPctg": 0.431507,
+      "avgToi": "15:18",
+      "faceoffWinningPctg": 0.424051,
       "gameWinningGoals": 0,
-      "gamesPlayed": 12,
-      "goals": 2,
+      "gamesPlayed": 13,
+      "goals": 3,
       "otGoals": 0,
       "pim": 2,
       "plusMinus": -6,
-      "points": 6,
+      "points": 7,
       "powerPlayGoals": 1,
       "powerPlayPoints": 1,
-      "shootingPctg": 0.125,
+      "shootingPctg": 0.166667,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 16
+      "shots": 18
      }
     }
    ],
@@ -1288,18 +1288,18 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 0,
-      "gamesPlayed": 12,
-      "gamesStarted": 12,
+      "gamesPlayed": 13,
+      "gamesStarted": 13,
       "goals": 0,
-      "goalsAgainst": 36,
-      "goalsAgainstAvg": 3.427302,
-      "losses": 6,
+      "goalsAgainst": 41,
+      "goalsAgainstAvg": 3.578095,
+      "losses": 7,
       "otLosses": 1,
       "pim": 0,
-      "savePctg": 0.865672,
-      "shotsAgainst": 268,
+      "savePctg": 0.861953,
+      "shotsAgainst": 297,
       "shutouts": 0,
-      "timeOnIce": "630:14",
+      "timeOnIce": "687:31",
       "wins": 4
      }
     }
@@ -1414,21 +1414,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 6,
-      "avgToi": "20:22",
+      "avgToi": "20:28",
       "faceoffWinningPctg": 0.0,
       "gameWinningGoals": 1,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 3,
       "otGoals": 0,
       "pim": 12,
-      "plusMinus": 0,
+      "plusMinus": -1,
       "points": 9,
       "powerPlayGoals": 2,
       "powerPlayPoints": 4,
-      "shootingPctg": 0.12,
+      "shootingPctg": 0.107143,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 25
+      "shots": 28
      }
     }
    ],
@@ -1456,14 +1456,14 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 0,
-      "avgToi": "10:16",
+      "avgToi": "10:13",
       "faceoffWinningPctg": 1.0,
       "gameWinningGoals": 0,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 1,
       "otGoals": 0,
       "pim": 22,
-      "plusMinus": -3,
+      "plusMinus": -4,
       "points": 1,
       "powerPlayGoals": 0,
       "powerPlayPoints": 0,
@@ -1553,21 +1553,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 12,
-      "avgToi": "20:09",
+      "avgToi": "20:07",
       "faceoffWinningPctg": 0.0,
       "gameWinningGoals": 2,
-      "gamesPlayed": 19,
-      "goals": 6,
+      "gamesPlayed": 20,
+      "goals": 7,
       "otGoals": 0,
       "pim": 8,
       "plusMinus": 0,
-      "points": 18,
+      "points": 19,
       "powerPlayGoals": 3,
       "powerPlayPoints": 9,
-      "shootingPctg": 0.105263,
+      "shootingPctg": 0.116667,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 57
+      "shots": 60
      }
     }
    ],
@@ -1595,7 +1595,7 @@
      "team": "Erie Otters",
      "stats": {
       "assists": 2,
-      "gamesPlayed": 16,
+      "gamesPlayed": 17,
       "goals": 7,
       "pim": 2,
       "plusMinus": -1,
@@ -1627,21 +1627,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 0,
-      "avgToi": "12:58",
-      "faceoffWinningPctg": 0.652174,
+      "avgToi": "13:23",
+      "faceoffWinningPctg": 0.653846,
       "gameWinningGoals": 0,
-      "gamesPlayed": 2,
-      "goals": 0,
+      "gamesPlayed": 3,
+      "goals": 1,
       "otGoals": 0,
       "pim": 5,
       "plusMinus": 0,
-      "points": 0,
+      "points": 1,
       "powerPlayGoals": 0,
       "powerPlayPoints": 0,
-      "shootingPctg": 0.0,
+      "shootingPctg": 0.142857,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 5
+      "shots": 7
      }
     }
    ],
@@ -1669,21 +1669,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 0,
-      "avgToi": "9:55",
+      "avgToi": "9:44",
       "faceoffWinningPctg": 0.0,
       "gameWinningGoals": 0,
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "goals": 0,
       "otGoals": 0,
       "pim": 0,
-      "plusMinus": -1,
+      "plusMinus": -2,
       "points": 0,
       "powerPlayGoals": 0,
       "powerPlayPoints": 0,
       "shootingPctg": 0.0,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 2
+      "shots": 3
      }
     }
    ],
@@ -1743,21 +1743,21 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 7,
-      "avgToi": "15:36",
-      "faceoffWinningPctg": 0.555556,
+      "avgToi": "15:33",
+      "faceoffWinningPctg": 0.5,
       "gameWinningGoals": 1,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 3,
       "otGoals": 0,
-      "pim": 12,
-      "plusMinus": 10,
+      "pim": 14,
+      "plusMinus": 9,
       "points": 10,
       "powerPlayGoals": 0,
       "powerPlayPoints": 1,
-      "shootingPctg": 0.088235,
+      "shootingPctg": 0.085714,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 34
+      "shots": 35
      }
     }
    ],
@@ -1937,11 +1937,11 @@
      "team": "Windsor Spitfires",
      "stats": {
       "assists": 7,
-      "gamesPlayed": 19,
-      "goals": 7,
+      "gamesPlayed": 20,
+      "goals": 8,
       "pim": 6,
       "plusMinus": 0,
-      "points": 14
+      "points": 15
      }
     }
    ],
@@ -1968,22 +1968,22 @@
      "league": "NHL",
      "team": "Detroit Red Wings",
      "stats": {
-      "assists": 10,
-      "avgToi": "25:56",
+      "assists": 12,
+      "avgToi": "25:57",
       "faceoffWinningPctg": 0.0,
       "gameWinningGoals": 0,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 1,
       "otGoals": 0,
       "pim": 15,
       "plusMinus": -4,
-      "points": 11,
+      "points": 13,
       "powerPlayGoals": 0,
       "powerPlayPoints": 4,
-      "shootingPctg": 0.026316,
+      "shootingPctg": 0.025,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 38
+      "shots": 40
      }
     }
    ],
@@ -2332,10 +2332,10 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 1,
-      "avgToi": "10:19",
-      "faceoffWinningPctg": 0.472727,
+      "avgToi": "10:20",
+      "faceoffWinningPctg": 0.5,
       "gameWinningGoals": 0,
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "goals": 0,
       "otGoals": 0,
       "pim": 2,
@@ -2536,10 +2536,10 @@
      "team": "Detroit Red Wings",
      "stats": {
       "assists": 7,
-      "avgToi": "18:34",
+      "avgToi": "18:33",
       "faceoffWinningPctg": 0.384615,
       "gameWinningGoals": 0,
-      "gamesPlayed": 19,
+      "gamesPlayed": 20,
       "goals": 8,
       "otGoals": 0,
       "pim": 6,
@@ -2547,10 +2547,10 @@
       "points": 15,
       "powerPlayGoals": 4,
       "powerPlayPoints": 6,
-      "shootingPctg": 0.145455,
+      "shootingPctg": 0.142857,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 55
+      "shots": 56
      }
     }
    ],
@@ -2641,22 +2641,22 @@
      "league": "NHL",
      "team": "Detroit Red Wings",
      "stats": {
-      "assists": 2,
-      "avgToi": "16:35",
+      "assists": 3,
+      "avgToi": "16:50",
       "faceoffWinningPctg": 0.0,
       "gameWinningGoals": 0,
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "goals": 2,
       "otGoals": 0,
       "pim": 2,
-      "plusMinus": -2,
-      "points": 4,
+      "plusMinus": -1,
+      "points": 5,
       "powerPlayGoals": 0,
       "powerPlayPoints": 0,
-      "shootingPctg": 0.166667,
+      "shootingPctg": 0.142857,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 12
+      "shots": 14
      }
     }
    ],
