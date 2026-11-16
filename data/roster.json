@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.89148,
-   "shots_against": 17721,
-   "goals_against": 1923
+   "save_pct": 0.89155,
+   "shots_against": 17999,
+   "goals_against": 1952
   }
  },
  "players": [
@@ -31,12 +31,12 @@
      "league": "OHL",
      "team": "Peterborough Petes",
      "stats": {
-      "assists": 11,
-      "gamesPlayed": 17,
-      "goals": 9,
-      "pim": 15,
-      "plusMinus": 3,
-      "points": 20
+      "assists": 13,
+      "gamesPlayed": 18,
+      "goals": 10,
+      "pim": 17,
+      "plusMinus": 6,
+      "points": 23
      }
     }
    ],
@@ -783,8 +783,8 @@
       "losses": 3,
       "otLosses": 2,
       "pim": 0,
-      "savePctg": 0.930556,
-      "shotsAgainst": 216,
+      "savePctg": 0.930876,
+      "shotsAgainst": 217,
       "shutouts": 2,
       "timeOnIce": "488:27",
       "wins": 3
@@ -1425,10 +1425,10 @@
       "points": 9,
       "powerPlayGoals": 2,
       "powerPlayPoints": 4,
-      "shootingPctg": 0.1,
+      "shootingPctg": 0.103448,
       "shorthandedGoals": 0,
       "shorthandedPoints": 0,
-      "shots": 30
+      "shots": 29
      }
     }
    ],
@@ -1594,12 +1594,12 @@
      "league": "OHL",
      "team": "Erie Otters",
      "stats": {
-      "assists": 3,
-      "gamesPlayed": 18,
-      "goals": 7,
+      "assists": 5,
+      "gamesPlayed": 19,
+      "goals": 8,
       "pim": 4,
       "plusMinus": 0,
-      "points": 10
+      "points": 13
      }
     }
    ],
@@ -1949,12 +1949,12 @@
      "league": "OHL",
      "team": "Windsor Spitfires",
      "stats": {
-      "assists": 7,
-      "gamesPlayed": 21,
+      "assists": 8,
+      "gamesPlayed": 22,
       "goals": 8,
       "pim": 6,
       "plusMinus": 0,
-      "points": 15
+      "points": 16
      }
     }
    ],
@@ -2286,8 +2286,8 @@
       "goalsAgainstAvg": 2.63,
       "losses": 1,
       "otLosses": 0,
-      "savePctg": 0.89,
-      "shotsAgainst": 73,
+      "savePctg": 0.889,
+      "shotsAgainst": 72,
       "shutouts": 0,
       "timeOnIce": "183:00",
       "wins": 1

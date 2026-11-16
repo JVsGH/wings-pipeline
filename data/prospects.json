@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "season": 20262027,
  "players": [
   {
@@ -1134,8 +1134,8 @@
      "w": 1,
      "l": 1,
      "ga": 8,
-     "sa": 73,
-     "svp": 0.89,
+     "sa": 72,
+     "svp": 0.889,
      "gaa": 2.63,
      "so": 0
     }
@@ -1779,10 +1779,10 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Windsor Spitfires",
-     "gp": 21,
+     "gp": 22,
      "g": 8,
-     "a": 7,
-     "pts": 15,
+     "a": 8,
+     "pts": 16,
      "pim": 6,
      "pm": 0
     }
@@ -2353,12 +2353,12 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Peterborough Petes",
-     "gp": 17,
-     "g": 9,
-     "a": 11,
-     "pts": 20,
-     "pim": 15,
-     "pm": 3
+     "gp": 18,
+     "g": 10,
+     "a": 13,
+     "pts": 23,
+     "pim": 17,
+     "pm": 6
     }
    ],
    "previous": [
@@ -2399,10 +2399,10 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Erie Otters",
-     "gp": 18,
-     "g": 7,
-     "a": 3,
-     "pts": 10,
+     "gp": 19,
+     "g": 8,
+     "a": 5,
+     "pts": 13,
      "pim": 4,
      "pm": 0
     }
