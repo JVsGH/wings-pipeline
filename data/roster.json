@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
   "NHL": {
-   "save_pct": 0.89155,
-   "shots_against": 17999,
-   "goals_against": 1952
+   "save_pct": 0.89174,
+   "shots_against": 18114,
+   "goals_against": 1961
   }
  },
  "players": [
@@ -2110,10 +2110,10 @@
      "team": "MHK Spartak Moskva",
      "stats": {
       "assists": 3,
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "goals": 0,
       "pim": 4,
-      "plusMinus": 2,
+      "plusMinus": -1,
       "points": 3
      }
     },

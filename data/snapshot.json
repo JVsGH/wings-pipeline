@@ -431,12 +431,12 @@
   "season": 20262027,
   "league": "MHL",
   "team": "MHK Spartak Moskva",
-  "gp": 4,
+  "gp": 5,
   "g": 0,
   "a": 3,
   "pts": 3,
   "pim": 4,
-  "pm": 2
+  "pm": -1
  },
  "8485613|20262027|VHL|Khimik Voskresensk": {
   "season": 20262027,
