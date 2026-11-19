@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "season": 20262027,
  "players": [
   {
@@ -227,12 +227,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 17,
+     "gp": 18,
      "g": 1,
-     "a": 8,
-     "pts": 9,
+     "a": 9,
+     "pts": 10,
      "pim": 4,
-     "pm": 5
+     "pm": 6
     }
    ],
    "previous": [
@@ -266,19 +266,19 @@
     "round": 3,
     "overallPick": 70
    },
-   "nhl_gp": 23,
+   "nhl_gp": 24,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 14,
+     "gp": 15,
      "g": 1,
      "a": 4,
      "pts": 5,
      "pim": 2,
-     "pm": -3
+     "pm": -4
     }
    ],
    "previous": [
@@ -325,12 +325,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 16,
-     "g": 2,
+     "gp": 17,
+     "g": 3,
      "a": 1,
-     "pts": 3,
+     "pts": 4,
      "pim": 55,
-     "pm": 0
+     "pm": 1
     }
    ],
    "previous": [
@@ -428,12 +428,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 17,
+     "gp": 18,
      "g": 5,
      "a": 7,
      "pts": 12,
      "pim": 0,
-     "pm": 2
+     "pm": 3
     }
    ],
    "previous": [
@@ -478,19 +478,19 @@
     "round": 4,
     "overallPick": 105
    },
-   "nhl_gp": 21,
+   "nhl_gp": 22,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 21,
+     "gp": 22,
      "g": 2,
      "a": 3,
      "pts": 5,
      "pim": 16,
-     "pm": 1
+     "pm": -1
     }
    ],
    "previous": [
@@ -588,13 +588,13 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 9,
-     "w": 5,
+     "gp": 10,
+     "w": 6,
      "l": 1,
-     "ga": 19,
-     "sa": 239,
-     "svp": 0.921,
-     "gaa": 2.26,
+     "ga": 22,
+     "sa": 276,
+     "svp": 0.92,
+     "gaa": 2.34,
      "so": 1
     }
    ],
@@ -708,10 +708,10 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 3,
-     "g": 0,
-     "a": 3,
-     "pts": 3,
+     "gp": 4,
+     "g": 2,
+     "a": 4,
+     "pts": 6,
      "pim": 2,
      "pm": 3
     }
@@ -765,7 +765,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 17,
+     "gp": 18,
      "g": 4,
      "a": 3,
      "pts": 7,
@@ -868,10 +868,10 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 17,
-     "g": 6,
+     "gp": 18,
+     "g": 7,
      "a": 10,
-     "pts": 16,
+     "pts": 17,
      "pim": 9,
      "pm": 7
     }
@@ -936,12 +936,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 7,
+     "gp": 8,
      "g": 2,
-     "a": 3,
-     "pts": 5,
+     "a": 5,
+     "pts": 7,
      "pim": 2,
-     "pm": 0
+     "pm": 1
     }
    ],
    "previous": [
@@ -993,10 +993,10 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 8,
+     "gp": 9,
      "g": 2,
-     "a": 1,
-     "pts": 3,
+     "a": 2,
+     "pts": 4,
      "pim": 2,
      "pm": 0
     }
@@ -1173,19 +1173,19 @@
     "round": 1,
     "overallPick": 15
    },
-   "nhl_gp": 35,
+   "nhl_gp": 36,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 21,
+     "gp": 22,
      "g": 4,
      "a": 7,
      "pts": 11,
      "pim": 14,
-     "pm": 11
+     "pm": 10
     }
    ],
    "previous": [
@@ -1248,10 +1248,10 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 17,
+     "gp": 18,
      "g": 2,
-     "a": 8,
-     "pts": 10,
+     "a": 9,
+     "pts": 11,
      "pim": 4,
      "pm": 1
     }
@@ -1397,12 +1397,12 @@
      "season": 20262027,
      "league": "HockeyAllsvenskan",
      "team": "Almtuna IS",
-     "gp": 20,
+     "gp": 21,
      "g": 4,
      "a": 8,
      "pts": 12,
-     "pim": 4,
-     "pm": -8
+     "pim": 6,
+     "pm": -10
     }
    ],
    "previous": [
@@ -1546,7 +1546,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 15,
+     "gp": 16,
      "g": 5,
      "a": 13,
      "pts": 18,
@@ -1904,12 +1904,12 @@
      "season": 20262027,
      "league": "MHL",
      "team": "MHK Spartak Moskva",
-     "gp": 5,
+     "gp": 6,
      "g": 0,
-     "a": 3,
-     "pts": 3,
+     "a": 4,
+     "pts": 4,
      "pim": 4,
-     "pm": -1
+     "pm": -3
     },
     {
      "season": 20262027,
@@ -1994,7 +1994,7 @@
      "season": 20262027,
      "league": "QMJHL",
      "team": "Cape Breton Eagles",
-     "gp": 7,
+     "gp": 8,
      "g": 0,
      "a": 1,
      "pts": 1,
@@ -2353,12 +2353,12 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Peterborough Petes",
-     "gp": 18,
+     "gp": 19,
      "g": 10,
-     "a": 13,
-     "pts": 23,
+     "a": 14,
+     "pts": 24,
      "pim": 17,
-     "pm": 6
+     "pm": 7
     }
    ],
    "previous": [

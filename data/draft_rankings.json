@@ -1,6 +1,6 @@
 {
  "draft_year": 2027,
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "method": "Median rank across every list (a list that leaves a player out counts as its length + 10); average breaks ties.",
  "sources": [
   {
@@ -9,7 +9,7 @@
    "title": "2027 NHL Draft Rankings: Early-season top 40",
    "url": "https://www.dailyfaceoff.com/news/2027-nhl-draft-rankings-early-season-top-40-dupont-skvortsov-privalov-zhilkin-meyer",
    "published": "2026-10-09",
-   "fetched": "2026-11-18",
+   "fetched": "2026-11-19",
    "count": 40,
    "players": [
     {
@@ -258,9 +258,9 @@
    "name": "The Hockey News",
    "source_id": "thn",
    "title": "2027 NHL Draft Ranking: Pre-Season Tier List Sees Landon Dupont Alone Atop",
-   "url": "https://thehockeynews.com/news/latest-news/2027-nhl-draft-ranking-pre-season-tier-list-sees-landon-dupont-alone-atop",
+   "url": "https://sports.yahoo.com/articles/2027-nhl-draft-ranking-pre-195824998.html",
    "published": "2026-09-18",
-   "fetched": "2026-11-18",
+   "fetched": "2026-11-19",
    "count": 17,
    "players": [
     {
@@ -373,7 +373,7 @@
    "title": "2027 NHL Draft Rankings (Top 128)",
    "url": "https://www.upsidehockey.com/nhl-draft-rankings/2027-nhl-draft-rankings",
    "published": null,
-   "fetched": "2026-11-18",
+   "fetched": "2026-11-19",
    "count": 128,
    "players": [
     {
@@ -1792,7 +1792,7 @@
    "title": "2027 NHL Draft Rankings, top 92",
    "url": "https://draftprospectshockey.com/rankings",
    "published": "2026-11-16",
-   "fetched": "2026-11-18",
+   "fetched": "2026-11-19",
    "count": 92,
    "players": [
     {
@@ -2355,7 +2355,7 @@
    "title": "2027 NHL Mock Draft",
    "url": "https://www.lines.com/nhl/drafts/2027",
    "published": null,
-   "fetched": "2026-11-18",
+   "fetched": "2026-11-19",
    "count": 30,
    "players": [
     {
@@ -2399,12 +2399,12 @@
      "pos": "LHC"
     },
     {
-     "name": "Sammy Nelson",
-     "pos": "RHC"
-    },
-    {
      "name": "Noah Davidson",
      "pos": "LW"
+    },
+    {
+     "name": "Sammy Nelson",
+     "pos": "RHC"
     },
     {
      "name": "Milan Sundström",
@@ -2673,27 +2673,6 @@
   },
   {
    "rank": 10,
-   "name": "Sammy Nelson",
-   "pos": "C",
-   "team": "University of Notre Dame",
-   "league": "NCAA",
-   "shoots": "R",
-   "country": "USA",
-   "height": "6'2",
-   "weight": "192",
-   "birth": "19-Sep-08",
-   "median_rank": 11,
-   "avg_rank": 28.4,
-   "lists": 4,
-   "ranks": {
-    "Daily Faceoff": 12,
-    "The Hockey News": 10,
-    "Upside Hockey": 7,
-    "Lines.com mock draft": 11
-   }
-  },
-  {
-   "rank": 11,
    "name": "Andrei Pustovoy",
    "pos": "C",
    "team": "Lokomotiv Yaroslavl",
@@ -2710,6 +2689,27 @@
     "Daily Faceoff": 11,
     "Upside Hockey": 6,
     "Lines.com mock draft": 8
+   }
+  },
+  {
+   "rank": 11,
+   "name": "Sammy Nelson",
+   "pos": "C",
+   "team": "University of Notre Dame",
+   "league": "NCAA",
+   "shoots": "R",
+   "country": "USA",
+   "height": "6'2",
+   "weight": "192",
+   "birth": "19-Sep-08",
+   "median_rank": 12,
+   "avg_rank": 28.6,
+   "lists": 4,
+   "ranks": {
+    "Daily Faceoff": 12,
+    "The Hockey News": 10,
+    "Upside Hockey": 7,
+    "Lines.com mock draft": 12
    }
   },
   {
@@ -2745,12 +2745,12 @@
    "weight": "216",
    "birth": "1-Nov-08",
    "median_rank": 17,
-   "avg_rank": 34.6,
+   "avg_rank": 34.4,
    "lists": 3,
    "ranks": {
     "Daily Faceoff": 15,
     "Upside Hockey": 17,
-    "Lines.com mock draft": 12
+    "Lines.com mock draft": 11
    }
   },
   {
