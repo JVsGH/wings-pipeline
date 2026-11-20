@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "season": 20262027,
  "players": [
   {
@@ -26,7 +26,7 @@
      "season": 20262027,
      "league": "SHL",
      "team": "Malmö Redhawks",
-     "gp": 16,
+     "gp": 17,
      "g": 1,
      "a": 2,
      "pts": 3,
@@ -822,12 +822,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Massachusetts",
-     "gp": 13,
+     "gp": 14,
      "g": 2,
      "a": 0,
      "pts": 2,
-     "pim": 8,
-     "pm": 1
+     "pim": 10,
+     "pm": -1
     }
    ],
    "previous": [
@@ -1603,12 +1603,12 @@
      "season": 20262027,
      "league": "SHL",
      "team": "Timrå IK",
-     "gp": 16,
-     "g": 4,
-     "a": 4,
-     "pts": 8,
+     "gp": 17,
+     "g": 7,
+     "a": 6,
+     "pts": 13,
      "pim": 12,
-     "pm": -3
+     "pm": 1
     }
    ],
    "previous": [
@@ -1779,7 +1779,7 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Windsor Spitfires",
-     "gp": 22,
+     "gp": 23,
      "g": 8,
      "a": 8,
      "pts": 16,
