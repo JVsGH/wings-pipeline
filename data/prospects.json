@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "season": 20262027,
  "players": [
   {
@@ -227,12 +227,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 18,
+     "gp": 19,
      "g": 1,
      "a": 9,
      "pts": 10,
      "pim": 4,
-     "pm": 6
+     "pm": 5
     }
    ],
    "previous": [
@@ -325,12 +325,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 17,
-     "g": 3,
+     "gp": 18,
+     "g": 4,
      "a": 1,
-     "pts": 4,
+     "pts": 5,
      "pim": 55,
-     "pm": 1
+     "pm": 2
     }
    ],
    "previous": [
@@ -382,12 +382,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Notre Dame",
-     "gp": 8,
+     "gp": 9,
      "g": 2,
-     "a": 1,
-     "pts": 3,
+     "a": 3,
+     "pts": 5,
      "pim": 33,
-     "pm": 1
+     "pm": 3
     }
    ],
    "previous": [
@@ -428,7 +428,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 18,
+     "gp": 19,
      "g": 5,
      "a": 7,
      "pts": 12,
@@ -542,12 +542,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Ferris State Univ.",
-     "gp": 10,
+     "gp": 11,
      "g": 2,
      "a": 3,
      "pts": 5,
      "pim": 6,
-     "pm": -4
+     "pm": -5
     }
    ],
    "previous": [
@@ -651,12 +651,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Minnesota-Duluth",
-     "gp": 14,
+     "gp": 15,
      "g": 0,
      "a": 0,
      "pts": 0,
      "pim": 16,
-     "pm": 7
+     "pm": 8
     }
    ],
    "previous": [
@@ -708,10 +708,10 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 4,
+     "gp": 5,
      "g": 2,
-     "a": 4,
-     "pts": 6,
+     "a": 5,
+     "pts": 7,
      "pim": 2,
      "pm": 3
     }
@@ -765,7 +765,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 18,
+     "gp": 19,
      "g": 4,
      "a": 3,
      "pts": 7,
@@ -868,12 +868,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 18,
+     "gp": 19,
      "g": 7,
      "a": 10,
      "pts": 17,
      "pim": 9,
-     "pm": 7
+     "pm": 6
     }
    ],
    "previous": [
@@ -936,12 +936,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 8,
+     "gp": 9,
      "g": 2,
-     "a": 5,
-     "pts": 7,
+     "a": 7,
+     "pts": 9,
      "pim": 2,
-     "pm": 1
+     "pm": 3
     }
    ],
    "previous": [
@@ -993,7 +993,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 9,
+     "gp": 10,
      "g": 2,
      "a": 2,
      "pts": 4,
@@ -1039,12 +1039,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Wisconsin",
-     "gp": 10,
+     "gp": 11,
      "g": 2,
      "a": 0,
      "pts": 2,
      "pim": 2,
-     "pm": 10
+     "pm": 12
     }
    ],
    "previous": [
@@ -1248,10 +1248,10 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 18,
+     "gp": 19,
      "g": 2,
-     "a": 9,
-     "pts": 11,
+     "a": 10,
+     "pts": 12,
      "pim": 4,
      "pm": 1
     }
@@ -1397,12 +1397,12 @@
      "season": 20262027,
      "league": "HockeyAllsvenskan",
      "team": "Almtuna IS",
-     "gp": 21,
+     "gp": 22,
      "g": 4,
      "a": 8,
      "pts": 12,
-     "pim": 6,
-     "pm": -10
+     "pim": 8,
+     "pm": -11
     }
    ],
    "previous": [
@@ -1454,7 +1454,7 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Miami Univ. (Ohio)",
-     "gp": 12,
+     "gp": 13,
      "g": 1,
      "a": 1,
      "pts": 2,
@@ -1500,12 +1500,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Colorado College",
-     "gp": 12,
+     "gp": 13,
      "g": 0,
      "a": 5,
      "pts": 5,
      "pim": 4,
-     "pm": 5
+     "pm": 4
     }
    ],
    "previous": [
@@ -1546,7 +1546,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 16,
+     "gp": 17,
      "g": 5,
      "a": 13,
      "pts": 18,
@@ -1679,13 +1679,13 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 7,
-     "w": 7,
+     "gp": 8,
+     "w": 8,
      "l": 0,
-     "ga": 9,
-     "sa": 186,
-     "svp": 0.952,
-     "gaa": 1.29,
+     "ga": 12,
+     "sa": 218,
+     "svp": 0.945,
+     "gaa": 1.49,
      "so": 1
     }
    ],
@@ -1779,12 +1779,12 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Windsor Spitfires",
-     "gp": 23,
+     "gp": 24,
      "g": 8,
      "a": 8,
      "pts": 16,
      "pim": 6,
-     "pm": 0
+     "pm": 1
     }
    ],
    "previous": [
@@ -1858,11 +1858,11 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Wisconsin",
-     "gp": 9,
+     "gp": 10,
      "g": 4,
      "a": 0,
      "pts": 4,
-     "pim": 17,
+     "pim": 19,
      "pm": 4
     }
    ],
@@ -1994,11 +1994,11 @@
      "season": 20262027,
      "league": "QMJHL",
      "team": "Cape Breton Eagles",
-     "gp": 8,
+     "gp": 9,
      "g": 0,
      "a": 1,
      "pts": 1,
-     "pim": 6,
+     "pim": 8,
      "pm": 0
     }
    ],
@@ -2086,12 +2086,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Notre Dame",
-     "gp": 12,
+     "gp": 13,
      "g": 1,
      "a": 2,
      "pts": 3,
      "pim": 2,
-     "pm": -2
+     "pm": 0
     }
    ],
    "previous": [
@@ -2154,12 +2154,12 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Michigan",
-     "gp": 11,
-     "g": 4,
-     "a": 2,
-     "pts": 6,
+     "gp": 12,
+     "g": 5,
+     "a": 3,
+     "pts": 8,
      "pim": 6,
-     "pm": 1
+     "pm": 3
     }
    ],
    "previous": [
@@ -2211,13 +2211,13 @@
      "season": 20262027,
      "league": "WHL",
      "team": "Prince Albert Raiders",
-     "gp": 15,
-     "w": 7,
+     "gp": 16,
+     "w": 8,
      "l": 6,
-     "ga": 41,
-     "sa": 422,
-     "svp": 0.903,
-     "gaa": 2.76,
+     "ga": 42,
+     "sa": 454,
+     "svp": 0.907,
+     "gaa": 2.65,
      "so": 1
     }
    ],
@@ -2274,10 +2274,10 @@
      "season": 20262027,
      "league": "NCAA",
      "team": "Univ. of Minnesota-Duluth",
-     "gp": 14,
+     "gp": 15,
      "g": 1,
-     "a": 4,
-     "pts": 5,
+     "a": 6,
+     "pts": 7,
      "pim": 0,
      "pm": 4
     }
@@ -2467,7 +2467,7 @@
      "season": 20262027,
      "league": "QMJHL",
      "team": "Moncton Wildcats",
-     "gp": 21,
+     "gp": 22,
      "g": 5,
      "a": 8,
      "pts": 13,
