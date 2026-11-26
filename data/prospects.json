@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "season": 20262027,
  "players": [
   {
@@ -227,12 +227,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 21,
+     "gp": 22,
      "g": 1,
      "a": 9,
      "pts": 10,
      "pim": 4,
-     "pm": 1
+     "pm": 2
     }
    ],
    "previous": [
@@ -428,12 +428,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 21,
-     "g": 5,
+     "gp": 22,
+     "g": 6,
      "a": 7,
-     "pts": 12,
+     "pts": 13,
      "pim": 15,
-     "pm": 2
+     "pm": 3
     }
    ],
    "previous": [
@@ -478,14 +478,14 @@
     "round": 4,
     "overallPick": 105
    },
-   "nhl_gp": 23,
+   "nhl_gp": 24,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 23,
+     "gp": 24,
      "g": 2,
      "a": 4,
      "pts": 6,
@@ -588,13 +588,13 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 11,
+     "gp": 12,
      "w": 7,
      "l": 1,
-     "ga": 26,
-     "sa": 300,
-     "svp": 0.913,
-     "gaa": 2.49,
+     "ga": 28,
+     "sa": 342,
+     "svp": 0.918,
+     "gaa": 2.43,
      "so": 1
     }
    ],
@@ -708,12 +708,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 7,
+     "gp": 8,
      "g": 2,
      "a": 9,
      "pts": 11,
-     "pim": 2,
-     "pm": 5
+     "pim": 6,
+     "pm": 3
     }
    ],
    "previous": [
@@ -765,7 +765,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 21,
+     "gp": 22,
      "g": 4,
      "a": 3,
      "pts": 7,
@@ -868,12 +868,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 21,
+     "gp": 22,
      "g": 9,
      "a": 11,
      "pts": 20,
-     "pim": 9,
-     "pm": 7
+     "pim": 11,
+     "pm": 5
     }
    ],
    "previous": [
@@ -936,12 +936,12 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 11,
+     "gp": 12,
      "g": 3,
-     "a": 9,
-     "pts": 12,
+     "a": 10,
+     "pts": 13,
      "pim": 4,
-     "pm": 6
+     "pm": 5
     }
    ],
    "previous": [
@@ -993,7 +993,7 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 12,
+     "gp": 13,
      "g": 2,
      "a": 2,
      "pts": 4,
@@ -1173,19 +1173,19 @@
     "round": 1,
     "overallPick": 15
    },
-   "nhl_gp": 37,
+   "nhl_gp": 38,
    "on_nhl_roster": true,
    "current": [
     {
      "season": 20262027,
      "league": "NHL",
      "team": "Detroit Red Wings",
-     "gp": 23,
+     "gp": 24,
      "g": 4,
-     "a": 7,
-     "pts": 11,
+     "a": 8,
+     "pts": 12,
      "pim": 14,
-     "pm": 11
+     "pm": 12
     }
    ],
    "previous": [
@@ -1294,11 +1294,11 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 21,
+     "gp": 22,
      "g": 3,
      "a": 10,
      "pts": 13,
-     "pim": 8,
+     "pim": 10,
      "pm": -1
     }
    ],
@@ -1443,11 +1443,11 @@
      "season": 20262027,
      "league": "HockeyAllsvenskan",
      "team": "Almtuna IS",
-     "gp": 22,
+     "gp": 23,
      "g": 4,
      "a": 8,
      "pts": 12,
-     "pim": 8,
+     "pim": 10,
      "pm": -11
     }
    ],
@@ -1592,11 +1592,11 @@
      "season": 20262027,
      "league": "AHL",
      "team": "Grand Rapids Griffins",
-     "gp": 19,
+     "gp": 20,
      "g": 6,
      "a": 14,
      "pts": 20,
-     "pim": 14,
+     "pim": 16,
      "pm": 8
     }
    ],
@@ -1825,12 +1825,12 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Windsor Spitfires",
-     "gp": 25,
+     "gp": 26,
      "g": 8,
      "a": 9,
      "pts": 17,
      "pim": 8,
-     "pm": 1
+     "pm": -3
     }
    ],
    "previous": [
@@ -2445,12 +2445,12 @@
      "season": 20262027,
      "league": "OHL",
      "team": "Erie Otters",
-     "gp": 19,
+     "gp": 20,
      "g": 8,
      "a": 5,
      "pts": 13,
      "pim": 4,
-     "pm": 0
+     "pm": -1
     }
    ],
    "previous": [
