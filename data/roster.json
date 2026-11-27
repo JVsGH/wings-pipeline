@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "season": 20262027,
  "team": "DET",
  "league_averages": {
@@ -31,12 +31,12 @@
      "league": "OHL",
      "team": "Peterborough Petes",
      "stats": {
-      "assists": 15,
-      "gamesPlayed": 21,
-      "goals": 10,
+      "assists": 16,
+      "gamesPlayed": 22,
+      "goals": 11,
       "pim": 22,
-      "plusMinus": 7,
-      "points": 25
+      "plusMinus": 8,
+      "points": 27
      }
     }
    ],
@@ -148,7 +148,7 @@
      "team": "Avtomobilist Yekaterinburg",
      "stats": {
       "assists": 8,
-      "gamesPlayed": 29,
+      "gamesPlayed": 30,
       "goals": 9,
       "pim": 12,
       "plusMinus": -1,
@@ -873,12 +873,12 @@
      "league": "SHL",
      "team": "Timrå IK",
      "stats": {
-      "assists": 7,
-      "gamesPlayed": 18,
+      "assists": 8,
+      "gamesPlayed": 19,
       "goals": 8,
-      "pim": 14,
-      "plusMinus": 3,
-      "points": 15
+      "pim": 16,
+      "plusMinus": 2,
+      "points": 16
      }
     }
    ],
@@ -2689,12 +2689,12 @@
      "league": "QMJHL",
      "team": "Cape Breton Eagles",
      "stats": {
-      "assists": 1,
-      "gamesPlayed": 10,
+      "assists": 2,
+      "gamesPlayed": 11,
       "goals": 0,
-      "pim": 10,
-      "plusMinus": -1,
-      "points": 1
+      "pim": 14,
+      "plusMinus": 2,
+      "points": 2
      }
     }
    ],

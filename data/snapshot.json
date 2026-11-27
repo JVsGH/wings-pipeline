@@ -370,12 +370,12 @@
   "season": 20262027,
   "league": "SHL",
   "team": "Timrå IK",
-  "gp": 18,
+  "gp": 19,
   "g": 8,
-  "a": 7,
-  "pts": 15,
-  "pim": 14,
-  "pm": 3
+  "a": 8,
+  "pts": 16,
+  "pim": 16,
+  "pm": 2
  },
  "8485545|20262027|NHL|Detroit Red Wings": {
   "season": 20262027,
@@ -464,12 +464,12 @@
   "season": 20262027,
   "league": "QMJHL",
   "team": "Cape Breton Eagles",
-  "gp": 10,
+  "gp": 11,
   "g": 0,
-  "a": 1,
-  "pts": 1,
-  "pim": 10,
-  "pm": -1
+  "a": 2,
+  "pts": 2,
+  "pim": 14,
+  "pm": 2
  },
  "8485666|20262027|NCAA|Dartmouth College": {
   "season": 20262027,
@@ -532,12 +532,12 @@
   "season": 20262027,
   "league": "OHL",
   "team": "Peterborough Petes",
-  "gp": 21,
-  "g": 10,
-  "a": 15,
-  "pts": 25,
+  "gp": 22,
+  "g": 11,
+  "a": 16,
+  "pts": 27,
   "pim": 22,
-  "pm": 7
+  "pm": 8
  },
  "8486305|20262027|OHL|Erie Otters": {
   "season": 20262027,
